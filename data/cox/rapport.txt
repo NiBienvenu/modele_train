@@ -1,0 +1,73 @@
+Pages lues : 5-119
+Verbes (avec perfectif) : 3466
+Noms (avec pluriel)     : 2568  (classe reconnue : 2168)
+Autres mots             : 916
+Articles non compris    : 21
+
+COMPARAISON avec data/verbes_rn.tsv (188 verbes) :
+  mêmes perfectifs : 164
+  DÉSACCORDS       : 12
+    guhagarara       nous : hagaze         Cox : hagaraze       (FSI)
+    guheza           nous : hejeje         Cox : heje           (FSI)
+    kugumya          nous : gumye          Cox : gumije         (FSI-auto)
+    kurindira        nous : rindiye        Cox : rindiriye      (auto)
+    kurondera        nous : rondeye        Cox : rondereye      (auto)
+    kuzura           nous : zutse          Cox : zuye           (correction)
+    kuriha           nous : rishije        Cox : rishe          (auto)
+    gutira           nous : tiye           Cox : tize           (auto)
+    gusezerana       nous : sezeranye      Cox : sezeranije     (auto)
+    guhema           nous : hemvye         Cox : hemye / hemye  (auto)
+    guhata           nous : hashije        Cox : hase / hase    (auto)
+    gukingira        nous : kingiye        Cox : kingiriye      (auto)
+  absents de Cox   : 12
+
+Exemples de verbes :
+  kwabira -> abiriye  (1. to wed, to marry, 2. to receive, 3. to reach ou)
+  kwabirana -> abiranye  (1. to wed each other, to marry each other, 2. to r)
+  kwabirwa -> abirwe  (to get married (passive))
+  kwaduka -> adutse  (1. to appear suddenly, 2. to be introduced, 3. to )
+  kwaga -> aze  (1. to scratch with fingernail, to scratch lightly,)
+  kwagiriza -> agirije  (1. to witness, to certify, to prove, 2. to accuse )
+  kwaguka -> agutse  (1. to be stretched, 2. to be widened, 3. to be enl)
+  kwagura -> aguye  (1. to stretch, 2. to widen, make wider, 3. to enla)
+  kwaha -> ashe  (to gather (from garden))
+  kwahira -> ahiye  ((from kwaha) to cut grass (to use it for something)
+  kwahirika -> ahiritse  (to be easy to cut or pull (grass), (from kwaha))
+  kwahirira -> ahiriye  (to cut grass at, for)
+  kwahiza -> ahije  (1. to cut grass with, 2. to help to cut aho there,)
+  kwahuka -> ahutse  (1. to pasture, 2. to begin a task)
+  kwahukana -> ahukanye  (1. to seperate, to divorce (vi), 2. to finish (vi))
+
+Exemples de noms :
+  icabona / ivyabona  cl.(7, 8)  (witness --acu (adj.) our, ours)
+  ikwadarato / ivyadarato  cl.None  (square (from Fr.))
+  icaduka / ivyaduka  cl.(7, 8)  (accident)
+  umwagazi / imyagazi  cl.(3, 4)  (kid, young goat)
+  icagezwe / ivyagezwe  cl.(7, 8)  (commandment)
+  icagiriza / ivyagiriza  cl.(7, 8)  (proof)
+  icago / ivyago  cl.(7, 8)  (1. trouble, 2. misfortune, 3. bad luck, )
+  icaha / ivyaha  cl.(7, 8)  (1. sin, fault, 2. crime)
+  ukwaha / amaha  cl.(15, 6)  (armpit, armhole, axilia)
+  akahebwe / utwahebwe  cl.(12, 13)  (1. something forsaken, 2. worn out thing)
+  icahinguwe / ivyahinguwe  cl.(7, 8)  (product, article, manufactured item, som)
+  umwaka / imyaka  cl.(3, 4)  (year)
+  umwakaka / imyakaka  cl.(3, 4)  (brass (as used in bracelets))
+  ubwakara / amakara  cl.(14, 6)  (leafy vegetable (of certain sort))
+  inyama / inyama  cl.(9, 10)  (1. meat, 2. flesh)
+
+Articles non compris (exemples) :
+  Umw-arabu (Ab-) Arab person
+  Ubu-dagi Germany
+  Ubu-faransa France
+  Umu-hindi (Aba-) Indian person
+  U-horaho the Lord (lit. eternal one)
+  Umu-hutu (aba-) Hutu (person)
+  Bu-jumbura largest city and former capital of Burundi, originally called Usumbura, it was 
+  I-māna (i-) God
+  I-māna ibahezagire God bless you! (from guhēzagira)
+  Mu-ngu God (from Sw., term introduced by missionaries in contrast to the traditional Kirun
+  Ki-nyarwanda Rwandan language
+  Umu-nyarwanda (Aba-) Rwandan person, Rwandese
+  Ubw-ongereza England
+  M-pwēmu Mweranda Holy Spirit
+  Ki-ranga (high priest of the Burundian traditional supreme god, mediator between the tradi

@@ -1,0 +1,56 @@
+# Noms kirundi pour gen_accords_rn.py
+# Colonnes (TAB) : singulier  classe  pluriel  classe  français_sg  français_pl  type  source
+# - pluriel "-" = le nom n'a pas de pluriel (ou pas de singulier)
+# - type : personne / animal / chose  (sert à choisir des verbes qui ont du sens)
+# - source : FSI = vu dans le cours FSI ; courant = forme très courante,
+#            pas trouvée dans le livre (à vérifier)
+umuntu	1	abantu	2	personne	personnes	personne	FSI
+umwana	1	abana	2	enfant	enfants	personne	FSI
+umugabo	1	abagabo	2	homme	hommes	personne	FSI
+umugore	1	abagore	2	femme	femmes	personne	courant
+umwigisha	1	abigisha	2	enseignant	enseignants	personne	FSI
+umunyeshure	1	abanyeshure	2	élève	élèves	personne	courant
+umukozi	1	abakozi	2	travailleur	travailleurs	personne	FSI
+umushumba	1	abashumba	2	domestique	domestiques	personne	FSI
+umutetsi	1	abatetsi	2	cuisinier	cuisiniers	personne	FSI
+umuhungu	1	abahungu	2	garçon	garçons	personne	FSI
+umukobwa	1	abakobwa	2	fille	filles	personne	FSI
+umuvyeyi	1	abavyeyi	2	parent	parents	personne	FSI
+umwami	1	abami	2	roi	rois	personne	FSI
+umurundi	1	abarundi	2	Burundais	Burundais	personne	FSI
+umuduga	3	imiduga	4	voiture	voitures	chose	FSI
+umwaka	3	imyaka	4	année	années	chose	FSI
+umusozi	3	imisozi	4	colline	collines	chose	FSI
+umucungwa	3	imicungwa	4	orange	oranges	chose	FSI
+umwembe	3	imyembe	4	mangue	mangues	chose	FSI
+umusi	3	imisi	4	jour	jours	chose	FSI
+umuti	3	imiti	4	arbre, médicament	arbres, médicaments	chose	courant
+ishure	5	amashure	6	école	écoles	chose	FSI
+izina	5	amazina	6	nom	noms	chose	FSI
+igi	5	amagi	6	oeuf	oeufs	chose	FSI
+ijambo	5	amajambo	6	mot	mots	chose	FSI
+ikete	5	amakete	6	lettre	lettres	chose	FSI
+isaha	5	amasaha	6	heure, montre	heures, montres	chose	FSI
+ikaramu	9	amakaramu	6	stylo	stylos	chose	FSI
+amazi	6	-	-	eau	-	chose	FSI
+ikintu	7	ibintu	8	chose	choses	chose	FSI
+igitabo	7	ibitabo	8	livre	livres	chose	FSI
+igiti	7	ibiti	8	arbre	arbres	chose	FSI
+igihugu	7	ibihugu	8	pays	pays	chose	FSI
+ikirato	7	ibirato	8	chaussure	chaussures	chose	FSI
+icamwa	7	ivyamwa	8	fruit	fruits	chose	FSI
+ikiyaga	7	ibiyaga	8	lac	lacs	chose	FSI
+inka	9	inka	10	vache	vaches	animal	FSI
+imbwa	9	imbwa	10	chien	chiens	animal	FSI
+inzu	9	inzu	10	maison	maisons	chose	FSI
+impuzu	9	impuzu	10	vêtement	vêtements	chose	FSI
+indimu	9	indimu	10	citron	citrons	chose	FSI
+inanasi	9	inanasi	10	ananas	ananas	chose	FSI
+inzira	9	inzira	10	chemin	chemins	chose	FSI
+urugo	11	ingo	10	enclos, foyer	enclos, foyers	chose	FSI
+uruzi	11	inzuzi	10	rivière	rivières	chose	FSI
+urupapuro	11	impapuro	10	feuille de papier	feuilles de papier	chose	FSI
+ururimi	11	indimi	10	langue	langues	chose	FSI
+akazi	12	-	-	travail	-	chose	FSI
+ubwoko	14	-	-	sorte, ethnie	-	chose	FSI
+ubutegetsi	14	-	-	gouvernement, pouvoir	-	chose	FSI

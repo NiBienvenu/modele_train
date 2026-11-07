@@ -1,0 +1,568 @@
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Umugabo n'umugore n'umwana.", "attendu": "Un homme, une femme et un enfant.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Un homme, une femme et un enfant.", "attendu": "Umugabo n'umugore n'umwana.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Imirima y'abantu", "attendu": "les jardins des gens", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : les jardins des gens", "attendu": "Imirima y'abantu", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : umuntu mubi", "attendu": "une mauvaise personne", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : une mauvaise personne", "attendu": "umuntu mubi", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Impene ziragenda.", "attendu": "Les chèvres s'en vont.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Les chèvres s'en vont.", "attendu": "Impene ziragenda.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Umutsima n'inyama biri mu nzu.", "attendu": "Le pain et la viande sont dans la maison.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Le pain et la viande sont dans la maison.", "attendu": "Umutsima n'inyama biri mu nzu.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Umukozi ari hehe? Arikw ararima mu murima wanje.", "attendu": "Où est l'ouvrier ? Il est en train de cultiver dans mon jardin.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Où est l'ouvrier ? Il est en train de cultiver dans mon jardin.", "attendu": "Umukozi ari hehe? Arikw ararima mu murima wanje.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ndiko ndakora.", "attendu": "Je suis en train de travailler.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Je suis en train de travailler.", "attendu": "Ndiko ndakora.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Kora!", "attendu": "Travaille !", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Travaille !", "attendu": "Kora!", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Sinzokwibagira.", "attendu": "Je n'oublierai pas.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Je n'oublierai pas.", "attendu": "Sinzokwibagira.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ntiyibuka.", "attendu": "Il (elle) ne se souvient pas.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Il (elle) ne se souvient pas.", "attendu": "Ntiyibuka.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ntitwibuka.", "attendu": "Nous ne nous souvenons pas.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Nous ne nous souvenons pas.", "attendu": "Ntitwibuka.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Sinumva ikirundi.", "attendu": "Je ne comprends pas le kirundi.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Je ne comprends pas le kirundi.", "attendu": "Sinumva ikirundi.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Andika izina ryawe", "attendu": "Écris ton nom.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Écris ton nom.", "attendu": "Andika izina ryawe", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : izindi mbuto", "attendu": "d'autres graines", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : d'autres graines", "attendu": "izindi mbuto", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : ubundi bwato", "attendu": "un autre bateau", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : un autre bateau", "attendu": "ubundi bwato", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Sinzosubira kwibagira", "attendu": "Je n'oublierai plus.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Je n'oublierai plus.", "attendu": "Sinzosubira kwibagira", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : ibiti vyiwe binini vyose", "attendu": "tous ses grands arbres", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : tous ses grands arbres", "attendu": "ibiti vyiwe binini vyose", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : bemeye", "attendu": "ils ont accepté", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : ils ont accepté", "attendu": "bemeye", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : sinagiye", "attendu": "je ne suis pas allé", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : je ne suis pas allé", "attendu": "sinagiye", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : ntiwagiye", "attendu": "tu n'es pas allé", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : tu n'es pas allé", "attendu": "ntiwagiye", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Imana iduharira", "attendu": "Dieu nous pardonne.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Dieu nous pardonne.", "attendu": "Imana iduharira", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ndaguha igitabo", "attendu": "Je te donne le livre.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Je te donne le livre.", "attendu": "Ndaguha igitabo", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : mpa", "attendu": "donne-moi", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : donne-moi", "attendu": "mpa", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : arazica", "attendu": "il/elle les tue (les vaches)", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : il/elle les tue (les vaches)", "attendu": "arazica", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : urubaho rw'umunani", "attendu": "la huitième planche", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : la huitième planche", "attendu": "urubaho rw'umunani", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Yasomye kabiri", "attendu": "Il/elle a lu deux fois.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Il/elle a lu deux fois.", "attendu": "Yasomye kabiri", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : isaha zitatu n'amadakika cumi", "attendu": "neuf heures dix", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : neuf heures dix", "attendu": "isaha zitatu n'amadakika cumi", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ndicaye", "attendu": "Je suis assis.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Je suis assis.", "attendu": "Ndicaye", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : amategura yo gusakara", "attendu": "des tuiles pour couvrir le toit", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : des tuiles pour couvrir le toit", "attendu": "amategura yo gusakara", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Buza umwana kugenda mu mazi", "attendu": "Empêche l'enfant d'aller dans l'eau.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Empêche l'enfant d'aller dans l'eau.", "attendu": "Buza umwana kugenda mu mazi", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : kurya no kunywa", "attendu": "manger et boire", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : manger et boire", "attendu": "kurya no kunywa", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : narakoze", "attendu": "j'ai travaillé (hier ou avant)", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : j'ai travaillé (hier ou avant)", "attendu": "narakoze", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : mushikawe", "attendu": "ta soeur (d'un garçon)", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : ta soeur (d'un garçon)", "attendu": "mushikawe", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : murumuna we", "attendu": "son petit frère", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : son petit frère", "attendu": "murumuna we", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : aragiye", "attendu": "il/elle vient de partir", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : il/elle vient de partir", "attendu": "aragiye", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ndaje", "attendu": "J'arrive !", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : J'arrive !", "attendu": "Ndaje", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ndakora ntya", "attendu": "je fais comme ceci", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : je fais comme ceci", "attendu": "Ndakora ntya", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ntazobura kugenda", "attendu": "il (elle) ira sûrement", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : il (elle) ira sûrement", "attendu": "Ntazobura kugenda", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : kuko mutagenda", "attendu": "car vous ne partez pas", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : car vous ne partez pas", "attendu": "kuko mutagenda", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : yabeshe kugira ngo ntibamufate", "attendu": "il a menti pour qu'on ne l'attrape pas", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : il a menti pour qu'on ne l'attrape pas", "attendu": "yabeshe kugira ngo ntibamufate", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : inzu irahiye", "attendu": "la maison a brûlé (ou brûle)", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : la maison a brûlé (ou brûle)", "attendu": "inzu irahiye", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Nabonye ivyo ejo.", "attendu": "J'ai vu ces choses-là hier.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : J'ai vu ces choses-là hier.", "attendu": "Nabonye ivyo ejo.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ntarinda kugenda", "attendu": "il (elle) n'est pas obligé(e) de partir", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : il (elle) n'est pas obligé(e) de partir", "attendu": "Ntarinda kugenda", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ibitabo bikwiye abigishwa bose?", "attendu": "Y a-t-il assez de livres pour tous les élèves ?", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Y a-t-il assez de livres pour tous les élèves ?", "attendu": "Ibitabo bikwiye abigishwa bose?", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Abahungu bataje mw ishuli bazohanwa", "attendu": "les garçons qui ne sont pas venus à l'école seront punis", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : les garçons qui ne sont pas venus à l'école seront punis", "attendu": "Abahungu bataje mw ishuli bazohanwa", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : twebwe abakora imisi yose tugomba guhembwa", "attendu": "nous qui travaillons tous les jours voulons être payés", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : nous qui travaillons tous les jours voulons être payés", "attendu": "twebwe abakora imisi yose tugomba guhembwa", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ni ba nde batazanye amafaranga?", "attendu": "qui n'a pas apporté d'argent ?", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : qui n'a pas apporté d'argent ?", "attendu": "Ni ba nde batazanye amafaranga?", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ikize", "attendu": "sauve-toi !", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : sauve-toi !", "attendu": "Ikize", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Nta wanka umwana wiwe", "attendu": "personne ne déteste son propre enfant", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : personne ne déteste son propre enfant", "attendu": "Nta wanka umwana wiwe", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Nta co urira!", "attendu": "Ne pleure pas ! Arrête de pleurer !", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Ne pleure pas ! Arrête de pleurer !", "attendu": "Nta co urira!", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Petero ajana abana", "attendu": "Pierre emmène les enfants", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Pierre emmène les enfants", "attendu": "Petero ajana abana", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ameze neza", "attendu": "il va bien (mieux)", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : il va bien (mieux)", "attendu": "Ameze neza", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Imbere y'umuhungu", "attendu": "devant le garçon", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : devant le garçon", "attendu": "Imbere y'umuhungu", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Inyuma yiwe", "attendu": "derrière lui", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : derrière lui", "attendu": "Inyuma yiwe", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Akirima avugana n'abandi", "attendu": "en cultivant, il parle avec les autres", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : en cultivant, il parle avec les autres", "attendu": "Akirima avugana n'abandi", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Hanyuma y'ivyo", "attendu": "après cela", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : après cela", "attendu": "Hanyuma y'ivyo", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : i ruhande y'inzira", "attendu": "au bord du chemin", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : au bord du chemin", "attendu": "i ruhande y'inzira", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Navunitse ukuboko", "attendu": "je me suis cassé le bras", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : je me suis cassé le bras", "attendu": "Navunitse ukuboko", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Umugabo abona ingwe aratinya arahunga; ashika mu nzu arihisha.", "attendu": "L'homme vit un léopard, il eut peur et s'enfuit ; il arriva à la maison et se cacha.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : L'homme vit un léopard, il eut peur et s'enfuit ; il arriva à la maison et se cacha.", "attendu": "Umugabo abona ingwe aratinya arahunga; ashika mu nzu arihisha.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Igituma atabikoze n'ukw atabimenye", "attendu": "S'il ne l'a pas fait, c'est qu'il ne le savait pas.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : S'il ne l'a pas fait, c'est qu'il ne le savait pas.", "attendu": "Igituma atabikoze n'ukw atabimenye", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : arakora", "attendu": "Il (elle) travaille.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Il (elle) travaille.", "attendu": "arakora", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : murakora", "attendu": "Vous travaillez.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Vous travaillez.", "attendu": "murakora", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : arikw' arakora", "attendu": "Il (elle) est en train de travailler.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Il (elle) est en train de travailler.", "attendu": "arikw' arakora", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : ukora", "attendu": "Tu travailles (d'habitude).", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Tu travailles (d'habitude).", "attendu": "ukora", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : narakoze", "attendu": "J'ai travaillé (hier ou avant).", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : J'ai travaillé (hier ou avant).", "attendu": "narakoze", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : ntukore", "attendu": "Ne travaille pas !", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Ne travaille pas !", "attendu": "ntukore", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : (Yuda) yari yaharuwe muri twebwe.", "attendu": "(Judas) avait été compté parmi nous.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : (Judas) avait été compté parmi nous.", "attendu": "(Yuda) yari yaharuwe muri twebwe.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Igihe mutangura igikorane nzoba naje", "attendu": "Quand vous commencerez la réunion, je serai déjà arrivé.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Quand vous commencerez la réunion, je serai déjà arrivé.", "attendu": "Igihe mutangura igikorane nzoba naje", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ni twarorera iyindi misi mikeya, igitoke kizoba gihiye", "attendu": "Si nous attendons encore quelques jours, le régime de bananes sera mûr.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Si nous attendons encore quelques jours, le régime de bananes sera mûr.", "attendu": "Ni twarorera iyindi misi mikeya, igitoke kizoba gihiye", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Namb' uza i wacu ejo nzoba nd' i muhira", "attendu": "Si tu viens chez nous demain, je serai à la maison.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Si tu viens chez nous demain, je serai à la maison.", "attendu": "Namb' uza i wacu ejo nzoba nd' i muhira", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Utanditse neza, sinosoma ibikaratasi vyawe", "attendu": "Si tu n'as pas bien écrit, je ne lirai pas tes papiers.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Si tu n'as pas bien écrit, je ne lirai pas tes papiers.", "attendu": "Utanditse neza, sinosoma ibikaratasi vyawe", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Namb' udusenda, uturungike mur' uriya mukuku w'ingurube.", "attendu": "Si tu nous chasses, envoie-nous dans ce troupeau de porcs là-bas.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Si tu nous chasses, envoie-nous dans ce troupeau de porcs là-bas.", "attendu": "Namb' udusenda, uturungike mur' uriya mukuku w'ingurube.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Iyo mba we, sinari kuza", "attendu": "Si j'étais lui, je ne serais pas venu.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Si j'étais lui, je ne serais pas venu.", "attendu": "Iyo mba we, sinari kuza", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Namba wari wiyumviriye neza, ntiwari kuvuga gurtyo", "attendu": "Si tu y avais bien réfléchi, tu n'aurais pas parlé comme ça.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Si tu y avais bien réfléchi, tu n'aurais pas parlé comme ça.", "attendu": "Namba wari wiyumviriye neza, ntiwari kuvuga gurtyo", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Twari gutsitara", "attendu": "Nous avons failli trébucher.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Nous avons failli trébucher.", "attendu": "Twari gutsitara", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Umunyu, iy' ushize uburyohe, uba ukiryoshwa n'iki?", "attendu": "Le sel, s'il a perdu sa saveur, avec quoi lui rendrait-on du goût ?", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Le sel, s'il a perdu sa saveur, avec quoi lui rendrait-on du goût ?", "attendu": "Umunyu, iy' ushize uburyohe, uba ukiryoshwa n'iki?", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Tuvuze yuko dufatanije na yo ... ntituba dukora ivy' ukuri.", "attendu": "Si nous disons que nous sommes en communion avec lui ... nous ne pratiquons pas la vérité.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Si nous disons que nous sommes en communion avec lui ... nous ne pratiquons pas la vérité.", "attendu": "Tuvuze yuko dufatanije na yo ... ntituba dukora ivy' ukuri.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Yavuga, at' Oya! bagaca bamubarira...", "attendu": "S'il disait : Non ! alors ils lui disaient...", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : S'il disait : Non ! alors ils lui disaient...", "attendu": "Yavuga, at' Oya! bagaca bamubarira...", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Yombariye, mba nje (or, naje)", "attendu": "S'il me l'avait dit, je serais venu.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : S'il me l'avait dit, je serais venu.", "attendu": "Yombariye, mba nje (or, naje)", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ntaribwaze mu Burundi", "attendu": "avant que je sois jamais venu au Burundi", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : avant que je sois jamais venu au Burundi", "attendu": "Ntaribwaze mu Burundi", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Nobesha?", "attendu": "Est-ce que je mentirais ?", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Est-ce que je mentirais ?", "attendu": "Nobesha?", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ntuzotanga Uwera wawe ngw az' abore.", "attendu": "Tu ne livreras pas ton Saint pour qu'il pourrisse.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Tu ne livreras pas ton Saint pour qu'il pourrisse.", "attendu": "Ntuzotanga Uwera wawe ngw az' abore.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Tuzogenda i wabo kugira ngo tuzobafashe", "attendu": "Nous irons chez eux pour les aider.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Nous irons chez eux pour les aider.", "attendu": "Tuzogenda i wabo kugira ngo tuzobafashe", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Murazogenda i Gitega", "attendu": "Allez à Gitega (plus tard).", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Allez à Gitega (plus tard).", "attendu": "Murazogenda i Gitega", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Icompa akaza", "attendu": "Si seulement il venait !", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Si seulement il venait !", "attendu": "Icompa akaza", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Urakaza", "attendu": "Bienvenue !", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Bienvenue !", "attendu": "Urakaza", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Nyina yafashije umwana ngo yoye kugwa", "attendu": "La mère a aidé l'enfant pour qu'il ne tombe pas.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : La mère a aidé l'enfant pour qu'il ne tombe pas.", "attendu": "Nyina yafashije umwana ngo yoye kugwa", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Nzigira kuzobaraba nciye iyo.", "attendu": "J'espère vous voir en passant par là.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : J'espère vous voir en passant par là.", "attendu": "Nzigira kuzobaraba nciye iyo.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Navunitse ukuboko", "attendu": "Je me suis cassé le bras (sans le vouloir).", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Je me suis cassé le bras (sans le vouloir).", "attendu": "Navunitse ukuboko", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Yabikoreye ubusa", "attendu": "Il l'a fait pour rien.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Il l'a fait pour rien.", "attendu": "Yabikoreye ubusa", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Yahakanje kw atamuzi", "attendu": "Il a nié qu'il le connaissait.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Il a nié qu'il le connaissait.", "attendu": "Yahakanje kw atamuzi", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Wamye he?", "attendu": "Où étais-tu passé (tout ce temps) ?", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Où étais-tu passé (tout ce temps) ?", "attendu": "Wamye he?", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Nta cabaye", "attendu": "Il ne s'est rien passé.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Il ne s'est rien passé.", "attendu": "Nta cabaye", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Amaze gutaha, yabonye abashitsi", "attendu": "Une fois rentré chez lui, il a vu les visiteurs.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Une fois rentré chez lui, il a vu les visiteurs.", "attendu": "Amaze gutaha, yabonye abashitsi", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Umuntu wese... abatizwe... mubone guharirwa ivyaha.", "attendu": "Que chacun soit baptisé... afin que vous puissiez recevoir le pardon de vos péchés.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Que chacun soit baptisé... afin que vous puissiez recevoir le pardon de vos péchés.", "attendu": "Umuntu wese... abatizwe... mubone guharirwa ivyaha.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Shira ibitabo vyanje ukwavyo, n'ivyawe ukwavyo", "attendu": "Mets mes livres à part, et les tiens à part.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Mets mes livres à part, et les tiens à part.", "attendu": "Shira ibitabo vyanje ukwavyo, n'ivyawe ukwavyo", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Abakobwa bicare ukwabo n'abahungu ukwabo", "attendu": "Que les filles s'asseyent à part et les garçons à part.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Que les filles s'asseyent à part et les garçons à part.", "attendu": "Abakobwa bicare ukwabo n'abahungu ukwabo", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Izo nzu ni rwanyu", "attendu": "Ces maisons sont à vous.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Ces maisons sont à vous.", "attendu": "Izo nzu ni rwanyu", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ni nafata umuntu yakoze ico, uw' ari we wese, nzomuhana", "attendu": "Si j'attrape celui qui a fait ça, qui que ce soit, je le punirai.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Si j'attrape celui qui a fait ça, qui que ce soit, je le punirai.", "attendu": "Ni nafata umuntu yakoze ico, uw' ari we wese, nzomuhana", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Uyo n'umwana nyawe", "attendu": "C'est un très bon enfant.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : C'est un très bon enfant.", "attendu": "Uyo n'umwana nyawe", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Uhoraho nyamana", "attendu": "L'Éternel, le vrai Dieu", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : L'Éternel, le vrai Dieu", "attendu": "Uhoraho nyamana", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Mwa ba mukora iki?", "attendu": "Les enfants, que faites-vous ?", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Les enfants, que faites-vous ?", "attendu": "Mwa ba mukora iki?", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Mwa bago ni mwumvirize", "attendu": "Mesdames, écoutez !", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Mesdames, écoutez !", "attendu": "Mwa bago ni mwumvirize", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : igitabo gisa n'akatsi gatoto", "attendu": "un livre vert", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : un livre vert", "attendu": "igitabo gisa n'akatsi gatoto", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Nta n'umwe", "attendu": "pas même un seul", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : pas même un seul", "attendu": "Nta n'umwe", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Nk'uko Kristo yazuwe mu bapfuye n'ubwiza bwa Data wa twese, abe ari ko natwe tugendana ubugingo busha.", "attendu": "Comme Christ est ressuscité des morts par la gloire du Père, ainsi nous aussi marchons dans une vie nouvelle.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Comme Christ est ressuscité des morts par la gloire du Père, ainsi nous aussi marchons dans une vie nouvelle.", "attendu": "Nk'uko Kristo yazuwe mu bapfuye n'ubwiza bwa Data wa twese, abe ari ko natwe tugendana ubugingo busha.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ubwa mbere na mbere Jambo yariho.", "attendu": "Au commencement était la Parole.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Au commencement était la Parole.", "attendu": "Ubwa mbere na mbere Jambo yariho.", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Ukwiye kuvomera umurima ku musi ku musi", "attendu": "Tu dois arroser le champ chaque jour.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Tu dois arroser le champ chaque jour.", "attendu": "Ukwiye kuvomera umurima ku musi ku musi", "vu": false}
+{"categorie": "traduction_rn_fr", "question": "Traduis en français : Haje abantu nk'amajana abiri (or, haje nk'abantu amajana abiri)", "attendu": "Environ 200 personnes sont venues.", "vu": false}
+{"categorie": "traduction_fr_rn", "question": "Traduis en kirundi : Environ 200 personnes sont venues.", "attendu": "Haje abantu nk'amajana abiri (or, haje nk'abantu amajana abiri)", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gukarira au négatif présent.", "attendu": "sinkarira, ntukarira, ntakarira, ntidukarira, ntimukarira, ntibakarira.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kugerekeranya au négatif présent.", "attendu": "singerekeranya, ntugerekeranya, ntagerekeranya, ntitugerekeranya, ntimugerekeranya, ntibagerekeranya.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwogesha au négatif présent.", "attendu": "sinogesha, ntiwogesha, ntiyogesha, ntitwogesha, ntimwogesha, ntibogesha.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuyangika au présent.", "attendu": "ndayangika, urayangika, arayangika, turayangika, murayangika, barayangika.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwiba au futur (après aujourd'hui).", "attendu": "nzokwiba, uzokwiba, azokwiba, tuzokwiba, muzokwiba, bazokwiba.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwangara au négatif présent.", "attendu": "sinangara, ntiwangara, ntiyangara, ntitwangara, ntimwangara, ntibangara.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gususuruka au négatif présent.", "attendu": "sinsusuruka, ntususuruka, ntasusuruka, ntidususuruka, ntimususuruka, ntibasusuruka.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gucunaguriza au subjonctif (que je ...).", "attendu": "ncunagurize, ucunagurize, acunagurize, ducunagurize, mucunagurize, bacunagurize.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gukuririrwa au passé.", "attendu": "nakuririrwe, wakuririrwe, yakuririrwe, twakuririrwe, mwakuririrwe, bakuririrwe.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutonda au futur (après aujourd'hui).", "attendu": "nzotonda, uzotonda, azotonda, tuzotonda, muzotonda, bazotonda.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwatsa au négatif présent.", "attendu": "sinatsa, ntiwatsa, ntiyatsa, ntitwatsa, ntimwatsa, ntibatsa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gushinguka au subjonctif (que je ...).", "attendu": "nshinguke, ushinguke, ashinguke, dushinguke, mushinguke, bashinguke.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhishanya au passé.", "attendu": "nahishanije, wahishanije, yahishanije, twahishanije, mwahishanije, bahishanije.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuyobora au conditionnel.", "attendu": "noyobora, woyobora, yoyobora, twoyobora, mwoyobora, boyobora.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuburungushura au négatif présent.", "attendu": "simburungushura, ntuburungushura, ntaburungushura, ntituburungushura, ntimuburungushura, ntibaburungushura.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kurangiranwa au passé.", "attendu": "narangiraniwe, warangiraniwe, yarangiraniwe, twarangiraniwe, mwarangiraniwe, barangiraniwe.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gupfyina au conditionnel.", "attendu": "nopfyina, wopfyina, yopfyina, twopfyina, mwopfyina, bopfyina.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwandurutsa au négatif présent.", "attendu": "sinandurutsa, ntiwandurutsa, ntiyandurutsa, ntitwandurutsa, ntimwandurutsa, ntibandurutsa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhwerwa au futur (après aujourd'hui).", "attendu": "nzohwerwa, uzohwerwa, azohwerwa, tuzohwerwa, muzohwerwa, bazohwerwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kubwirwa au futur (après aujourd'hui).", "attendu": "nzobwirwa, uzobwirwa, azobwirwa, tuzobwirwa, muzobwirwa, bazobwirwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutegera au présent.", "attendu": "ndategera, urategera, arategera, turategera, murategera, barategera.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuragira au futur (après aujourd'hui).", "attendu": "nzoragira, uzoragira, azoragira, tuzoragira, muzoragira, bazoragira.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwamamara au futur (après aujourd'hui).", "attendu": "nzokwamamara, uzokwamamara, azokwamamara, tuzokwamamara, muzokwamamara, bazokwamamara.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guterekera au futur (après aujourd'hui).", "attendu": "nzoterekera, uzoterekera, azoterekera, tuzoterekera, muzoterekera, bazoterekera.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gufyefyeta au conditionnel.", "attendu": "nofyefyeta, wofyefyeta, yofyefyeta, twofyefyeta, mwofyefyeta, bofyefyeta.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhubura au futur (après aujourd'hui).", "attendu": "nzohubura, uzohubura, azohubura, tuzohubura, muzohubura, bazohubura.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutorana au présent.", "attendu": "ndatorana, uratorana, aratorana, turatorana, muratorana, baratorana.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutikiza au négatif présent.", "attendu": "sintikiza, ntutikiza, ntatikiza, ntidutikiza, ntimutikiza, ntibatikiza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuzunga au subjonctif (que je ...).", "attendu": "nzunge, uzunge, azunge, tuzunge, muzunge, bazunge.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuzinda au futur (après aujourd'hui).", "attendu": "nzozinda, uzozinda, azozinda, tuzozinda, muzozinda, bazozinda.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhitiza au passé.", "attendu": "nahitije, wahitije, yahitije, twahitije, mwahitije, bahitije.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwubahiriza au passé.", "attendu": "nubahirije, wubahirije, yubahirije, twubahirije, mwubahirije, bubahirije.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutemuka au présent.", "attendu": "ndatemuka, uratemuka, aratemuka, turatemuka, muratemuka, baratemuka.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuganuka au futur (après aujourd'hui).", "attendu": "nzoganuka, uzoganuka, azoganuka, tuzoganuka, muzoganuka, bazoganuka.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwirasira au négatif présent.", "attendu": "sinirasira, ntiwirasira, ntiyirasira, ntitwirasira, ntimwirasira, ntibirasira.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwugunyuza au subjonctif (que je ...).", "attendu": "nugunyuze, wugunyuze, yugunyuze, twugunyuze, mwugunyuze, bugunyuze.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kugarura au passé.", "attendu": "nagaruye, wagaruye, yagaruye, twagaruye, mwagaruye, bagaruye.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gufashana au subjonctif (que je ...).", "attendu": "mfashane, ufashane, afashane, dufashane, mufashane, bafashane.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwitwaririkira au subjonctif (que je ...).", "attendu": "nitwaririkire, witwaririkire, yitwaririkire, twitwaririkire, mwitwaririkire, bitwaririkire.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhanagurwa au passé.", "attendu": "nahanagurwe, wahanagurwe, yahanagurwe, twahanagurwe, mwahanagurwe, bahanagurwe.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kudendereza au futur (après aujourd'hui).", "attendu": "nzodendereza, uzodendereza, azodendereza, tuzodendereza, muzodendereza, bazodendereza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhanyurwa au conditionnel.", "attendu": "nohanyurwa, wohanyurwa, yohanyurwa, twohanyurwa, mwohanyurwa, bohanyurwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kumara au subjonctif (que je ...).", "attendu": "mare, umare, amare, tumare, mumare, bamare.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuyobezwa au subjonctif (que je ...).", "attendu": "nyobezwe, uyobezwe, ayobezwe, tuyobezwe, muyobezwe, bayobezwe.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwandarika au conditionnel.", "attendu": "nokwandarika, wokwandarika, yokwandarika, twokwandarika, mwokwandarika, bokwandarika.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutiza au conditionnel.", "attendu": "notiza, wotiza, yotiza, twotiza, mwotiza, botiza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhigima au conditionnel.", "attendu": "nohigima, wohigima, yohigima, twohigima, mwohigima, bohigima.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gushikana au présent.", "attendu": "ndashikana, urashikana, arashikana, turashikana, murashikana, barashikana.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gukingiriza au négatif présent.", "attendu": "sinkingiriza, ntukingiriza, ntakingiriza, ntidukingiriza, ntimukingiriza, ntibakingiriza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwimeza au conditionnel.", "attendu": "nokwimeza, wokwimeza, yokwimeza, twokwimeza, mwokwimeza, bokwimeza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuvuba au subjonctif (que je ...).", "attendu": "mvube, uvube, avube, tuvube, muvube, bavube.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kunyika au négatif présent.", "attendu": "sinyika, ntunyika, ntanyika, ntitunyika, ntimunyika, ntibanyika.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kugeseza au négatif présent.", "attendu": "singeseza, ntugeseza, ntageseza, ntitugeseza, ntimugeseza, ntibageseza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhwahura au négatif présent.", "attendu": "simpwahura, ntuhwahura, ntahwahura, ntiduhwahura, ntimuhwahura, ntibahwahura.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutantamura au négatif présent.", "attendu": "sintantamura, ntutantamura, ntatantamura, ntidutantamura, ntimutantamura, ntibatantamura.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusanganirwa au présent.", "attendu": "ndasanganirwa, urasanganirwa, arasanganirwa, turasanganirwa, murasanganirwa, barasanganirwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhumeka au négatif présent.", "attendu": "simpumeka, ntuhumeka, ntahumeka, ntiduhumeka, ntimuhumeka, ntibahumeka.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusohora au conditionnel.", "attendu": "nosohora, wosohora, yosohora, twosohora, mwosohora, bosohora.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuzunguruka au négatif présent.", "attendu": "sinzunguruka, ntuzunguruka, ntazunguruka, ntituzunguruka, ntimuzunguruka, ntibazunguruka.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutonorera au présent.", "attendu": "ndatonorera, uratonorera, aratonorera, turatonorera, muratonorera, baratonorera.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutika au futur (après aujourd'hui).", "attendu": "nzotika, uzotika, azotika, tuzotika, muzotika, bazotika.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gututumba au présent.", "attendu": "ndatutumba, uratutumba, aratutumba, turatutumba, muratutumba, baratutumba.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gukomeretswa au futur (après aujourd'hui).", "attendu": "nzokomeretswa, uzokomeretswa, azokomeretswa, tuzokomeretswa, muzokomeretswa, bazokomeretswa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusesema au négatif présent.", "attendu": "sinsesema, ntusesema, ntasesema, ntidusesema, ntimusesema, ntibasesema.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuruhurira au futur (après aujourd'hui).", "attendu": "nzoruhurira, uzoruhurira, azoruhurira, tuzoruhurira, muzoruhurira, bazoruhurira.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutegekaniriza au présent.", "attendu": "ndategekaniriza, urategekaniriza, arategekaniriza, turategekaniriza, murategekaniriza, barategekaniriza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwiraba au passé.", "attendu": "niravye, wiravye, yiravye, twiravye, mwiravye, biravye.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kurunguruka au subjonctif (que je ...).", "attendu": "ndunguruke, urunguruke, arunguruke, turunguruke, murunguruke, barunguruke.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwimenya au présent.", "attendu": "ndimenya, urimenya, arimenya, turimenya, murimenya, barimenya.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwicarikwa au présent.", "attendu": "ndicarikwa, uricarikwa, aricarikwa, turicarikwa, muricarikwa, baricarikwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kugurisha au présent.", "attendu": "ndagurisha, uragurisha, aragurisha, turagurisha, muragurisha, baragurisha.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuzingira au subjonctif (que je ...).", "attendu": "nzingire, uzingire, azingire, tuzingire, muzingire, bazingire.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuvyimbishwa au futur (après aujourd'hui).", "attendu": "nzovyimbishwa, uzovyimbishwa, azovyimbishwa, tuzovyimbishwa, muzovyimbishwa, bazovyimbishwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gususurutsa au subjonctif (que je ...).", "attendu": "nsusurutse, ususurutse, asusurutse, dususurutse, mususurutse, basusurutse.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwitomba au présent.", "attendu": "nditomba, uritomba, aritomba, turitomba, muritomba, baritomba.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwumya au passé.", "attendu": "numije, wumije, yumije, twumije, mwumije, bumije.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuvugisha au subjonctif (que je ...).", "attendu": "mvugishe, uvugishe, avugishe, tuvugishe, muvugishe, bavugishe.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwihanikiriza au présent.", "attendu": "ndihanikiriza, urihanikiriza, arihanikiriza, turihanikiriza, murihanikiriza, barihanikiriza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhisha au présent.", "attendu": "ndahisha, urahisha, arahisha, turahisha, murahisha, barahisha.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kubundikira au futur (après aujourd'hui).", "attendu": "nzobundikira, uzobundikira, azobundikira, tuzobundikira, muzobundikira, bazobundikira.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwononekara au subjonctif (que je ...).", "attendu": "nononekare, wononekare, yononekare, twononekare, mwononekare, bononekare.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kubaririza au négatif présent.", "attendu": "simbaririza, ntubaririza, ntabaririza, ntitubaririza, ntimubaririza, ntibabaririza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwibukisha au futur (après aujourd'hui).", "attendu": "nzokwibukisha, uzokwibukisha, azokwibukisha, tuzokwibukisha, muzokwibukisha, bazokwibukisha.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kumata au conditionnel.", "attendu": "nomata, womata, yomata, twomata, mwomata, bomata.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kumanuka au passé.", "attendu": "namanutse, wamanutse, yamanutse, twamanutse, mwamanutse, bamanutse.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gukenguruka au passé.", "attendu": "nakengurutse, wakengurutse, yakengurutse, twakengurutse, mwakengurutse, bakengurutse.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwuhirwa au subjonctif (que je ...).", "attendu": "nuhirwe, wuhirwe, yuhirwe, twuhirwe, mwuhirwe, buhirwe.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwinikira au passé.", "attendu": "ninikiye, winikiye, yinikiye, twinikiye, mwinikiye, binikiye.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutotera au négatif présent.", "attendu": "sintotera, ntutotera, ntatotera, ntidutotera, ntimutotera, ntibatotera.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusemerera au présent.", "attendu": "ndasemerera, urasemerera, arasemerera, turasemerera, murasemerera, barasemerera.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gukwizwa au présent.", "attendu": "ndakwizwa, urakwizwa, arakwizwa, turakwizwa, murakwizwa, barakwizwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kugwira au négatif présent.", "attendu": "singwira, ntugwira, ntagwira, ntitugwira, ntimugwira, ntibagwira.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwishima au négatif présent.", "attendu": "sinishima, ntiwishima, ntiyishima, ntitwishima, ntimwishima, ntibishima.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwononwa au négatif présent.", "attendu": "sinononwa, ntiwononwa, ntiyononwa, ntitwononwa, ntimwononwa, ntibononwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusatuza au négatif présent.", "attendu": "sinsatuza, ntusatuza, ntasatuza, ntidusatuza, ntimusatuza, ntibasatuza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusanza au passé.", "attendu": "nashanje, washanje, yashanje, twashanje, mwashanje, bashanje.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwegereza au présent.", "attendu": "ndegereza, uregereza, aregereza, turegereza, muregereza, baregereza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guteranuka au futur (après aujourd'hui).", "attendu": "nzoteranuka, uzoteranuka, azoteranuka, tuzoteranuka, muzoteranuka, bazoteranuka.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gutungwa au présent.", "attendu": "ndatungwa, uratungwa, aratungwa, turatungwa, muratungwa, baratungwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhwata au conditionnel.", "attendu": "nohwata, wohwata, yohwata, twohwata, mwohwata, bohwata.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusokoroka au passé.", "attendu": "nasokorotse, wasokorotse, yasokorotse, twasokorotse, mwasokorotse, basokorotse.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwunguruza au conditionnel.", "attendu": "nokwunguruza, wokwunguruza, yokwunguruza, twokwunguruza, mwokwunguruza, bokwunguruza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kugereranya au passé.", "attendu": "nagereranije, wagereranije, yagereranije, twagereranije, mwagereranije, bagereranije.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwongeza au négatif présent.", "attendu": "sinongeza, ntiwongeza, ntiyongeza, ntitwongeza, ntimwongeza, ntibongeza.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kurenguka au conditionnel.", "attendu": "norenguka, worenguka, yorenguka, tworenguka, mworenguka, borenguka.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhebana au futur (après aujourd'hui).", "attendu": "nzohebana, uzohebana, azohebana, tuzohebana, muzohebana, bazohebana.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gukebagura au subjonctif (que je ...).", "attendu": "nkebagure, ukebagure, akebagure, dukebagure, mukebagure, bakebagure.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gushobora au présent.", "attendu": "ndashobora, urashobora, arashobora, turashobora, murashobora, barashobora.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusekurwa au futur (après aujourd'hui).", "attendu": "nzosekurwa, uzosekurwa, azosekurwa, tuzosekurwa, muzosekurwa, bazosekurwa.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhababuka au subjonctif (que je ...).", "attendu": "mpababuke, uhababuke, ahababuke, duhababuke, muhababuke, bahababuke.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusiribangwa au passé.", "attendu": "nasiribanzwe, wasiribanzwe, yasiribanzwe, twasiribanzwe, mwasiribanzwe, basiribanzwe.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuvungagura au futur (après aujourd'hui).", "attendu": "nzovungagura, uzovungagura, azovungagura, tuzovungagura, muzovungagura, bazovungagura.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuramba au conditionnel.", "attendu": "noramba, woramba, yoramba, tworamba, mworamba, boramba.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwambara au subjonctif (que je ...).", "attendu": "nambare, wambare, yambare, twambare, mwambare, bambare.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe gusambura au présent.", "attendu": "ndasambura, urasambura, arasambura, turasambura, murasambura, barasambura.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kwimikwa au subjonctif (que je ...).", "attendu": "nimikwe, wimikwe, yimikwe, twimikwe, mwimikwe, bimikwe.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kuziganya au passé.", "attendu": "naziganye, waziganye, yaziganye, twaziganye, mwaziganye, baziganye.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kujema au conditionnel.", "attendu": "nojema, wojema, yojema, twojema, mwojema, bojema.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe guhangana au présent.", "attendu": "ndahangana, urahangana, arahangana, turahangana, murahangana, barahangana.", "vu": false}
+{"categorie": "conjugaison_verbe_nouveau", "question": "Conjugue le verbe kunyigira au conditionnel.", "attendu": "nonyigira, wonyigira, yonyigira, twonyigira, mwonyigira, bonyigira.", "vu": false}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kubwiriza au conditionnel.", "attendu": "nobwiriza, wobwiriza, yobwiriza, twobwiriza, mwobwiriza, bobwiriza.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gushirwa au passé.", "attendu": "nashizwe, washizwe, yashizwe, twashizwe, mwashizwe, bashizwe.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kwihakana au futur (après aujourd'hui).", "attendu": "nzokwihakana, uzokwihakana, azokwihakana, tuzokwihakana, muzokwihakana, bazokwihakana.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kwigisha au subjonctif (que je ...).", "attendu": "nigishe, wigishe, yigishe, twigishe, mwigishe, bigishe.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe guhumuriza au subjonctif (que je ...).", "attendu": "mpumurize, uhumurize, ahumurize, duhumurize, muhumurize, bahumurize.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kwegeranya au futur (après aujourd'hui).", "attendu": "nzokwegeranya, uzokwegeranya, azokwegeranya, tuzokwegeranya, muzokwegeranya, bazokwegeranya.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gusomagura au présent.", "attendu": "ndasomagura, urasomagura, arasomagura, turasomagura, murasomagura, barasomagura.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gutabara au présent.", "attendu": "ndatabara, uratabara, aratabara, turatabara, muratabara, baratabara.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gusasira au conditionnel.", "attendu": "nosasira, wosasira, yosasira, twosasira, mwosasira, bosasira.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe guheka au conditionnel.", "attendu": "noheka, woheka, yoheka, twoheka, mwoheka, boheka.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuyoberwa au présent.", "attendu": "ndayoberwa, urayoberwa, arayoberwa, turayoberwa, murayoberwa, barayoberwa.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gutunganya au subjonctif (que je ...).", "attendu": "ntunganye, utunganye, atunganye, dutunganye, mutunganye, batunganye.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kubabarira au conditionnel.", "attendu": "nobabarira, wobabarira, yobabarira, twobabarira, mwobabarira, bobabarira.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gukika au futur (après aujourd'hui).", "attendu": "nzokika, uzokika, azokika, tuzokika, muzokika, bazokika.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kwiyumvira au négatif présent.", "attendu": "siniyumvira, ntiwiyumvira, ntiyiyumvira, ntitwiyumvira, ntimwiyumvira, ntibiyumvira.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kubonesha au futur (après aujourd'hui).", "attendu": "nzobonesha, uzobonesha, azobonesha, tuzobonesha, muzobonesha, bazobonesha.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuryoha au futur (après aujourd'hui).", "attendu": "nzoryoha, uzoryoha, azoryoha, tuzoryoha, muzoryoha, bazoryoha.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kubwira au présent.", "attendu": "ndabwira, urabwira, arabwira, turabwira, murabwira, barabwira.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gusohoka au passé.", "attendu": "nasohotse, wasohotse, yasohotse, twasohotse, mwasohotse, basohotse.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gufuta au futur (après aujourd'hui).", "attendu": "nzofuta, uzofuta, azofuta, tuzofuta, muzofuta, bazofuta.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuremerwa au passé.", "attendu": "naremerewe, waremerewe, yaremerewe, twaremerewe, mwaremerewe, baremerewe.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuburanya au subjonctif (que je ...).", "attendu": "mburanye, uburanye, aburanye, tuburanye, muburanye, baburanye.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gutinyuka au futur (après aujourd'hui).", "attendu": "nzotinyuka, uzotinyuka, azotinyuka, tuzotinyuka, muzotinyuka, bazotinyuka.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuvunika au subjonctif (que je ...).", "attendu": "mvunike, uvunike, avunike, tuvunike, muvunike, bavunike.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe guhoma au passé.", "attendu": "nahomye, wahomye, yahomye, twahomye, mwahomye, bahomye.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kunyoterwa au passé.", "attendu": "nanyoterwe, wanyoterwe, yanyoterwe, twanyoterwe, mwanyoterwe, banyoterwe.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe guhuha au subjonctif (que je ...).", "attendu": "mpuhe, uhuhe, ahuhe, duhuhe, muhuhe, bahuhe.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kwigishwa au négatif présent.", "attendu": "sinigishwa, ntiwigishwa, ntiyigishwa, ntitwigishwa, ntimwigishwa, ntibigishwa.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kurera au futur (après aujourd'hui).", "attendu": "nzorera, uzorera, azorera, tuzorera, muzorera, bazorera.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuzimya au présent.", "attendu": "ndazimya, urazimya, arazimya, turazimya, murazimya, barazimya.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuriha au conditionnel.", "attendu": "noriha, woriha, yoriha, tworiha, mworiha, boriha.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kureka au passé.", "attendu": "naretse, waretse, yaretse, twaretse, mwaretse, baretse.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kubabazwa au négatif présent.", "attendu": "simbabazwa, ntubabazwa, ntababazwa, ntitubabazwa, ntimubabazwa, ntibababazwa.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe guhetama au conditionnel.", "attendu": "nohetama, wohetama, yohetama, twohetama, mwohetama, bohetama.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuganira au subjonctif (que je ...).", "attendu": "nganire, uganire, aganire, tuganire, muganire, baganire.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuruha au subjonctif (que je ...).", "attendu": "nduhe, uruhe, aruhe, turuhe, muruhe, baruhe.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuvyimbuka au négatif présent.", "attendu": "simvyimbuka, ntuvyimbuka, ntavyimbuka, ntituvyimbuka, ntimuvyimbuka, ntibavyimbuka.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kugenda au subjonctif (que je ...).", "attendu": "ngende, ugende, agende, tugende, mugende, bagende.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kurondereka au futur (après aujourd'hui).", "attendu": "nzorondereka, uzorondereka, azorondereka, tuzorondereka, muzorondereka, bazorondereka.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuduga au subjonctif (que je ...).", "attendu": "nduge, uduge, aduge, tuduge, muduge, baduge.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gutoroka au futur (après aujourd'hui).", "attendu": "nzotoroka, uzotoroka, azotoroka, tuzotoroka, muzotoroka, bazotoroka.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kujisha au subjonctif (que je ...).", "attendu": "njishe, ujishe, ajishe, tujishe, mujishe, bajishe.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kurokora au subjonctif (que je ...).", "attendu": "ndokore, urokore, arokore, turokore, murokore, barokore.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gukina au présent.", "attendu": "ndakina, urakina, arakina, turakina, murakina, barakina.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kumugara au négatif présent.", "attendu": "simugara, ntumugara, ntamugara, ntitumugara, ntimumugara, ntibamugara.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe guhendahenda au futur (après aujourd'hui).", "attendu": "nzohendahenda, uzohendahenda, azohendahenda, tuzohendahenda, muzohendahenda, bazohendahenda.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gutwenga au subjonctif (que je ...).", "attendu": "ntwenge, utwenge, atwenge, dutwenge, mutwenge, batwenge.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gukarisha au présent.", "attendu": "ndakarisha, urakarisha, arakarisha, turakarisha, murakarisha, barakarisha.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuramutsa au futur (après aujourd'hui).", "attendu": "nzoramutsa, uzoramutsa, azoramutsa, tuzoramutsa, muzoramutsa, bazoramutsa.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gukikama au futur (après aujourd'hui).", "attendu": "nzokikama, uzokikama, azokikama, tuzokikama, muzokikama, bazokikama.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gusangiza au futur (après aujourd'hui).", "attendu": "nzosangiza, uzosangiza, azosangiza, tuzosangiza, muzosangiza, bazosangiza.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gufatanya au négatif présent.", "attendu": "simfatanya, ntufatanya, ntafatanya, ntidufatanya, ntimufatanya, ntibafatanya.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe guhenda au subjonctif (que je ...).", "attendu": "mpende, uhende, ahende, duhende, muhende, bahende.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gukikuza au conditionnel.", "attendu": "nokikuza, wokikuza, yokikuza, twokikuza, mwokikuza, bokikuza.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kwuma au présent.", "attendu": "nduma, uruma, aruma, turuma, muruma, baruma.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kurandura au subjonctif (que je ...).", "attendu": "ndandure, urandure, arandure, turandure, murandure, barandure.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe gutemba au présent.", "attendu": "ndatemba, uratemba, aratemba, turatemba, muratemba, baratemba.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kuyaga au passé.", "attendu": "nayaze, wayaze, yayaze, twayaze, mwayaze, bayaze.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kwurira au conditionnel.", "attendu": "nokwurira, wokwurira, yokwurira, twokwurira, mwokwurira, bokwurira.", "vu": true}
+{"categorie": "conjugaison_verbe_connu", "question": "Conjugue le verbe kurinda au subjonctif (que je ...).", "attendu": "ndinde, urinde, arinde, turinde, murinde, barinde.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom icamwa ?", "attendu": "Icamwa est de la classe 7.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « fruit » + « bon, beau » en kirundi ?", "attendu": "icamwa ciza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom inka ?", "attendu": "Inka est de la classe 9.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « vache » + « bon, beau » en kirundi ?", "attendu": "inka nziza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom igiti ?", "attendu": "Igiti est de la classe 7.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « arbre » + « bon, beau » en kirundi ?", "attendu": "igiti ciza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom abakozi ?", "attendu": "Abakozi est de la classe 2.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « travailleurs » + « bon, beau » en kirundi ?", "attendu": "abakozi beza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom ubwoko ?", "attendu": "Ubwoko est de la classe 14.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « sorte, ethnie » + « bon, beau » en kirundi ?", "attendu": "ubwoko bwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom abagore ?", "attendu": "Abagore est de la classe 2.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « femmes » + « bon, beau » en kirundi ?", "attendu": "abagore beza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom imyaka ?", "attendu": "Imyaka est de la classe 4.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « années » + « bon, beau » en kirundi ?", "attendu": "imyaka myiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom umwami ?", "attendu": "Umwami est de la classe 1.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « roi » + « bon, beau » en kirundi ?", "attendu": "umwami mwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom imicungwa ?", "attendu": "Imicungwa est de la classe 4.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « oranges » + « bon, beau » en kirundi ?", "attendu": "imicungwa myiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom abagabo ?", "attendu": "Abagabo est de la classe 2.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « hommes » + « bon, beau » en kirundi ?", "attendu": "abagabo beza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom umukozi ?", "attendu": "Umukozi est de la classe 1.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « travailleur » + « bon, beau » en kirundi ?", "attendu": "umukozi mwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom ibihugu ?", "attendu": "Ibihugu est de la classe 8.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « pays » + « bon, beau » en kirundi ?", "attendu": "ibihugu vyiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom ikintu ?", "attendu": "Ikintu est de la classe 7.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « chose » + « bon, beau » en kirundi ?", "attendu": "ikintu ciza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom ururimi ?", "attendu": "Ururimi est de la classe 11.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « langue » + « bon, beau » en kirundi ?", "attendu": "ururimi rwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom abana ?", "attendu": "Abana est de la classe 2.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « enfants » + « bon, beau » en kirundi ?", "attendu": "abana beza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom umwigisha ?", "attendu": "Umwigisha est de la classe 1.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « enseignant » + « bon, beau » en kirundi ?", "attendu": "umwigisha mwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom amazi ?", "attendu": "Amazi est de la classe 6.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « eau » + « bon, beau » en kirundi ?", "attendu": "amazi meza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom imiti ?", "attendu": "Imiti est de la classe 4.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « arbres, médicaments » + « bon, beau » en kirundi ?", "attendu": "imiti myiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom inzira ?", "attendu": "Inzira est de la classe 10.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « chemins » + « bon, beau » en kirundi ?", "attendu": "inzira nziza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom ikirato ?", "attendu": "Ikirato est de la classe 7.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « chaussure » + « bon, beau » en kirundi ?", "attendu": "ikirato ciza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom abami ?", "attendu": "Abami est de la classe 2.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « rois » + « bon, beau » en kirundi ?", "attendu": "abami beza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom uruzi ?", "attendu": "Uruzi est de la classe 11.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « rivière » + « bon, beau » en kirundi ?", "attendu": "uruzi rwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom inzira ?", "attendu": "Inzira est de la classe 9.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « chemin » + « bon, beau » en kirundi ?", "attendu": "inzira nziza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom inzu ?", "attendu": "Inzu est de la classe 10.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « maisons » + « bon, beau » en kirundi ?", "attendu": "inzu nziza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom ivyamwa ?", "attendu": "Ivyamwa est de la classe 8.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « fruits » + « bon, beau » en kirundi ?", "attendu": "ivyamwa vyiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom akazi ?", "attendu": "Akazi est de la classe 12.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « travail » + « bon, beau » en kirundi ?", "attendu": "akazi keza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom impuzu ?", "attendu": "Impuzu est de la classe 9.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « vêtement » + « bon, beau » en kirundi ?", "attendu": "impuzu nziza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom urupapuro ?", "attendu": "Urupapuro est de la classe 11.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « feuille de papier » + « bon, beau » en kirundi ?", "attendu": "urupapuro rwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom ibirato ?", "attendu": "Ibirato est de la classe 8.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « chaussures » + « bon, beau » en kirundi ?", "attendu": "ibirato vyiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom imisozi ?", "attendu": "Imisozi est de la classe 4.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « collines » + « bon, beau » en kirundi ?", "attendu": "imisozi myiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom inzu ?", "attendu": "Inzu est de la classe 9.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « maison » + « bon, beau » en kirundi ?", "attendu": "inzu nziza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom imbwa ?", "attendu": "Imbwa est de la classe 9.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « chien » + « bon, beau » en kirundi ?", "attendu": "imbwa nziza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom abatetsi ?", "attendu": "Abatetsi est de la classe 2.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « cuisiniers » + « bon, beau » en kirundi ?", "attendu": "abatetsi beza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom umurundi ?", "attendu": "Umurundi est de la classe 1.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « Burundais » + « bon, beau » en kirundi ?", "attendu": "umurundi mwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom impapuro ?", "attendu": "Impapuro est de la classe 10.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « feuilles de papier » + « bon, beau » en kirundi ?", "attendu": "impapuro nziza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom inka ?", "attendu": "Inka est de la classe 10.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « vaches » + « bon, beau » en kirundi ?", "attendu": "inka nziza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom umuduga ?", "attendu": "Umuduga est de la classe 3.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « voiture » + « bon, beau » en kirundi ?", "attendu": "umuduga mwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom umukobwa ?", "attendu": "Umukobwa est de la classe 1.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « fille » + « bon, beau » en kirundi ?", "attendu": "umukobwa mwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom umugabo ?", "attendu": "Umugabo est de la classe 1.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « homme » + « bon, beau » en kirundi ?", "attendu": "umugabo mwiza.", "vu": true}
+{"categorie": "accords", "question": "De quelle classe est le nom ishure ?", "attendu": "Ishure est de la classe 5.", "vu": true}
+{"categorie": "accords", "question": "Comment dit-on « école » + « bon, beau » en kirundi ?", "attendu": "ishure ryiza.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona umwaka?", "attendu": "Ego, ndawubona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona ikaramu?", "attendu": "Ego, ndayibona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona abigisha?", "attendu": "Ego, ndababona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona abarundi?", "attendu": "Ego, ndababona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona urugo?", "attendu": "Ego, ndarubona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona umusi?", "attendu": "Ego, ndawubona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona abashumba?", "attendu": "Ego, ndababona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona abahungu?", "attendu": "Ego, ndababona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona inanasi?", "attendu": "Ego, ndazibona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona inzira?", "attendu": "Ego, ndazibona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona igi?", "attendu": "Ego, ndaribona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona umuhungu?", "attendu": "Ego, ndamubona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona umusozi?", "attendu": "Ego, ndawubona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona abatetsi?", "attendu": "Ego, ndababona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona igitabo?", "attendu": "Ego, ndakibona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona umuduga?", "attendu": "Ego, ndawubona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona umukozi?", "attendu": "Ego, ndamubona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona ikete?", "attendu": "Ego, ndaribona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona ibiti?", "attendu": "Ego, ndabibona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona umukobwa?", "attendu": "Ego, ndamubona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona indimu?", "attendu": "Ego, ndazibona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona inzu?", "attendu": "Ego, ndazibona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona amakaramu?", "attendu": "Ego, ndayabona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona ikirato?", "attendu": "Ego, ndakibona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona amakete?", "attendu": "Ego, ndayabona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona amashure?", "attendu": "Ego, ndayabona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona amasaha?", "attendu": "Ego, ndayabona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona abami?", "attendu": "Ego, ndababona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona amazina?", "attendu": "Ego, ndayabona.", "vu": true}
+{"categorie": "pronoms_objets", "question": "Réponds en kirundi avec un pronom : Urabona umuti?", "attendu": "Ego, ndawubona.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « écrire » en kirundi ?", "attendu": "On dit kwandika.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « créer » en kirundi ?", "attendu": "On dit kurema.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « trouver » en kirundi ?", "attendu": "On dit kuronka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « décevoir » en kirundi ?", "attendu": "On dit guhenda.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « détester » en kirundi ?", "attendu": "On dit kwanka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « retirer » en kirundi ?", "attendu": "On dit gukuraho.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « étonner » en kirundi ?", "attendu": "On dit gutangaza.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « séparer » en kirundi ?", "attendu": "On dit gutandukanya.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « considérer » en kirundi ?", "attendu": "On dit kwihweza.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « verser » en kirundi ?", "attendu": "On dit gusuka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « guérir » en kirundi ?", "attendu": "On dit gukiza.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « arranger » en kirundi ?", "attendu": "On dit gutegura.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « saisir » en kirundi ?", "attendu": "On dit gufata.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « élever » en kirundi ?", "attendu": "On dit kurera.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « causer » en kirundi ?", "attendu": "On dit gutuma.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « commencer » en kirundi ?", "attendu": "On dit gutangura.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « revenir » en kirundi ?", "attendu": "On dit kugaruka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « sauver » en kirundi ?", "attendu": "On dit gukiza.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « couvrir » en kirundi ?", "attendu": "On dit gufuka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « croire » en kirundi ?", "attendu": "On dit kwizera.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « être étendu » en kirundi ?", "attendu": "On dit kurambarara.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « se souvenir » en kirundi ?", "attendu": "On dit kwibuka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « servir » en kirundi ?", "attendu": "On dit gukorera.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « briser » en kirundi ?", "attendu": "On dit kumena.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « fermer » en kirundi ?", "attendu": "On dit kugara.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « couler » en kirundi ?", "attendu": "On dit gutemba.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « manger » en kirundi ?", "attendu": "On dit gufungura.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « protéger » en kirundi ?", "attendu": "On dit gukingira.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « organiser » en kirundi ?", "attendu": "On dit gutegura.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « rapporter » en kirundi ?", "attendu": "On dit kugarukana.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « assurer » en kirundi ?", "attendu": "On dit gutegekaniriza.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « jeter » en kirundi ?", "attendu": "On dit kujugunya.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « embrasser » en kirundi ?", "attendu": "On dit gusoma.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « sentir » en kirundi ?", "attendu": "On dit kwumva.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « être couché » en kirundi ?", "attendu": "On dit kuryama.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « imaginer » en kirundi ?", "attendu": "On dit kwiyumvira.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « sortir » en kirundi ?", "attendu": "On dit gusohoka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « traverser » en kirundi ?", "attendu": "On dit kujabuka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « prendre » en kirundi ?", "attendu": "On dit gufata.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « accepter » en kirundi ?", "attendu": "On dit kwemera.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « chercher » en kirundi ?", "attendu": "On dit kurondera.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « exister » en kirundi ?", "attendu": "On dit kubaho.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « rendre » en kirundi ?", "attendu": "On dit kugarukana.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « monter » en kirundi ?", "attendu": "On dit kuduga.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « examiner » en kirundi ?", "attendu": "On dit gupima.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « voir » en kirundi ?", "attendu": "On dit kubona.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « voler » en kirundi ?", "attendu": "On dit kwiba.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « rester » en kirundi ?", "attendu": "On dit gusigara.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « construire » en kirundi ?", "attendu": "On dit kwubaka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « nommer » en kirundi ?", "attendu": "On dit kwita.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « marcher » en kirundi ?", "attendu": "On dit gutambuka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « se cacher » en kirundi ?", "attendu": "On dit kwinyegeza.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « naître » en kirundi ?", "attendu": "On dit kuvuka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « penser » en kirundi ?", "attendu": "On dit kwiyumvira.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « occuper » en kirundi ?", "attendu": "On dit gufatirwa.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « brûler » en kirundi ?", "attendu": "On dit kwaka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « échapper » en kirundi ?", "attendu": "On dit gutoroka.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « peser » en kirundi ?", "attendu": "On dit gupima.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « frapper » en kirundi ?", "attendu": "On dit gukubita.", "vu": true}
+{"categorie": "vocabulaire", "question": "Comment dit-on « charger » en kirundi ?", "attendu": "On dit gupakira.", "vu": true}

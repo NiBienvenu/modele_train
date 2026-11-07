@@ -1,0 +1,47 @@
+# Phase B : le GRAND modèle (122M) apprend tout : grammaire + textes réels.
+# Avant : python grow.py --source .../phaseA/finale --sortie .../grand_init --hidden 768 --layers 12 --heads 12
+# Durée indicative : 6 à 10 heures sur un T4 (Colab coupe : le script reprend tout seul).
+
+mode: pretrain
+modele: /content/drive/MyDrive/modele/grand_init
+tokenizer: /content/drive/MyDrive/modele/grand_init
+reinitialiser_embeddings: false
+dossier_sortie: /content/drive/MyDrive/modele/phaseB
+gradient_checkpointing: true      # économise la mémoire du GPU
+
+sources:
+  # Grammaire (on la garde pour ne pas l'oublier)
+  - fichiers: /content/drive/MyDrive/donnees/conjugaison_fr/*.txt
+    repeter: 1
+  - fichiers: /content/drive/MyDrive/donnees/conjugaison_rn/*.txt
+    repeter: 1
+  - fichiers: /content/drive/MyDrive/donnees/grammaire_rn/*.txt
+    repeter: 2
+  - fichiers: /content/drive/MyDrive/donnees/lexique_rn/*.txt
+    repeter: 3
+  # Phrases réelles, traduites par des experts
+  - fichiers: /content/drive/MyDrive/donnees/cours/*.txt
+    repeter: 4
+  - fichiers: /content/drive/MyDrive/donnees/fsi_rn/fsi_rn.txt
+    repeter: 2
+  # Bible : seulement la part de 25 % (passages bilingues)
+  - fichiers: /content/drive/MyDrive/donnees/bible/bible_bilingue_25.txt
+    repeter: 2
+
+longueur: 512
+taille_lot: 16
+accumulation: 8                   # lot effectif de 128 séquences
+epoques: 3
+learning_rate: 3.0e-4
+weight_decay: 0.1
+warmup: 2000                      # doux : le modèle vient d'être agrandi
+
+log_tous_les: 50
+eval_tous_les: 1000
+sauver_tous_les: 1000
+
+phrases_test:
+  - "Kirundi : Umwana arakora cane.\nFrançais :"
+  - "Français : Je reste à la maison parce que je suis malade.\nKirundi :"
+  - "Urabona igitabo? Ego,"
+  - "Abana batiga"

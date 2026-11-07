@@ -1,0 +1,42 @@
+# Phase D : apprendre à RÉPONDRE (questions / réponses, traductions).
+# Le modèle part de la fin de la phase B. Learning rate bas : on affine sans casser.
+
+mode: sft
+modele: /content/drive/MyDrive/modele/phaseB/finale
+tokenizer: /content/drive/MyDrive/modele/phaseB/finale
+reinitialiser_embeddings: false
+dossier_sortie: /content/drive/MyDrive/modele/phaseD
+gradient_checkpointing: true
+
+sources:
+  - fichiers: /content/drive/MyDrive/donnees/qr/conjugaison_fr.jsonl
+    repeter: 1
+  - fichiers: /content/drive/MyDrive/donnees/qr/conjugaison_rn.jsonl
+    repeter: 1
+  - fichiers: /content/drive/MyDrive/donnees/qr/accords_rn.jsonl
+    repeter: 1
+  - fichiers: /content/drive/MyDrive/donnees/qr/syntaxe_rn.jsonl
+    repeter: 3
+  - fichiers: /content/drive/MyDrive/donnees/qr/lexique_rn.jsonl
+    repeter: 2
+  - fichiers: /content/drive/MyDrive/donnees/qr/cours.jsonl
+    repeter: 4
+  - fichiers: /content/drive/MyDrive/donnees/qr/traduction_bible.jsonl
+    repeter: 1
+
+longueur: 512
+taille_lot: 16
+accumulation: 4
+epoques: 2
+learning_rate: 5.0e-5
+weight_decay: 0.0
+warmup: 300
+
+log_tous_les: 50
+eval_tous_les: 500
+sauver_tous_les: 1000
+
+phrases_test:
+  - "<|user|> Traduis en français : Ndagenda uyu musi. <|assistant|>"
+  - "<|user|> Conjugue le verbe gukora au conditionnel. <|assistant|>"
+  - "<|user|> Réponds en kirundi avec un pronom : Urabona igitabo? <|assistant|>"

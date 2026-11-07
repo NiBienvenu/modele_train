@@ -1,0 +1,261 @@
+# Verbes kirundi pour gen_conjugaison_rn.py
+# Colonnes (séparées par TAB) : infinitif  racine  perfectif  français  source
+# - racine    : le verbe sans ku-/gu-/kw- (gukora -> kora)
+# - perfectif : la forme du passé (kora -> koze). Elle est irrégulière,
+#               c'est pourquoi on l'écrit à la main.
+# - source    : FSI = forme du passé vue dans le cours FSI (domaine public)
+# Pour ajouter un verbe : ajoute une ligne. Vérifie bien le perfectif !
+gukora	kora	koze	travailler, faire	FSI
+kugenda	genda	giye	aller, marcher	FSI
+kuvuga	vuga	vuze	parler, dire	FSI
+gusoma	soma	somye	lire	FSI
+kurima	rima	rimye	cultiver	FSI
+kubona	bona	bonye	voir	FSI
+gukunda	kunda	kunze	aimer	FSI
+gufata	fata	fashe	prendre, attraper	FSI
+gutanga	tanga	tanze	donner	FSI
+kwiga	iga	ize	apprendre, étudier	FSI
+kumva	umva	umvise	entendre, comprendre	FSI
+gushaka	shaka	shatse	vouloir, chercher	FSI
+gufasha	fasha	fashije	aider	FSI
+kwandika	andika	anditse	écrire	FSI
+kurya	rya	riye	manger	FSI
+kunywa	nywa	nyoye	boire	FSI
+kuza	za	je	venir	FSI
+kuryama	ryama	ryamye	se coucher, dormir	FSI
+kwicara	icara	icaye	s'asseoir	FSI
+guhagarara	hagarara	hagaze	se tenir debout, s'arrêter	FSI
+kumenya	menya	menye	savoir, connaître	FSI
+kugaruka	garuka	garutse	revenir	FSI
+gushika	shika	shitse	arriver	FSI
+kuzimira	zimira	zimiye	se perdre, disparaître	FSI
+guhindukira	hindukira	hindukiye	se retourner, rentrer	FSI
+kwubaka	ubaka	ubatse	construire	FSI
+gutangura	tangura	tanguye	commencer	FSI
+kugura	gura	guze	acheter	FSI
+guteka	teka	tetse	cuisiner	FSI
+gusohoka	sohoka	sohotse	sortir	FSI
+kubwira	bwira	bwiye	dire à quelqu'un	FSI
+kubaza	baza	bajije	demander, interroger	FSI
+gukorera	korera	koreye	travailler pour	FSI
+kwibagira	ibagira	ibagiye	oublier	FSI
+gukaraba	karaba	karavye	se laver les mains	FSI
+kumesura	mesura	mesuye	laver le linge	FSI
+kuzana	zana	zanye	apporter	FSI
+kwandikira	andikira	andikiye	écrire à quelqu'un	FSI
+kujana	jana	janye	emmener	FSI
+kwemera	emera	emeye	accepter, croire	FSI
+gusanga	sanga	sanze	trouver, rejoindre	FSI
+gusubira	subira	subiye	retourner, recommencer	FSI
+kwinjira	injira	injiye	entrer	FSI
+kuva	va	vuye	venir de, quitter	FSI
+kuronka	ronka	ronse	recevoir, obtenir	FSI
+guheza	heza	hejeje	finir	FSI
+gutuma	tuma	tumye	envoyer	FSI
+kurwara	rwara	rwaye	être malade	FSI
+gupfa	pfa	pfuye	mourir	FSI
+kuvyara	vyara	vyaye	mettre au monde	FSI
+# --- ajoutés par importer_dictionnaire.py (perfectif vu dans le livre FSI) ---
+kugira	gira	gize	avoir, composer	FSI-auto
+gushobora	shobora	shoboye	pouvoir	FSI-auto
+gushira	shira	shize	mettre, placer, poser	FSI-auto
+gusigara	sigara	sigaye	rester, demeurer	FSI-auto
+kumera	mera	meze	sembler	FSI-auto
+kugumya	gumya	gumije	tenir, saisir, garder, maintenir, retenir	Cox (corrigé)
+kwambara	ambara	ambaye	porter	FSI-auto
+kuboneka	boneka	bonetse	paraître, apparaître	FSI-auto
+gutambuka	tambuka	tambutse	marcher	FSI-auto
+gufungura	fungura	funguye	manger	FSI-auto
+guhindura	hindura	hinduye	changer	FSI-auto
+guharura	harura	haruye	compter	FSI-auto
+gutsinda	tsinda	tsinze	gagner	FSI-auto
+gutsindira	tsindira	tsindiye	gagner	FSI-auto
+gushikira	shikira	shikiye	atteindre	FSI-auto
+gutwara	twara	twaye	emporter	FSI-auto
+kuvyuka	vyuka	vyutse	se réveiller	FSI-auto
+gushinga	shinga	shinze	établir, fixer	FSI-auto
+# --- ajoutés par importer_dictionnaire.py (perfectif vu dans le livre FSI ou la Bible) ---
+kugomba	gomba	gomvye	vouloir	auto
+kurengana	rengana	renganye	passer	auto
+kuraba	raba	ravye	regarder	auto
+kwizera	izera	izeye	croire, espérer	auto
+gusaba	saba	savye	demander	auto
+kwishura	ishura	ishuye	répondre	auto
+kwumva	umva	umvise	entendre, sentir	correction
+gucika	cika	citse	devenir	auto
+kugarukana	garukana	garukanye	rendre, remettre, ramener, rapporter	auto
+kurindira	rindira	rindiriye	attendre	Cox (corrigé)
+kugenzura	genzura	genzuye	contrôler	auto
+kurondera	rondera	rondereye	chercher	Cox (corrigé)
+guhamagara	hamagara	hamagaye	appeler	auto
+gukurikira	kurikira	kurikiye	suivre	auto
+kwerekana	erekana	erekanye	montrer, indiquer	auto
+guhagarika	hagarika	hagaritse	arrêter	auto
+gutakaza	takaza	takaje	perdre	auto
+guhomba	homba	homvye	perdre	auto
+kugendagenda	gendagenda	gendagenze	marcher	auto
+kurera	rera	reze	élever, lever	auto
+kuzura	zura	zuye	élever, lever	Cox (corrigé)
+kurekura	rekura	rekuye	permettre, déposer	auto
+kwumviriza	umviriza	umvirije	écouter	auto
+kuduga	duga	duze	monter	auto
+kwakira	akira	akiriye	recevoir	correction
+gutwenga	twenga	twenze	rire	auto
+gucunga	cunga	cunze	garder	auto
+kwiruka	iruka	irutse	courir	auto
+kumanuka	manuka	manutse	descendre	auto
+kururuka	ruruka	rurutse	descendre	auto
+kunyegeza	nyegeza	nyegeje	cacher	auto
+kwinyegeza	inyegeza	inyegeje	se cacher	auto
+kwica	ica	ishe	tuer	correction
+gucungisha	cungisha	cungishije	confier	auto
+kurambarara	rambarara	rambaraye	être étendu	auto
+guhura	hura	huye	rencontrer	auto
+kurungika	rungika	rungitse	envoyer	auto
+guhinduka	hinduka	hindutse	changer	auto
+kugerageza	gerageza	gerageje	essayer, tenter	auto
+gusigura	sigura	siguye	expliquer	auto
+gukubita	kubita	kubise	frapper, battre	auto
+kurira	rira	rize	pleurer	auto
+kuriha	riha	rishe	payer	Cox (corrigé)
+gutira	tira	tize	prêter	Cox (corrigé)
+gutera	tera	teye	causer	auto
+kubura	bura	buze	rater, manquer	correction
+gukumbura	kumbura	kumbuye	manquer	auto
+kwita	ita	ise	nommer	correction
+kuzimangana	zimangana	zimanganye	disparaître	auto
+kubabara	babara	babaye	souffrir	auto
+kuvuka	vuka	vutse	naître	auto
+gukiza	kiza	kijije	sauver, guérir	auto
+kwunguruza	unguruza	unguruje	avancer	auto
+kujabuka	jabuka	jabutse	traverser	auto
+kwibuka	ibuka	ibutse	se souvenir	auto
+kunezereza	nezereza	nezereje	plaire	auto
+kuzibira	zibira	zibiye	empêcher, prévenir	auto
+gukinga	kinga	kinze	empêcher, prévenir	auto
+kwanka	anka	anse	refuser, détester	correction
+guhingura	hingura	hinguye	produire	auto
+kuvanga	vanga	vanze	mêler	auto
+kwegereza	egereza	egereje	s'approcher, approcher	auto
+gusenga	senga	senze	prier	auto
+gutoroka	toroka	torotse	échapper	auto
+kunyerera	nyerera	nyereye	glisser	auto
+kwaka	aka	atse	briller, brûler	auto
+guturira	turira	turiye	brûler	auto
+kurongora	rongora	rongoye	diriger, mener, se marier	auto
+kuyobora	yobora	yoboye	diriger	auto
+gutegura	tegura	teguye	préparer, arranger, organiser	auto
+gutegekaniriza	tegekaniriza	tegekanirije	assurer	auto
+kwihweza	ihweza	ihweje	considérer, observer	auto
+kwegukira	egukira	egukiye	appartenir	auto
+guhenda	henda	henze	tromper, décevoir	auto
+kwizinga	izinga	izinze	rouler	auto
+kugaba	gaba	gavye	posséder	auto
+kwubura	ubura	ubuye	découvrir	auto
+gucagura	cagura	caguye	choisir	auto
+kumenyesha	menyesha	menyesheje	informer	auto
+kuramvura	ramvura	ramvuye	étendre	auto
+kugaranzura	garanzura	garanzuye	étendre, répandre	auto
+kurema	rema	remye	créer	auto
+gushigikira	shigikira	shigikiye	maintenir, soutenir	auto
+gusezerana	sezerana	sezeranije	promettre	Cox (corrigé)
+guhishura	hishura	hishuye	révéler	auto
+guheba	heba	hevye	abandonner	auto
+kwirengagiza	irengagiza	irengagije	ignorer	auto
+kwubahiriza	ubahiriza	ubahirije	observer	auto
+guhema	hema	hemye	respirer	Cox (corrigé)
+guhata	hata	hase	forcer, obliger	Cox (corrigé)
+gutahuza	tahuza	tahuje	convaincre	auto
+kubohora	bohora	bohoye	délivrer, libérer	auto
+guhunga	hunga	hunze	fuir	auto
+gutemba	temba	temvye	couler	auto
+gushikiriza	shikiriza	shikirije	proposer	auto
+kwiba	iba	ivye	voler	auto
+kumenyereza	menyereza	menyereje	entraîner	auto
+kwirinda	irinda	irinze	éviter	auto
+guhengeka	hengeka	hengetse	pencher	auto
+gukikuza	kikuza	kikuje	entourer	auto
+gutangariza	tangariza	tangarije	déclarer	auto
+gutangaza	tangaza	tangaje	étonner	auto
+kwipfuza	ipfuza	ipfuje	désirer	auto
+gutema	tema	temye	couper	auto
+kunyuruza	nyuruza	nyuruje	kidnapper	auto
+gucakira	cakira	cakiye	attraper	auto
+gusangira	sangira	sangiye	partager	auto
+gusangiza	sangiza	sangije	partager	auto
+guhiga	higa	hize	chasser	auto
+gusimba	simba	simvye	sauter	auto
+gushimira	shimira	shimiye	remercier	auto
+kwambika	ambika	ambitse	vêtir	auto
+gusambura	sambura	sambuye	détruire	auto
+gusuka	suka	sutse	verser	auto
+gusanzaza	sanzaza	sanzaje	répandre	auto
+gukingira	kingira	kingiriye	protéger	Cox (corrigé)
+kwimba	imba	imvye	creuser	auto
+kwigisha	igisha	igishije	enseigner	auto
+gutekera	tekera	tekeye	envelopper	auto
+gutora	tora	toye	ramasser	auto
+# --- perfectifs du dictionnaire de Cox ---
+gufatanya	fatanya	fatanije	joindre	Cox
+gufuka	fuka	futse	couvrir	Cox
+guha	ha	haye	donner	Cox
+guharira	harira	hariye	négocier	Cox
+guheraheza	heraheza	heraheje	finir	Cox
+guhuvya	huvya	hubije	tromper, décevoir	Cox
+gukanya	kanya	kanye	geler	Cox
+gukata	kata	kase	couper	Cox
+gukina	kina	kinye	jouer	Cox
+gukwega	kwega	kweze	tirer, attirer	Cox
+gupakira	pakira	pakiye	charger	Cox
+gupima	pima	pinye	mesurer, examiner, peser	Cox
+guserura	serura	seruye	exprimer	Cox
+gushitsa	shitsa	shikije	accomplir	Cox
+gusinzira	sinzira	sinziriye	s'endormir	Cox
+gusona	sona	sonnye	sonner	Cox
+gusozera	sozera	sozereye	finir	Cox
+gusunika	sunika	sunitse	pousser	Cox
+guta	ta	taye	jeter	Cox
+gutahura	tahura	tahuye	comprendre	Cox
+gutandukanya	tandukanya	tandukanije	séparer	Cox
+gutegerezwa	tegerezwa	tegerejwe	devoir	Cox
+gutembera	tembera	tembeye	se promener	Cox
+gutinya	tinya	tinye	craindre	Cox
+gutinyuka	tinyuka	tinyutse	oser	Cox
+gutunganya	tunganya	tunganije	fixer, arranger, organiser	Cox
+kuba	ba	baye	être, devenir	Cox
+kubabazwa	babazwa	babazwe	souffrir	Cox
+kubandanya	bandanya	bandanije	continuer	Cox
+kubesha	besha	beshe	mentir	Cox
+kubonesha	bonesha	bonesheje	éclairer	Cox
+kuboroga	boroga	boroze	pleurer	Cox
+kudandaza	dandaza	dandaje	vendre	Cox
+kudumba	dumba	dumvye	plonger	Cox
+kugabanya	gabanya	gabanije	réduire	Cox
+kuganira	ganira	ganiriye	négocier	Cox
+kugonda	gonda	gonze	pencher	Cox
+kujugumira	jugumira	jugumiye	trembler	Cox
+kujugunya	jugunya	jugunye	jeter	Cox
+kumatanya	matanya	matanije	attacher	Cox
+kumena	mena	mennye	briser	Cox
+kumwenyura	mwenyura	mwenyuye	sourire	Cox
+kunigana	nigana	niganye	lutter	Cox
+kunyengetera	nyengetera	nyengeteye	pénétrer	Cox
+kurabukwa	rabukwa	rabutswe	apercevoir, remarquer	Cox
+kuririmba	ririmba	ririmvye	chanter	Cox
+kurongorwa	rongorwa	rongorwe	se marier	Cox
+kuroranirwa	roranirwa	roraniniwe	réussir	Cox
+kurwanya	rwanya	rwanije	éviter	Cox
+kuvumbura	vumbura	vumbuye	découvrir	Cox
+kuzeza	zeza	zejeje	confier	Cox
+kuzimya	zimya	zimije	éteindre	Cox
+kwatsa	atsa	akije	allumer	Cox
+kwatura	atura	atuye	déclarer	Cox
+kwegera	egera	egereye	s'approcher, approcher	Cox
+kwegeranya	egeranya	egeranije	serrer	Cox
+kwibiza	ibiza	ibije	plonger	Cox
+kwidoga	idoga	idoze	se plaindre	Cox
+kwiyegeranya	iyegeranya	iyegeranije	serrer	Cox
+kwiyumvira	iyumvira	iyumviriye	penser, imaginer, réfléchir	Cox
+kwubaha	ubaha	ubashe	obéir, se soumettre	Cox
+kwumvisha	umvisha	umvishije	convaincre	Cox
+kwuzuza	uzuza	uzujuje	remplir, combler	Cox
