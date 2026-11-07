@@ -1,0 +1,10 @@
+# Dépendances pour RÉGÉNÉRER les données (pas nécessaire si les données sont déjà dans Drive).
+# mlconjug3 est installé SANS ses dépendances : on n'utilise que son dictionnaire de verbes,
+# pas sa partie "intelligence artificielle" qui exige numpy<2.
+#   pip install -r requirements-donnees.txt
+#   pip install --no-deps mlconjug3
+pypdf
+pymupdf
+defusedxml
+scikit-learn
+pyyaml

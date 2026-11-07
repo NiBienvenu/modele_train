@@ -1,8 +1,8 @@
+# Dépendances pour ENTRAÎNER (Colab les a presque toutes déjà).
+# Pas de mlconjug3 ici : il force numpy<2 et casse l'environnement de Colab.
+# Il ne sert qu'à GÉNÉRER les données (voir requirements-donnees.txt).
 transformers>=4.44
 datasets>=2.20
 tokenizers>=0.19
 accelerate>=0.33
 pyyaml
-mlconjug3
-pypdf
-pymupdf
