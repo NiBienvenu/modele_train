@@ -1,0 +1,64 @@
+Pages lues            : 589
+Phrases kirundi       : 2875
+Mots de vocabulaire   : 73
+Paires verbe / forme  : 43
+Mots kirundi différents : 4910
+
+Exemples de phrases :
+Aturuka Kongo
+Aturuka Astrida.
+umuduga wanje
+ikinga ryanje
+ikintu canje
+impuzu yanje
+abashurnba banje
+imiduga yanje
+amasuka yanje
+Ibintu vyanje
+i urnushurnba wawe abashumba bawe
+urnuduga wawe imiduga yawe
+ikinga ryawe amasuka yawe
+ikintu cawe ibintu vyawe
+impuzu yawe i impuzu zawe
+
+Exemples de vocabulaire :
+babona = they sees
+babonana = they see each other
+turima = we cultivate
+turimisha = we cause to cultivate
+imicungwa = oranges
+ikintu = thing
+ibintu = things
+amazina = names
+ibirato = shoes
+bazotangura = they will begin
+bazokora = they will do
+bakora = they (will) do
+i = m looking for
+Iwe = aunder
+Ihe = aundering
+
+Exemples de verbes :
+kwandika -> Murandika cane?   (Affirmative disjunct vs. negative.)
+gucura -> Muracura cane?   (Affirmative disjunct vs. negative.)
+gusoma -> Murasoma cane?   (Affirmative disjunct vs. negative.)
+kurima -> Murarima cane?   (Affirmative disjunct vs. negative.)
+kumesura -> Muramesura cane?   (Affirmative disjunct vs. negative.)
+kuzimba -> Ivyo bitabo birazimvye?   ((Continuation of Exercise 2))
+kurorera -> Rorera ndagaruka.   (Verbs after /-roreera/ Ito wait')
+kugenda -> Yagiye?   ()
+kugaruka -> Yagarutse?   ()
+kuvuga -> Yavuze?   ()
+guhindukira -> Yahindukiye?   ()
+kuzimira -> Yazimiye?   ()
+guhindukira -> Yahindukiye.   (Hodiernal disjunct vs. hodiernal conjunct.)
+gushika -> Yashitse.   (Hodiernal disjunct vs. hodiernal conjunct.)
+kuzimira -> Yazimiye.   (Hodiernal disjunct vs. hodiernal conjunct.)
+kuvuga -> Yavuze.   (Hodiernal disjunct vs. hodiernal conjunct.)
+kumenya -> Uyo mwana niwe namenye.   (Hodiernal relative.)
+gufasha -> Uyo mwana niwe nafashije.   (Hodiernal relative.)
+guhema -> Reka kumuhema.   (Substitutions in Sentence 17.)
+kurima -> Reka kurima.   (Substitutions in Sentence 17.)
+
+Mots les plus fréquents :
+mu, ni, ku, i, na, cane., oya, abana, ko, nta, ya, muri, cane, iki, none, uyu, wa, burundi, ibitabo, hinga, umuduga, impuzu, yohani, iyi, ariko, gusoma, iri, ejo, hari, nshaka, iki?, abandi, amazi, ibintu, si, bari, cumi, ngo, wewe, nka, kwiga, musi, ba, uri, kwandika, vyinshi., ndi, ari, none?, ego, gukora, neza., abantu, ico, ivyo, aho, inyama, gusa., diaiogue., vyiza

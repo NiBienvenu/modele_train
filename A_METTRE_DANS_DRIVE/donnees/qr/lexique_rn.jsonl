@@ -1,0 +1,671 @@
+{"user": "Comment dit-on « être » en kirundi ?", "assistant": "On dit kuba."}
+{"user": "Comment dit-on « devenir » en kirundi ?", "assistant": "On dit kuba."}
+{"user": "Que veut dire kuba en français ?", "assistant": "Kuba veut dire « être / devenir »."}
+{"user": "Comment dit-on « avoir » en kirundi ?", "assistant": "On dit kugira."}
+{"user": "Comment dit-on « composer » en kirundi ?", "assistant": "On dit kugira."}
+{"user": "Que veut dire kugira en français ?", "assistant": "Kugira veut dire « avoir / composer »."}
+{"user": "Comment dit-on « avoir » en kirundi ?", "assistant": "On dit kufita."}
+{"user": "Que veut dire kufita en français ?", "assistant": "Kufita veut dire « avoir »."}
+{"user": "Comment dit-on « faire » en kirundi ?", "assistant": "On dit gukora."}
+{"user": "Comment dit-on « travailler » en kirundi ?", "assistant": "On dit gukora."}
+{"user": "Que veut dire gukora en français ?", "assistant": "Gukora veut dire « faire / travailler »."}
+{"user": "Comment dit-on « pouvoir » en kirundi ?", "assistant": "On dit gushobora."}
+{"user": "Que veut dire gushobora en français ?", "assistant": "Gushobora veut dire « pouvoir »."}
+{"user": "Comment dit-on « aller » en kirundi ?", "assistant": "On dit kugenda."}
+{"user": "Comment dit-on « partir » en kirundi ?", "assistant": "On dit kugenda."}
+{"user": "Que veut dire kugenda en français ?", "assistant": "Kugenda veut dire « aller / partir »."}
+{"user": "Comment dit-on « voir » en kirundi ?", "assistant": "On dit kubona."}
+{"user": "Que veut dire kubona en français ?", "assistant": "Kubona veut dire « voir »."}
+{"user": "Comment dit-on « vouloir » en kirundi ?", "assistant": "On dit kugomba."}
+{"user": "Que veut dire kugomba en français ?", "assistant": "Kugomba veut dire « vouloir »."}
+{"user": "Comment dit-on « venir » en kirundi ?", "assistant": "On dit kuza."}
+{"user": "Que veut dire kuza en français ?", "assistant": "Kuza veut dire « venir »."}
+{"user": "Comment dit-on « devoir » en kirundi ?", "assistant": "On dit gutegerezwa."}
+{"user": "Que veut dire gutegerezwa en français ?", "assistant": "Gutegerezwa veut dire « devoir »."}
+{"user": "Comment dit-on « prendre » en kirundi ?", "assistant": "On dit gufata."}
+{"user": "Comment dit-on « tenir » en kirundi ?", "assistant": "On dit gufata."}
+{"user": "Comment dit-on « saisir » en kirundi ?", "assistant": "On dit gufata."}
+{"user": "Comment dit-on « attraper » en kirundi ?", "assistant": "On dit gufata."}
+{"user": "Que veut dire gufata en français ?", "assistant": "Gufata veut dire « prendre / tenir / saisir / attraper »."}
+{"user": "Comment dit-on « trouver » en kirundi ?", "assistant": "On dit kuronka."}
+{"user": "Comment dit-on « obtenir » en kirundi ?", "assistant": "On dit kuronka."}
+{"user": "Que veut dire kuronka en français ?", "assistant": "Kuronka veut dire « trouver / obtenir »."}
+{"user": "Comment dit-on « donner » en kirundi ?", "assistant": "On dit gutanga."}
+{"user": "Comment dit-on « offrir » en kirundi ?", "assistant": "On dit gutanga."}
+{"user": "Que veut dire gutanga en français ?", "assistant": "Gutanga veut dire « donner / offrir »."}
+{"user": "Comment dit-on « donner » en kirundi ?", "assistant": "On dit guha."}
+{"user": "Que veut dire guha en français ?", "assistant": "Guha veut dire « donner »."}
+{"user": "Comment dit-on « mesurer » en kirundi ?", "assistant": "On dit gupima."}
+{"user": "Comment dit-on « examiner » en kirundi ?", "assistant": "On dit gupima."}
+{"user": "Comment dit-on « peser » en kirundi ?", "assistant": "On dit gupima."}
+{"user": "Que veut dire gupima en français ?", "assistant": "Gupima veut dire « mesurer / examiner / peser »."}
+{"user": "Comment dit-on « parler » en kirundi ?", "assistant": "On dit kuvuga."}
+{"user": "Comment dit-on « dire » en kirundi ?", "assistant": "On dit kuvuga."}
+{"user": "Comment dit-on « raconter » en kirundi ?", "assistant": "On dit kuvuga."}
+{"user": "Comment dit-on « prononcer » en kirundi ?", "assistant": "On dit kuvuga."}
+{"user": "Que veut dire kuvuga en français ?", "assistant": "Kuvuga veut dire « parler / dire / raconter / prononcer »."}
+{"user": "Comment dit-on « mettre » en kirundi ?", "assistant": "On dit gushira."}
+{"user": "Comment dit-on « placer » en kirundi ?", "assistant": "On dit gushira."}
+{"user": "Comment dit-on « poser » en kirundi ?", "assistant": "On dit gushira."}
+{"user": "Que veut dire gushira en français ?", "assistant": "Gushira veut dire « mettre / placer / poser »."}
+{"user": "Comment dit-on « savoir » en kirundi ?", "assistant": "On dit kumenya."}
+{"user": "Comment dit-on « connaître » en kirundi ?", "assistant": "On dit kumenya."}
+{"user": "Comment dit-on « reconnaître » en kirundi ?", "assistant": "On dit kumenya."}
+{"user": "Comment dit-on « réussir » en kirundi ?", "assistant": "On dit kumenya."}
+{"user": "Que veut dire kumenya en français ?", "assistant": "Kumenya veut dire « savoir / connaître / reconnaître / réussir »."}
+{"user": "Comment dit-on « passer » en kirundi ?", "assistant": "On dit kurengana."}
+{"user": "Que veut dire kurengana en français ?", "assistant": "Kurengana veut dire « passer »."}
+{"user": "Comment dit-on « regarder » en kirundi ?", "assistant": "On dit kuraba."}
+{"user": "Que veut dire kuraba en français ?", "assistant": "Kuraba veut dire « regarder »."}
+{"user": "Comment dit-on « aimer » en kirundi ?", "assistant": "On dit gukunda."}
+{"user": "Que veut dire gukunda en français ?", "assistant": "Gukunda veut dire « aimer »."}
+{"user": "Comment dit-on « croire » en kirundi ?", "assistant": "On dit kwizera."}
+{"user": "Comment dit-on « espérer » en kirundi ?", "assistant": "On dit kwizera."}
+{"user": "Que veut dire kwizera en français ?", "assistant": "Kwizera veut dire « croire / espérer »."}
+{"user": "Comment dit-on « demander » en kirundi ?", "assistant": "On dit gusaba."}
+{"user": "Que veut dire gusaba en français ?", "assistant": "Gusaba veut dire « demander »."}
+{"user": "Comment dit-on « demander » en kirundi ?", "assistant": "On dit kubaza."}
+{"user": "Que veut dire kubaza en français ?", "assistant": "Kubaza veut dire « demander »."}
+{"user": "Comment dit-on « rester » en kirundi ?", "assistant": "On dit gusigara."}
+{"user": "Comment dit-on « demeurer » en kirundi ?", "assistant": "On dit gusigara."}
+{"user": "Que veut dire gusigara en français ?", "assistant": "Gusigara veut dire « rester / demeurer »."}
+{"user": "Comment dit-on « répondre » en kirundi ?", "assistant": "On dit kwishura."}
+{"user": "Que veut dire kwishura en français ?", "assistant": "Kwishura veut dire « répondre »."}
+{"user": "Comment dit-on « entendre » en kirundi ?", "assistant": "On dit kwumva."}
+{"user": "Comment dit-on « sentir » en kirundi ?", "assistant": "On dit kwumva."}
+{"user": "Que veut dire kwumva en français ?", "assistant": "Kwumva veut dire « entendre / sentir »."}
+{"user": "Comment dit-on « penser » en kirundi ?", "assistant": "On dit kwiyumvira."}
+{"user": "Comment dit-on « imaginer » en kirundi ?", "assistant": "On dit kwiyumvira."}
+{"user": "Comment dit-on « réfléchir » en kirundi ?", "assistant": "On dit kwiyumvira."}
+{"user": "Que veut dire kwiyumvira en français ?", "assistant": "Kwiyumvira veut dire « penser / imaginer / réfléchir »."}
+{"user": "Comment dit-on « arriver » en kirundi ?", "assistant": "On dit gushika."}
+{"user": "Que veut dire gushika en français ?", "assistant": "Gushika veut dire « arriver »."}
+{"user": "Comment dit-on « mourir » en kirundi ?", "assistant": "On dit gupfa."}
+{"user": "Que veut dire gupfa en français ?", "assistant": "Gupfa veut dire « mourir »."}
+{"user": "Comment dit-on « devenir » en kirundi ?", "assistant": "On dit gucika."}
+{"user": "Que veut dire gucika en français ?", "assistant": "Gucika veut dire « devenir »."}
+{"user": "Comment dit-on « sembler » en kirundi ?", "assistant": "On dit kumera."}
+{"user": "Que veut dire kumera en français ?", "assistant": "Kumera veut dire « sembler »."}
+{"user": "Comment dit-on « tenir » en kirundi ?", "assistant": "On dit kugumya."}
+{"user": "Comment dit-on « saisir » en kirundi ?", "assistant": "On dit kugumya."}
+{"user": "Comment dit-on « garder » en kirundi ?", "assistant": "On dit kugumya."}
+{"user": "Comment dit-on « maintenir » en kirundi ?", "assistant": "On dit kugumya."}
+{"user": "Comment dit-on « retenir » en kirundi ?", "assistant": "On dit kugumya."}
+{"user": "Que veut dire kugumya en français ?", "assistant": "Kugumya veut dire « tenir / saisir / garder / maintenir / retenir »."}
+{"user": "Comment dit-on « comprendre » en kirundi ?", "assistant": "On dit gutahura."}
+{"user": "Que veut dire gutahura en français ?", "assistant": "Gutahura veut dire « comprendre »."}
+{"user": "Comment dit-on « rendre » en kirundi ?", "assistant": "On dit kugarukana."}
+{"user": "Comment dit-on « remettre » en kirundi ?", "assistant": "On dit kugarukana."}
+{"user": "Comment dit-on « ramener » en kirundi ?", "assistant": "On dit kugarukana."}
+{"user": "Comment dit-on « rapporter » en kirundi ?", "assistant": "On dit kugarukana."}
+{"user": "Que veut dire kugarukana en français ?", "assistant": "Kugarukana veut dire « rendre / remettre / ramener / rapporter »."}
+{"user": "Comment dit-on « retourner » en kirundi ?", "assistant": "On dit kugaruka."}
+{"user": "Comment dit-on « revenir » en kirundi ?", "assistant": "On dit kugaruka."}
+{"user": "Que veut dire kugaruka en français ?", "assistant": "Kugaruka veut dire « retourner / revenir »."}
+{"user": "Comment dit-on « attendre » en kirundi ?", "assistant": "On dit kurindira."}
+{"user": "Que veut dire kurindira en français ?", "assistant": "Kurindira veut dire « attendre »."}
+{"user": "Comment dit-on « sortir » en kirundi ?", "assistant": "On dit gusohoka."}
+{"user": "Que veut dire gusohoka en français ?", "assistant": "Gusohoka veut dire « sortir »."}
+{"user": "Comment dit-on « vivre » en kirundi ?", "assistant": "On dit kubaho."}
+{"user": "Comment dit-on « exister » en kirundi ?", "assistant": "On dit kubaho."}
+{"user": "Que veut dire kubaho en français ?", "assistant": "Kubaho veut dire « vivre / exister »."}
+{"user": "Comment dit-on « entrer » en kirundi ?", "assistant": "On dit kwinjira."}
+{"user": "Comment dit-on « pénétrer » en kirundi ?", "assistant": "On dit kwinjira."}
+{"user": "Que veut dire kwinjira en français ?", "assistant": "Kwinjira veut dire « entrer / pénétrer »."}
+{"user": "Comment dit-on « contrôler » en kirundi ?", "assistant": "On dit kugenzura."}
+{"user": "Que veut dire kugenzura en français ?", "assistant": "Kugenzura veut dire « contrôler »."}
+{"user": "Comment dit-on « porter » en kirundi ?", "assistant": "On dit kwambara."}
+{"user": "Que veut dire kwambara en français ?", "assistant": "Kwambara veut dire « porter »."}
+{"user": "Comment dit-on « chercher » en kirundi ?", "assistant": "On dit kurondera."}
+{"user": "Que veut dire kurondera en français ?", "assistant": "Kurondera veut dire « chercher »."}
+{"user": "Comment dit-on « appeler » en kirundi ?", "assistant": "On dit guhamagara."}
+{"user": "Que veut dire guhamagara en français ?", "assistant": "Guhamagara veut dire « appeler »."}
+{"user": "Comment dit-on « jeter » en kirundi ?", "assistant": "On dit kujugunya."}
+{"user": "Que veut dire kujugunya en français ?", "assistant": "Kujugunya veut dire « jeter »."}
+{"user": "Comment dit-on « jeter » en kirundi ?", "assistant": "On dit guta."}
+{"user": "Que veut dire guta en français ?", "assistant": "Guta veut dire « jeter »."}
+{"user": "Comment dit-on « suivre » en kirundi ?", "assistant": "On dit gukurikira."}
+{"user": "Que veut dire gukurikira en français ?", "assistant": "Gukurikira veut dire « suivre »."}
+{"user": "Comment dit-on « écrire » en kirundi ?", "assistant": "On dit kwandika."}
+{"user": "Que veut dire kwandika en français ?", "assistant": "Kwandika veut dire « écrire »."}
+{"user": "Comment dit-on « montrer » en kirundi ?", "assistant": "On dit kwerekana."}
+{"user": "Comment dit-on « indiquer » en kirundi ?", "assistant": "On dit kwerekana."}
+{"user": "Que veut dire kwerekana en français ?", "assistant": "Kwerekana veut dire « montrer / indiquer »."}
+{"user": "Comment dit-on « tomber » en kirundi ?", "assistant": "On dit kurwa."}
+{"user": "Que veut dire kurwa en français ?", "assistant": "Kurwa veut dire « tomber »."}
+{"user": "Comment dit-on « ouvrir » en kirundi ?", "assistant": "On dit kugurura."}
+{"user": "Que veut dire kugurura en français ?", "assistant": "Kugurura veut dire « ouvrir »."}
+{"user": "Comment dit-on « arrêter » en kirundi ?", "assistant": "On dit guhagarika."}
+{"user": "Que veut dire guhagarika en français ?", "assistant": "Guhagarika veut dire « arrêter »."}
+{"user": "Comment dit-on « perdre » en kirundi ?", "assistant": "On dit gutakaza."}
+{"user": "Que veut dire gutakaza en français ?", "assistant": "Gutakaza veut dire « perdre »."}
+{"user": "Comment dit-on « perdre » en kirundi ?", "assistant": "On dit guhomba."}
+{"user": "Que veut dire guhomba en français ?", "assistant": "Guhomba veut dire « perdre »."}
+{"user": "Comment dit-on « commencer » en kirundi ?", "assistant": "On dit gutangura."}
+{"user": "Que veut dire gutangura en français ?", "assistant": "Gutangura veut dire « commencer »."}
+{"user": "Comment dit-on « paraître » en kirundi ?", "assistant": "On dit kuboneka."}
+{"user": "Comment dit-on « apparaître » en kirundi ?", "assistant": "On dit kuboneka."}
+{"user": "Que veut dire kuboneka en français ?", "assistant": "Kuboneka veut dire « paraître / apparaître »."}
+{"user": "Comment dit-on « marcher » en kirundi ?", "assistant": "On dit gutambuka."}
+{"user": "Que veut dire gutambuka en français ?", "assistant": "Gutambuka veut dire « marcher »."}
+{"user": "Comment dit-on « marcher » en kirundi ?", "assistant": "On dit kugendagenda."}
+{"user": "Que veut dire kugendagenda en français ?", "assistant": "Kugendagenda veut dire « marcher »."}
+{"user": "Comment dit-on « élever » en kirundi ?", "assistant": "On dit kurera."}
+{"user": "Comment dit-on « lever » en kirundi ?", "assistant": "On dit kurera."}
+{"user": "Que veut dire kurera en français ?", "assistant": "Kurera veut dire « élever / lever »."}
+{"user": "Comment dit-on « élever » en kirundi ?", "assistant": "On dit kuzura."}
+{"user": "Comment dit-on « lever » en kirundi ?", "assistant": "On dit kuzura."}
+{"user": "Que veut dire kuzura en français ?", "assistant": "Kuzura veut dire « élever / lever »."}
+{"user": "Comment dit-on « élever » en kirundi ?", "assistant": "On dit kuduza."}
+{"user": "Comment dit-on « lever » en kirundi ?", "assistant": "On dit kuduza."}
+{"user": "Que veut dire kuduza en français ?", "assistant": "Kuduza veut dire « élever / lever »."}
+{"user": "Comment dit-on « permettre » en kirundi ?", "assistant": "On dit kurekura."}
+{"user": "Comment dit-on « déposer » en kirundi ?", "assistant": "On dit kurekura."}
+{"user": "Que veut dire kurekura en français ?", "assistant": "Kurekura veut dire « permettre / déposer »."}
+{"user": "Comment dit-on « s'asseoir » en kirundi ?", "assistant": "On dit kwicara."}
+{"user": "Que veut dire kwicara en français ?", "assistant": "Kwicara veut dire « s'asseoir »."}
+{"user": "Comment dit-on « écouter » en kirundi ?", "assistant": "On dit kwumviriza."}
+{"user": "Que veut dire kwumviriza en français ?", "assistant": "Kwumviriza veut dire « écouter »."}
+{"user": "Comment dit-on « monter » en kirundi ?", "assistant": "On dit kuduga."}
+{"user": "Que veut dire kuduga en français ?", "assistant": "Kuduga veut dire « monter »."}
+{"user": "Comment dit-on « apercevoir » en kirundi ?", "assistant": "On dit kurabukwa."}
+{"user": "Comment dit-on « remarquer » en kirundi ?", "assistant": "On dit kurabukwa."}
+{"user": "Que veut dire kurabukwa en français ?", "assistant": "Kurabukwa veut dire « apercevoir / remarquer »."}
+{"user": "Comment dit-on « recevoir » en kirundi ?", "assistant": "On dit kwakira."}
+{"user": "Que veut dire kwakira en français ?", "assistant": "Kwakira veut dire « recevoir »."}
+{"user": "Comment dit-on « servir » en kirundi ?", "assistant": "On dit gukorera."}
+{"user": "Que veut dire gukorera en français ?", "assistant": "Gukorera veut dire « servir »."}
+{"user": "Comment dit-on « finir » en kirundi ?", "assistant": "On dit guheraheza."}
+{"user": "Que veut dire guheraheza en français ?", "assistant": "Guheraheza veut dire « finir »."}
+{"user": "Comment dit-on « finir » en kirundi ?", "assistant": "On dit gusozera."}
+{"user": "Que veut dire gusozera en français ?", "assistant": "Gusozera veut dire « finir »."}
+{"user": "Comment dit-on « rire » en kirundi ?", "assistant": "On dit gutwenga."}
+{"user": "Que veut dire gutwenga en français ?", "assistant": "Gutwenga veut dire « rire »."}
+{"user": "Comment dit-on « jouer » en kirundi ?", "assistant": "On dit gukina."}
+{"user": "Que veut dire gukina en français ?", "assistant": "Gukina veut dire « jouer »."}
+{"user": "Comment dit-on « tourner » en kirundi ?", "assistant": "On dit guhindukira."}
+{"user": "Que veut dire guhindukira en français ?", "assistant": "Guhindukira veut dire « tourner »."}
+{"user": "Comment dit-on « garder » en kirundi ?", "assistant": "On dit gucunga."}
+{"user": "Que veut dire gucunga en français ?", "assistant": "Gucunga veut dire « garder »."}
+{"user": "Comment dit-on « quitter » en kirundi ?", "assistant": "On dit kuvaho."}
+{"user": "Que veut dire kuvaho en français ?", "assistant": "Kuvaho veut dire « quitter »."}
+{"user": "Comment dit-on « manger » en kirundi ?", "assistant": "On dit gufungura."}
+{"user": "Que veut dire gufungura en français ?", "assistant": "Gufungura veut dire « manger »."}
+{"user": "Comment dit-on « courir » en kirundi ?", "assistant": "On dit kwiruka."}
+{"user": "Que veut dire kwiruka en français ?", "assistant": "Kwiruka veut dire « courir »."}
+{"user": "Comment dit-on « continuer » en kirundi ?", "assistant": "On dit kubandanya."}
+{"user": "Que veut dire kubandanya en français ?", "assistant": "Kubandanya veut dire « continuer »."}
+{"user": "Comment dit-on « oublier » en kirundi ?", "assistant": "On dit kwibagira."}
+{"user": "Que veut dire kwibagira en français ?", "assistant": "Kwibagira veut dire « oublier »."}
+{"user": "Comment dit-on « descendre » en kirundi ?", "assistant": "On dit kumanuka."}
+{"user": "Que veut dire kumanuka en français ?", "assistant": "Kumanuka veut dire « descendre »."}
+{"user": "Comment dit-on « descendre » en kirundi ?", "assistant": "On dit kururuka."}
+{"user": "Que veut dire kururuka en français ?", "assistant": "Kururuka veut dire « descendre »."}
+{"user": "Comment dit-on « cacher » en kirundi ?", "assistant": "On dit kunyegeza."}
+{"user": "Que veut dire kunyegeza en français ?", "assistant": "Kunyegeza veut dire « cacher »."}
+{"user": "Comment dit-on « se cacher » en kirundi ?", "assistant": "On dit kwinyegeza."}
+{"user": "Que veut dire kwinyegeza en français ?", "assistant": "Kwinyegeza veut dire « se cacher »."}
+{"user": "Comment dit-on « tirer » en kirundi ?", "assistant": "On dit gukwega."}
+{"user": "Comment dit-on « attirer » en kirundi ?", "assistant": "On dit gukwega."}
+{"user": "Que veut dire gukwega en français ?", "assistant": "Gukwega veut dire « tirer / attirer »."}
+{"user": "Comment dit-on « ajouter » en kirundi ?", "assistant": "On dit kwongerako."}
+{"user": "Que veut dire kwongerako en français ?", "assistant": "Kwongerako veut dire « ajouter »."}
+{"user": "Comment dit-on « apprendre » en kirundi ?", "assistant": "On dit kwiga."}
+{"user": "Comment dit-on « étudier » en kirundi ?", "assistant": "On dit kwiga."}
+{"user": "Que veut dire kwiga en français ?", "assistant": "Kwiga veut dire « apprendre / étudier »."}
+{"user": "Comment dit-on « tuer » en kirundi ?", "assistant": "On dit kwica."}
+{"user": "Que veut dire kwica en français ?", "assistant": "Kwica veut dire « tuer »."}
+{"user": "Comment dit-on « presser » en kirundi ?", "assistant": "On dit gufyonda."}
+{"user": "Comment dit-on « appuyer » en kirundi ?", "assistant": "On dit gufyonda."}
+{"user": "Que veut dire gufyonda en français ?", "assistant": "Gufyonda veut dire « presser / appuyer »."}
+{"user": "Comment dit-on « confier » en kirundi ?", "assistant": "On dit kuzeza."}
+{"user": "Que veut dire kuzeza en français ?", "assistant": "Kuzeza veut dire « confier »."}
+{"user": "Comment dit-on « confier » en kirundi ?", "assistant": "On dit gucungisha."}
+{"user": "Que veut dire gucungisha en français ?", "assistant": "Gucungisha veut dire « confier »."}
+{"user": "Comment dit-on « être étendu » en kirundi ?", "assistant": "On dit kurambarara."}
+{"user": "Que veut dire kurambarara en français ?", "assistant": "Kurambarara veut dire « être étendu »."}
+{"user": "Comment dit-on « être couché » en kirundi ?", "assistant": "On dit kuryama."}
+{"user": "Comment dit-on « dormir » en kirundi ?", "assistant": "On dit kuryama."}
+{"user": "Que veut dire kuryama en français ?", "assistant": "Kuryama veut dire « être couché / dormir »."}
+{"user": "Comment dit-on « mentir » en kirundi ?", "assistant": "On dit kubesha."}
+{"user": "Que veut dire kubesha en français ?", "assistant": "Kubesha veut dire « mentir »."}
+{"user": "Comment dit-on « rencontrer » en kirundi ?", "assistant": "On dit guhura."}
+{"user": "Que veut dire guhura en français ?", "assistant": "Guhura veut dire « rencontrer »."}
+{"user": "Comment dit-on « envoyer » en kirundi ?", "assistant": "On dit kurungika."}
+{"user": "Que veut dire kurungika en français ?", "assistant": "Kurungika veut dire « envoyer »."}
+{"user": "Comment dit-on « pousser » en kirundi ?", "assistant": "On dit gusunika."}
+{"user": "Que veut dire gusunika en français ?", "assistant": "Gusunika veut dire « pousser »."}
+{"user": "Comment dit-on « lire » en kirundi ?", "assistant": "On dit gusoma."}
+{"user": "Comment dit-on « embrasser » en kirundi ?", "assistant": "On dit gusoma."}
+{"user": "Que veut dire gusoma en français ?", "assistant": "Gusoma veut dire « lire / embrasser »."}
+{"user": "Comment dit-on « changer » en kirundi ?", "assistant": "On dit guhindura."}
+{"user": "Que veut dire guhindura en français ?", "assistant": "Guhindura veut dire « changer »."}
+{"user": "Comment dit-on « changer » en kirundi ?", "assistant": "On dit guhinduka."}
+{"user": "Que veut dire guhinduka en français ?", "assistant": "Guhinduka veut dire « changer »."}
+{"user": "Comment dit-on « essayer » en kirundi ?", "assistant": "On dit kugerageza."}
+{"user": "Comment dit-on « tenter » en kirundi ?", "assistant": "On dit kugerageza."}
+{"user": "Que veut dire kugerageza en français ?", "assistant": "Kugerageza veut dire « essayer / tenter »."}
+{"user": "Comment dit-on « compter » en kirundi ?", "assistant": "On dit guharura."}
+{"user": "Que veut dire guharura en français ?", "assistant": "Guharura veut dire « compter »."}
+{"user": "Comment dit-on « occuper » en kirundi ?", "assistant": "On dit gufatirwa."}
+{"user": "Que veut dire gufatirwa en français ?", "assistant": "Gufatirwa veut dire « occuper »."}
+{"user": "Comment dit-on « expliquer » en kirundi ?", "assistant": "On dit gusigura."}
+{"user": "Que veut dire gusigura en français ?", "assistant": "Gusigura veut dire « expliquer »."}
+{"user": "Comment dit-on « frapper » en kirundi ?", "assistant": "On dit gukubita."}
+{"user": "Comment dit-on « battre » en kirundi ?", "assistant": "On dit gukubita."}
+{"user": "Que veut dire gukubita en français ?", "assistant": "Gukubita veut dire « frapper / battre »."}
+{"user": "Comment dit-on « pleurer » en kirundi ?", "assistant": "On dit kurira."}
+{"user": "Que veut dire kurira en français ?", "assistant": "Kurira veut dire « pleurer »."}
+{"user": "Comment dit-on « pleurer » en kirundi ?", "assistant": "On dit kuboroga."}
+{"user": "Que veut dire kuboroga en français ?", "assistant": "Kuboroga veut dire « pleurer »."}
+{"user": "Comment dit-on « répéter » en kirundi ?", "assistant": "On dit gusubiramwo."}
+{"user": "Que veut dire gusubiramwo en français ?", "assistant": "Gusubiramwo veut dire « répéter »."}
+{"user": "Comment dit-on « payer » en kirundi ?", "assistant": "On dit kuriha."}
+{"user": "Que veut dire kuriha en français ?", "assistant": "Kuriha veut dire « payer »."}
+{"user": "Comment dit-on « apporter » en kirundi ?", "assistant": "On dit kuzana."}
+{"user": "Comment dit-on « amener » en kirundi ?", "assistant": "On dit kuzana."}
+{"user": "Que veut dire kuzana en français ?", "assistant": "Kuzana veut dire « apporter / amener »."}
+{"user": "Comment dit-on « boire » en kirundi ?", "assistant": "On dit kunywa."}
+{"user": "Que veut dire kunywa en français ?", "assistant": "Kunywa veut dire « boire »."}
+{"user": "Comment dit-on « sourire » en kirundi ?", "assistant": "On dit kumwenyura."}
+{"user": "Que veut dire kumwenyura en français ?", "assistant": "Kumwenyura veut dire « sourire »."}
+{"user": "Comment dit-on « prêter » en kirundi ?", "assistant": "On dit gutira."}
+{"user": "Que veut dire gutira en français ?", "assistant": "Gutira veut dire « prêter »."}
+{"user": "Comment dit-on « causer » en kirundi ?", "assistant": "On dit gutuma."}
+{"user": "Que veut dire gutuma en français ?", "assistant": "Gutuma veut dire « causer »."}
+{"user": "Comment dit-on « causer » en kirundi ?", "assistant": "On dit gutera."}
+{"user": "Que veut dire gutera en français ?", "assistant": "Gutera veut dire « causer »."}
+{"user": "Comment dit-on « raconter » en kirundi ?", "assistant": "On dit kubwira."}
+{"user": "Comment dit-on « s'adresser à » en kirundi ?", "assistant": "On dit kubwira."}
+{"user": "Que veut dire kubwira en français ?", "assistant": "Kubwira veut dire « raconter / s'adresser à »."}
+{"user": "Comment dit-on « serrer » en kirundi ?", "assistant": "On dit kwegeranya."}
+{"user": "Que veut dire kwegeranya en français ?", "assistant": "Kwegeranya veut dire « serrer »."}
+{"user": "Comment dit-on « serrer » en kirundi ?", "assistant": "On dit kwiyegeranya."}
+{"user": "Que veut dire kwiyegeranya en français ?", "assistant": "Kwiyegeranya veut dire « serrer »."}
+{"user": "Comment dit-on « rater » en kirundi ?", "assistant": "On dit kubura."}
+{"user": "Comment dit-on « manquer » en kirundi ?", "assistant": "On dit kubura."}
+{"user": "Que veut dire kubura en français ?", "assistant": "Kubura veut dire « rater / manquer »."}
+{"user": "Comment dit-on « manquer » en kirundi ?", "assistant": "On dit gukumbura."}
+{"user": "Que veut dire gukumbura en français ?", "assistant": "Gukumbura veut dire « manquer »."}
+{"user": "Comment dit-on « nommer » en kirundi ?", "assistant": "On dit kwita."}
+{"user": "Que veut dire kwita en français ?", "assistant": "Kwita veut dire « nommer »."}
+{"user": "Comment dit-on « goûter » en kirundi ?", "assistant": "On dit guhonja."}
+{"user": "Que veut dire guhonja en français ?", "assistant": "Guhonja veut dire « goûter »."}
+{"user": "Comment dit-on « conduire » en kirundi ?", "assistant": "On dit kunyonga."}
+{"user": "Que veut dire kunyonga en français ?", "assistant": "Kunyonga veut dire « conduire »."}
+{"user": "Comment dit-on « cesser » en kirundi ?", "assistant": "On dit guhagaritsa."}
+{"user": "Que veut dire guhagaritsa en français ?", "assistant": "Guhagaritsa veut dire « cesser »."}
+{"user": "Comment dit-on « demeurer » en kirundi ?", "assistant": "On dit kugumaho."}
+{"user": "Que veut dire kugumaho en français ?", "assistant": "Kugumaho veut dire « demeurer »."}
+{"user": "Comment dit-on « disparaître » en kirundi ?", "assistant": "On dit kuzimangana."}
+{"user": "Que veut dire kuzimangana en français ?", "assistant": "Kuzimangana veut dire « disparaître »."}
+{"user": "Comment dit-on « toucher » en kirundi ?", "assistant": "On dit gukorako."}
+{"user": "Que veut dire gukorako en français ?", "assistant": "Gukorako veut dire « toucher »."}
+{"user": "Comment dit-on « souffrir » en kirundi ?", "assistant": "On dit kubabara."}
+{"user": "Que veut dire kubabara en français ?", "assistant": "Kubabara veut dire « souffrir »."}
+{"user": "Comment dit-on « souffrir » en kirundi ?", "assistant": "On dit kubabazwa."}
+{"user": "Que veut dire kubabazwa en français ?", "assistant": "Kubabazwa veut dire « souffrir »."}
+{"user": "Comment dit-on « fermer » en kirundi ?", "assistant": "On dit kugara."}
+{"user": "Que veut dire kugara en français ?", "assistant": "Kugara veut dire « fermer »."}
+{"user": "Comment dit-on « accepter » en kirundi ?", "assistant": "On dit kwemera."}
+{"user": "Comment dit-on « affirmer » en kirundi ?", "assistant": "On dit kwemera."}
+{"user": "Que veut dire kwemera en français ?", "assistant": "Kwemera veut dire « accepter / affirmer »."}
+{"user": "Comment dit-on « naître » en kirundi ?", "assistant": "On dit kuvuka."}
+{"user": "Que veut dire kuvuka en français ?", "assistant": "Kuvuka veut dire « naître »."}
+{"user": "Comment dit-on « sauver » en kirundi ?", "assistant": "On dit gukiza."}
+{"user": "Comment dit-on « guérir » en kirundi ?", "assistant": "On dit gukiza."}
+{"user": "Que veut dire gukiza en français ?", "assistant": "Gukiza veut dire « sauver / guérir »."}
+{"user": "Comment dit-on « avancer » en kirundi ?", "assistant": "On dit kwunguruza."}
+{"user": "Que veut dire kwunguruza en français ?", "assistant": "Kwunguruza veut dire « avancer »."}
+{"user": "Comment dit-on « traverser » en kirundi ?", "assistant": "On dit kujabuka."}
+{"user": "Que veut dire kujabuka en français ?", "assistant": "Kujabuka veut dire « traverser »."}
+{"user": "Comment dit-on « se souvenir » en kirundi ?", "assistant": "On dit kwibuka."}
+{"user": "Que veut dire kwibuka en français ?", "assistant": "Kwibuka veut dire « se souvenir »."}
+{"user": "Comment dit-on « couvrir » en kirundi ?", "assistant": "On dit gufuka."}
+{"user": "Que veut dire gufuka en français ?", "assistant": "Gufuka veut dire « couvrir »."}
+{"user": "Comment dit-on « gagner » en kirundi ?", "assistant": "On dit gutsinda."}
+{"user": "Que veut dire gutsinda en français ?", "assistant": "Gutsinda veut dire « gagner »."}
+{"user": "Comment dit-on « gagner » en kirundi ?", "assistant": "On dit gutsindira."}
+{"user": "Que veut dire gutsindira en français ?", "assistant": "Gutsindira veut dire « gagner »."}
+{"user": "Comment dit-on « plaire » en kirundi ?", "assistant": "On dit kunezereza."}
+{"user": "Que veut dire kunezereza en français ?", "assistant": "Kunezereza veut dire « plaire »."}
+{"user": "Comment dit-on « oser » en kirundi ?", "assistant": "On dit gutinyuka."}
+{"user": "Que veut dire gutinyuka en français ?", "assistant": "Gutinyuka veut dire « oser »."}
+{"user": "Comment dit-on « empêcher » en kirundi ?", "assistant": "On dit kuzibira."}
+{"user": "Comment dit-on « prévenir » en kirundi ?", "assistant": "On dit kuzibira."}
+{"user": "Que veut dire kuzibira en français ?", "assistant": "Kuzibira veut dire « empêcher / prévenir »."}
+{"user": "Comment dit-on « empêcher » en kirundi ?", "assistant": "On dit gukinga."}
+{"user": "Comment dit-on « prévenir » en kirundi ?", "assistant": "On dit gukinga."}
+{"user": "Que veut dire gukinga en français ?", "assistant": "Gukinga veut dire « empêcher / prévenir »."}
+{"user": "Comment dit-on « refuser » en kirundi ?", "assistant": "On dit kwanka."}
+{"user": "Comment dit-on « détester » en kirundi ?", "assistant": "On dit kwanka."}
+{"user": "Que veut dire kwanka en français ?", "assistant": "Kwanka veut dire « refuser / détester »."}
+{"user": "Comment dit-on « décider » en kirundi ?", "assistant": "On dit kwanzura."}
+{"user": "Que veut dire kwanzura en français ?", "assistant": "Kwanzura veut dire « décider »."}
+{"user": "Comment dit-on « produire » en kirundi ?", "assistant": "On dit guhingura."}
+{"user": "Que veut dire guhingura en français ?", "assistant": "Guhingura veut dire « produire »."}
+{"user": "Comment dit-on « charger » en kirundi ?", "assistant": "On dit gupakira."}
+{"user": "Que veut dire gupakira en français ?", "assistant": "Gupakira veut dire « charger »."}
+{"user": "Comment dit-on « mêler » en kirundi ?", "assistant": "On dit kuvanga."}
+{"user": "Que veut dire kuvanga en français ?", "assistant": "Kuvanga veut dire « mêler »."}
+{"user": "Comment dit-on « chanter » en kirundi ?", "assistant": "On dit kuririmba."}
+{"user": "Que veut dire kuririmba en français ?", "assistant": "Kuririmba veut dire « chanter »."}
+{"user": "Comment dit-on « s'approcher » en kirundi ?", "assistant": "On dit kwegera."}
+{"user": "Comment dit-on « approcher » en kirundi ?", "assistant": "On dit kwegera."}
+{"user": "Que veut dire kwegera en français ?", "assistant": "Kwegera veut dire « s'approcher / approcher »."}
+{"user": "Comment dit-on « s'approcher » en kirundi ?", "assistant": "On dit kwegereza."}
+{"user": "Comment dit-on « approcher » en kirundi ?", "assistant": "On dit kwegereza."}
+{"user": "Que veut dire kwegereza en français ?", "assistant": "Kwegereza veut dire « s'approcher / approcher »."}
+{"user": "Comment dit-on « prier » en kirundi ?", "assistant": "On dit gusenga."}
+{"user": "Que veut dire gusenga en français ?", "assistant": "Gusenga veut dire « prier »."}
+{"user": "Comment dit-on « échapper » en kirundi ?", "assistant": "On dit gutoroka."}
+{"user": "Que veut dire gutoroka en français ?", "assistant": "Gutoroka veut dire « échapper »."}
+{"user": "Comment dit-on « glisser » en kirundi ?", "assistant": "On dit kunyerera."}
+{"user": "Que veut dire kunyerera en français ?", "assistant": "Kunyerera veut dire « glisser »."}
+{"user": "Comment dit-on « briller » en kirundi ?", "assistant": "On dit kwaka."}
+{"user": "Comment dit-on « brûler » en kirundi ?", "assistant": "On dit kwaka."}
+{"user": "Que veut dire kwaka en français ?", "assistant": "Kwaka veut dire « briller / brûler »."}
+{"user": "Comment dit-on « brûler » en kirundi ?", "assistant": "On dit guturira."}
+{"user": "Que veut dire guturira en français ?", "assistant": "Guturira veut dire « brûler »."}
+{"user": "Comment dit-on « atteindre » en kirundi ?", "assistant": "On dit gushikira."}
+{"user": "Que veut dire gushikira en français ?", "assistant": "Gushikira veut dire « atteindre »."}
+{"user": "Comment dit-on « annoncer » en kirundi ?", "assistant": "On dit kumenyekanisha."}
+{"user": "Que veut dire kumenyekanisha en français ?", "assistant": "Kumenyekanisha veut dire « annoncer »."}
+{"user": "Comment dit-on « attirer » en kirundi ?", "assistant": "On dit kwikwegerako."}
+{"user": "Que veut dire kwikwegerako en français ?", "assistant": "Kwikwegerako veut dire « attirer »."}
+{"user": "Comment dit-on « acheter » en kirundi ?", "assistant": "On dit kugura."}
+{"user": "Que veut dire kugura en français ?", "assistant": "Kugura veut dire « acheter »."}
+{"user": "Comment dit-on « diriger » en kirundi ?", "assistant": "On dit kurongora."}
+{"user": "Comment dit-on « mener » en kirundi ?", "assistant": "On dit kurongora."}
+{"user": "Comment dit-on « se marier » en kirundi ?", "assistant": "On dit kurongora."}
+{"user": "Que veut dire kurongora en français ?", "assistant": "Kurongora veut dire « diriger / mener / se marier »."}
+{"user": "Comment dit-on « diriger » en kirundi ?", "assistant": "On dit kuyobora."}
+{"user": "Que veut dire kuyobora en français ?", "assistant": "Kuyobora veut dire « diriger »."}
+{"user": "Comment dit-on « mener » en kirundi ?", "assistant": "On dit kujana."}
+{"user": "Que veut dire kujana en français ?", "assistant": "Kujana veut dire « mener »."}
+{"user": "Comment dit-on « préparer » en kirundi ?", "assistant": "On dit gutegura."}
+{"user": "Comment dit-on « arranger » en kirundi ?", "assistant": "On dit gutegura."}
+{"user": "Comment dit-on « organiser » en kirundi ?", "assistant": "On dit gutegura."}
+{"user": "Que veut dire gutegura en français ?", "assistant": "Gutegura veut dire « préparer / arranger / organiser »."}
+{"user": "Comment dit-on « assurer » en kirundi ?", "assistant": "On dit gutegekaniriza."}
+{"user": "Que veut dire gutegekaniriza en français ?", "assistant": "Gutegekaniriza veut dire « assurer »."}
+{"user": "Comment dit-on « deviner » en kirundi ?", "assistant": "On dit gutomboza."}
+{"user": "Que veut dire gutomboza en français ?", "assistant": "Gutomboza veut dire « deviner »."}
+{"user": "Comment dit-on « considérer » en kirundi ?", "assistant": "On dit kwihweza."}
+{"user": "Comment dit-on « observer » en kirundi ?", "assistant": "On dit kwihweza."}
+{"user": "Que veut dire kwihweza en français ?", "assistant": "Kwihweza veut dire « considérer / observer »."}
+{"user": "Comment dit-on « appartenir » en kirundi ?", "assistant": "On dit kwegukira."}
+{"user": "Que veut dire kwegukira en français ?", "assistant": "Kwegukira veut dire « appartenir »."}
+{"user": "Comment dit-on « représenter » en kirundi ?", "assistant": "On dit guserukira."}
+{"user": "Que veut dire guserukira en français ?", "assistant": "Guserukira veut dire « représenter »."}
+{"user": "Comment dit-on « représenter » en kirundi ?", "assistant": "On dit guhagararira."}
+{"user": "Que veut dire guhagararira en français ?", "assistant": "Guhagararira veut dire « représenter »."}
+{"user": "Comment dit-on « tromper » en kirundi ?", "assistant": "On dit guhenda."}
+{"user": "Comment dit-on « décevoir » en kirundi ?", "assistant": "On dit guhenda."}
+{"user": "Que veut dire guhenda en français ?", "assistant": "Guhenda veut dire « tromper / décevoir »."}
+{"user": "Comment dit-on « tromper » en kirundi ?", "assistant": "On dit guhuvya."}
+{"user": "Comment dit-on « décevoir » en kirundi ?", "assistant": "On dit guhuvya."}
+{"user": "Que veut dire guhuvya en français ?", "assistant": "Guhuvya veut dire « tromper / décevoir »."}
+{"user": "Comment dit-on « vendre » en kirundi ?", "assistant": "On dit kudandaza."}
+{"user": "Que veut dire kudandaza en français ?", "assistant": "Kudandaza veut dire « vendre »."}
+{"user": "Comment dit-on « craindre » en kirundi ?", "assistant": "On dit gutinya."}
+{"user": "Que veut dire gutinya en français ?", "assistant": "Gutinya veut dire « craindre »."}
+{"user": "Comment dit-on « emporter » en kirundi ?", "assistant": "On dit gutwara."}
+{"user": "Que veut dire gutwara en français ?", "assistant": "Gutwara veut dire « emporter »."}
+{"user": "Comment dit-on « exprimer » en kirundi ?", "assistant": "On dit guserura."}
+{"user": "Que veut dire guserura en français ?", "assistant": "Guserura veut dire « exprimer »."}
+{"user": "Comment dit-on « rouler » en kirundi ?", "assistant": "On dit kwizinga."}
+{"user": "Que veut dire kwizinga en français ?", "assistant": "Kwizinga veut dire « rouler »."}
+{"user": "Comment dit-on « posséder » en kirundi ?", "assistant": "On dit gufita."}
+{"user": "Que veut dire gufita en français ?", "assistant": "Gufita veut dire « posséder »."}
+{"user": "Comment dit-on « posséder » en kirundi ?", "assistant": "On dit kugaba."}
+{"user": "Que veut dire kugaba en français ?", "assistant": "Kugaba veut dire « posséder »."}
+{"user": "Comment dit-on « se réveiller » en kirundi ?", "assistant": "On dit kuvyuka."}
+{"user": "Que veut dire kuvyuka en français ?", "assistant": "Kuvyuka veut dire « se réveiller »."}
+{"user": "Comment dit-on « aider » en kirundi ?", "assistant": "On dit gufasha."}
+{"user": "Que veut dire gufasha en français ?", "assistant": "Gufasha veut dire « aider »."}
+{"user": "Comment dit-on « découvrir » en kirundi ?", "assistant": "On dit kwubura."}
+{"user": "Que veut dire kwubura en français ?", "assistant": "Kwubura veut dire « découvrir »."}
+{"user": "Comment dit-on « découvrir » en kirundi ?", "assistant": "On dit kuvumbura."}
+{"user": "Que veut dire kuvumbura en français ?", "assistant": "Kuvumbura veut dire « découvrir »."}
+{"user": "Comment dit-on « choisir » en kirundi ?", "assistant": "On dit gucagura."}
+{"user": "Que veut dire gucagura en français ?", "assistant": "Gucagura veut dire « choisir »."}
+{"user": "Comment dit-on « choisir » en kirundi ?", "assistant": "On dit guhitamwo."}
+{"user": "Comment dit-on « préférer » en kirundi ?", "assistant": "On dit guhitamwo."}
+{"user": "Que veut dire guhitamwo en français ?", "assistant": "Guhitamwo veut dire « choisir / préférer »."}
+{"user": "Comment dit-on « informer » en kirundi ?", "assistant": "On dit kumenyesha."}
+{"user": "Que veut dire kumenyesha en français ?", "assistant": "Kumenyesha veut dire « informer »."}
+{"user": "Comment dit-on « étendre » en kirundi ?", "assistant": "On dit kuramvura."}
+{"user": "Que veut dire kuramvura en français ?", "assistant": "Kuramvura veut dire « étendre »."}
+{"user": "Comment dit-on « étendre » en kirundi ?", "assistant": "On dit kugaranzura."}
+{"user": "Comment dit-on « répandre » en kirundi ?", "assistant": "On dit kugaranzura."}
+{"user": "Que veut dire kugaranzura en français ?", "assistant": "Kugaranzura veut dire « étendre / répandre »."}
+{"user": "Comment dit-on « trembler » en kirundi ?", "assistant": "On dit kujugumira."}
+{"user": "Que veut dire kujugumira en français ?", "assistant": "Kujugumira veut dire « trembler »."}
+{"user": "Comment dit-on « défendre » en kirundi ?", "assistant": "On dit kugwanira."}
+{"user": "Que veut dire kugwanira en français ?", "assistant": "Kugwanira veut dire « défendre »."}
+{"user": "Comment dit-on « créer » en kirundi ?", "assistant": "On dit kurema."}
+{"user": "Que veut dire kurema en français ?", "assistant": "Kurema veut dire « créer »."}
+{"user": "Comment dit-on « maintenir » en kirundi ?", "assistant": "On dit gushigikira."}
+{"user": "Comment dit-on « soutenir » en kirundi ?", "assistant": "On dit gushigikira."}
+{"user": "Que veut dire gushigikira en français ?", "assistant": "Gushigikira veut dire « maintenir / soutenir »."}
+{"user": "Comment dit-on « promettre » en kirundi ?", "assistant": "On dit gusezerana."}
+{"user": "Que veut dire gusezerana en français ?", "assistant": "Gusezerana veut dire « promettre »."}
+{"user": "Comment dit-on « révéler » en kirundi ?", "assistant": "On dit guhishura."}
+{"user": "Que veut dire guhishura en français ?", "assistant": "Guhishura veut dire « révéler »."}
+{"user": "Comment dit-on « abandonner » en kirundi ?", "assistant": "On dit guheba."}
+{"user": "Que veut dire guheba en français ?", "assistant": "Guheba veut dire « abandonner »."}
+{"user": "Comment dit-on « ignorer » en kirundi ?", "assistant": "On dit kwirengagiza."}
+{"user": "Que veut dire kwirengagiza en français ?", "assistant": "Kwirengagiza veut dire « ignorer »."}
+{"user": "Comment dit-on « ignorer » en kirundi ?", "assistant": "On dit kutamenya."}
+{"user": "Que veut dire kutamenya en français ?", "assistant": "Kutamenya veut dire « ignorer »."}
+{"user": "Comment dit-on « observer » en kirundi ?", "assistant": "On dit kwubahiriza."}
+{"user": "Que veut dire kwubahiriza en français ?", "assistant": "Kwubahiriza veut dire « observer »."}
+{"user": "Comment dit-on « séparer » en kirundi ?", "assistant": "On dit gutandukanya."}
+{"user": "Que veut dire gutandukanya en français ?", "assistant": "Gutandukanya veut dire « séparer »."}
+{"user": "Comment dit-on « se marier » en kirundi ?", "assistant": "On dit kurongorwa."}
+{"user": "Que veut dire kurongorwa en français ?", "assistant": "Kurongorwa veut dire « se marier »."}
+{"user": "Comment dit-on « respirer » en kirundi ?", "assistant": "On dit guhema."}
+{"user": "Que veut dire guhema en français ?", "assistant": "Guhema veut dire « respirer »."}
+{"user": "Comment dit-on « forcer » en kirundi ?", "assistant": "On dit guhata."}
+{"user": "Comment dit-on « obliger » en kirundi ?", "assistant": "On dit guhata."}
+{"user": "Que veut dire guhata en français ?", "assistant": "Guhata veut dire « forcer / obliger »."}
+{"user": "Comment dit-on « éclairer » en kirundi ?", "assistant": "On dit kubonesha."}
+{"user": "Que veut dire kubonesha en français ?", "assistant": "Kubonesha veut dire « éclairer »."}
+{"user": "Comment dit-on « convaincre » en kirundi ?", "assistant": "On dit kwumvisha."}
+{"user": "Que veut dire kwumvisha en français ?", "assistant": "Kwumvisha veut dire « convaincre »."}
+{"user": "Comment dit-on « convaincre » en kirundi ?", "assistant": "On dit gutahuza."}
+{"user": "Que veut dire gutahuza en français ?", "assistant": "Gutahuza veut dire « convaincre »."}
+{"user": "Comment dit-on « convaincre » en kirundi ?", "assistant": "On dit kunyurwisha."}
+{"user": "Que veut dire kunyurwisha en français ?", "assistant": "Kunyurwisha veut dire « convaincre »."}
+{"user": "Comment dit-on « délivrer » en kirundi ?", "assistant": "On dit kubohora."}
+{"user": "Comment dit-on « libérer » en kirundi ?", "assistant": "On dit kubohora."}
+{"user": "Que veut dire kubohora en français ?", "assistant": "Kubohora veut dire « délivrer / libérer »."}
+{"user": "Comment dit-on « contenir » en kirundi ?", "assistant": "On dit kugwirwamwo."}
+{"user": "Que veut dire kugwirwamwo en français ?", "assistant": "Kugwirwamwo veut dire « contenir »."}
+{"user": "Comment dit-on « contenir » en kirundi ?", "assistant": "On dit kujamwo."}
+{"user": "Que veut dire kujamwo en français ?", "assistant": "Kujamwo veut dire « contenir »."}
+{"user": "Comment dit-on « fuir » en kirundi ?", "assistant": "On dit guhunga."}
+{"user": "Que veut dire guhunga en français ?", "assistant": "Guhunga veut dire « fuir »."}
+{"user": "Comment dit-on « couler » en kirundi ?", "assistant": "On dit gutemba."}
+{"user": "Que veut dire gutemba en français ?", "assistant": "Gutemba veut dire « couler »."}
+{"user": "Comment dit-on « proposer » en kirundi ?", "assistant": "On dit gushikiriza."}
+{"user": "Que veut dire gushikiriza en français ?", "assistant": "Gushikiriza veut dire « proposer »."}
+{"user": "Comment dit-on « remplir » en kirundi ?", "assistant": "On dit kwuzuza."}
+{"user": "Comment dit-on « combler » en kirundi ?", "assistant": "On dit kwuzuza."}
+{"user": "Que veut dire kwuzuza en français ?", "assistant": "Kwuzuza veut dire « remplir / combler »."}
+{"user": "Comment dit-on « remplir » en kirundi ?", "assistant": "On dit kuzuza."}
+{"user": "Que veut dire kuzuza en français ?", "assistant": "Kuzuza veut dire « remplir »."}
+{"user": "Comment dit-on « attacher » en kirundi ?", "assistant": "On dit kumatanya."}
+{"user": "Que veut dire kumatanya en français ?", "assistant": "Kumatanya veut dire « attacher »."}
+{"user": "Comment dit-on « voler » en kirundi ?", "assistant": "On dit kwiba."}
+{"user": "Que veut dire kwiba en français ?", "assistant": "Kwiba veut dire « voler »."}
+{"user": "Comment dit-on « entraîner » en kirundi ?", "assistant": "On dit kumenyereza."}
+{"user": "Que veut dire kumenyereza en français ?", "assistant": "Kumenyereza veut dire « entraîner »."}
+{"user": "Comment dit-on « surprendre » en kirundi ?", "assistant": "On dit gutungura."}
+{"user": "Que veut dire gutungura en français ?", "assistant": "Gutungura veut dire « surprendre »."}
+{"user": "Comment dit-on « briser » en kirundi ?", "assistant": "On dit kumena."}
+{"user": "Que veut dire kumena en français ?", "assistant": "Kumena veut dire « briser »."}
+{"user": "Comment dit-on « pénétrer » en kirundi ?", "assistant": "On dit kunyengetera."}
+{"user": "Que veut dire kunyengetera en français ?", "assistant": "Kunyengetera veut dire « pénétrer »."}
+{"user": "Comment dit-on « éviter » en kirundi ?", "assistant": "On dit kwirinda."}
+{"user": "Que veut dire kwirinda en français ?", "assistant": "Kwirinda veut dire « éviter »."}
+{"user": "Comment dit-on « éviter » en kirundi ?", "assistant": "On dit kurwanya."}
+{"user": "Que veut dire kurwanya en français ?", "assistant": "Kurwanya veut dire « éviter »."}
+{"user": "Comment dit-on « établir » en kirundi ?", "assistant": "On dit gushinga."}
+{"user": "Comment dit-on « fixer » en kirundi ?", "assistant": "On dit gushinga."}
+{"user": "Que veut dire gushinga en français ?", "assistant": "Gushinga veut dire « établir / fixer »."}
+{"user": "Comment dit-on « établir » en kirundi ?", "assistant": "On dit gushiraho."}
+{"user": "Comment dit-on « inventer » en kirundi ?", "assistant": "On dit gushiraho."}
+{"user": "Que veut dire gushiraho en français ?", "assistant": "Gushiraho veut dire « établir / inventer »."}
+{"user": "Comment dit-on « réussir » en kirundi ?", "assistant": "On dit kuroranirwa."}
+{"user": "Que veut dire kuroranirwa en français ?", "assistant": "Kuroranirwa veut dire « réussir »."}
+{"user": "Comment dit-on « pencher » en kirundi ?", "assistant": "On dit guhengeka."}
+{"user": "Que veut dire guhengeka en français ?", "assistant": "Guhengeka veut dire « pencher »."}
+{"user": "Comment dit-on « pencher » en kirundi ?", "assistant": "On dit kugonda."}
+{"user": "Que veut dire kugonda en français ?", "assistant": "Kugonda veut dire « pencher »."}
+{"user": "Comment dit-on « entourer » en kirundi ?", "assistant": "On dit gukikuza."}
+{"user": "Que veut dire gukikuza en français ?", "assistant": "Gukikuza veut dire « entourer »."}
+{"user": "Comment dit-on « déclarer » en kirundi ?", "assistant": "On dit kwatura."}
+{"user": "Que veut dire kwatura en français ?", "assistant": "Kwatura veut dire « déclarer »."}
+{"user": "Comment dit-on « déclarer » en kirundi ?", "assistant": "On dit gutangariza."}
+{"user": "Que veut dire gutangariza en français ?", "assistant": "Gutangariza veut dire « déclarer »."}
+{"user": "Comment dit-on « étonner » en kirundi ?", "assistant": "On dit gutangaza."}
+{"user": "Que veut dire gutangaza en français ?", "assistant": "Gutangaza veut dire « étonner »."}
+{"user": "Comment dit-on « dessiner » en kirundi ?", "assistant": "On dit gucapa."}
+{"user": "Comment dit-on « dresser » en kirundi ?", "assistant": "On dit gucapa."}
+{"user": "Que veut dire gucapa en français ?", "assistant": "Gucapa veut dire « dessiner / dresser »."}
+{"user": "Comment dit-on « fixer » en kirundi ?", "assistant": "On dit gutunganya."}
+{"user": "Comment dit-on « arranger » en kirundi ?", "assistant": "On dit gutunganya."}
+{"user": "Comment dit-on « organiser » en kirundi ?", "assistant": "On dit gutunganya."}
+{"user": "Que veut dire gutunganya en français ?", "assistant": "Gutunganya veut dire « fixer / arranger / organiser »."}
+{"user": "Comment dit-on « désirer » en kirundi ?", "assistant": "On dit kwipfuza."}
+{"user": "Que veut dire kwipfuza en français ?", "assistant": "Kwipfuza veut dire « désirer »."}
+{"user": "Comment dit-on « couper » en kirundi ?", "assistant": "On dit gukata."}
+{"user": "Que veut dire gukata en français ?", "assistant": "Gukata veut dire « couper »."}
+{"user": "Comment dit-on « couper » en kirundi ?", "assistant": "On dit gutema."}
+{"user": "Que veut dire gutema en français ?", "assistant": "Gutema veut dire « couper »."}
+{"user": "Comment dit-on « enlever » en kirundi ?", "assistant": "On dit gukuraho."}
+{"user": "Comment dit-on « retirer » en kirundi ?", "assistant": "On dit gukuraho."}
+{"user": "Que veut dire gukuraho en français ?", "assistant": "Gukuraho veut dire « enlever / retirer »."}
+{"user": "Comment dit-on « enlever » en kirundi ?", "assistant": "On dit gukurayo."}
+{"user": "Comment dit-on « retirer » en kirundi ?", "assistant": "On dit gukurayo."}
+{"user": "Que veut dire gukurayo en français ?", "assistant": "Gukurayo veut dire « enlever / retirer »."}
+{"user": "Comment dit-on « se promener » en kirundi ?", "assistant": "On dit gutembera."}
+{"user": "Que veut dire gutembera en français ?", "assistant": "Gutembera veut dire « se promener »."}
+{"user": "Comment dit-on « terminer » en kirundi ?", "assistant": "On dit guheza."}
+{"user": "Que veut dire guheza en français ?", "assistant": "Guheza veut dire « terminer »."}
+{"user": "Comment dit-on « sonner » en kirundi ?", "assistant": "On dit gusona."}
+{"user": "Que veut dire gusona en français ?", "assistant": "Gusona veut dire « sonner »."}
+{"user": "Comment dit-on « composer » en kirundi ?", "assistant": "On dit gufonda."}
+{"user": "Que veut dire gufonda en français ?", "assistant": "Gufonda veut dire « composer »."}
+{"user": "Comment dit-on « kidnapper » en kirundi ?", "assistant": "On dit kunyuruza."}
+{"user": "Que veut dire kunyuruza en français ?", "assistant": "Kunyuruza veut dire « kidnapper »."}
+{"user": "Comment dit-on « joindre » en kirundi ?", "assistant": "On dit gufatanya."}
+{"user": "Que veut dire gufatanya en français ?", "assistant": "Gufatanya veut dire « joindre »."}
+{"user": "Comment dit-on « attraper » en kirundi ?", "assistant": "On dit gucakira."}
+{"user": "Que veut dire gucakira en français ?", "assistant": "Gucakira veut dire « attraper »."}
+{"user": "Comment dit-on « partager » en kirundi ?", "assistant": "On dit gusangira."}
+{"user": "Que veut dire gusangira en français ?", "assistant": "Gusangira veut dire « partager »."}
+{"user": "Comment dit-on « partager » en kirundi ?", "assistant": "On dit gusangiza."}
+{"user": "Que veut dire gusangiza en français ?", "assistant": "Gusangiza veut dire « partager »."}
+{"user": "Comment dit-on « chasser » en kirundi ?", "assistant": "On dit guhiga."}
+{"user": "Que veut dire guhiga en français ?", "assistant": "Guhiga veut dire « chasser »."}
+{"user": "Comment dit-on « interrompre » en kirundi ?", "assistant": "On dit guciramwo."}
+{"user": "Que veut dire guciramwo en français ?", "assistant": "Guciramwo veut dire « interrompre »."}
+{"user": "Comment dit-on « réduire » en kirundi ?", "assistant": "On dit kugabanya."}
+{"user": "Que veut dire kugabanya en français ?", "assistant": "Kugabanya veut dire « réduire »."}
+{"user": "Comment dit-on « éteindre » en kirundi ?", "assistant": "On dit kuzimya."}
+{"user": "Que veut dire kuzimya en français ?", "assistant": "Kuzimya veut dire « éteindre »."}
+{"user": "Comment dit-on « sauter » en kirundi ?", "assistant": "On dit gusimba."}
+{"user": "Que veut dire gusimba en français ?", "assistant": "Gusimba veut dire « sauter »."}
+{"user": "Comment dit-on « se plaindre » en kirundi ?", "assistant": "On dit kwidoga."}
+{"user": "Que veut dire kwidoga en français ?", "assistant": "Kwidoga veut dire « se plaindre »."}
+{"user": "Comment dit-on « remercier » en kirundi ?", "assistant": "On dit gushimira."}
+{"user": "Que veut dire gushimira en français ?", "assistant": "Gushimira veut dire « remercier »."}
+{"user": "Comment dit-on « vêtir » en kirundi ?", "assistant": "On dit kwambika."}
+{"user": "Que veut dire kwambika en français ?", "assistant": "Kwambika veut dire « vêtir »."}
+{"user": "Comment dit-on « accomplir » en kirundi ?", "assistant": "On dit gushitsa."}
+{"user": "Que veut dire gushitsa en français ?", "assistant": "Gushitsa veut dire « accomplir »."}
+{"user": "Comment dit-on « détruire » en kirundi ?", "assistant": "On dit gusambura."}
+{"user": "Que veut dire gusambura en français ?", "assistant": "Gusambura veut dire « détruire »."}
+{"user": "Comment dit-on « détruire » en kirundi ?", "assistant": "On dit kubomora."}
+{"user": "Que veut dire kubomora en français ?", "assistant": "Kubomora veut dire « détruire »."}
+{"user": "Comment dit-on « plonger » en kirundi ?", "assistant": "On dit kwibiza."}
+{"user": "Que veut dire kwibiza en français ?", "assistant": "Kwibiza veut dire « plonger »."}
+{"user": "Comment dit-on « plonger » en kirundi ?", "assistant": "On dit kudumba."}
+{"user": "Que veut dire kudumba en français ?", "assistant": "Kudumba veut dire « plonger »."}
+{"user": "Comment dit-on « verser » en kirundi ?", "assistant": "On dit gusuka."}
+{"user": "Que veut dire gusuka en français ?", "assistant": "Gusuka veut dire « verser »."}
+{"user": "Comment dit-on « obéir » en kirundi ?", "assistant": "On dit kwubaha."}
+{"user": "Comment dit-on « se soumettre » en kirundi ?", "assistant": "On dit kwubaha."}
+{"user": "Que veut dire kwubaha en français ?", "assistant": "Kwubaha veut dire « obéir / se soumettre »."}
+{"user": "Comment dit-on « obéir » en kirundi ?", "assistant": "On dit kubahiriza."}
+{"user": "Que veut dire kubahiriza en français ?", "assistant": "Kubahiriza veut dire « obéir »."}
+{"user": "Comment dit-on « désobéir » en kirundi ?", "assistant": "On dit kutubaha."}
+{"user": "Que veut dire kutubaha en français ?", "assistant": "Kutubaha veut dire « désobéir »."}
+{"user": "Comment dit-on « désobéir » en kirundi ?", "assistant": "On dit kutubahiriza."}
+{"user": "Que veut dire kutubahiriza en français ?", "assistant": "Kutubahiriza veut dire « désobéir »."}
+{"user": "Comment dit-on « lutter » en kirundi ?", "assistant": "On dit kunigana."}
+{"user": "Que veut dire kunigana en français ?", "assistant": "Kunigana veut dire « lutter »."}
+{"user": "Comment dit-on « prétendre » en kirundi ?", "assistant": "On dit kwigirisha."}
+{"user": "Que veut dire kwigirisha en français ?", "assistant": "Kwigirisha veut dire « prétendre »."}
+{"user": "Comment dit-on « construire » en kirundi ?", "assistant": "On dit kwubaka."}
+{"user": "Que veut dire kwubaka en français ?", "assistant": "Kwubaka veut dire « construire »."}
+{"user": "Comment dit-on « répandre » en kirundi ?", "assistant": "On dit gusanzaza."}
+{"user": "Que veut dire gusanzaza en français ?", "assistant": "Gusanzaza veut dire « répandre »."}
+{"user": "Comment dit-on « résister » en kirundi ?", "assistant": "On dit kugwanya."}
+{"user": "Que veut dire kugwanya en français ?", "assistant": "Kugwanya veut dire « résister »."}
+{"user": "Comment dit-on « protéger » en kirundi ?", "assistant": "On dit gukingira."}
+{"user": "Que veut dire gukingira en français ?", "assistant": "Gukingira veut dire « protéger »."}
+{"user": "Comment dit-on « enfermer » en kirundi ?", "assistant": "On dit kugarana."}
+{"user": "Que veut dire kugarana en français ?", "assistant": "Kugarana veut dire « enfermer »."}
+{"user": "Comment dit-on « creuser » en kirundi ?", "assistant": "On dit kwimba."}
+{"user": "Que veut dire kwimba en français ?", "assistant": "Kwimba veut dire « creuser »."}
+{"user": "Comment dit-on « enseigner » en kirundi ?", "assistant": "On dit kwigisha."}
+{"user": "Que veut dire kwigisha en français ?", "assistant": "Kwigisha veut dire « enseigner »."}
+{"user": "Comment dit-on « négocier » en kirundi ?", "assistant": "On dit kuganira."}
+{"user": "Que veut dire kuganira en français ?", "assistant": "Kuganira veut dire « négocier »."}
+{"user": "Comment dit-on « négocier » en kirundi ?", "assistant": "On dit guharira."}
+{"user": "Que veut dire guharira en français ?", "assistant": "Guharira veut dire « négocier »."}
+{"user": "Comment dit-on « envelopper » en kirundi ?", "assistant": "On dit gutekera."}
+{"user": "Que veut dire gutekera en français ?", "assistant": "Gutekera veut dire « envelopper »."}
+{"user": "Comment dit-on « allumer » en kirundi ?", "assistant": "On dit kwatsa."}
+{"user": "Que veut dire kwatsa en français ?", "assistant": "Kwatsa veut dire « allumer »."}
+{"user": "Comment dit-on « ramasser » en kirundi ?", "assistant": "On dit gutora."}
+{"user": "Que veut dire gutora en français ?", "assistant": "Gutora veut dire « ramasser »."}
+{"user": "Comment dit-on « s'endormir » en kirundi ?", "assistant": "On dit gusinzira."}
+{"user": "Que veut dire gusinzira en français ?", "assistant": "Gusinzira veut dire « s'endormir »."}
+{"user": "Comment dit-on « geler » en kirundi ?", "assistant": "On dit gukanya."}
+{"user": "Que veut dire gukanya en français ?", "assistant": "Gukanya veut dire « geler »."}
+{"user": "Comment dit-on « pouvoir » en kirundi ?", "assistant": "On peut dire « kuba ushoboye »."}
+{"user": "Comment dit-on « devoir » en kirundi ?", "assistant": "On peut dire « kuba utegerezwa »."}
+{"user": "Comment dit-on « permettre » en kirundi ?", "assistant": "On peut dire « gutanga uruhusha »."}
+{"user": "Comment dit-on « crier » en kirundi ?", "assistant": "On peut dire « gukoma akaruru »."}
+{"user": "Comment dit-on « agir » en kirundi ?", "assistant": "On peut dire « kugira ico ukoze »."}
+{"user": "Comment dit-on « retrouver » en kirundi ?", "assistant": "On peut dire « kwongera kuronka »."}
+{"user": "Comment dit-on « rappeler » en kirundi ?", "assistant": "On peut dire « kwongera guhamagara »."}
+{"user": "Comment dit-on « remettre » en kirundi ?", "assistant": "On peut dire « kwigiza inyuma »."}
+{"user": "Comment dit-on « avancer » en kirundi ?", "assistant": "On peut dire « kwigira imbere »."}
+{"user": "Comment dit-on « embrasser » en kirundi ?", "assistant": "On peut dire « kugumbira umuntu »."}
+{"user": "Comment dit-on « décider » en kirundi ?", "assistant": "On peut dire « gufata ingingo »."}
+{"user": "Comment dit-on « ressembler » en kirundi ?", "assistant": "On peut dire « gusa na »."}
+{"user": "Comment dit-on « ressembler » en kirundi ?", "assistant": "On peut dire « kuba usa na »."}
+{"user": "Comment dit-on « juger » en kirundi ?", "assistant": "On peut dire « gucira urubanza »."}
+{"user": "Comment dit-on « prononcer » en kirundi ?", "assistant": "On peut dire « kwatura ijambo »."}
+{"user": "Comment dit-on « informer » en kirundi ?", "assistant": "On peut dire « gutanga inkuru »."}
+{"user": "Comment dit-on « prévoir » en kirundi ?", "assistant": "On peut dire « kubona ibitaraba »."}
+{"user": "Comment dit-on « poursuivre » en kirundi ?", "assistant": "On peut dire « kubandanya ukurikira ikintu »."}
+{"user": "Comment dit-on « durer » en kirundi ?", "assistant": "On peut dire « kumara ikiringo kanaka »."}
+{"user": "Comment dit-on « douter » en kirundi ?", "assistant": "On peut dire « kugira amakenga »."}
+{"user": "Comment dit-on « revoir » en kirundi ?", "assistant": "On peut dire « kwongera kubona »."}
+{"user": "Comment dit-on « s'éloigner » en kirundi ?", "assistant": "On peut dire « kuja kure »."}
+{"user": "Comment dit-on « s'éloigner » en kirundi ?", "assistant": "On peut dire « gushira kure »."}
+{"user": "Comment dit-on « recommencer » en kirundi ?", "assistant": "On peut dire « kwongera gutangura »."}
+{"user": "Comment dit-on « déposer » en kirundi ?", "assistant": "On peut dire « gushira hasi »."}
+{"user": "Comment dit-on « fumer » en kirundi ?", "assistant": "On peut dire « kunywa itabi »."}
+{"user": "Comment dit-on « résoudre » en kirundi ?", "assistant": "On peut dire « gutorera inyishu »."}
+{"user": "Comment dit-on « reconstruire » en kirundi ?", "assistant": "On peut dire « kwongera kwubaka »."}
+{"user": "Comment dit-on « employer » en kirundi ?", "assistant": "On peut dire « gutanga akazi »."}
+{"user": "Comment dit-on « inventer » en kirundi ?", "assistant": "On peut dire « kwiyumvira ikintu kitari bwabeho »."}
+{"user": "Comment dit-on « geler » en kirundi ?", "assistant": "On peut dire « gukanya cane »."}

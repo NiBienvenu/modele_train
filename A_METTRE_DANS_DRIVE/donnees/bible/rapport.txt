@@ -1,0 +1,37 @@
+Versets kirundi        : 35463
+Versets français       : 35479
+Versets alignés        : 35442
+Seulement en kirundi   : 21  ex. [('Tb', '14', '8-9'), ('Est', '0', '1j'), ('Est', '0', '1m'), ('Est', '0', '1n'), ('Est', '0', '1o')]
+Seulement en français  : 37  ex. [('Tb', '13', '1b'), ('Tb', '14', '9'), ('Est', '0', '1l'), ('Est', '4', '17l'), ('Est', '4', '17q')]
+Passages alignés       : 7058  (suspects : 13)
+Part d'entraînement    : 1762 passages (25% des bons)
+Mots différents        : kirundi 75412, français 28773
+
+Passages suspects (longueurs très différentes), à vérifier :
+  Ex 16,36: rn 30 car. / fr 53 car.
+  Ex 22,30: rn 90 car. / fr 155 car.
+  Nb 25,19: rn 19 car. / fr 35 car.
+  Esd 2,7-14: rn 472 car. / fr 214 car.
+  Est 8,12u: rn 96 car. / fr 258 car.
+  2M 12,45: rn 216 car. / fr 89 car.
+  Si 41,19-22: rn 277 car. / fr 523 car.
+  Jr 6,30: rn 44 car. / fr 88 car.
+  Jr 38,28: rn 69 car. / fr 124 car.
+  Dn 3,25-27: rn 718 car. / fr 319 car.
+  Dn 3,59-64: rn 676 car. / fr 317 car.
+  Dn 3,65-70: rn 686 car. / fr 320 car.
+  Ap 20,14-15: rn 129 car. / fr 222 car.
+
+Exemples :
+[Mc 14,69-72]
+  rn : Nya ncoreke ibonye Petero, isubira kubwira abari aho iti: «N'urya ni uwo muri bo.» Petero asubira guhakana. Haciye akanya gatoyi, abari aho na bo nyene babwira Petero bati: «Ni ivy'ukuri, uri uwo muri bo. Nkako nyene uri Umunyagalile.» Na we rero aja mu vyo kwisiba no kurahira ati: «Uwo muntu muriko
+  fr : La servante, ayant vu Pierre, se mit de nouveau à dire à ceux qui se trouvaient là : « Celui-ci est l'un d'entre eux ! » De nouveau, Pierre le niait. Peu après, ceux qui se trouvaient là lui disaient à leur tour : « Sûrement tu es l'un d'entre eux ! D'ailleurs, tu es Galiléen. » Alors il se mit à pr
+[Si 21,1-7]
+  rn : Mwana, waracumuye? Ntuze usubire, kandi urasaba ikigongwe c'ibicumuro vyawe vya mbere. Kurya uhunga inzoka, hunga igicumuro, kuko niwacegera kizogukomora; amenyo yaco ni nk'amenyo y'intambwe, yica ubuzima bw'abantu. Ubugome bwose bumeze nk'inkota y'ubugi bubiri, uruguma rwabwo ntirugira umuti. Igiha
+  fr : Mon fils, tu as péché ? Ne recommence plus, mais demande pardon pour le passé. Comme devant le serpent, fuis devant le péché, car si tu approches, il te mordra. Ses dents sont les dents d'un lion : elles arrachent la vie des hommes. Toute transgression de la loi est une épée à deux tranchants, dont 
+[Jdt 5,5-9]
+  rn : Akiyori, umutware wa bene Hamoni bose, abwira Holoferne ati: «Databuja niyumvirize ijambo riva mu kanwa k'umusavyi wawe, ndaheza ndakumenyeshe ukuri ku vyerekeye abo bantu baba muri iyo ntara y'imisozi, kandi mubana hafi. Nta kinyoma kiza kuva mu kanwa k'umusavyi wawe. Abo bantu ni abamuka ku Bakasi
+  fr : Akhior, le commandant de tous les fils d'Ammone, répondit : " Que mon seigneur daigne écouter les paroles de la bouche de ton serviteur : je t'informerai de la vérité sur le peuple qui habite cette région montagneuse, non loin de toi. Il ne sortira pas de mensonge de la bouche de ton serviteur. Ce p
+[1M 6,1-5]
+  rn : Umwami Antiyokusi yariko araca mu ntara za ruguru, hanyuma yumva ko mu Buperesi hari igisagara citwa Elumayisi, kikaba rurangiranwa kubera ubutunzi, ifeza n'inzahabu, kikagira ingoro nyeranda itunze cane, yarimwo imikingo y'inzahabu, ivyuma bikingira igikiriza n'ibirwanisho vyasizwe na Alesandro mwe
+  fr : Le roi Antiocos parcourait le Haut Pays. Il apprit alors qu'il y avait en Perse une ville, Élymaïs, fameuse par ses richesses, son argent et son or ; son temple, extrêmement riche, contenait des casques en or, des cuirasses et des armes, laissés là par Alexandre, fils de Philippe et roi de Macédoine

@@ -1,0 +1,709 @@
+{"user": "Traduis en kirundi : Tu vois la personne ? Oui, je la vois.", "assistant": "Urabona umuntu? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umuntu? Ego, namubonye.", "assistant": "Tu as vu la personne ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umuntu?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umuntu, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches la personne ? Oui, je la cherche.", "assistant": "Urarondera umuntu? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umuntu? Ego, namurondereye.", "assistant": "Tu as cherché la personne ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umuntu?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umuntu, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes la personne ? Oui, je l'aime.", "assistant": "Urakunda umuntu? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umuntu? Ego, namukunze.", "assistant": "Tu as aimé la personne ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umuntu?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umuntu, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois l'enfant ? Oui, je le vois.", "assistant": "Urabona umwana? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umwana? Ego, namubonye.", "assistant": "Tu as vu l'enfant ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umwana?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umwana, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches l'enfant ? Oui, je le cherche.", "assistant": "Urarondera umwana? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umwana? Ego, namurondereye.", "assistant": "Tu as cherché l'enfant ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umwana?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umwana, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes l'enfant ? Oui, je l'aime.", "assistant": "Urakunda umwana? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umwana? Ego, namukunze.", "assistant": "Tu as aimé l'enfant ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umwana?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umwana, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois l'homme ? Oui, je le vois.", "assistant": "Urabona umugabo? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umugabo? Ego, namubonye.", "assistant": "Tu as vu l'homme ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umugabo?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umugabo, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches l'homme ? Oui, je le cherche.", "assistant": "Urarondera umugabo? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umugabo? Ego, namurondereye.", "assistant": "Tu as cherché l'homme ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umugabo?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umugabo, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes l'homme ? Oui, je l'aime.", "assistant": "Urakunda umugabo? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umugabo? Ego, namukunze.", "assistant": "Tu as aimé l'homme ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umugabo?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umugabo, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois la femme ? Oui, je la vois.", "assistant": "Urabona umugore? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umugore? Ego, namubonye.", "assistant": "Tu as vu la femme ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umugore?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umugore, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches la femme ? Oui, je la cherche.", "assistant": "Urarondera umugore? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umugore? Ego, namurondereye.", "assistant": "Tu as cherché la femme ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umugore?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umugore, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes la femme ? Oui, je l'aime.", "assistant": "Urakunda umugore? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umugore? Ego, namukunze.", "assistant": "Tu as aimé la femme ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umugore?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umugore, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois l'enseignant ? Oui, je le vois.", "assistant": "Urabona umwigisha? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umwigisha? Ego, namubonye.", "assistant": "Tu as vu l'enseignant ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umwigisha?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umwigisha, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches l'enseignant ? Oui, je le cherche.", "assistant": "Urarondera umwigisha? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umwigisha? Ego, namurondereye.", "assistant": "Tu as cherché l'enseignant ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umwigisha?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umwigisha, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes l'enseignant ? Oui, je l'aime.", "assistant": "Urakunda umwigisha? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umwigisha? Ego, namukunze.", "assistant": "Tu as aimé l'enseignant ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umwigisha?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umwigisha, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois l'élève ? Oui, je le vois.", "assistant": "Urabona umunyeshure? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umunyeshure? Ego, namubonye.", "assistant": "Tu as vu l'élève ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umunyeshure?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umunyeshure, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches l'élève ? Oui, je le cherche.", "assistant": "Urarondera umunyeshure? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umunyeshure? Ego, namurondereye.", "assistant": "Tu as cherché l'élève ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umunyeshure?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umunyeshure, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes l'élève ? Oui, je l'aime.", "assistant": "Urakunda umunyeshure? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umunyeshure? Ego, namukunze.", "assistant": "Tu as aimé l'élève ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umunyeshure?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umunyeshure, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois le travailleur ? Oui, je le vois.", "assistant": "Urabona umukozi? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umukozi? Ego, namubonye.", "assistant": "Tu as vu le travailleur ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umukozi?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umukozi, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches le travailleur ? Oui, je le cherche.", "assistant": "Urarondera umukozi? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umukozi? Ego, namurondereye.", "assistant": "Tu as cherché le travailleur ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umukozi?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umukozi, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes le travailleur ? Oui, je l'aime.", "assistant": "Urakunda umukozi? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umukozi? Ego, namukunze.", "assistant": "Tu as aimé le travailleur ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umukozi?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umukozi, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois le domestique ? Oui, je le vois.", "assistant": "Urabona umushumba? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umushumba? Ego, namubonye.", "assistant": "Tu as vu le domestique ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umushumba?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umushumba, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches le domestique ? Oui, je le cherche.", "assistant": "Urarondera umushumba? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umushumba? Ego, namurondereye.", "assistant": "Tu as cherché le domestique ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umushumba?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umushumba, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes le domestique ? Oui, je l'aime.", "assistant": "Urakunda umushumba? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umushumba? Ego, namukunze.", "assistant": "Tu as aimé le domestique ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umushumba?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umushumba, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois le cuisinier ? Oui, je le vois.", "assistant": "Urabona umutetsi? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umutetsi? Ego, namubonye.", "assistant": "Tu as vu le cuisinier ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umutetsi?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umutetsi, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches le cuisinier ? Oui, je le cherche.", "assistant": "Urarondera umutetsi? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umutetsi? Ego, namurondereye.", "assistant": "Tu as cherché le cuisinier ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umutetsi?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umutetsi, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes le cuisinier ? Oui, je l'aime.", "assistant": "Urakunda umutetsi? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umutetsi? Ego, namukunze.", "assistant": "Tu as aimé le cuisinier ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umutetsi?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umutetsi, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois le garçon ? Oui, je le vois.", "assistant": "Urabona umuhungu? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umuhungu? Ego, namubonye.", "assistant": "Tu as vu le garçon ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umuhungu?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umuhungu, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches le garçon ? Oui, je le cherche.", "assistant": "Urarondera umuhungu? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umuhungu? Ego, namurondereye.", "assistant": "Tu as cherché le garçon ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umuhungu?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umuhungu, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes le garçon ? Oui, je l'aime.", "assistant": "Urakunda umuhungu? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umuhungu? Ego, namukunze.", "assistant": "Tu as aimé le garçon ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umuhungu?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umuhungu, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois la fille ? Oui, je la vois.", "assistant": "Urabona umukobwa? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umukobwa? Ego, namubonye.", "assistant": "Tu as vu la fille ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umukobwa?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umukobwa, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches la fille ? Oui, je la cherche.", "assistant": "Urarondera umukobwa? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umukobwa? Ego, namurondereye.", "assistant": "Tu as cherché la fille ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umukobwa?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umukobwa, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes la fille ? Oui, je l'aime.", "assistant": "Urakunda umukobwa? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umukobwa? Ego, namukunze.", "assistant": "Tu as aimé la fille ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umukobwa?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umukobwa, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois le parent ? Oui, je le vois.", "assistant": "Urabona umuvyeyi? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umuvyeyi? Ego, namubonye.", "assistant": "Tu as vu le parent ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umuvyeyi?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umuvyeyi, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches le parent ? Oui, je le cherche.", "assistant": "Urarondera umuvyeyi? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umuvyeyi? Ego, namurondereye.", "assistant": "Tu as cherché le parent ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umuvyeyi?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umuvyeyi, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes le parent ? Oui, je l'aime.", "assistant": "Urakunda umuvyeyi? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umuvyeyi? Ego, namukunze.", "assistant": "Tu as aimé le parent ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umuvyeyi?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umuvyeyi, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois le roi ? Oui, je le vois.", "assistant": "Urabona umwami? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umwami? Ego, namubonye.", "assistant": "Tu as vu le roi ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umwami?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umwami, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches le roi ? Oui, je le cherche.", "assistant": "Urarondera umwami? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umwami? Ego, namurondereye.", "assistant": "Tu as cherché le roi ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umwami?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umwami, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes le roi ? Oui, je l'aime.", "assistant": "Urakunda umwami? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umwami? Ego, namukunze.", "assistant": "Tu as aimé le roi ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umwami?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umwami, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois le Burundais ? Oui, je le vois.", "assistant": "Urabona umurundi? Ego, ndamubona."}
+{"user": "Traduis en français : Wabonye umurundi? Ego, namubonye.", "assistant": "Tu as vu le Burundais ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umurundi?", "assistant": "Ego, ndamubona. (le pronom -mu- reprend umurundi, classe 1)"}
+{"user": "Traduis en kirundi : Tu cherches le Burundais ? Oui, je le cherche.", "assistant": "Urarondera umurundi? Ego, ndamurondera."}
+{"user": "Traduis en français : Warondereye umurundi? Ego, namurondereye.", "assistant": "Tu as cherché le Burundais ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umurundi?", "assistant": "Ego, ndamurondera. (le pronom -mu- reprend umurundi, classe 1)"}
+{"user": "Traduis en kirundi : Tu aimes le Burundais ? Oui, je l'aime.", "assistant": "Urakunda umurundi? Ego, ndamukunda."}
+{"user": "Traduis en français : Wakunze umurundi? Ego, namukunze.", "assistant": "Tu as aimé le Burundais ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umurundi?", "assistant": "Ego, ndamukunda. (le pronom -mu- reprend umurundi, classe 1)"}
+{"user": "Traduis en kirundi : Tu vois les Burundais ? Oui, je les vois.", "assistant": "Urabona abarundi? Ego, ndababona."}
+{"user": "Traduis en français : Wabonye abarundi? Ego, nababonye.", "assistant": "Tu as vu les Burundais ? Oui, je les ai vus."}
+{"user": "Réponds en kirundi avec un pronom : Urabona abarundi?", "assistant": "Ego, ndababona. (le pronom -ba- reprend abarundi, classe 2)"}
+{"user": "Traduis en kirundi : Tu cherches les Burundais ? Oui, je les cherche.", "assistant": "Urarondera abarundi? Ego, ndabarondera."}
+{"user": "Traduis en français : Warondereye abarundi? Ego, nabarondereye.", "assistant": "Tu as cherché les Burundais ? Oui, je les ai cherchés."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera abarundi?", "assistant": "Ego, ndabarondera. (le pronom -ba- reprend abarundi, classe 2)"}
+{"user": "Traduis en kirundi : Tu aimes les Burundais ? Oui, je les aime.", "assistant": "Urakunda abarundi? Ego, ndabakunda."}
+{"user": "Traduis en français : Wakunze abarundi? Ego, nabakunze.", "assistant": "Tu as aimé les Burundais ? Oui, je les ai aimés."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda abarundi?", "assistant": "Ego, ndabakunda. (le pronom -ba- reprend abarundi, classe 2)"}
+{"user": "Traduis en kirundi : Tu vois la voiture ? Oui, je la vois.", "assistant": "Urabona umuduga? Ego, ndawubona."}
+{"user": "Traduis en français : Wabonye umuduga? Ego, nawubonye.", "assistant": "Tu as vu la voiture ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umuduga?", "assistant": "Ego, ndawubona. (le pronom -wu- reprend umuduga, classe 3)"}
+{"user": "Traduis en kirundi : Tu cherches la voiture ? Oui, je la cherche.", "assistant": "Urarondera umuduga? Ego, ndawurondera."}
+{"user": "Traduis en français : Warondereye umuduga? Ego, nawurondereye.", "assistant": "Tu as cherché la voiture ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umuduga?", "assistant": "Ego, ndawurondera. (le pronom -wu- reprend umuduga, classe 3)"}
+{"user": "Traduis en kirundi : Tu aimes la voiture ? Oui, je l'aime.", "assistant": "Urakunda umuduga? Ego, ndawukunda."}
+{"user": "Traduis en français : Wakunze umuduga? Ego, nawukunze.", "assistant": "Tu as aimé la voiture ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umuduga?", "assistant": "Ego, ndawukunda. (le pronom -wu- reprend umuduga, classe 3)"}
+{"user": "Traduis en kirundi : Tu vois l'année ? Oui, je la vois.", "assistant": "Urabona umwaka? Ego, ndawubona."}
+{"user": "Traduis en français : Wabonye umwaka? Ego, nawubonye.", "assistant": "Tu as vu l'année ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umwaka?", "assistant": "Ego, ndawubona. (le pronom -wu- reprend umwaka, classe 3)"}
+{"user": "Traduis en kirundi : Tu cherches l'année ? Oui, je la cherche.", "assistant": "Urarondera umwaka? Ego, ndawurondera."}
+{"user": "Traduis en français : Warondereye umwaka? Ego, nawurondereye.", "assistant": "Tu as cherché l'année ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umwaka?", "assistant": "Ego, ndawurondera. (le pronom -wu- reprend umwaka, classe 3)"}
+{"user": "Traduis en kirundi : Tu aimes l'année ? Oui, je l'aime.", "assistant": "Urakunda umwaka? Ego, ndawukunda."}
+{"user": "Traduis en français : Wakunze umwaka? Ego, nawukunze.", "assistant": "Tu as aimé l'année ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umwaka?", "assistant": "Ego, ndawukunda. (le pronom -wu- reprend umwaka, classe 3)"}
+{"user": "Traduis en kirundi : Tu vois la colline ? Oui, je la vois.", "assistant": "Urabona umusozi? Ego, ndawubona."}
+{"user": "Traduis en français : Wabonye umusozi? Ego, nawubonye.", "assistant": "Tu as vu la colline ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umusozi?", "assistant": "Ego, ndawubona. (le pronom -wu- reprend umusozi, classe 3)"}
+{"user": "Traduis en kirundi : Tu cherches la colline ? Oui, je la cherche.", "assistant": "Urarondera umusozi? Ego, ndawurondera."}
+{"user": "Traduis en français : Warondereye umusozi? Ego, nawurondereye.", "assistant": "Tu as cherché la colline ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umusozi?", "assistant": "Ego, ndawurondera. (le pronom -wu- reprend umusozi, classe 3)"}
+{"user": "Traduis en kirundi : Tu aimes la colline ? Oui, je l'aime.", "assistant": "Urakunda umusozi? Ego, ndawukunda."}
+{"user": "Traduis en français : Wakunze umusozi? Ego, nawukunze.", "assistant": "Tu as aimé la colline ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umusozi?", "assistant": "Ego, ndawukunda. (le pronom -wu- reprend umusozi, classe 3)"}
+{"user": "Traduis en kirundi : Tu vois l'orange ? Oui, je la vois.", "assistant": "Urabona umucungwa? Ego, ndawubona."}
+{"user": "Traduis en français : Wabonye umucungwa? Ego, nawubonye.", "assistant": "Tu as vu l'orange ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umucungwa?", "assistant": "Ego, ndawubona. (le pronom -wu- reprend umucungwa, classe 3)"}
+{"user": "Traduis en kirundi : Tu achètes l'orange ? Oui, je l'achète.", "assistant": "Uragura umucungwa? Ego, ndawugura."}
+{"user": "Traduis en français : Waguze umucungwa? Ego, nawuguze.", "assistant": "Tu as acheté l'orange ? Oui, je l'ai achetée."}
+{"user": "Réponds en kirundi avec un pronom : Uragura umucungwa?", "assistant": "Ego, ndawugura. (le pronom -wu- reprend umucungwa, classe 3)"}
+{"user": "Traduis en kirundi : Tu apportes l'orange ? Oui, je l'apporte.", "assistant": "Urazana umucungwa? Ego, ndawuzana."}
+{"user": "Traduis en français : Wazanye umucungwa? Ego, nawuzanye.", "assistant": "Tu as apporté l'orange ? Oui, je l'ai apportée."}
+{"user": "Réponds en kirundi avec un pronom : Urazana umucungwa?", "assistant": "Ego, ndawuzana. (le pronom -wu- reprend umucungwa, classe 3)"}
+{"user": "Traduis en kirundi : Tu prends l'orange ? Oui, je la prends.", "assistant": "Urafata umucungwa? Ego, ndawufata."}
+{"user": "Traduis en français : Wafashe umucungwa? Ego, nawufashe.", "assistant": "Tu as pris l'orange ? Oui, je l'ai prise."}
+{"user": "Réponds en kirundi avec un pronom : Urafata umucungwa?", "assistant": "Ego, ndawufata. (le pronom -wu- reprend umucungwa, classe 3)"}
+{"user": "Traduis en kirundi : Tu cherches l'orange ? Oui, je la cherche.", "assistant": "Urarondera umucungwa? Ego, ndawurondera."}
+{"user": "Traduis en français : Warondereye umucungwa? Ego, nawurondereye.", "assistant": "Tu as cherché l'orange ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umucungwa?", "assistant": "Ego, ndawurondera. (le pronom -wu- reprend umucungwa, classe 3)"}
+{"user": "Traduis en kirundi : Tu aimes l'orange ? Oui, je l'aime.", "assistant": "Urakunda umucungwa? Ego, ndawukunda."}
+{"user": "Traduis en français : Wakunze umucungwa? Ego, nawukunze.", "assistant": "Tu as aimé l'orange ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umucungwa?", "assistant": "Ego, ndawukunda. (le pronom -wu- reprend umucungwa, classe 3)"}
+{"user": "Traduis en kirundi : Tu vois la mangue ? Oui, je la vois.", "assistant": "Urabona umwembe? Ego, ndawubona."}
+{"user": "Traduis en français : Wabonye umwembe? Ego, nawubonye.", "assistant": "Tu as vu la mangue ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umwembe?", "assistant": "Ego, ndawubona. (le pronom -wu- reprend umwembe, classe 3)"}
+{"user": "Traduis en kirundi : Tu achètes la mangue ? Oui, je l'achète.", "assistant": "Uragura umwembe? Ego, ndawugura."}
+{"user": "Traduis en français : Waguze umwembe? Ego, nawuguze.", "assistant": "Tu as acheté la mangue ? Oui, je l'ai achetée."}
+{"user": "Réponds en kirundi avec un pronom : Uragura umwembe?", "assistant": "Ego, ndawugura. (le pronom -wu- reprend umwembe, classe 3)"}
+{"user": "Traduis en kirundi : Tu apportes la mangue ? Oui, je l'apporte.", "assistant": "Urazana umwembe? Ego, ndawuzana."}
+{"user": "Traduis en français : Wazanye umwembe? Ego, nawuzanye.", "assistant": "Tu as apporté la mangue ? Oui, je l'ai apportée."}
+{"user": "Réponds en kirundi avec un pronom : Urazana umwembe?", "assistant": "Ego, ndawuzana. (le pronom -wu- reprend umwembe, classe 3)"}
+{"user": "Traduis en kirundi : Tu prends la mangue ? Oui, je la prends.", "assistant": "Urafata umwembe? Ego, ndawufata."}
+{"user": "Traduis en français : Wafashe umwembe? Ego, nawufashe.", "assistant": "Tu as pris la mangue ? Oui, je l'ai prise."}
+{"user": "Réponds en kirundi avec un pronom : Urafata umwembe?", "assistant": "Ego, ndawufata. (le pronom -wu- reprend umwembe, classe 3)"}
+{"user": "Traduis en kirundi : Tu cherches la mangue ? Oui, je la cherche.", "assistant": "Urarondera umwembe? Ego, ndawurondera."}
+{"user": "Traduis en français : Warondereye umwembe? Ego, nawurondereye.", "assistant": "Tu as cherché la mangue ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umwembe?", "assistant": "Ego, ndawurondera. (le pronom -wu- reprend umwembe, classe 3)"}
+{"user": "Traduis en kirundi : Tu aimes la mangue ? Oui, je l'aime.", "assistant": "Urakunda umwembe? Ego, ndawukunda."}
+{"user": "Traduis en français : Wakunze umwembe? Ego, nawukunze.", "assistant": "Tu as aimé la mangue ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umwembe?", "assistant": "Ego, ndawukunda. (le pronom -wu- reprend umwembe, classe 3)"}
+{"user": "Traduis en kirundi : Tu vois le jour ? Oui, je le vois.", "assistant": "Urabona umusi? Ego, ndawubona."}
+{"user": "Traduis en français : Wabonye umusi? Ego, nawubonye.", "assistant": "Tu as vu le jour ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umusi?", "assistant": "Ego, ndawubona. (le pronom -wu- reprend umusi, classe 3)"}
+{"user": "Traduis en kirundi : Tu cherches le jour ? Oui, je le cherche.", "assistant": "Urarondera umusi? Ego, ndawurondera."}
+{"user": "Traduis en français : Warondereye umusi? Ego, nawurondereye.", "assistant": "Tu as cherché le jour ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umusi?", "assistant": "Ego, ndawurondera. (le pronom -wu- reprend umusi, classe 3)"}
+{"user": "Traduis en kirundi : Tu aimes le jour ? Oui, je l'aime.", "assistant": "Urakunda umusi? Ego, ndawukunda."}
+{"user": "Traduis en français : Wakunze umusi? Ego, nawukunze.", "assistant": "Tu as aimé le jour ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umusi?", "assistant": "Ego, ndawukunda. (le pronom -wu- reprend umusi, classe 3)"}
+{"user": "Traduis en kirundi : Tu vois l'arbre ? Oui, je le vois.", "assistant": "Urabona umuti? Ego, ndawubona."}
+{"user": "Traduis en français : Wabonye umuti? Ego, nawubonye.", "assistant": "Tu as vu l'arbre ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona umuti?", "assistant": "Ego, ndawubona. (le pronom -wu- reprend umuti, classe 3)"}
+{"user": "Traduis en kirundi : Tu cherches l'arbre ? Oui, je le cherche.", "assistant": "Urarondera umuti? Ego, ndawurondera."}
+{"user": "Traduis en français : Warondereye umuti? Ego, nawurondereye.", "assistant": "Tu as cherché l'arbre ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera umuti?", "assistant": "Ego, ndawurondera. (le pronom -wu- reprend umuti, classe 3)"}
+{"user": "Traduis en kirundi : Tu aimes l'arbre ? Oui, je l'aime.", "assistant": "Urakunda umuti? Ego, ndawukunda."}
+{"user": "Traduis en français : Wakunze umuti? Ego, nawukunze.", "assistant": "Tu as aimé l'arbre ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda umuti?", "assistant": "Ego, ndawukunda. (le pronom -wu- reprend umuti, classe 3)"}
+{"user": "Traduis en kirundi : Tu vois l'école ? Oui, je la vois.", "assistant": "Urabona ishure? Ego, ndaribona."}
+{"user": "Traduis en français : Wabonye ishure? Ego, naribonye.", "assistant": "Tu as vu l'école ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ishure?", "assistant": "Ego, ndaribona. (le pronom -ri- reprend ishure, classe 5)"}
+{"user": "Traduis en kirundi : Tu cherches l'école ? Oui, je la cherche.", "assistant": "Urarondera ishure? Ego, ndarirondera."}
+{"user": "Traduis en français : Warondereye ishure? Ego, narirondereye.", "assistant": "Tu as cherché l'école ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ishure?", "assistant": "Ego, ndarirondera. (le pronom -ri- reprend ishure, classe 5)"}
+{"user": "Traduis en kirundi : Tu aimes l'école ? Oui, je l'aime.", "assistant": "Urakunda ishure? Ego, ndarikunda."}
+{"user": "Traduis en français : Wakunze ishure? Ego, narikunze.", "assistant": "Tu as aimé l'école ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ishure?", "assistant": "Ego, ndarikunda. (le pronom -ri- reprend ishure, classe 5)"}
+{"user": "Traduis en kirundi : Tu vois le nom ? Oui, je le vois.", "assistant": "Urabona izina? Ego, ndaribona."}
+{"user": "Traduis en français : Wabonye izina? Ego, naribonye.", "assistant": "Tu as vu le nom ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona izina?", "assistant": "Ego, ndaribona. (le pronom -ri- reprend izina, classe 5)"}
+{"user": "Traduis en kirundi : Tu cherches le nom ? Oui, je le cherche.", "assistant": "Urarondera izina? Ego, ndarirondera."}
+{"user": "Traduis en français : Warondereye izina? Ego, narirondereye.", "assistant": "Tu as cherché le nom ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera izina?", "assistant": "Ego, ndarirondera. (le pronom -ri- reprend izina, classe 5)"}
+{"user": "Traduis en kirundi : Tu aimes le nom ? Oui, je l'aime.", "assistant": "Urakunda izina? Ego, ndarikunda."}
+{"user": "Traduis en français : Wakunze izina? Ego, narikunze.", "assistant": "Tu as aimé le nom ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda izina?", "assistant": "Ego, ndarikunda. (le pronom -ri- reprend izina, classe 5)"}
+{"user": "Traduis en kirundi : Tu vois l'oeuf ? Oui, je le vois.", "assistant": "Urabona igi? Ego, ndaribona."}
+{"user": "Traduis en français : Wabonye igi? Ego, naribonye.", "assistant": "Tu as vu l'oeuf ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona igi?", "assistant": "Ego, ndaribona. (le pronom -ri- reprend igi, classe 5)"}
+{"user": "Traduis en kirundi : Tu achètes l'oeuf ? Oui, je l'achète.", "assistant": "Uragura igi? Ego, ndarigura."}
+{"user": "Traduis en français : Waguze igi? Ego, nariguze.", "assistant": "Tu as acheté l'oeuf ? Oui, je l'ai acheté."}
+{"user": "Réponds en kirundi avec un pronom : Uragura igi?", "assistant": "Ego, ndarigura. (le pronom -ri- reprend igi, classe 5)"}
+{"user": "Traduis en kirundi : Tu apportes l'oeuf ? Oui, je l'apporte.", "assistant": "Urazana igi? Ego, ndarizana."}
+{"user": "Traduis en français : Wazanye igi? Ego, narizanye.", "assistant": "Tu as apporté l'oeuf ? Oui, je l'ai apporté."}
+{"user": "Réponds en kirundi avec un pronom : Urazana igi?", "assistant": "Ego, ndarizana. (le pronom -ri- reprend igi, classe 5)"}
+{"user": "Traduis en kirundi : Tu prends l'oeuf ? Oui, je le prends.", "assistant": "Urafata igi? Ego, ndarifata."}
+{"user": "Traduis en français : Wafashe igi? Ego, narifashe.", "assistant": "Tu as pris l'oeuf ? Oui, je l'ai pris."}
+{"user": "Réponds en kirundi avec un pronom : Urafata igi?", "assistant": "Ego, ndarifata. (le pronom -ri- reprend igi, classe 5)"}
+{"user": "Traduis en kirundi : Tu cherches l'oeuf ? Oui, je le cherche.", "assistant": "Urarondera igi? Ego, ndarirondera."}
+{"user": "Traduis en français : Warondereye igi? Ego, narirondereye.", "assistant": "Tu as cherché l'oeuf ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera igi?", "assistant": "Ego, ndarirondera. (le pronom -ri- reprend igi, classe 5)"}
+{"user": "Traduis en kirundi : Tu aimes l'oeuf ? Oui, je l'aime.", "assistant": "Urakunda igi? Ego, ndarikunda."}
+{"user": "Traduis en français : Wakunze igi? Ego, narikunze.", "assistant": "Tu as aimé l'oeuf ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda igi?", "assistant": "Ego, ndarikunda. (le pronom -ri- reprend igi, classe 5)"}
+{"user": "Traduis en kirundi : Tu vois le mot ? Oui, je le vois.", "assistant": "Urabona ijambo? Ego, ndaribona."}
+{"user": "Traduis en français : Wabonye ijambo? Ego, naribonye.", "assistant": "Tu as vu le mot ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ijambo?", "assistant": "Ego, ndaribona. (le pronom -ri- reprend ijambo, classe 5)"}
+{"user": "Traduis en kirundi : Tu cherches le mot ? Oui, je le cherche.", "assistant": "Urarondera ijambo? Ego, ndarirondera."}
+{"user": "Traduis en français : Warondereye ijambo? Ego, narirondereye.", "assistant": "Tu as cherché le mot ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ijambo?", "assistant": "Ego, ndarirondera. (le pronom -ri- reprend ijambo, classe 5)"}
+{"user": "Traduis en kirundi : Tu aimes le mot ? Oui, je l'aime.", "assistant": "Urakunda ijambo? Ego, ndarikunda."}
+{"user": "Traduis en français : Wakunze ijambo? Ego, narikunze.", "assistant": "Tu as aimé le mot ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ijambo?", "assistant": "Ego, ndarikunda. (le pronom -ri- reprend ijambo, classe 5)"}
+{"user": "Traduis en kirundi : Tu vois la lettre ? Oui, je la vois.", "assistant": "Urabona ikete? Ego, ndaribona."}
+{"user": "Traduis en français : Wabonye ikete? Ego, naribonye.", "assistant": "Tu as vu la lettre ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ikete?", "assistant": "Ego, ndaribona. (le pronom -ri- reprend ikete, classe 5)"}
+{"user": "Traduis en kirundi : Tu achètes la lettre ? Oui, je l'achète.", "assistant": "Uragura ikete? Ego, ndarigura."}
+{"user": "Traduis en français : Waguze ikete? Ego, nariguze.", "assistant": "Tu as acheté la lettre ? Oui, je l'ai achetée."}
+{"user": "Réponds en kirundi avec un pronom : Uragura ikete?", "assistant": "Ego, ndarigura. (le pronom -ri- reprend ikete, classe 5)"}
+{"user": "Traduis en kirundi : Tu apportes la lettre ? Oui, je l'apporte.", "assistant": "Urazana ikete? Ego, ndarizana."}
+{"user": "Traduis en français : Wazanye ikete? Ego, narizanye.", "assistant": "Tu as apporté la lettre ? Oui, je l'ai apportée."}
+{"user": "Réponds en kirundi avec un pronom : Urazana ikete?", "assistant": "Ego, ndarizana. (le pronom -ri- reprend ikete, classe 5)"}
+{"user": "Traduis en kirundi : Tu prends la lettre ? Oui, je la prends.", "assistant": "Urafata ikete? Ego, ndarifata."}
+{"user": "Traduis en français : Wafashe ikete? Ego, narifashe.", "assistant": "Tu as pris la lettre ? Oui, je l'ai prise."}
+{"user": "Réponds en kirundi avec un pronom : Urafata ikete?", "assistant": "Ego, ndarifata. (le pronom -ri- reprend ikete, classe 5)"}
+{"user": "Traduis en kirundi : Tu cherches la lettre ? Oui, je la cherche.", "assistant": "Urarondera ikete? Ego, ndarirondera."}
+{"user": "Traduis en français : Warondereye ikete? Ego, narirondereye.", "assistant": "Tu as cherché la lettre ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ikete?", "assistant": "Ego, ndarirondera. (le pronom -ri- reprend ikete, classe 5)"}
+{"user": "Traduis en kirundi : Tu aimes la lettre ? Oui, je l'aime.", "assistant": "Urakunda ikete? Ego, ndarikunda."}
+{"user": "Traduis en français : Wakunze ikete? Ego, narikunze.", "assistant": "Tu as aimé la lettre ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ikete?", "assistant": "Ego, ndarikunda. (le pronom -ri- reprend ikete, classe 5)"}
+{"user": "Traduis en kirundi : Tu vois l'heure ? Oui, je la vois.", "assistant": "Urabona isaha? Ego, ndaribona."}
+{"user": "Traduis en français : Wabonye isaha? Ego, naribonye.", "assistant": "Tu as vu l'heure ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona isaha?", "assistant": "Ego, ndaribona. (le pronom -ri- reprend isaha, classe 5)"}
+{"user": "Traduis en kirundi : Tu achètes l'heure ? Oui, je l'achète.", "assistant": "Uragura isaha? Ego, ndarigura."}
+{"user": "Traduis en français : Waguze isaha? Ego, nariguze.", "assistant": "Tu as acheté l'heure ? Oui, je l'ai achetée."}
+{"user": "Réponds en kirundi avec un pronom : Uragura isaha?", "assistant": "Ego, ndarigura. (le pronom -ri- reprend isaha, classe 5)"}
+{"user": "Traduis en kirundi : Tu apportes l'heure ? Oui, je l'apporte.", "assistant": "Urazana isaha? Ego, ndarizana."}
+{"user": "Traduis en français : Wazanye isaha? Ego, narizanye.", "assistant": "Tu as apporté l'heure ? Oui, je l'ai apportée."}
+{"user": "Réponds en kirundi avec un pronom : Urazana isaha?", "assistant": "Ego, ndarizana. (le pronom -ri- reprend isaha, classe 5)"}
+{"user": "Traduis en kirundi : Tu prends l'heure ? Oui, je la prends.", "assistant": "Urafata isaha? Ego, ndarifata."}
+{"user": "Traduis en français : Wafashe isaha? Ego, narifashe.", "assistant": "Tu as pris l'heure ? Oui, je l'ai prise."}
+{"user": "Réponds en kirundi avec un pronom : Urafata isaha?", "assistant": "Ego, ndarifata. (le pronom -ri- reprend isaha, classe 5)"}
+{"user": "Traduis en kirundi : Tu cherches l'heure ? Oui, je la cherche.", "assistant": "Urarondera isaha? Ego, ndarirondera."}
+{"user": "Traduis en français : Warondereye isaha? Ego, narirondereye.", "assistant": "Tu as cherché l'heure ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera isaha?", "assistant": "Ego, ndarirondera. (le pronom -ri- reprend isaha, classe 5)"}
+{"user": "Traduis en kirundi : Tu aimes l'heure ? Oui, je l'aime.", "assistant": "Urakunda isaha? Ego, ndarikunda."}
+{"user": "Traduis en français : Wakunze isaha? Ego, narikunze.", "assistant": "Tu as aimé l'heure ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda isaha?", "assistant": "Ego, ndarikunda. (le pronom -ri- reprend isaha, classe 5)"}
+{"user": "Traduis en kirundi : Tu vois le stylo ? Oui, je le vois.", "assistant": "Urabona ikaramu? Ego, ndayibona."}
+{"user": "Traduis en français : Wabonye ikaramu? Ego, nayibonye.", "assistant": "Tu as vu le stylo ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ikaramu?", "assistant": "Ego, ndayibona. (le pronom -yi- reprend ikaramu, classe 9)"}
+{"user": "Traduis en kirundi : Tu achètes le stylo ? Oui, je l'achète.", "assistant": "Uragura ikaramu? Ego, ndayigura."}
+{"user": "Traduis en français : Waguze ikaramu? Ego, nayiguze.", "assistant": "Tu as acheté le stylo ? Oui, je l'ai acheté."}
+{"user": "Réponds en kirundi avec un pronom : Uragura ikaramu?", "assistant": "Ego, ndayigura. (le pronom -yi- reprend ikaramu, classe 9)"}
+{"user": "Traduis en kirundi : Tu apportes le stylo ? Oui, je l'apporte.", "assistant": "Urazana ikaramu? Ego, ndayizana."}
+{"user": "Traduis en français : Wazanye ikaramu? Ego, nayizanye.", "assistant": "Tu as apporté le stylo ? Oui, je l'ai apporté."}
+{"user": "Réponds en kirundi avec un pronom : Urazana ikaramu?", "assistant": "Ego, ndayizana. (le pronom -yi- reprend ikaramu, classe 9)"}
+{"user": "Traduis en kirundi : Tu prends le stylo ? Oui, je le prends.", "assistant": "Urafata ikaramu? Ego, ndayifata."}
+{"user": "Traduis en français : Wafashe ikaramu? Ego, nayifashe.", "assistant": "Tu as pris le stylo ? Oui, je l'ai pris."}
+{"user": "Réponds en kirundi avec un pronom : Urafata ikaramu?", "assistant": "Ego, ndayifata. (le pronom -yi- reprend ikaramu, classe 9)"}
+{"user": "Traduis en kirundi : Tu cherches le stylo ? Oui, je le cherche.", "assistant": "Urarondera ikaramu? Ego, ndayirondera."}
+{"user": "Traduis en français : Warondereye ikaramu? Ego, nayirondereye.", "assistant": "Tu as cherché le stylo ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ikaramu?", "assistant": "Ego, ndayirondera. (le pronom -yi- reprend ikaramu, classe 9)"}
+{"user": "Traduis en kirundi : Tu aimes le stylo ? Oui, je l'aime.", "assistant": "Urakunda ikaramu? Ego, ndayikunda."}
+{"user": "Traduis en français : Wakunze ikaramu? Ego, nayikunze.", "assistant": "Tu as aimé le stylo ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ikaramu?", "assistant": "Ego, ndayikunda. (le pronom -yi- reprend ikaramu, classe 9)"}
+{"user": "Traduis en kirundi : Tu vois l'eau ? Oui, je la vois.", "assistant": "Urabona amazi? Ego, ndayabona."}
+{"user": "Traduis en français : Wabonye amazi? Ego, nayabonye.", "assistant": "Tu as vu l'eau ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona amazi?", "assistant": "Ego, ndayabona. (le pronom -ya- reprend amazi, classe 6)"}
+{"user": "Traduis en kirundi : Tu achètes l'eau ? Oui, je l'achète.", "assistant": "Uragura amazi? Ego, ndayagura."}
+{"user": "Traduis en français : Waguze amazi? Ego, nayaguze.", "assistant": "Tu as acheté l'eau ? Oui, je l'ai achetée."}
+{"user": "Réponds en kirundi avec un pronom : Uragura amazi?", "assistant": "Ego, ndayagura. (le pronom -ya- reprend amazi, classe 6)"}
+{"user": "Traduis en kirundi : Tu apportes l'eau ? Oui, je l'apporte.", "assistant": "Urazana amazi? Ego, ndayazana."}
+{"user": "Traduis en français : Wazanye amazi? Ego, nayazanye.", "assistant": "Tu as apporté l'eau ? Oui, je l'ai apportée."}
+{"user": "Réponds en kirundi avec un pronom : Urazana amazi?", "assistant": "Ego, ndayazana. (le pronom -ya- reprend amazi, classe 6)"}
+{"user": "Traduis en kirundi : Tu prends l'eau ? Oui, je la prends.", "assistant": "Urafata amazi? Ego, ndayafata."}
+{"user": "Traduis en français : Wafashe amazi? Ego, nayafashe.", "assistant": "Tu as pris l'eau ? Oui, je l'ai prise."}
+{"user": "Réponds en kirundi avec un pronom : Urafata amazi?", "assistant": "Ego, ndayafata. (le pronom -ya- reprend amazi, classe 6)"}
+{"user": "Traduis en kirundi : Tu cherches l'eau ? Oui, je la cherche.", "assistant": "Urarondera amazi? Ego, ndayarondera."}
+{"user": "Traduis en français : Warondereye amazi? Ego, nayarondereye.", "assistant": "Tu as cherché l'eau ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera amazi?", "assistant": "Ego, ndayarondera. (le pronom -ya- reprend amazi, classe 6)"}
+{"user": "Traduis en kirundi : Tu aimes l'eau ? Oui, je l'aime.", "assistant": "Urakunda amazi? Ego, ndayakunda."}
+{"user": "Traduis en français : Wakunze amazi? Ego, nayakunze.", "assistant": "Tu as aimé l'eau ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda amazi?", "assistant": "Ego, ndayakunda. (le pronom -ya- reprend amazi, classe 6)"}
+{"user": "Traduis en kirundi : Tu vois la chose ? Oui, je la vois.", "assistant": "Urabona ikintu? Ego, ndakibona."}
+{"user": "Traduis en français : Wabonye ikintu? Ego, nakibonye.", "assistant": "Tu as vu la chose ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ikintu?", "assistant": "Ego, ndakibona. (le pronom -ki- reprend ikintu, classe 7)"}
+{"user": "Traduis en kirundi : Tu cherches la chose ? Oui, je la cherche.", "assistant": "Urarondera ikintu? Ego, ndakirondera."}
+{"user": "Traduis en français : Warondereye ikintu? Ego, nakirondereye.", "assistant": "Tu as cherché la chose ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ikintu?", "assistant": "Ego, ndakirondera. (le pronom -ki- reprend ikintu, classe 7)"}
+{"user": "Traduis en kirundi : Tu aimes la chose ? Oui, je l'aime.", "assistant": "Urakunda ikintu? Ego, ndagikunda."}
+{"user": "Traduis en français : Wakunze ikintu? Ego, nagikunze.", "assistant": "Tu as aimé la chose ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ikintu?", "assistant": "Ego, ndagikunda. (le pronom -ki- reprend ikintu, classe 7)"}
+{"user": "Traduis en kirundi : Tu vois le livre ? Oui, je le vois.", "assistant": "Urabona igitabo? Ego, ndakibona."}
+{"user": "Traduis en français : Wabonye igitabo? Ego, nakibonye.", "assistant": "Tu as vu le livre ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona igitabo?", "assistant": "Ego, ndakibona. (le pronom -ki- reprend igitabo, classe 7)"}
+{"user": "Traduis en kirundi : Tu achètes le livre ? Oui, je l'achète.", "assistant": "Uragura igitabo? Ego, ndakigura."}
+{"user": "Traduis en français : Waguze igitabo? Ego, nakiguze.", "assistant": "Tu as acheté le livre ? Oui, je l'ai acheté."}
+{"user": "Réponds en kirundi avec un pronom : Uragura igitabo?", "assistant": "Ego, ndakigura. (le pronom -ki- reprend igitabo, classe 7)"}
+{"user": "Traduis en kirundi : Tu apportes le livre ? Oui, je l'apporte.", "assistant": "Urazana igitabo? Ego, ndakizana."}
+{"user": "Traduis en français : Wazanye igitabo? Ego, nakizanye.", "assistant": "Tu as apporté le livre ? Oui, je l'ai apporté."}
+{"user": "Réponds en kirundi avec un pronom : Urazana igitabo?", "assistant": "Ego, ndakizana. (le pronom -ki- reprend igitabo, classe 7)"}
+{"user": "Traduis en kirundi : Tu prends le livre ? Oui, je le prends.", "assistant": "Urafata igitabo? Ego, ndagifata."}
+{"user": "Traduis en français : Wafashe igitabo? Ego, nagifashe.", "assistant": "Tu as pris le livre ? Oui, je l'ai pris."}
+{"user": "Réponds en kirundi avec un pronom : Urafata igitabo?", "assistant": "Ego, ndagifata. (le pronom -ki- reprend igitabo, classe 7)"}
+{"user": "Traduis en kirundi : Tu cherches le livre ? Oui, je le cherche.", "assistant": "Urarondera igitabo? Ego, ndakirondera."}
+{"user": "Traduis en français : Warondereye igitabo? Ego, nakirondereye.", "assistant": "Tu as cherché le livre ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera igitabo?", "assistant": "Ego, ndakirondera. (le pronom -ki- reprend igitabo, classe 7)"}
+{"user": "Traduis en kirundi : Tu aimes le livre ? Oui, je l'aime.", "assistant": "Urakunda igitabo? Ego, ndagikunda."}
+{"user": "Traduis en français : Wakunze igitabo? Ego, nagikunze.", "assistant": "Tu as aimé le livre ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda igitabo?", "assistant": "Ego, ndagikunda. (le pronom -ki- reprend igitabo, classe 7)"}
+{"user": "Traduis en kirundi : Tu vois l'arbre ? Oui, je le vois.", "assistant": "Urabona igiti? Ego, ndakibona."}
+{"user": "Traduis en français : Wabonye igiti? Ego, nakibonye.", "assistant": "Tu as vu l'arbre ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona igiti?", "assistant": "Ego, ndakibona. (le pronom -ki- reprend igiti, classe 7)"}
+{"user": "Traduis en kirundi : Tu cherches l'arbre ? Oui, je le cherche.", "assistant": "Urarondera igiti? Ego, ndakirondera."}
+{"user": "Traduis en français : Warondereye igiti? Ego, nakirondereye.", "assistant": "Tu as cherché l'arbre ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera igiti?", "assistant": "Ego, ndakirondera. (le pronom -ki- reprend igiti, classe 7)"}
+{"user": "Traduis en kirundi : Tu aimes l'arbre ? Oui, je l'aime.", "assistant": "Urakunda igiti? Ego, ndagikunda."}
+{"user": "Traduis en français : Wakunze igiti? Ego, nagikunze.", "assistant": "Tu as aimé l'arbre ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda igiti?", "assistant": "Ego, ndagikunda. (le pronom -ki- reprend igiti, classe 7)"}
+{"user": "Traduis en kirundi : Tu vois le pays ? Oui, je le vois.", "assistant": "Urabona igihugu? Ego, ndakibona."}
+{"user": "Traduis en français : Wabonye igihugu? Ego, nakibonye.", "assistant": "Tu as vu le pays ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona igihugu?", "assistant": "Ego, ndakibona. (le pronom -ki- reprend igihugu, classe 7)"}
+{"user": "Traduis en kirundi : Tu cherches le pays ? Oui, je le cherche.", "assistant": "Urarondera igihugu? Ego, ndakirondera."}
+{"user": "Traduis en français : Warondereye igihugu? Ego, nakirondereye.", "assistant": "Tu as cherché le pays ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera igihugu?", "assistant": "Ego, ndakirondera. (le pronom -ki- reprend igihugu, classe 7)"}
+{"user": "Traduis en kirundi : Tu aimes le pays ? Oui, je l'aime.", "assistant": "Urakunda igihugu? Ego, ndagikunda."}
+{"user": "Traduis en français : Wakunze igihugu? Ego, nagikunze.", "assistant": "Tu as aimé le pays ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda igihugu?", "assistant": "Ego, ndagikunda. (le pronom -ki- reprend igihugu, classe 7)"}
+{"user": "Traduis en kirundi : Tu vois les pays ? Oui, je les vois.", "assistant": "Urabona ibihugu? Ego, ndabibona."}
+{"user": "Traduis en français : Wabonye ibihugu? Ego, nabibonye.", "assistant": "Tu as vu les pays ? Oui, je les ai vus."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ibihugu?", "assistant": "Ego, ndabibona. (le pronom -bi- reprend ibihugu, classe 8)"}
+{"user": "Traduis en kirundi : Tu cherches les pays ? Oui, je les cherche.", "assistant": "Urarondera ibihugu? Ego, ndabirondera."}
+{"user": "Traduis en français : Warondereye ibihugu? Ego, nabirondereye.", "assistant": "Tu as cherché les pays ? Oui, je les ai cherchés."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ibihugu?", "assistant": "Ego, ndabirondera. (le pronom -bi- reprend ibihugu, classe 8)"}
+{"user": "Traduis en kirundi : Tu aimes les pays ? Oui, je les aime.", "assistant": "Urakunda ibihugu? Ego, ndabikunda."}
+{"user": "Traduis en français : Wakunze ibihugu? Ego, nabikunze.", "assistant": "Tu as aimé les pays ? Oui, je les ai aimés."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ibihugu?", "assistant": "Ego, ndabikunda. (le pronom -bi- reprend ibihugu, classe 8)"}
+{"user": "Traduis en kirundi : Tu vois la chaussure ? Oui, je la vois.", "assistant": "Urabona ikirato? Ego, ndakibona."}
+{"user": "Traduis en français : Wabonye ikirato? Ego, nakibonye.", "assistant": "Tu as vu la chaussure ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ikirato?", "assistant": "Ego, ndakibona. (le pronom -ki- reprend ikirato, classe 7)"}
+{"user": "Traduis en kirundi : Tu achètes la chaussure ? Oui, je l'achète.", "assistant": "Uragura ikirato? Ego, ndakigura."}
+{"user": "Traduis en français : Waguze ikirato? Ego, nakiguze.", "assistant": "Tu as acheté la chaussure ? Oui, je l'ai achetée."}
+{"user": "Réponds en kirundi avec un pronom : Uragura ikirato?", "assistant": "Ego, ndakigura. (le pronom -ki- reprend ikirato, classe 7)"}
+{"user": "Traduis en kirundi : Tu apportes la chaussure ? Oui, je l'apporte.", "assistant": "Urazana ikirato? Ego, ndakizana."}
+{"user": "Traduis en français : Wazanye ikirato? Ego, nakizanye.", "assistant": "Tu as apporté la chaussure ? Oui, je l'ai apportée."}
+{"user": "Réponds en kirundi avec un pronom : Urazana ikirato?", "assistant": "Ego, ndakizana. (le pronom -ki- reprend ikirato, classe 7)"}
+{"user": "Traduis en kirundi : Tu prends la chaussure ? Oui, je la prends.", "assistant": "Urafata ikirato? Ego, ndagifata."}
+{"user": "Traduis en français : Wafashe ikirato? Ego, nagifashe.", "assistant": "Tu as pris la chaussure ? Oui, je l'ai prise."}
+{"user": "Réponds en kirundi avec un pronom : Urafata ikirato?", "assistant": "Ego, ndagifata. (le pronom -ki- reprend ikirato, classe 7)"}
+{"user": "Traduis en kirundi : Tu cherches la chaussure ? Oui, je la cherche.", "assistant": "Urarondera ikirato? Ego, ndakirondera."}
+{"user": "Traduis en français : Warondereye ikirato? Ego, nakirondereye.", "assistant": "Tu as cherché la chaussure ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ikirato?", "assistant": "Ego, ndakirondera. (le pronom -ki- reprend ikirato, classe 7)"}
+{"user": "Traduis en kirundi : Tu aimes la chaussure ? Oui, je l'aime.", "assistant": "Urakunda ikirato? Ego, ndagikunda."}
+{"user": "Traduis en français : Wakunze ikirato? Ego, nagikunze.", "assistant": "Tu as aimé la chaussure ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ikirato?", "assistant": "Ego, ndagikunda. (le pronom -ki- reprend ikirato, classe 7)"}
+{"user": "Traduis en kirundi : Tu vois le fruit ? Oui, je le vois.", "assistant": "Urabona icamwa? Ego, ndakibona."}
+{"user": "Traduis en français : Wabonye icamwa? Ego, nakibonye.", "assistant": "Tu as vu le fruit ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona icamwa?", "assistant": "Ego, ndakibona. (le pronom -ki- reprend icamwa, classe 7)"}
+{"user": "Traduis en kirundi : Tu achètes le fruit ? Oui, je l'achète.", "assistant": "Uragura icamwa? Ego, ndakigura."}
+{"user": "Traduis en français : Waguze icamwa? Ego, nakiguze.", "assistant": "Tu as acheté le fruit ? Oui, je l'ai acheté."}
+{"user": "Réponds en kirundi avec un pronom : Uragura icamwa?", "assistant": "Ego, ndakigura. (le pronom -ki- reprend icamwa, classe 7)"}
+{"user": "Traduis en kirundi : Tu apportes le fruit ? Oui, je l'apporte.", "assistant": "Urazana icamwa? Ego, ndakizana."}
+{"user": "Traduis en français : Wazanye icamwa? Ego, nakizanye.", "assistant": "Tu as apporté le fruit ? Oui, je l'ai apporté."}
+{"user": "Réponds en kirundi avec un pronom : Urazana icamwa?", "assistant": "Ego, ndakizana. (le pronom -ki- reprend icamwa, classe 7)"}
+{"user": "Traduis en kirundi : Tu prends le fruit ? Oui, je le prends.", "assistant": "Urafata icamwa? Ego, ndagifata."}
+{"user": "Traduis en français : Wafashe icamwa? Ego, nagifashe.", "assistant": "Tu as pris le fruit ? Oui, je l'ai pris."}
+{"user": "Réponds en kirundi avec un pronom : Urafata icamwa?", "assistant": "Ego, ndagifata. (le pronom -ki- reprend icamwa, classe 7)"}
+{"user": "Traduis en kirundi : Tu cherches le fruit ? Oui, je le cherche.", "assistant": "Urarondera icamwa? Ego, ndakirondera."}
+{"user": "Traduis en français : Warondereye icamwa? Ego, nakirondereye.", "assistant": "Tu as cherché le fruit ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera icamwa?", "assistant": "Ego, ndakirondera. (le pronom -ki- reprend icamwa, classe 7)"}
+{"user": "Traduis en kirundi : Tu aimes le fruit ? Oui, je l'aime.", "assistant": "Urakunda icamwa? Ego, ndagikunda."}
+{"user": "Traduis en français : Wakunze icamwa? Ego, nagikunze.", "assistant": "Tu as aimé le fruit ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda icamwa?", "assistant": "Ego, ndagikunda. (le pronom -ki- reprend icamwa, classe 7)"}
+{"user": "Traduis en kirundi : Tu vois le lac ? Oui, je le vois.", "assistant": "Urabona ikiyaga? Ego, ndakibona."}
+{"user": "Traduis en français : Wabonye ikiyaga? Ego, nakibonye.", "assistant": "Tu as vu le lac ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ikiyaga?", "assistant": "Ego, ndakibona. (le pronom -ki- reprend ikiyaga, classe 7)"}
+{"user": "Traduis en kirundi : Tu cherches le lac ? Oui, je le cherche.", "assistant": "Urarondera ikiyaga? Ego, ndakirondera."}
+{"user": "Traduis en français : Warondereye ikiyaga? Ego, nakirondereye.", "assistant": "Tu as cherché le lac ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ikiyaga?", "assistant": "Ego, ndakirondera. (le pronom -ki- reprend ikiyaga, classe 7)"}
+{"user": "Traduis en kirundi : Tu aimes le lac ? Oui, je l'aime.", "assistant": "Urakunda ikiyaga? Ego, ndagikunda."}
+{"user": "Traduis en français : Wakunze ikiyaga? Ego, nagikunze.", "assistant": "Tu as aimé le lac ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ikiyaga?", "assistant": "Ego, ndagikunda. (le pronom -ki- reprend ikiyaga, classe 7)"}
+{"user": "Traduis en kirundi : Tu vois la vache ? Oui, je la vois.", "assistant": "Urabona inka? Ego, ndayibona."}
+{"user": "Traduis en français : Wabonye inka? Ego, nayibonye.", "assistant": "Tu as vu la vache ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona inka?", "assistant": "Ego, ndayibona. (le pronom -yi- reprend inka, classe 9)"}
+{"user": "Traduis en kirundi : Tu cherches la vache ? Oui, je la cherche.", "assistant": "Urarondera inka? Ego, ndayirondera."}
+{"user": "Traduis en français : Warondereye inka? Ego, nayirondereye.", "assistant": "Tu as cherché la vache ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera inka?", "assistant": "Ego, ndayirondera. (le pronom -yi- reprend inka, classe 9)"}
+{"user": "Traduis en kirundi : Tu aimes la vache ? Oui, je l'aime.", "assistant": "Urakunda inka? Ego, ndayikunda."}
+{"user": "Traduis en français : Wakunze inka? Ego, nayikunze.", "assistant": "Tu as aimé la vache ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda inka?", "assistant": "Ego, ndayikunda. (le pronom -yi- reprend inka, classe 9)"}
+{"user": "Traduis en kirundi : Tu vois le chien ? Oui, je le vois.", "assistant": "Urabona imbwa? Ego, ndayibona."}
+{"user": "Traduis en français : Wabonye imbwa? Ego, nayibonye.", "assistant": "Tu as vu le chien ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona imbwa?", "assistant": "Ego, ndayibona. (le pronom -yi- reprend imbwa, classe 9)"}
+{"user": "Traduis en kirundi : Tu cherches le chien ? Oui, je le cherche.", "assistant": "Urarondera imbwa? Ego, ndayirondera."}
+{"user": "Traduis en français : Warondereye imbwa? Ego, nayirondereye.", "assistant": "Tu as cherché le chien ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera imbwa?", "assistant": "Ego, ndayirondera. (le pronom -yi- reprend imbwa, classe 9)"}
+{"user": "Traduis en kirundi : Tu aimes le chien ? Oui, je l'aime.", "assistant": "Urakunda imbwa? Ego, ndayikunda."}
+{"user": "Traduis en français : Wakunze imbwa? Ego, nayikunze.", "assistant": "Tu as aimé le chien ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda imbwa?", "assistant": "Ego, ndayikunda. (le pronom -yi- reprend imbwa, classe 9)"}
+{"user": "Traduis en kirundi : Tu vois la maison ? Oui, je la vois.", "assistant": "Urabona inzu? Ego, ndayibona."}
+{"user": "Traduis en français : Wabonye inzu? Ego, nayibonye.", "assistant": "Tu as vu la maison ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona inzu?", "assistant": "Ego, ndayibona. (le pronom -yi- reprend inzu, classe 9)"}
+{"user": "Traduis en kirundi : Tu cherches la maison ? Oui, je la cherche.", "assistant": "Urarondera inzu? Ego, ndayirondera."}
+{"user": "Traduis en français : Warondereye inzu? Ego, nayirondereye.", "assistant": "Tu as cherché la maison ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera inzu?", "assistant": "Ego, ndayirondera. (le pronom -yi- reprend inzu, classe 9)"}
+{"user": "Traduis en kirundi : Tu aimes la maison ? Oui, je l'aime.", "assistant": "Urakunda inzu? Ego, ndayikunda."}
+{"user": "Traduis en français : Wakunze inzu? Ego, nayikunze.", "assistant": "Tu as aimé la maison ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda inzu?", "assistant": "Ego, ndayikunda. (le pronom -yi- reprend inzu, classe 9)"}
+{"user": "Traduis en kirundi : Tu vois le vêtement ? Oui, je le vois.", "assistant": "Urabona impuzu? Ego, ndayibona."}
+{"user": "Traduis en français : Wabonye impuzu? Ego, nayibonye.", "assistant": "Tu as vu le vêtement ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona impuzu?", "assistant": "Ego, ndayibona. (le pronom -yi- reprend impuzu, classe 9)"}
+{"user": "Traduis en kirundi : Tu achètes le vêtement ? Oui, je l'achète.", "assistant": "Uragura impuzu? Ego, ndayigura."}
+{"user": "Traduis en français : Waguze impuzu? Ego, nayiguze.", "assistant": "Tu as acheté le vêtement ? Oui, je l'ai acheté."}
+{"user": "Réponds en kirundi avec un pronom : Uragura impuzu?", "assistant": "Ego, ndayigura. (le pronom -yi- reprend impuzu, classe 9)"}
+{"user": "Traduis en kirundi : Tu apportes le vêtement ? Oui, je l'apporte.", "assistant": "Urazana impuzu? Ego, ndayizana."}
+{"user": "Traduis en français : Wazanye impuzu? Ego, nayizanye.", "assistant": "Tu as apporté le vêtement ? Oui, je l'ai apporté."}
+{"user": "Réponds en kirundi avec un pronom : Urazana impuzu?", "assistant": "Ego, ndayizana. (le pronom -yi- reprend impuzu, classe 9)"}
+{"user": "Traduis en kirundi : Tu prends le vêtement ? Oui, je le prends.", "assistant": "Urafata impuzu? Ego, ndayifata."}
+{"user": "Traduis en français : Wafashe impuzu? Ego, nayifashe.", "assistant": "Tu as pris le vêtement ? Oui, je l'ai pris."}
+{"user": "Réponds en kirundi avec un pronom : Urafata impuzu?", "assistant": "Ego, ndayifata. (le pronom -yi- reprend impuzu, classe 9)"}
+{"user": "Traduis en kirundi : Tu cherches le vêtement ? Oui, je le cherche.", "assistant": "Urarondera impuzu? Ego, ndayirondera."}
+{"user": "Traduis en français : Warondereye impuzu? Ego, nayirondereye.", "assistant": "Tu as cherché le vêtement ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera impuzu?", "assistant": "Ego, ndayirondera. (le pronom -yi- reprend impuzu, classe 9)"}
+{"user": "Traduis en kirundi : Tu aimes le vêtement ? Oui, je l'aime.", "assistant": "Urakunda impuzu? Ego, ndayikunda."}
+{"user": "Traduis en français : Wakunze impuzu? Ego, nayikunze.", "assistant": "Tu as aimé le vêtement ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda impuzu?", "assistant": "Ego, ndayikunda. (le pronom -yi- reprend impuzu, classe 9)"}
+{"user": "Traduis en kirundi : Tu vois le citron ? Oui, je le vois.", "assistant": "Urabona indimu? Ego, ndayibona."}
+{"user": "Traduis en français : Wabonye indimu? Ego, nayibonye.", "assistant": "Tu as vu le citron ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona indimu?", "assistant": "Ego, ndayibona. (le pronom -yi- reprend indimu, classe 9)"}
+{"user": "Traduis en kirundi : Tu achètes le citron ? Oui, je l'achète.", "assistant": "Uragura indimu? Ego, ndayigura."}
+{"user": "Traduis en français : Waguze indimu? Ego, nayiguze.", "assistant": "Tu as acheté le citron ? Oui, je l'ai acheté."}
+{"user": "Réponds en kirundi avec un pronom : Uragura indimu?", "assistant": "Ego, ndayigura. (le pronom -yi- reprend indimu, classe 9)"}
+{"user": "Traduis en kirundi : Tu apportes le citron ? Oui, je l'apporte.", "assistant": "Urazana indimu? Ego, ndayizana."}
+{"user": "Traduis en français : Wazanye indimu? Ego, nayizanye.", "assistant": "Tu as apporté le citron ? Oui, je l'ai apporté."}
+{"user": "Réponds en kirundi avec un pronom : Urazana indimu?", "assistant": "Ego, ndayizana. (le pronom -yi- reprend indimu, classe 9)"}
+{"user": "Traduis en kirundi : Tu prends le citron ? Oui, je le prends.", "assistant": "Urafata indimu? Ego, ndayifata."}
+{"user": "Traduis en français : Wafashe indimu? Ego, nayifashe.", "assistant": "Tu as pris le citron ? Oui, je l'ai pris."}
+{"user": "Réponds en kirundi avec un pronom : Urafata indimu?", "assistant": "Ego, ndayifata. (le pronom -yi- reprend indimu, classe 9)"}
+{"user": "Traduis en kirundi : Tu cherches le citron ? Oui, je le cherche.", "assistant": "Urarondera indimu? Ego, ndayirondera."}
+{"user": "Traduis en français : Warondereye indimu? Ego, nayirondereye.", "assistant": "Tu as cherché le citron ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera indimu?", "assistant": "Ego, ndayirondera. (le pronom -yi- reprend indimu, classe 9)"}
+{"user": "Traduis en kirundi : Tu aimes le citron ? Oui, je l'aime.", "assistant": "Urakunda indimu? Ego, ndayikunda."}
+{"user": "Traduis en français : Wakunze indimu? Ego, nayikunze.", "assistant": "Tu as aimé le citron ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda indimu?", "assistant": "Ego, ndayikunda. (le pronom -yi- reprend indimu, classe 9)"}
+{"user": "Traduis en kirundi : Tu vois l'ananas ? Oui, je le vois.", "assistant": "Urabona inanasi? Ego, ndayibona."}
+{"user": "Traduis en français : Wabonye inanasi? Ego, nayibonye.", "assistant": "Tu as vu l'ananas ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona inanasi?", "assistant": "Ego, ndayibona. (le pronom -yi- reprend inanasi, classe 9)"}
+{"user": "Traduis en kirundi : Tu achètes l'ananas ? Oui, je l'achète.", "assistant": "Uragura inanasi? Ego, ndayigura."}
+{"user": "Traduis en français : Waguze inanasi? Ego, nayiguze.", "assistant": "Tu as acheté l'ananas ? Oui, je l'ai acheté."}
+{"user": "Réponds en kirundi avec un pronom : Uragura inanasi?", "assistant": "Ego, ndayigura. (le pronom -yi- reprend inanasi, classe 9)"}
+{"user": "Traduis en kirundi : Tu apportes l'ananas ? Oui, je l'apporte.", "assistant": "Urazana inanasi? Ego, ndayizana."}
+{"user": "Traduis en français : Wazanye inanasi? Ego, nayizanye.", "assistant": "Tu as apporté l'ananas ? Oui, je l'ai apporté."}
+{"user": "Réponds en kirundi avec un pronom : Urazana inanasi?", "assistant": "Ego, ndayizana. (le pronom -yi- reprend inanasi, classe 9)"}
+{"user": "Traduis en kirundi : Tu prends l'ananas ? Oui, je le prends.", "assistant": "Urafata inanasi? Ego, ndayifata."}
+{"user": "Traduis en français : Wafashe inanasi? Ego, nayifashe.", "assistant": "Tu as pris l'ananas ? Oui, je l'ai pris."}
+{"user": "Réponds en kirundi avec un pronom : Urafata inanasi?", "assistant": "Ego, ndayifata. (le pronom -yi- reprend inanasi, classe 9)"}
+{"user": "Traduis en kirundi : Tu cherches l'ananas ? Oui, je le cherche.", "assistant": "Urarondera inanasi? Ego, ndayirondera."}
+{"user": "Traduis en français : Warondereye inanasi? Ego, nayirondereye.", "assistant": "Tu as cherché l'ananas ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera inanasi?", "assistant": "Ego, ndayirondera. (le pronom -yi- reprend inanasi, classe 9)"}
+{"user": "Traduis en kirundi : Tu aimes l'ananas ? Oui, je l'aime.", "assistant": "Urakunda inanasi? Ego, ndayikunda."}
+{"user": "Traduis en français : Wakunze inanasi? Ego, nayikunze.", "assistant": "Tu as aimé l'ananas ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda inanasi?", "assistant": "Ego, ndayikunda. (le pronom -yi- reprend inanasi, classe 9)"}
+{"user": "Traduis en kirundi : Tu vois les ananas ? Oui, je les vois.", "assistant": "Urabona inanasi? Ego, ndazibona."}
+{"user": "Traduis en français : Wabonye inanasi? Ego, nazibonye.", "assistant": "Tu as vu les ananas ? Oui, je les ai vus."}
+{"user": "Réponds en kirundi avec un pronom : Urabona inanasi?", "assistant": "Ego, ndazibona. (le pronom -zi- reprend inanasi, classe 10)"}
+{"user": "Traduis en kirundi : Tu achètes les ananas ? Oui, je les achète.", "assistant": "Uragura inanasi? Ego, ndazigura."}
+{"user": "Traduis en français : Waguze inanasi? Ego, naziguze.", "assistant": "Tu as acheté les ananas ? Oui, je les ai achetés."}
+{"user": "Réponds en kirundi avec un pronom : Uragura inanasi?", "assistant": "Ego, ndazigura. (le pronom -zi- reprend inanasi, classe 10)"}
+{"user": "Traduis en kirundi : Tu apportes les ananas ? Oui, je les apporte.", "assistant": "Urazana inanasi? Ego, ndazizana."}
+{"user": "Traduis en français : Wazanye inanasi? Ego, nazizanye.", "assistant": "Tu as apporté les ananas ? Oui, je les ai apportés."}
+{"user": "Réponds en kirundi avec un pronom : Urazana inanasi?", "assistant": "Ego, ndazizana. (le pronom -zi- reprend inanasi, classe 10)"}
+{"user": "Traduis en kirundi : Tu prends les ananas ? Oui, je les prends.", "assistant": "Urafata inanasi? Ego, ndazifata."}
+{"user": "Traduis en français : Wafashe inanasi? Ego, nazifashe.", "assistant": "Tu as pris les ananas ? Oui, je les ai pris."}
+{"user": "Réponds en kirundi avec un pronom : Urafata inanasi?", "assistant": "Ego, ndazifata. (le pronom -zi- reprend inanasi, classe 10)"}
+{"user": "Traduis en kirundi : Tu cherches les ananas ? Oui, je les cherche.", "assistant": "Urarondera inanasi? Ego, ndazirondera."}
+{"user": "Traduis en français : Warondereye inanasi? Ego, nazirondereye.", "assistant": "Tu as cherché les ananas ? Oui, je les ai cherchés."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera inanasi?", "assistant": "Ego, ndazirondera. (le pronom -zi- reprend inanasi, classe 10)"}
+{"user": "Traduis en kirundi : Tu aimes les ananas ? Oui, je les aime.", "assistant": "Urakunda inanasi? Ego, ndazikunda."}
+{"user": "Traduis en français : Wakunze inanasi? Ego, nazikunze.", "assistant": "Tu as aimé les ananas ? Oui, je les ai aimés."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda inanasi?", "assistant": "Ego, ndazikunda. (le pronom -zi- reprend inanasi, classe 10)"}
+{"user": "Traduis en kirundi : Tu vois le chemin ? Oui, je le vois.", "assistant": "Urabona inzira? Ego, ndayibona."}
+{"user": "Traduis en français : Wabonye inzira? Ego, nayibonye.", "assistant": "Tu as vu le chemin ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona inzira?", "assistant": "Ego, ndayibona. (le pronom -yi- reprend inzira, classe 9)"}
+{"user": "Traduis en kirundi : Tu cherches le chemin ? Oui, je le cherche.", "assistant": "Urarondera inzira? Ego, ndayirondera."}
+{"user": "Traduis en français : Warondereye inzira? Ego, nayirondereye.", "assistant": "Tu as cherché le chemin ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera inzira?", "assistant": "Ego, ndayirondera. (le pronom -yi- reprend inzira, classe 9)"}
+{"user": "Traduis en kirundi : Tu aimes le chemin ? Oui, je l'aime.", "assistant": "Urakunda inzira? Ego, ndayikunda."}
+{"user": "Traduis en français : Wakunze inzira? Ego, nayikunze.", "assistant": "Tu as aimé le chemin ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda inzira?", "assistant": "Ego, ndayikunda. (le pronom -yi- reprend inzira, classe 9)"}
+{"user": "Traduis en kirundi : Tu vois l'enclos ? Oui, je le vois.", "assistant": "Urabona urugo? Ego, ndarubona."}
+{"user": "Traduis en français : Wabonye urugo? Ego, narubonye.", "assistant": "Tu as vu l'enclos ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona urugo?", "assistant": "Ego, ndarubona. (le pronom -ru- reprend urugo, classe 11)"}
+{"user": "Traduis en kirundi : Tu cherches l'enclos ? Oui, je le cherche.", "assistant": "Urarondera urugo? Ego, ndarurondera."}
+{"user": "Traduis en français : Warondereye urugo? Ego, narurondereye.", "assistant": "Tu as cherché l'enclos ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera urugo?", "assistant": "Ego, ndarurondera. (le pronom -ru- reprend urugo, classe 11)"}
+{"user": "Traduis en kirundi : Tu aimes l'enclos ? Oui, je l'aime.", "assistant": "Urakunda urugo? Ego, ndarukunda."}
+{"user": "Traduis en français : Wakunze urugo? Ego, narukunze.", "assistant": "Tu as aimé l'enclos ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda urugo?", "assistant": "Ego, ndarukunda. (le pronom -ru- reprend urugo, classe 11)"}
+{"user": "Traduis en kirundi : Tu vois les enclos ? Oui, je les vois.", "assistant": "Urabona ingo? Ego, ndazibona."}
+{"user": "Traduis en français : Wabonye ingo? Ego, nazibonye.", "assistant": "Tu as vu les enclos ? Oui, je les ai vus."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ingo?", "assistant": "Ego, ndazibona. (le pronom -zi- reprend ingo, classe 10)"}
+{"user": "Traduis en kirundi : Tu cherches les enclos ? Oui, je les cherche.", "assistant": "Urarondera ingo? Ego, ndazirondera."}
+{"user": "Traduis en français : Warondereye ingo? Ego, nazirondereye.", "assistant": "Tu as cherché les enclos ? Oui, je les ai cherchés."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ingo?", "assistant": "Ego, ndazirondera. (le pronom -zi- reprend ingo, classe 10)"}
+{"user": "Traduis en kirundi : Tu aimes les enclos ? Oui, je les aime.", "assistant": "Urakunda ingo? Ego, ndazikunda."}
+{"user": "Traduis en français : Wakunze ingo? Ego, nazikunze.", "assistant": "Tu as aimé les enclos ? Oui, je les ai aimés."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ingo?", "assistant": "Ego, ndazikunda. (le pronom -zi- reprend ingo, classe 10)"}
+{"user": "Traduis en kirundi : Tu vois la rivière ? Oui, je la vois.", "assistant": "Urabona uruzi? Ego, ndarubona."}
+{"user": "Traduis en français : Wabonye uruzi? Ego, narubonye.", "assistant": "Tu as vu la rivière ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona uruzi?", "assistant": "Ego, ndarubona. (le pronom -ru- reprend uruzi, classe 11)"}
+{"user": "Traduis en kirundi : Tu cherches la rivière ? Oui, je la cherche.", "assistant": "Urarondera uruzi? Ego, ndarurondera."}
+{"user": "Traduis en français : Warondereye uruzi? Ego, narurondereye.", "assistant": "Tu as cherché la rivière ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera uruzi?", "assistant": "Ego, ndarurondera. (le pronom -ru- reprend uruzi, classe 11)"}
+{"user": "Traduis en kirundi : Tu aimes la rivière ? Oui, je l'aime.", "assistant": "Urakunda uruzi? Ego, ndarukunda."}
+{"user": "Traduis en français : Wakunze uruzi? Ego, narukunze.", "assistant": "Tu as aimé la rivière ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda uruzi?", "assistant": "Ego, ndarukunda. (le pronom -ru- reprend uruzi, classe 11)"}
+{"user": "Traduis en kirundi : Tu vois la feuille de papier ? Oui, je la vois.", "assistant": "Urabona urupapuro? Ego, ndarubona."}
+{"user": "Traduis en français : Wabonye urupapuro? Ego, narubonye.", "assistant": "Tu as vu la feuille de papier ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona urupapuro?", "assistant": "Ego, ndarubona. (le pronom -ru- reprend urupapuro, classe 11)"}
+{"user": "Traduis en kirundi : Tu achètes la feuille de papier ? Oui, je l'achète.", "assistant": "Uragura urupapuro? Ego, ndarugura."}
+{"user": "Traduis en français : Waguze urupapuro? Ego, naruguze.", "assistant": "Tu as acheté la feuille de papier ? Oui, je l'ai achetée."}
+{"user": "Réponds en kirundi avec un pronom : Uragura urupapuro?", "assistant": "Ego, ndarugura. (le pronom -ru- reprend urupapuro, classe 11)"}
+{"user": "Traduis en kirundi : Tu apportes la feuille de papier ? Oui, je l'apporte.", "assistant": "Urazana urupapuro? Ego, ndaruzana."}
+{"user": "Traduis en français : Wazanye urupapuro? Ego, naruzanye.", "assistant": "Tu as apporté la feuille de papier ? Oui, je l'ai apportée."}
+{"user": "Réponds en kirundi avec un pronom : Urazana urupapuro?", "assistant": "Ego, ndaruzana. (le pronom -ru- reprend urupapuro, classe 11)"}
+{"user": "Traduis en kirundi : Tu prends la feuille de papier ? Oui, je la prends.", "assistant": "Urafata urupapuro? Ego, ndarufata."}
+{"user": "Traduis en français : Wafashe urupapuro? Ego, narufashe.", "assistant": "Tu as pris la feuille de papier ? Oui, je l'ai prise."}
+{"user": "Réponds en kirundi avec un pronom : Urafata urupapuro?", "assistant": "Ego, ndarufata. (le pronom -ru- reprend urupapuro, classe 11)"}
+{"user": "Traduis en kirundi : Tu cherches la feuille de papier ? Oui, je la cherche.", "assistant": "Urarondera urupapuro? Ego, ndarurondera."}
+{"user": "Traduis en français : Warondereye urupapuro? Ego, narurondereye.", "assistant": "Tu as cherché la feuille de papier ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera urupapuro?", "assistant": "Ego, ndarurondera. (le pronom -ru- reprend urupapuro, classe 11)"}
+{"user": "Traduis en kirundi : Tu aimes la feuille de papier ? Oui, je l'aime.", "assistant": "Urakunda urupapuro? Ego, ndarukunda."}
+{"user": "Traduis en français : Wakunze urupapuro? Ego, narukunze.", "assistant": "Tu as aimé la feuille de papier ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda urupapuro?", "assistant": "Ego, ndarukunda. (le pronom -ru- reprend urupapuro, classe 11)"}
+{"user": "Traduis en kirundi : Tu vois la langue ? Oui, je la vois.", "assistant": "Urabona ururimi? Ego, ndarubona."}
+{"user": "Traduis en français : Wabonye ururimi? Ego, narubonye.", "assistant": "Tu as vu la langue ? Oui, je l'ai vue."}
+{"user": "Réponds en kirundi avec un pronom : Urabona ururimi?", "assistant": "Ego, ndarubona. (le pronom -ru- reprend ururimi, classe 11)"}
+{"user": "Traduis en kirundi : Tu cherches la langue ? Oui, je la cherche.", "assistant": "Urarondera ururimi? Ego, ndarurondera."}
+{"user": "Traduis en français : Warondereye ururimi? Ego, narurondereye.", "assistant": "Tu as cherché la langue ? Oui, je l'ai cherchée."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera ururimi?", "assistant": "Ego, ndarurondera. (le pronom -ru- reprend ururimi, classe 11)"}
+{"user": "Traduis en kirundi : Tu aimes la langue ? Oui, je l'aime.", "assistant": "Urakunda ururimi? Ego, ndarukunda."}
+{"user": "Traduis en français : Wakunze ururimi? Ego, narukunze.", "assistant": "Tu as aimé la langue ? Oui, je l'ai aimée."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda ururimi?", "assistant": "Ego, ndarukunda. (le pronom -ru- reprend ururimi, classe 11)"}
+{"user": "Traduis en kirundi : Tu vois le travail ? Oui, je le vois.", "assistant": "Urabona akazi? Ego, ndakabona."}
+{"user": "Traduis en français : Wabonye akazi? Ego, nakabonye.", "assistant": "Tu as vu le travail ? Oui, je l'ai vu."}
+{"user": "Réponds en kirundi avec un pronom : Urabona akazi?", "assistant": "Ego, ndakabona. (le pronom -ka- reprend akazi, classe 12)"}
+{"user": "Traduis en kirundi : Tu cherches le travail ? Oui, je le cherche.", "assistant": "Urarondera akazi? Ego, ndakarondera."}
+{"user": "Traduis en français : Warondereye akazi? Ego, nakarondereye.", "assistant": "Tu as cherché le travail ? Oui, je l'ai cherché."}
+{"user": "Réponds en kirundi avec un pronom : Urarondera akazi?", "assistant": "Ego, ndakarondera. (le pronom -ka- reprend akazi, classe 12)"}
+{"user": "Traduis en kirundi : Tu aimes le travail ? Oui, je l'aime.", "assistant": "Urakunda akazi? Ego, ndagakunda."}
+{"user": "Traduis en français : Wakunze akazi? Ego, nagakunze.", "assistant": "Tu as aimé le travail ? Oui, je l'ai aimé."}
+{"user": "Réponds en kirundi avec un pronom : Urakunda akazi?", "assistant": "Ego, ndagakunda. (le pronom -ka- reprend akazi, classe 12)"}
+{"user": "Traduis en kirundi : Tu m'aimes ? Oui, je t'aime.", "assistant": "Urankunda? Ego, ndagukunda."}
+{"user": "Traduis en français : Aradukunda.", "assistant": "Il nous aime."}
+{"user": "Traduis en kirundi : Tu me vois ? Oui, je te vois.", "assistant": "Urambona? Ego, ndakubona."}
+{"user": "Traduis en français : Aratubona.", "assistant": "Il nous voit."}
+{"user": "Traduis en kirundi : Tu m'aides ? Oui, je t'aide.", "assistant": "Uramfasha? Ego, ndagufasha."}
+{"user": "Traduis en français : Aradufasha.", "assistant": "Il nous aide."}
+{"user": "Traduis en kirundi : Tu me cherches ? Oui, je te cherche.", "assistant": "Urandondera? Ego, ndakurondera."}
+{"user": "Traduis en français : Araturondera.", "assistant": "Il nous cherche."}
+{"user": "Traduis en kirundi : Tu m'appelles ? Oui, je t'appelle.", "assistant": "Urampamagara? Ego, ndaguhamagara."}
+{"user": "Traduis en français : Araduhamagara.", "assistant": "Il nous appelle."}
+{"user": "Traduis en kirundi : Je reste à la maison parce que je suis malade.", "assistant": "Nguma i muhira kuko ndwaye."}
+{"user": "Traduis en français : Ndakora kuko ntarwaye.", "assistant": "Je travaille parce que je ne suis pas malade."}
+{"user": "Traduis en kirundi : Tu restes à la maison parce que tu es malade.", "assistant": "Uguma i muhira kuko urwaye."}
+{"user": "Traduis en français : Urakora kuko utarwaye.", "assistant": "Tu travailles parce que tu n'es pas malade."}
+{"user": "Traduis en kirundi : Il reste à la maison parce qu'il est malade.", "assistant": "Aguma i muhira kuko arwaye."}
+{"user": "Traduis en français : Arakora kuko atarwaye.", "assistant": "Il travaille parce qu'il n'est pas malade."}
+{"user": "Traduis en kirundi : Nous restons à la maison parce que nous sommes malades.", "assistant": "Tuguma i muhira kuko turwaye."}
+{"user": "Traduis en français : Turakora kuko tutarwaye.", "assistant": "Nous travaillons parce que nous ne sommes pas malades."}
+{"user": "Traduis en kirundi : Vous restez à la maison parce que vous êtes malades.", "assistant": "Muguma i muhira kuko murwaye."}
+{"user": "Traduis en français : Murakora kuko mutarwaye.", "assistant": "Vous travaillez parce que vous n'êtes pas malades."}
+{"user": "Traduis en kirundi : Ils restent à la maison parce qu'ils sont malades.", "assistant": "Baguma i muhira kuko barwaye."}
+{"user": "Traduis en français : Barakora kuko batarwaye.", "assistant": "Ils travaillent parce qu'ils ne sont pas malades."}
+{"user": "Traduis en kirundi : Je ne travaille pas aujourd'hui parce que je suis malade.", "assistant": "Sinkora uyu musi kuko ndwaye."}
+{"user": "Traduis en français : Ndakora kuko ntarwaye.", "assistant": "Je travaille parce que je ne suis pas malade."}
+{"user": "Traduis en kirundi : Tu ne travailles pas aujourd'hui parce que tu es malade.", "assistant": "Ntukora uyu musi kuko urwaye."}
+{"user": "Traduis en français : Urakora kuko utarwaye.", "assistant": "Tu travailles parce que tu n'es pas malade."}
+{"user": "Traduis en kirundi : Il ne travaille pas aujourd'hui parce qu'il est malade.", "assistant": "Ntakora uyu musi kuko arwaye."}
+{"user": "Traduis en français : Arakora kuko atarwaye.", "assistant": "Il travaille parce qu'il n'est pas malade."}
+{"user": "Traduis en kirundi : Nous ne travaillons pas aujourd'hui parce que nous sommes malades.", "assistant": "Ntidukora uyu musi kuko turwaye."}
+{"user": "Traduis en français : Turakora kuko tutarwaye.", "assistant": "Nous travaillons parce que nous ne sommes pas malades."}
+{"user": "Traduis en kirundi : Vous ne travaillez pas aujourd'hui parce que vous êtes malades.", "assistant": "Ntimukora uyu musi kuko murwaye."}
+{"user": "Traduis en français : Murakora kuko mutarwaye.", "assistant": "Vous travaillez parce que vous n'êtes pas malades."}
+{"user": "Traduis en kirundi : Ils ne travaillent pas aujourd'hui parce qu'ils sont malades.", "assistant": "Ntibakora uyu musi kuko barwaye."}
+{"user": "Traduis en français : Barakora kuko batarwaye.", "assistant": "Ils travaillent parce qu'ils ne sont pas malades."}
+{"user": "Traduis en kirundi : Je ne vais pas au travail parce que je suis malade.", "assistant": "Singenda ku kazi kuko ndwaye."}
+{"user": "Traduis en français : Ndakora kuko ntarwaye.", "assistant": "Je travaille parce que je ne suis pas malade."}
+{"user": "Traduis en kirundi : Tu ne vas pas au travail parce que tu es malade.", "assistant": "Ntugenda ku kazi kuko urwaye."}
+{"user": "Traduis en français : Urakora kuko utarwaye.", "assistant": "Tu travailles parce que tu n'es pas malade."}
+{"user": "Traduis en kirundi : Il ne va pas au travail parce qu'il est malade.", "assistant": "Ntagenda ku kazi kuko arwaye."}
+{"user": "Traduis en français : Arakora kuko atarwaye.", "assistant": "Il travaille parce qu'il n'est pas malade."}
+{"user": "Traduis en kirundi : Nous n'allons pas au travail parce que nous sommes malades.", "assistant": "Ntitugenda ku kazi kuko turwaye."}
+{"user": "Traduis en français : Turakora kuko tutarwaye.", "assistant": "Nous travaillons parce que nous ne sommes pas malades."}
+{"user": "Traduis en kirundi : Vous n'allez pas au travail parce que vous êtes malades.", "assistant": "Ntimugenda ku kazi kuko murwaye."}
+{"user": "Traduis en français : Murakora kuko mutarwaye.", "assistant": "Vous travaillez parce que vous n'êtes pas malades."}
+{"user": "Traduis en kirundi : Ils ne vont pas au travail parce qu'ils sont malades.", "assistant": "Ntibagenda ku kazi kuko barwaye."}
+{"user": "Traduis en français : Barakora kuko batarwaye.", "assistant": "Ils travaillent parce qu'ils ne sont pas malades."}
+{"user": "Traduis en français : Umuntu yiga arazi gusoma.", "assistant": "La personne qui étudie sait lire."}
+{"user": "Traduis en kirundi : La personne qui étudie sait lire.", "assistant": "Umuntu yiga arazi gusoma."}
+{"user": "Traduis en français : Umuntu atiga ntazi gusoma.", "assistant": "La personne qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : La personne qui n'étudie pas ne sait pas lire.", "assistant": "Umuntu atiga ntazi gusoma."}
+{"user": "Traduis en français : Umwana yiga arazi gusoma.", "assistant": "L'enfant qui étudie sait lire."}
+{"user": "Traduis en kirundi : L'enfant qui étudie sait lire.", "assistant": "Umwana yiga arazi gusoma."}
+{"user": "Traduis en français : Umwana atiga ntazi gusoma.", "assistant": "L'enfant qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : L'enfant qui n'étudie pas ne sait pas lire.", "assistant": "Umwana atiga ntazi gusoma."}
+{"user": "Traduis en français : Umugabo yiga arazi gusoma.", "assistant": "L'homme qui étudie sait lire."}
+{"user": "Traduis en kirundi : L'homme qui étudie sait lire.", "assistant": "Umugabo yiga arazi gusoma."}
+{"user": "Traduis en français : Umugabo atiga ntazi gusoma.", "assistant": "L'homme qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : L'homme qui n'étudie pas ne sait pas lire.", "assistant": "Umugabo atiga ntazi gusoma."}
+{"user": "Traduis en français : Umugore yiga arazi gusoma.", "assistant": "La femme qui étudie sait lire."}
+{"user": "Traduis en kirundi : La femme qui étudie sait lire.", "assistant": "Umugore yiga arazi gusoma."}
+{"user": "Traduis en français : Umugore atiga ntazi gusoma.", "assistant": "La femme qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : La femme qui n'étudie pas ne sait pas lire.", "assistant": "Umugore atiga ntazi gusoma."}
+{"user": "Traduis en français : Umwigisha yiga arazi gusoma.", "assistant": "L'enseignant qui étudie sait lire."}
+{"user": "Traduis en kirundi : L'enseignant qui étudie sait lire.", "assistant": "Umwigisha yiga arazi gusoma."}
+{"user": "Traduis en français : Umwigisha atiga ntazi gusoma.", "assistant": "L'enseignant qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : L'enseignant qui n'étudie pas ne sait pas lire.", "assistant": "Umwigisha atiga ntazi gusoma."}
+{"user": "Traduis en français : Umunyeshure yiga arazi gusoma.", "assistant": "L'élève qui étudie sait lire."}
+{"user": "Traduis en kirundi : L'élève qui étudie sait lire.", "assistant": "Umunyeshure yiga arazi gusoma."}
+{"user": "Traduis en français : Umunyeshure atiga ntazi gusoma.", "assistant": "L'élève qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : L'élève qui n'étudie pas ne sait pas lire.", "assistant": "Umunyeshure atiga ntazi gusoma."}
+{"user": "Traduis en français : Umukozi yiga arazi gusoma.", "assistant": "Le travailleur qui étudie sait lire."}
+{"user": "Traduis en kirundi : Le travailleur qui étudie sait lire.", "assistant": "Umukozi yiga arazi gusoma."}
+{"user": "Traduis en français : Umukozi atiga ntazi gusoma.", "assistant": "Le travailleur qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : Le travailleur qui n'étudie pas ne sait pas lire.", "assistant": "Umukozi atiga ntazi gusoma."}
+{"user": "Traduis en français : Umushumba yiga arazi gusoma.", "assistant": "Le domestique qui étudie sait lire."}
+{"user": "Traduis en kirundi : Le domestique qui étudie sait lire.", "assistant": "Umushumba yiga arazi gusoma."}
+{"user": "Traduis en français : Umushumba atiga ntazi gusoma.", "assistant": "Le domestique qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : Le domestique qui n'étudie pas ne sait pas lire.", "assistant": "Umushumba atiga ntazi gusoma."}
+{"user": "Traduis en français : Umutetsi yiga arazi gusoma.", "assistant": "Le cuisinier qui étudie sait lire."}
+{"user": "Traduis en kirundi : Le cuisinier qui étudie sait lire.", "assistant": "Umutetsi yiga arazi gusoma."}
+{"user": "Traduis en français : Umutetsi atiga ntazi gusoma.", "assistant": "Le cuisinier qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : Le cuisinier qui n'étudie pas ne sait pas lire.", "assistant": "Umutetsi atiga ntazi gusoma."}
+{"user": "Traduis en français : Umuhungu yiga arazi gusoma.", "assistant": "Le garçon qui étudie sait lire."}
+{"user": "Traduis en kirundi : Le garçon qui étudie sait lire.", "assistant": "Umuhungu yiga arazi gusoma."}
+{"user": "Traduis en français : Umuhungu atiga ntazi gusoma.", "assistant": "Le garçon qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : Le garçon qui n'étudie pas ne sait pas lire.", "assistant": "Umuhungu atiga ntazi gusoma."}
+{"user": "Traduis en français : Umukobwa yiga arazi gusoma.", "assistant": "La fille qui étudie sait lire."}
+{"user": "Traduis en kirundi : La fille qui étudie sait lire.", "assistant": "Umukobwa yiga arazi gusoma."}
+{"user": "Traduis en français : Umukobwa atiga ntazi gusoma.", "assistant": "La fille qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : La fille qui n'étudie pas ne sait pas lire.", "assistant": "Umukobwa atiga ntazi gusoma."}
+{"user": "Traduis en français : Umuvyeyi yiga arazi gusoma.", "assistant": "Le parent qui étudie sait lire."}
+{"user": "Traduis en kirundi : Le parent qui étudie sait lire.", "assistant": "Umuvyeyi yiga arazi gusoma."}
+{"user": "Traduis en français : Umuvyeyi atiga ntazi gusoma.", "assistant": "Le parent qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : Le parent qui n'étudie pas ne sait pas lire.", "assistant": "Umuvyeyi atiga ntazi gusoma."}
+{"user": "Traduis en français : Umwami yiga arazi gusoma.", "assistant": "Le roi qui étudie sait lire."}
+{"user": "Traduis en kirundi : Le roi qui étudie sait lire.", "assistant": "Umwami yiga arazi gusoma."}
+{"user": "Traduis en français : Umwami atiga ntazi gusoma.", "assistant": "Le roi qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : Le roi qui n'étudie pas ne sait pas lire.", "assistant": "Umwami atiga ntazi gusoma."}
+{"user": "Traduis en français : Umurundi yiga arazi gusoma.", "assistant": "Le burundais qui étudie sait lire."}
+{"user": "Traduis en kirundi : Le burundais qui étudie sait lire.", "assistant": "Umurundi yiga arazi gusoma."}
+{"user": "Traduis en français : Umurundi atiga ntazi gusoma.", "assistant": "Le burundais qui n'étudie pas ne sait pas lire."}
+{"user": "Traduis en kirundi : Le burundais qui n'étudie pas ne sait pas lire.", "assistant": "Umurundi atiga ntazi gusoma."}
+{"user": "Traduis en français : Abarundi biga barazi gusoma.", "assistant": "Les burundais qui étudient savent lire."}
+{"user": "Traduis en kirundi : Les burundais qui étudient savent lire.", "assistant": "Abarundi biga barazi gusoma."}
+{"user": "Traduis en français : Abarundi batiga ntibazi gusoma.", "assistant": "Les burundais qui n'étudient pas ne savent pas lire."}
+{"user": "Traduis en kirundi : Les burundais qui n'étudient pas ne savent pas lire.", "assistant": "Abarundi batiga ntibazi gusoma."}
