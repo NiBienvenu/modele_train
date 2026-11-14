@@ -1,0 +1,18 @@
+# Environnement conda pour ENTRAÎNER sur la machine locale (GPU NVIDIA).
+#   conda env create -f environment.yml
+#   conda activate modele_train
+# PyTorch vient de pip (index CUDA 12.6) : PyTorch ne publie plus de paquets conda.
+name: modele_train
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  # Le notebook entrainement_local.ipynb (suivi comme sur Colab, courbe de loss)
+  - jupyterlab
+  - ipykernel
+  - matplotlib
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu126
+      - torch
+      - -r requirements.txt

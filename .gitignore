@@ -2,3 +2,10 @@ __pycache__/
 *.pyc
 # A_METTRE_DANS_DRIVE/
 # tests/resultats*.jsonl
+
+# Entraînement local : modèles et journaux (plusieurs Go, jamais dans git)
+A_METTRE_DANS_DRIVE/modele/phase*/
+A_METTRE_DANS_DRIVE/modele/grand_init/
+A_METTRE_DANS_DRIVE/modele/journaux/
+A_METTRE_DANS_DRIVE/modele/*.zip
+.venv/

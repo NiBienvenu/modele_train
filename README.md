@@ -4,6 +4,10 @@ Un petit modèle (environ 122 millions de paramètres) qui comprend, conjugue
 et traduit le **français** et le **kirundi**. Il part de `EleutherAI/pythia-14m`,
 qu'on fait grandir (`grow.py`) pendant l'entraînement.
 
+Deux façons d'entraîner :
+- **Google Colab** (GPU T4 gratuit) : ce guide, ci-dessous ;
+- **sur ton ordinateur** (GPU NVIDIA local) : voir [README_LOCAL.md](README_LOCAL.md).
+
 ---
 
 ## Guide rapide : entraîner le modèle sur Colab
@@ -67,7 +71,8 @@ ce sont elles qui montrent si le modèle a vraiment **compris**.
 
 ```
 modele_train/
-├── entrainement_colab.ipynb   le notebook qui enchaîne tout
+├── entrainement_colab.ipynb   le notebook qui enchaîne tout (Colab)
+├── entrainement_local.ipynb   le même, sur ta machine (voir README_LOCAL.md)
 ├── requirements.txt
 │
 ├── train.py                   entraînement (toutes les phases), reprise automatique

@@ -1,0 +1,45 @@
+# VERSION LOCALE (GPU NVIDIA T600, 4 Go) : chemins relatifs, lots plus petits.
+# Lancer depuis la racine du dépôt : python train.py --config configs/local/phaseD.yaml
+
+# Phase D : apprendre à RÉPONDRE (questions / réponses, traductions).
+# Le modèle part de la fin de la phase B. Learning rate bas : on affine sans casser.
+
+mode: sft
+modele: A_METTRE_DANS_DRIVE/modele/phaseB/finale
+tokenizer: A_METTRE_DANS_DRIVE/modele/phaseB/finale
+reinitialiser_embeddings: false
+dossier_sortie: A_METTRE_DANS_DRIVE/modele/phaseD
+gradient_checkpointing: true
+
+sources:
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/qr/conjugaison_fr.jsonl
+    repeter: 1
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/qr/conjugaison_rn.jsonl
+    repeter: 1
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/qr/accords_rn.jsonl
+    repeter: 1
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/qr/syntaxe_rn.jsonl
+    repeter: 3
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/qr/lexique_rn.jsonl
+    repeter: 2
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/qr/cours.jsonl
+    repeter: 4
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/qr/traduction_bible.jsonl
+    repeter: 1
+
+longueur: 512
+taille_lot: 4                     # Colab : 16 (4 Go de VRAM ici)
+accumulation: 16                  # lot effectif identique : 4 x 16 = 64
+epoques: 2
+learning_rate: 5.0e-5
+weight_decay: 0.0
+warmup: 300
+
+log_tous_les: 50
+eval_tous_les: 500
+sauver_tous_les: 1000
+
+phrases_test:
+  - "<|user|> Traduis en français : Ndagenda uyu musi. <|assistant|>"
+  - "<|user|> Conjugue le verbe gukora au conditionnel. <|assistant|>"
+  - "<|user|> Réponds en kirundi avec un pronom : Urabona igitabo? <|assistant|>"

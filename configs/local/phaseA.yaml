@@ -1,0 +1,44 @@
+# VERSION LOCALE (GPU NVIDIA T600, 4 Go) : chemins relatifs, lots plus petits.
+# Lancer depuis la racine du dépôt : python train.py --config configs/local/phaseA.yaml
+
+# Phase A : les BASES de la langue, sur le petit modèle (Pythia-14m + notre vocabulaire).
+# But : apprendre les morceaux de mots (embeddings) et les règles simples, vite.
+# Durée indicative sur un T4 : 1 à 2 heures.
+
+mode: pretrain
+modele: EleutherAI/pythia-14m
+tokenizer: A_METTRE_DANS_DRIVE/modele/tokenizer_fr_rn
+reinitialiser_embeddings: true    # true SEULEMENT ici (nouveau vocabulaire)
+dossier_sortie: A_METTRE_DANS_DRIVE/modele/phaseA
+
+# Les générateurs répètent déjà les données : "repeter" sert à équilibrer.
+sources:
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/conjugaison_fr/*.txt
+    repeter: 1
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/conjugaison_rn/*.txt
+    repeter: 1
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/grammaire_rn/*.txt   # accords + pronoms objets + subordonnées
+    repeter: 2
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/lexique_rn/*.txt
+    repeter: 3
+  - fichiers: A_METTRE_DANS_DRIVE/donnees/cours/*.txt         # phrases des cours de Cox
+    repeter: 3
+
+longueur: 256
+taille_lot: 32                    # Colab : 64 (4 Go de VRAM ici)
+accumulation: 4                   # lot effectif identique : 32 x 4 = 128
+epoques: 2
+learning_rate: 1.0e-3
+weight_decay: 0.1
+warmup: 500
+
+log_tous_les: 50
+eval_tous_les: 500
+sauver_tous_les: 1000
+
+phrases_test:
+  - "Nous avons mang"
+  - "Abana bara"
+  - "Ejo nzo"
+  - "Umwana mwiza"
+  - "Le verbe gukora (travailler, faire) au futur"

@@ -333,9 +333,11 @@ def main():
     if appareil == "cpu":
         log("ATTENTION : pas de GPU. Dans Colab : Exécution > Modifier le type d'exécution > GPU")
 
-    # bfloat16 sur les GPU récents (A100, L4), float16 sur T4 et P100.
+    # bfloat16 sur les GPU récents (A100, L4), float16 sur T4, T600 et P100.
     # Ces formats "courts" vont 2 fois plus vite et prennent moins de mémoire.
-    if appareil == "cuda" and torch.cuda.is_bf16_supported():
+    # On teste la génération du GPU (8 = Ampere) : torch.cuda.is_bf16_supported()
+    # répond "oui" même sur T4 / T600 (bfloat16 émulé, donc LENT).
+    if appareil == "cuda" and torch.cuda.get_device_capability()[0] >= 8:
         type_calcul = torch.bfloat16
     else:
         type_calcul = torch.float16
