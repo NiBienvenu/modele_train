@@ -150,13 +150,30 @@ def preparer_sft(ds, tok, longueur):
     IMPORTANT : on met -100 sur la partie question. Ça veut dire
     "ne compte pas d'erreur ici". Le modèle apprend donc à produire
     la RÉPONSE, pas à recopier la question.
+
+    Deux formats de lignes .jsonl sont acceptés :
+      - 1 tour  : {"user": "...", "assistant": "..."}
+      - plusieurs tours : {"messages": [{"role": "user", "content": "..."},
+                                        {"role": "assistant", "content": "..."}, ...]}
+    Plusieurs tours donnent :
+        <|user|> Bwakeye <|assistant|> Bwakeye neza.<|endoftext|><|user|> N'amaki? <|assistant|> N'amahoro.<|endoftext|>
+    Le modèle apprend toutes les réponses, et à tenir compte de ce qui a été dit avant.
     """
     def construire(ex):
-        question = tok(f"<|user|> {ex['user']} <|assistant|>")["input_ids"]
-        reponse = tok(" " + ex["assistant"] + tok.eos_token)["input_ids"]
-        ids = (question + reponse)[:longueur]
-        labels = ([-100] * len(question) + reponse)[:longueur]
-        return {"input_ids": ids, "labels": labels}
+        messages = ex.get("messages") or [
+            {"role": "user", "content": ex["user"]},
+            {"role": "assistant", "content": ex["assistant"]},
+        ]
+        ids, labels = [], []
+        for m in messages:
+            if m["role"] == "user":
+                morceau = tok(f"<|user|> {m['content']} <|assistant|>")["input_ids"]
+                labels += [-100] * len(morceau)
+            else:
+                morceau = tok(" " + m["content"] + tok.eos_token)["input_ids"]
+                labels += morceau
+            ids += morceau
+        return {"input_ids": ids[:longueur], "labels": labels[:longueur]}
 
     return ds.map(construire, remove_columns=ds.column_names, desc="Préparation SFT")
 
@@ -196,15 +213,47 @@ def faire_collate(tok, mode):
 # 3. LE MODÈLE
 # ---------------------------------------------------------------------------
 
-def preparer_modele(chemin, tok, reinitialiser_embeddings):
+def creer_modele_vide(architecture, tok):
     """
-    Charge le modèle : Pythia-14m au tout début, puis nos propres
-    sauvegardes ensuite (ou le modèle agrandi par grow.py).
+    Modèle "depuis zéro" : tous les boutons (paramètres) sont tirés au hasard.
+    Il ne sait RIEN au départ, ni anglais, ni français, ni kirundi.
+    On garde la forme GPT-NeoX (comme Pythia) car le backend sait déjà la lire.
+
+    "architecture" vient du YAML, par exemple :
+        n_couches: 12, largeur: 768, tetes: 12, contexte: 1024
     """
-    try:  # transformers récent : "dtype" ; ancien : "torch_dtype"
-        model = AutoModelForCausalLM.from_pretrained(chemin, dtype=torch.float32)
-    except TypeError:
-        model = AutoModelForCausalLM.from_pretrained(chemin, torch_dtype=torch.float32)
+    from transformers import GPTNeoXConfig
+
+    config = GPTNeoXConfig(
+        vocab_size=len(tok),
+        hidden_size=architecture["largeur"],
+        num_hidden_layers=architecture["n_couches"],
+        num_attention_heads=architecture["tetes"],
+        intermediate_size=4 * architecture["largeur"],
+        max_position_embeddings=architecture["contexte"],
+        rotary_pct=0.25,
+        use_parallel_residual=True,
+        tie_word_embeddings=False,
+        bos_token_id=tok.eos_token_id,
+        eos_token_id=tok.eos_token_id,
+        pad_token_id=tok.pad_token_id,
+    )
+    return AutoModelForCausalLM.from_config(config)
+
+
+def preparer_modele(chemin, tok, reinitialiser_embeddings, architecture=None):
+    """
+    Charge le modèle :
+      - "architecture" donnée et pas de reprise : modèle VIDE (départ de zéro),
+      - sinon : une sauvegarde (phase précédente ou reprise après coupure).
+    """
+    if architecture is not None:
+        model = creer_modele_vide(architecture, tok)
+    else:
+        try:  # transformers récent : "dtype" ; ancien : "torch_dtype"
+            model = AutoModelForCausalLM.from_pretrained(chemin, dtype=torch.float32)
+        except TypeError:
+            model = AutoModelForCausalLM.from_pretrained(chemin, torch_dtype=torch.float32)
 
     if reinitialiser_embeddings:
         # MÉCANISME 2 : LES EMBEDDINGS.
@@ -291,7 +340,7 @@ def montrer_exemples(model, tok, phrases, appareil):
     """
     model.eval()
     for debut in phrases:
-        ids = tok(debut, return_tensors="pt").to(appareil)
+        ids = tok(debut, return_tensors="pt", return_token_type_ids=False).to(appareil)
         sortie = model.generate(**ids, max_new_tokens=30, do_sample=True,
                                 temperature=0.7, top_p=0.9,
                                 pad_token_id=tok.pad_token_id)
@@ -351,9 +400,10 @@ def main():
     # Si une sauvegarde existe, on repart d'elle (Colab a coupé).
     tok = charger_tokenizer(dossier_reprise if reprise else cfg["tokenizer"])
     model = preparer_modele(
-        dossier_reprise if reprise else cfg["modele"],
+        dossier_reprise if reprise else cfg.get("modele"),
         tok,
         reinitialiser_embeddings=(not reprise and cfg.get("reinitialiser_embeddings", False)),
+        architecture=None if reprise else cfg.get("architecture"),
     ).to(appareil)
 
     # Économise la mémoire GPU (utile pour le modèle de 78M sur un T4).

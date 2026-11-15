@@ -9,3 +9,10 @@ A_METTRE_DANS_DRIVE/modele/grand_init/
 A_METTRE_DANS_DRIVE/modele/journaux/
 A_METTRE_DANS_DRIVE/modele/*.zip
 .venv/
+
+# Modèle zéro : textes collectés (droits de leurs auteurs) et données assemblées, jamais dans git
+# data/corpus_rn/
+# data/corpus_rn_propre.jsonl
+# data/ikirundi_org.jsonl
+# A_METTRE_DANS_DRIVE/donnees_zero/
+# data/ikirundi_org.ancien.jsonl

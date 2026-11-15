@@ -17,6 +17,7 @@ modèle répond vite.
 Utilisation dans Colab :
     !python evaluer.py --modele /content/drive/MyDrive/modele/phaseD/finale
     !python evaluer.py --modele ... --categorie traduction_rn_fr --montrer 10
+    !python evaluer.py --modele ... --tests tests/dialogues_test.jsonl    (modèle zéro)
 """
 
 import argparse
@@ -59,9 +60,10 @@ def chrf(hyp, ref, n=6, beta=2):
 
 
 @torch.no_grad()
-def repondre(model, tok, question, appareil, max_tokens=96):
-    prompt = f"<|user|> {question} <|assistant|>"
-    ids = tok(prompt, return_tensors="pt").to(appareil)
+def repondre(model, tok, question, appareil, max_tokens=96, historique=""):
+    # "historique" : tours précédents déjà au format <|user|> ... <|assistant|> ...<|endoftext|>
+    prompt = f"{historique}<|user|> {question} <|assistant|>"
+    ids = tok(prompt, return_tensors="pt", return_token_type_ids=False).to(appareil)
     out = model.generate(**ids, max_new_tokens=max_tokens, do_sample=False,
                          eos_token_id=tok.eos_token_id, pad_token_id=tok.pad_token_id)
     nouveaux = out[0][ids["input_ids"].shape[1]:]
@@ -98,7 +100,7 @@ def main():
         exacts, chrfs = 0, []
         for t in liste:
             debut = time.time()
-            rep, n = repondre(model, tok, t["question"], appareil)
+            rep, n = repondre(model, tok, t["question"], appareil, historique=t.get("historique", ""))
             total_temps += time.time() - debut
             total_tokens += n
             ok = normaliser(rep) == normaliser(t["attendu"])

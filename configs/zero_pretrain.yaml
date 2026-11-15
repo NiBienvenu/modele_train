@@ -1,0 +1,45 @@
+# Modèle ZÉRO, étape 1 : LIRE (pré-entraînement).
+# Le modèle part de rien (poids au hasard). Il lit beaucoup de vrai texte
+# kirundi et français pour apprendre les mots, la grammaire et le sens.
+# Durée indicative sur un T4 : 12 à 15 h, en plusieurs sessions (reprise automatique).
+
+mode: pretrain
+architecture:          # ~134 millions de paramètres
+  n_couches: 12
+  largeur: 768
+  tetes: 12
+  contexte: 1024
+tokenizer: /content/drive/MyDrive/modele_zero/tokenizer
+dossier_sortie: /content/drive/MyDrive/modele_zero/lecture
+
+# Le kirundi est rare : on le relit plusieurs fois (au-delà de ~10, le modèle apprend par cœur).
+sources:
+  - fichiers: /content/drive/MyDrive/donnees_zero/lecture_fr/wikipedia_fr_*.txt
+    repeter: 1
+  - fichiers: /content/drive/MyDrive/donnees_zero/lecture_fr/bible_fr.txt
+    repeter: 1
+  - fichiers: /content/drive/MyDrive/donnees_zero/lecture_rn/*.txt
+    repeter: 8
+  - fichiers: /content/drive/MyDrive/donnees_zero/lecture_bilingue/*.txt
+    repeter: 4
+  - fichiers: /content/drive/MyDrive/donnees_zero/grammaire/*.txt
+    repeter: 2
+
+longueur: 1024
+taille_lot: 8
+accumulation: 16       # 8 x 16 x 1024 = 131 000 morceaux par pas
+epoques: 1
+learning_rate: 6.0e-4
+weight_decay: 0.1
+warmup: 1000
+part_eval: 0.005
+
+log_tous_les: 50
+eval_tous_les: 500
+sauver_tous_les: 250   # Colab coupe souvent : on sauve souvent
+
+phrases_test:
+  - "Abana baragiye"
+  - "Uburundi ni igihugu"
+  - "Le Burundi est un pays"
+  - "Bwakeye. N'amaki?"
