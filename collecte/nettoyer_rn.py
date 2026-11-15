@@ -24,8 +24,13 @@ LECTEUR = {"previous", "play", "next", "stop", "mute", "max volume", "repeat", "
            "your flash plugin."}
 
 
+def _ligne_lecteur(ligne: str) -> bool:
+    l = re.sub(r"\s+", " ", ligne).strip().lower().replace(" .", ".")
+    return l in LECTEUR or "flash plugin" in l
+
+
 def nettoyer_texte(texte: str) -> str:
-    return "\n".join(l for l in texte.splitlines() if l.strip().lower() not in LECTEUR)
+    return "\n".join(l for l in texte.splitlines() if not _ligne_lecteur(l))
 
 
 def langue(texte: str) -> str:
