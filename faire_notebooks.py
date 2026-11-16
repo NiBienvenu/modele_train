@@ -36,21 +36,35 @@ INTRO = """
 Le modèle part de **rien** : poids au hasard, nouveau tokenizer. Tout vient du dossier **`dataset`**
 (textes, dialogues, tests et code), le même pour Colab, Kaggle et la machine.
 
-| Étape | Ce qui se passe | Durée (GPU T4) |
+| Étape | Ce qui se passe | Durée ({materiel}) |
 |---|---|---|
-| 0 | Préparer : GPU, dossiers | 2 min |
-| 1 | Télécharger les données publiques (Wikipédia FR, OpenAssistant, PIAF, Aya) | 30 à 60 min |
-| 2 | Créer le tokenizer (32 000 morceaux, moitié kirundi, moitié français) | 15 min |
-| 3 | **Lecture** : le modèle lit tous les textes | 12 à 15 h |
-| 4 | **Discussion** : il apprend à répondre, traduire, lire un document | 2 à 3 h |
-| 5 | Tests sur des exemples jamais vus | 15 min |
+| 0 | Préparer : GPU, dossiers | {d0} |
+| 1 | Télécharger les données publiques (Wikipédia FR, OpenAssistant, PIAF, Aya) | {d1} |
+| 2 | Créer le tokenizer (32 000 morceaux, moitié kirundi, moitié français) | {d2} |
+| 3 | **Lecture** : le modèle lit tous les textes | {d3} |
+| 4 | **Discussion** : il apprend à répondre, traduire, lire un document | {d4} |
+| 5 | Tests sur des exemples jamais vus | {d5} |
 | 6 | Essayer le modèle et récupérer le `.zip` pour le backend | |
 
+Ces durées sont des **estimations**. La vraie vitesse s'affiche pendant l'entraînement (`s/pas` dans le journal).
 {avant}
 """
 
+# Durées estimées par plateforme. La lecture fait ~1 500 pas de 131 000 morceaux (~200 millions de morceaux).
+DUREES = {
+    "colab": dict(materiel="GPU T4 gratuit", d0="2 min", d1="30 à 60 min", d2="15 min",
+                  d3="12 à 15 h, en 3 ou 4 sessions (Colab coupe après quelques heures)", d4="2 à 3 h",
+                  d5="15 min"),
+    "kaggle": dict(materiel="GPU T4 ou P100, 30 h par semaine", d0="2 min", d1="20 à 40 min (connexion rapide)",
+                   d2="10 min", d3="12 à 15 h, donc 2 lancements (maximum 12 h par lancement)",
+                   d4="2 à 3 h", d5="15 min"),
+    "machine": dict(materiel="T600 4 Go, environ 5 fois plus lent qu'un T4", d0="1 min",
+                    d1="selon ta connexion internet", d2="5 à 10 min (20 cœurs)",
+                    d3="3 à 4 jours sans arrêt", d4="10 à 15 h", d5="1 h"),
+}
+
 COLAB = [
-    md(INTRO.format(plateforme="Google Colab", avant="""
+    md(INTRO.format(plateforme="Google Colab", **DUREES["colab"], avant="""
 **Avant de commencer** : glisse le dossier `A_METTRE_DANS_DRIVE/dataset` dans **Mon Drive** (à la racine).
 Menu **Exécution > Modifier le type d'exécution > GPU T4**.
 
@@ -73,7 +87,7 @@ shutil.copytree(f"{DATASET}/code", CODE, dirs_exist_ok=True)
 ]
 
 KAGGLE = [
-    md(INTRO.format(plateforme="Kaggle", avant="""
+    md(INTRO.format(plateforme="Kaggle", **DUREES["kaggle"], avant="""
 **Avant de commencer (une seule fois)** :
 1. Sur kaggle.com : **Datasets > New Dataset**, glisse le dossier `A_METTRE_DANS_DRIVE/dataset`, garde-le **privé**.
 2. Dans ce notebook : **Add Input** > ton dataset.
@@ -110,7 +124,7 @@ print("DATASET =", DATASET)
 ]
 
 MACHINE = [
-    md(INTRO.format(plateforme="sur cette machine", avant="""
+    md(INTRO.format(plateforme="sur cette machine", **DUREES["machine"], avant="""
 **Avant de commencer** : ouvre ce notebook depuis le dossier `modele_train/`, dans l'environnement
 qui a PyTorch avec CUDA (voir `README_LOCAL.md`). Le dataset est déjà là : `A_METTRE_DANS_DRIVE/dataset`.
 

@@ -290,9 +290,46 @@ def titres_kirnews():
     return out
 
 
+# ---------------------------------------------------------------------------
+# 9. Conversations ENTIÈREMENT en kirundi (question kirundi -> réponse kirundi)
+# ---------------------------------------------------------------------------
+def conversations_rn():
+    out = []
+    # a) Devinettes (ibisokozo) d'ikirundi.org (Dusome 5 ; Rodegem 1962), jeu : « Sokwe. » -> « Niruze. »
+    f = ICI / "data/ikirundi_org.jsonl"
+    devinettes = []
+    if f.exists():
+        for l in f.open(encoding="utf-8"):
+            d = json.loads(l)
+            if "ibisokozo" not in d["url"]:
+                continue
+            L = [x.strip() for x in d["texte"].splitlines() if x.strip()]
+            for a, b in zip(L, L[1:]):
+                if not a.startswith("-") and b.startswith("-") and len(a) < 200:
+                    devinettes.append((a, b.lstrip("- ").strip()))
+    devinettes = list(dict.fromkeys(devinettes))
+    formules = {"Sokwe.", "Impa."}
+    for q, r in devinettes:
+        if q in formules:
+            continue
+        out.append(conv(q, r, source="ikirundi.org, ibisokozo", cle=q))
+        out.append(conv("Sokwe.", "Niruze.", q, r, source="ikirundi.org, ibisokozo", cle=q))
+    # b) Échanges des cours de Cox écrits « Question? Réponse »
+    for c in COURS:
+        m = re.match(r"^(.+?\?)\s+(\S.*)$", c["rn"])
+        if m and "?" not in m.group(2):
+            out.append(conv(m.group(1), m.group(2), source="Cox " + c["source"], cle=c["rn"]))
+    # c) Exercices de syntaxe (règles des cours de Cox) : « Urabona imbwa? » -> « Ego, ndayibona. »
+    f = ICI / "A_METTRE_DANS_DRIVE/donnees/grammaire_rn/syntaxe_rn_001.txt"
+    if f.exists():
+        for q, r in re.findall(r"^([^\n?]+\?) ((?:Ego|Oya)[^\n]+)$", f.read_text(encoding="utf-8"), re.M):
+            out.append(conv(q, r, source="syntaxe (règles de Cox)", cle=q))
+    return out
+
+
 # Ces phrases sont aussi dans les textes de LECTURE (cours_cox.txt, lexique, grammaire, presse) :
 # leurs tests ne prouvent pas que le modèle a compris, seulement qu'il a retenu.
-DEJA_LUS = {"traductions_cours", "vocabulaire", "anciennes_qr", "titres_kirnews"}
+DEJA_LUS = {"traductions_cours", "vocabulaire", "anciennes_qr", "titres_kirnews", "conversations_rn"}
 
 
 def main():
@@ -314,6 +351,7 @@ def main():
         "traductions_bible": traductions_bible(Path(args.bible_rn), Path(args.bible_fr)),
         "vocabulaire": vocabulaire(),
         "titres_kirnews": titres_kirnews(),
+        "conversations_rn": conversations_rn(),
         # Part gardée de chaque ancien fichier : peu de tableaux, beaucoup de vraies phrases
         "anciennes_qr": anciennes_qr(Path(args.qr), {
             "cours": 1.0, "lexique_rn": 0.3, "syntaxe_rn": 0.3,
