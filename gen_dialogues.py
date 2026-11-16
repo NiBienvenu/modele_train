@@ -30,10 +30,23 @@ def rn(phrase: str) -> str:
     return phrase
 
 
-def conv(*tours, source):
-    """conv("question", "réponse", "question 2", "réponse 2", source=...)"""
+def conv(*tours, source, cle=None):
+    """conv("question", "réponse", "question 2", "réponse 2", source=...)
+
+    "cle" regroupe les exemples qui parlent de la même chose (un verset, un mot) :
+    ils vont TOUS en entraînement ou TOUS en test, jamais séparés (sinon le test est faussé).
+    """
     roles = ["user", "assistant"] * len(tours)
-    return {"messages": [{"role": r, "content": t} for r, t in zip(roles, tours)], "source": source}
+    c = {"messages": [{"role": r, "content": t} for r, t in zip(roles, tours)], "source": source}
+    if cle is not None:
+        c["cle"] = cle
+    return c
+
+
+def est_test(c, pourcent):
+    import hashlib
+    cle = c.get("cle") or json.dumps(c["messages"], ensure_ascii=False)
+    return int(hashlib.md5(cle.encode()).hexdigest(), 16) % 1000 < pourcent * 10
 
 
 def variantes(question: str):
@@ -109,8 +122,8 @@ def traductions_cours():
         fr = re.sub(r"\s*\((?:mot à mot|lit\.)[^)]*\)", "", c["fr"]).strip()
         src = "Cox " + c["source"]
         reponse_fr = fr if not c.get("note") else f"{fr} ({c['note']})"
-        out.append(conv(random.choice(vers_rn).format(fr), c["rn"], source=src))
-        out.append(conv(random.choice(vers_fr).format(c["rn"]), reponse_fr, source=src))
+        out.append(conv(random.choice(vers_rn).format(fr), c["rn"], source=src, cle=c["rn"]))
+        out.append(conv(random.choice(vers_fr).format(c["rn"]), reponse_fr, source=src, cle=c["rn"]))
     return out
 
 
@@ -197,10 +210,97 @@ def anciennes_qr(dossier_qr: Path, part: dict):
     return out
 
 
+# ---------------------------------------------------------------------------
+# 6. Traduction : la Bible COMPLÈTE, verset par verset (phrases courtes)
+# ---------------------------------------------------------------------------
+def traductions_bible(rn_db: Path, fr_db: Path):
+    """1 à 3 versets qui se suivent, dans les deux sens. Les références de test sont mises à part."""
+    import sys
+    sys.path.insert(0, str(ICI))
+    from extraire_bible_db import lire_db, nettoyer_fr, nettoyer_rn
+
+    rn_v, _ = lire_db(rn_db)
+    fr_v, _ = lire_db(fr_db)
+    fr = {(b, c, v): t for b, c, v, t in fr_v}
+    alignes = [((b, c, v), nettoyer_rn(t), nettoyer_fr(fr[(b, c, v)])) for b, c, v, t in rn_v
+               if (b, c, v) in fr and t.strip() and fr[(b, c, v)].strip()]
+    groupes, i = [], 0
+    while i < len(alignes):
+        n = random.choice([1, 1, 2, 3])
+        bloc = [a for a in alignes[i:i + n] if a[0][:2] == alignes[i][0][:2]]  # même chapitre
+        i += len(bloc)
+        ref = f"{bloc[0][0][0]} {bloc[0][0][1]},{bloc[0][0][2]}" + (f"-{bloc[-1][0][2]}" if len(bloc) > 1 else "")
+        groupes.append((ref, " ".join(b[1] for b in bloc), " ".join(b[2] for b in bloc)))
+    vers_rn = ["Traduis en kirundi : {}", "Traduis ce texte en kirundi : {}", "En kirundi : {}"]
+    vers_fr = ["Traduis en français : {}", "Traduis ce texte en français : {}", "En français : {}"]
+    out = []
+    for ref, t_rn, t_fr in groupes:
+        if len(t_rn) < 15 or len(t_fr) < 15 or len(t_rn) > 700:
+            continue
+        out.append(conv(random.choice(vers_rn).format(t_fr), t_rn, source=f"Bible {ref}", cle=ref))
+        out.append(conv(random.choice(vers_fr).format(t_rn), t_fr, source=f"Bible {ref}", cle=ref))
+    return out
+
+
+# ---------------------------------------------------------------------------
+# 7. Vocabulaire : cours de Cox, dictionnaire de Cox, dictionnaire des verbes
+# ---------------------------------------------------------------------------
+def vocabulaire():
+    paires = []  # (kirundi, français, source)
+    for l in open(ICI / "data/cours_vocab.tsv", encoding="utf-8"):
+        c = l.rstrip("\n").split("\t")
+        if not l.startswith("#") and len(c) >= 2 and c[0] and c[1]:
+            paires.append((c[0], c[1], "Cox " + (c[2] if len(c) > 2 else "cours")))
+    for l in open(ICI / "data/verbes_cox.tsv", encoding="utf-8"):
+        c = l.rstrip("\n").split("\t")
+        if not l.startswith("#") and len(c) > 3 and c[3]:
+            paires.append((c[0], c[3], "Cox dictionnaire"))
+    for l in open(ICI / "data/noms_cox.tsv", encoding="utf-8"):
+        c = l.rstrip("\n").split("\t")
+        if not l.startswith("#") and len(c) > 4 and c[4]:
+            paires.append((f"{c[0]} (pl. {c[2]})" if c[2] else c[0], c[4], "Cox dictionnaire"))
+    for d in json.load(open(ICI / "data/dictionnaire_verbes_fr_rn.json", encoding="utf-8")):
+        paires.append((", ".join(d["kirundi"]), d["francais"], "dictionnaire des verbes"))
+    q_rn = ["Que veut dire « {} » ?", "Que signifie le mot kirundi « {} » ?", "Traduis en français : {}"]
+    q_fr = ["Comment dit-on « {} » en kirundi ?", "Quel est le mot kirundi pour « {} » ?", "Traduis en kirundi : {}"]
+    out = []
+    for k, f, src in paires:
+        out.append(conv(random.choice(q_rn).format(k), f"« {k} » veut dire « {f} ».", source=src, cle=k))
+        out.append(conv(random.choice(q_fr).format(f), f"En kirundi, « {f} » se dit « {k} ».", source=src, cle=k))
+    return out
+
+
+# ---------------------------------------------------------------------------
+# 8. Comprendre un texte kirundi : trouver le titre d'un article (KIRNEWS)
+# ---------------------------------------------------------------------------
+def titres_kirnews():
+    f = ICI / "data/corpus_rn/kirnews.jsonl"
+    if not f.exists():
+        return []
+    vus, out = set(), []
+    for l in f.open(encoding="utf-8"):
+        titre, _, corps = json.loads(l)["texte"].partition("\n")
+        titre, corps = titre.strip(), corps.strip()
+        if not titre or len(corps) < 200 or titre in vus:
+            continue
+        vus.add(titre)
+        extrait = corps[:1200].rsplit(" ", 1)[0]
+        q = random.choice(["Donne un titre à cet article : {}", "Quel titre convient à ce texte ? {}"])
+        out.append(conv(q.format(extrait), titre, source="KIRNEWS"))
+    return out
+
+
+# Ces phrases sont aussi dans les textes de LECTURE (cours_cox.txt, lexique, grammaire, presse) :
+# leurs tests ne prouvent pas que le modèle a compris, seulement qu'il a retenu.
+DEJA_LUS = {"traductions_cours", "vocabulaire", "anciennes_qr", "titres_kirnews"}
+
+
 def main():
     a = argparse.ArgumentParser()
     a.add_argument("--sortie", required=True)
     a.add_argument("--qr", default=str(ICI / "A_METTRE_DANS_DRIVE/donnees/qr"))
+    a.add_argument("--bible_rn", default=str(ICI.parent / "docs/bible_kirundi.db"))
+    a.add_argument("--bible_fr", default=str(ICI.parent / "docs/bible_francais.db"))
     args = a.parse_args()
     random.seed(42)
     sortie = Path(args.sortie)
@@ -211,20 +311,27 @@ def main():
         "questions_sur_rn": questions_sur_rn(),
         "traductions_cours": traductions_cours(),
         "petite_conversation": petite_conversation(),
+        "traductions_bible": traductions_bible(Path(args.bible_rn), Path(args.bible_fr)),
+        "vocabulaire": vocabulaire(),
+        "titres_kirnews": titres_kirnews(),
         # Part gardée de chaque ancien fichier : peu de tableaux, beaucoup de vraies phrases
         "anciennes_qr": anciennes_qr(Path(args.qr), {
-            "cours": 1.0, "traduction_bible": 1.0, "lexique_rn": 0.3, "syntaxe_rn": 0.3,
+            "cours": 1.0, "lexique_rn": 0.3, "syntaxe_rn": 0.3,
             "accords_rn": 0.03, "conjugaison_rn": 0.03, "conjugaison_fr": 0.01}),
     }
+    # Part mise de côté pour les tests (la Bible est grande : 2 % suffisent)
+    part_test = {"traductions_bible": 2, "vocabulaire": 5}
     tests = []
     for nom, convs in groupes.items():
         random.shuffle(convs)
-        n_test = max(1, len(convs) // 10)
-        tests += [dict(c, categorie=nom) for c in convs[:n_test]]
+        test = [c for c in convs if est_test(c, part_test.get(nom, 10))]
+        train = [c for c in convs if not est_test(c, part_test.get(nom, 10))]
+        tests += [dict(c, categorie=nom) for c in test]
         with open(sortie / f"{nom}.jsonl", "w", encoding="utf-8") as f:
-            for c in convs[n_test:]:
+            for c in train:
+                c = {k: v for k, v in c.items() if k != "cle"}
                 f.write(json.dumps(c, ensure_ascii=False) + "\n")
-        print(f"{nom:22s} {len(convs) - n_test:6d} entraînement | {n_test:5d} test")
+        print(f"{nom:22s} {len(train):6d} entraînement | {len(test):5d} test")
     # Format de evaluer.py : on teste la DERNIÈRE réponse, les tours d'avant servent d'historique
     with open(ICI / "tests/dialogues_test.jsonl", "w", encoding="utf-8") as f:
         for c in tests:
@@ -232,7 +339,7 @@ def main():
             historique = "".join(f"<|user|> {x['content']} <|assistant|>" if x["role"] == "user"
                                  else f" {x['content']}<|endoftext|>" for x in m[:-2])
             test = {"categorie": c["categorie"], "question": m[-2]["content"], "attendu": m[-1]["content"],
-                    "historique": historique, "vu": False, "source": c["source"]}
+                    "historique": historique, "vu": c["categorie"] in DEJA_LUS, "source": c["source"]}
             f.write(json.dumps(test, ensure_ascii=False) + "\n")
 
 

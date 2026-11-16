@@ -1,39 +1,53 @@
 # Modèle ZÉRO, étape 2 : DISCUTER (apprendre à répondre).
-# Part du modèle de l'étape 1. Durée indicative sur un T4 : 1 à 2 h.
+# Part du modèle de l'étape 1. Durée indicative sur un T4 : 2 à 3 h.
 
 mode: sft
-modele: /content/drive/MyDrive/modele_zero/lecture/finale
-tokenizer: /content/drive/MyDrive/modele_zero/lecture/finale
-dossier_sortie: /content/drive/MyDrive/modele_zero/chat
+modele: "{TRAVAIL}/lecture/finale"
+tokenizer: "{TRAVAIL}/lecture/finale"
+dossier_sortie: "{TRAVAIL}/chat"
 
 # Les petits fichiers (salutations) sont répétés pour peser assez.
 sources:
-  - fichiers: /content/drive/MyDrive/donnees_zero/dialogues/salutations_rn.jsonl
-    repeter: 20
-  - fichiers: /content/drive/MyDrive/donnees_zero/dialogues/questions_sur_rn.jsonl
-    repeter: 20
-  - fichiers: /content/drive/MyDrive/donnees_zero/dialogues/petite_conversation.jsonl
-    repeter: 10
-  - fichiers: /content/drive/MyDrive/donnees_zero/dialogues/traductions_cours.jsonl
-    repeter: 3
-  - fichiers: /content/drive/MyDrive/donnees_zero/dialogues/anciennes_qr.jsonl
+  # --- Parler (dataset) ---
+  - fichiers: "{DATASET}/dialogues/salutations_rn.jsonl"
+    repeter: 30
+  - fichiers: "{DATASET}/dialogues/questions_sur_rn.jsonl"
+    repeter: 30
+  - fichiers: "{DATASET}/dialogues/petite_conversation.jsonl"
+    repeter: 15
+  # --- Traduire et comprendre (dataset) ---
+  - fichiers: "{DATASET}/dialogues/traductions_bible.jsonl"
     repeter: 1
-  - fichiers: /content/drive/MyDrive/donnees_zero/dialogues/oasst_fr.jsonl
+  - fichiers: "{DATASET}/dialogues/traductions_cours.jsonl"
+    repeter: 3
+  - fichiers: "{DATASET}/dialogues/vocabulaire.jsonl"
     repeter: 2
+  - fichiers: "{DATASET}/dialogues/titres_kirnews.jsonl"
+    repeter: 2
+  - fichiers: "{DATASET}/dialogues/anciennes_qr.jsonl"
+    repeter: 1
+  # --- Téléchargés par le notebook (sautés s'ils manquent) ---
+  - fichiers: "{TRAVAIL}/publics/dialogues/oasst_fr.jsonl"
+    repeter: 5
+  - fichiers: "{TRAVAIL}/publics/dialogues/aya.jsonl"
+    repeter: 2
+  - fichiers: "{TRAVAIL}/publics/dialogues/piaf.jsonl"     # répondre à partir d'un document
+    repeter: 1
 
 longueur: 1024
 taille_lot: 8
 accumulation: 4
-epoques: 3
+epoques: 2
 learning_rate: 1.0e-4
 weight_decay: 0.0
-warmup: 100
+warmup: 200
 
 log_tous_les: 50
-eval_tous_les: 300
+eval_tous_les: 500
 sauver_tous_les: 300
 
 phrases_test:
   - "<|user|> Bonjour <|assistant|>"
   - "<|user|> Bwakeye. <|assistant|>"
   - "<|user|> Comment dit-on merci en kirundi ? <|assistant|>"
+  - "<|user|> Traduis en français : Umwana n'umukobwa. <|assistant|>"

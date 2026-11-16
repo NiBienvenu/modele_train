@@ -37,9 +37,23 @@ from transformers import (
 # ---------------------------------------------------------------------------
 
 def charger_config(chemin):
-    """Lit le fichier YAML de la phase (phaseA.yaml, phaseB.yaml, ...)."""
+    """
+    Lit le fichier YAML de la phase.
+
+    {DATASET} et {TRAVAIL} dans le YAML sont remplacés par les variables
+    d'environnement du même nom. Le même YAML marche donc partout :
+        Colab   : DATASET=/content/drive/MyDrive/dataset   TRAVAIL=/content/drive/MyDrive/modele_zero
+        Kaggle  : DATASET=/kaggle/input/...                TRAVAIL=/kaggle/working/modele_zero
+        machine : DATASET=A_METTRE_DANS_DRIVE/dataset      TRAVAIL=A_METTRE_DANS_DRIVE/modele_zero
+    """
     with open(chemin, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        texte = f.read()
+    for nom in ("DATASET", "TRAVAIL"):
+        if "{" + nom + "}" in texte:
+            if not os.environ.get(nom):
+                raise SystemExit(f"La variable {nom} n'est pas définie (voir la cellule 0 du notebook).")
+            texte = texte.replace("{" + nom + "}", os.environ[nom].rstrip("/"))
+    return yaml.safe_load(texte)
 
 
 def fixer_hasard(graine):
@@ -94,8 +108,14 @@ def charger_sources(sources, format_fichier, decoupage="paragraph"):
     "repeter" permet d'équilibrer les langues et de garder 15 à 20 % de
     grammaire dans les phases B et C (pour que le modèle n'oublie pas).
     """
+    import glob
+
     morceaux = []
     for src in sources:
+        # Une source absente (ex : PIAF pas téléchargé) est sautée, avec un avertissement
+        if not glob.glob(src["fichiers"]):
+            log(f"ATTENTION : aucun fichier pour {src['fichiers']} (source sautée)")
+            continue
         if format_fichier == "text":
             # sample_by="paragraph" : un exemple = un paragraphe entier
             # (séparé par une ligne vide). Le modèle garde ainsi le contexte.
@@ -465,6 +485,8 @@ def main():
     loss_cumulee, debut = 0.0, time.time()
 
     for epoque in range(epoque_depart, epoques):
+        if cfg.get("max_pas") and pas >= cfg["max_pas"]:
+            break
         # On recrée le loader à chaque époque avec une graine fixe :
         # en cas de reprise, l'ordre des lots est exactement le même.
         g = torch.Generator().manual_seed(cfg.get("graine", 42) + epoque)
@@ -512,6 +534,8 @@ def main():
             optimiseur.zero_grad(set_to_none=True)
             planning.step()
             pas += 1
+            if cfg.get("max_pas") and pas >= cfg["max_pas"]:
+                break  # essai rapide : on s'arrête là
 
             # ---- Suivi ---------------------------------------------------------
             if pas % cfg.get("log_tous_les", 50) == 0:

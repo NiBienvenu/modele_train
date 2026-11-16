@@ -1,30 +1,34 @@
 #!/usr/bin/env python
 """
-preparer_donnees_zero.py : assemble les textes de LECTURE du modèle zéro.
+preparer_donnees_zero.py : construit LE dossier unique A_METTRE_DANS_DRIVE/dataset.
 
-    python3 collecte/aspirer_ikirundi.py data/ikirundi_org.jsonl
-    python3 collecte/telecharger_corpus_rn.py data/corpus_rn
-    python3 preparer_donnees_zero.py
-    python3 gen_dialogues.py --sortie A_METTRE_DANS_DRIVE/donnees_zero/dialogues
+    python3 collecte/aspirer_ikirundi.py data/ikirundi_org.jsonl     (une fois, ~1 h)
+    python3 collecte/telecharger_corpus_rn.py data/corpus_rn          (une fois)
+    python3 preparer_donnees_zero.py                                  (tout le reste)
 
-Résultat dans A_METTRE_DANS_DRIVE/donnees_zero/ :
+Le même dossier sert partout : Google Drive (Colab), dataset Kaggle, ou sur la machine.
+Il contient aussi le code d'entraînement (dataset/code) : pas besoin de GitHub.
+
+Résultat dans A_METTRE_DANS_DRIVE/dataset/ :
     lecture_rn/        vrai texte kirundi (presse, Wikipédia rn, web, ikirundi.org, Bible)
     lecture_fr/        Bible FR (Wikipédia FR est ajoutée sur Colab : collecte/telecharger_fr.py)
     lecture_bilingue/  Bible alignée FR/RN + phrases des cours de Cox
     grammaire/         un PETIT échantillon des tableaux (5 %), pour garder les règles
-    dialogues/         (gen_dialogues.py)
+    dialogues/         conversations, traductions, vocabulaire (gen_dialogues.py)
+    code/              train.py, train_tokenizer.py, evaluer.py, configs, tests, telecharger_publics.py
 Format : texte, un document = un paragraphe (séparé par une ligne vide), comme train.py l'attend.
 """
 
 import json
 import random
+import shutil
 import subprocess
 import sys
 from pathlib import Path
 
 ICI = Path(__file__).parent
 ANCIEN = ICI / "A_METTRE_DANS_DRIVE/donnees"
-SORTIE = ICI / "A_METTRE_DANS_DRIVE/donnees_zero"
+SORTIE = ICI / "A_METTRE_DANS_DRIVE/dataset"
 
 
 def paragraphes(fichier: Path):
@@ -53,6 +57,31 @@ def ecrire(chemin: Path, docs):
     return mots
 
 
+LISEZMOI = """# dataset : tout ce qu'il faut pour entraîner le modèle ZÉRO (français + kirundi)
+
+Le même dossier marche partout :
+- **Colab** : glisse ce dossier dans Mon Drive, ouvre `notebooks/zero_colab.ipynb`.
+- **Kaggle** : crée un dataset privé avec ce dossier, ouvre `notebooks/zero_kaggle.ipynb`.
+- **Machine** : ouvre `modele_train/zero_machine.ipynb`.
+
+| Dossier | Contenu |
+|---|---|
+| lecture_rn/ | vrai texte kirundi : presse (KIRNEWS), Wikipédia rn, web (MADLAD), ikirundi.org, Bible |
+| lecture_fr/ | Bible en français (Wikipédia FR est téléchargée par le notebook) |
+| lecture_bilingue/ | phrases des cours de Cox et lexique, français + kirundi |
+| grammaire/ | un petit échantillon des tableaux de conjugaison et d'accords |
+| dialogues/ | salutations, petites conversations, traductions (Bible, cours), vocabulaire, titres d'articles |
+| code/ | train.py, configs, tests, téléchargement des données publiques |
+| notebooks/ | les 3 notebooks |
+
+Aucune phrase kirundi n'est inventée : elles viennent toutes de textes écrits par des humains
+(cours et dictionnaire de Cox, Bible, presse, sites). Ne pas publier ce dossier : les textes
+appartiennent à leurs auteurs.
+
+Refaire ce dossier : `python3 preparer_donnees_zero.py` dans modele_train/.
+"""
+
+
 def main():
     random.seed(42)
     total = {}
@@ -78,9 +107,9 @@ def main():
     total["français"] = ecrire(SORTIE / "lecture_fr/bible_fr.txt", paragraphes(ANCIEN / "bible/bible_fr.txt"))
 
     # 3. Bilingue
-    total["bilingue"] = ecrire(SORTIE / "lecture_bilingue/bible_bilingue.txt",
-                               paragraphes(ANCIEN / "bible/bible_bilingue_25.txt"))
-    total["bilingue"] += ecrire(SORTIE / "lecture_bilingue/cours_cox.txt",
+    # Pas de Bible bilingue ici : ses versets FR + RN côte à côte contiendraient les versets de TEST.
+    # La traduction biblique se fait dans dialogues/traductions_bible.jsonl (versets de test retirés).
+    total["bilingue"] = ecrire(SORTIE / "lecture_bilingue/cours_cox.txt",
                                 paragraphes(ANCIEN / "cours/cours_bilingue.txt"))
     total["bilingue"] += ecrire(SORTIE / "lecture_bilingue/lexique.txt",
                                 paragraphes(ANCIEN / "lexique_rn/lexique_rn.txt"))
@@ -95,6 +124,20 @@ def main():
                if random.random() < 0.01]
     g += ecrire(SORTIE / "grammaire/conjugaison_fr.txt", conj_fr)
     total["grammaire"] = g
+
+    # 5. Dialogues (et tests)
+    subprocess.run([sys.executable, str(ICI / "gen_dialogues.py"), "--sortie", str(SORTIE / "dialogues")], check=True)
+
+    # 6. Le code, pour entraîner sans GitHub
+    code = SORTIE / "code"
+    for f in ["train.py", "train_tokenizer.py", "evaluer.py", "requirements.txt",
+              "configs/zero_pretrain.yaml", "configs/zero_chat.yaml",
+              "collecte/telecharger_publics.py", "tests/dialogues_test.jsonl"]:
+        (code / f).parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(ICI / f, code / f)
+    print("Code copié dans", code)
+    subprocess.run([sys.executable, str(ICI / "faire_notebooks.py")], check=True)
+    (SORTIE / "LISEZMOI.md").write_text(LISEZMOI, encoding="utf-8")
 
     print("\nTOTAL (mots) :", {k: f"{v:,}" for k, v in total.items()})
     print("Note : fsi_rn.txt est écarté (texte scanné avec beaucoup d'erreurs).")

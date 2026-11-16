@@ -1,4 +1,12 @@
-# modele_train : modèle français + kirundi (base Pythia-14m)
+# modele_train : modèle français + kirundi
+
+> **Nouveau (nov. 2026) : le modèle ZÉRO**, entraîné depuis le début (pas de Pythia).
+> 1. `python3 preparer_donnees_zero.py` construit **un seul dossier** `A_METTRE_DANS_DRIVE/dataset`
+>    (textes, dialogues, tests, code, notebooks).
+> 2. Choisis où entraîner : `zero_colab.ipynb`, `zero_kaggle.ipynb` ou `zero_machine.ipynb`.
+>    Chaque notebook explique sa préparation dans sa première cellule.
+>
+> La suite de ce fichier décrit l'**ancien** modèle (base Pythia-14m), gardé pour mémoire.
 
 Un petit modèle (environ 122 millions de paramètres) qui comprend, conjugue
 et traduit le **français** et le **kirundi**. Il part de `EleutherAI/pythia-14m`,

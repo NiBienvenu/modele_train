@@ -16,3 +16,6 @@ A_METTRE_DANS_DRIVE/modele/*.zip
 # data/ikirundi_org.jsonl
 # A_METTRE_DANS_DRIVE/donnees_zero/
 # data/ikirundi_org.ancien.jsonl
+
+# Modèles entraînés par zero_machine.ipynb (plusieurs Go, refusés par GitHub)
+A_METTRE_DANS_DRIVE/modele_zero/
