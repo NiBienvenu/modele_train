@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """
-preparer_donnees_un.py : construit A_METTRE_DANS_DRIVE/dataset_un (ce que le MODÈLE UN apprend en plus).
+preparer_donnees_un.py : construit datasets/dataset_un (ce que le MODÈLE UN apprend en plus).
 
     python3 preparer_donnees_un.py
 
-L'ancien dataset (A_METTRE_DANS_DRIVE/dataset, modèle zéro) n'est PAS modifié : le notebook du
+L'ancien dataset (datasets/dataset, modèle zéro) n'est PAS modifié : le notebook du
 modèle un lit les deux dossiers séparément, chacun avec son nombre de relectures.
 
 Contenu (seulement des données vérifiées) :
@@ -28,13 +28,14 @@ import sys
 from pathlib import Path
 
 ICI = Path(__file__).resolve().parent
-SORTIE = ICI / "A_METTRE_DANS_DRIVE/dataset_un"
+SORTIE = ICI / "datasets/dataset_un"
 DATA = ICI / "data"
 
 LISEZMOI = """# dataset_un : ce que le modèle UN apprend en plus du modèle zéro
 
-À mettre sur Kaggle comme **nouveau dataset** (nom : `dataset-un`), ou dans Mon Drive pour Colab.
-L'ancien dataset (`dataset`) reste tel quel : le modèle un relit les deux.
+Sur Kaggle : dans le dataset **modele-train**, à la racine, à côté de `dataset/` (modèle zéro).
+Pour Colab : dans Mon Drive, à côté de `dataset/`. Le modèle un relit les deux.
+À chaque nouvel apprentissage : New Version, on remplace seulement `dataset_un/`.
 
 - `lecture_rn/` : textes kirundi vérifiés (livres scannés recopiés et contrôlés, textes de messe)
 - `insiguro/` : sens des mots difficiles (Dusome)

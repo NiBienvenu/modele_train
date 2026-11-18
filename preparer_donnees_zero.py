@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-preparer_donnees_zero.py : construit LE dossier unique A_METTRE_DANS_DRIVE/dataset.
+preparer_donnees_zero.py : construit LE dossier unique datasets/dataset.
 
     python3 collecte/aspirer_ikirundi.py data/ikirundi_org.jsonl     (une fois, ~1 h)
     python3 collecte/telecharger_corpus_rn.py data/corpus_rn          (une fois)
@@ -9,7 +9,7 @@ preparer_donnees_zero.py : construit LE dossier unique A_METTRE_DANS_DRIVE/datas
 Le même dossier sert partout : Google Drive (Colab), dataset Kaggle, ou sur la machine.
 Il contient aussi le code d'entraînement (dataset/code) : pas besoin de GitHub.
 
-Résultat dans A_METTRE_DANS_DRIVE/dataset/ :
+Résultat dans datasets/dataset/ :
     lecture_rn/        vrai texte kirundi (presse, Wikipédia rn, web, ikirundi.org, Bible)
     lecture_fr/        Bible FR (Wikipédia FR est ajoutée sur Colab : collecte/telecharger_fr.py)
     lecture_bilingue/  Bible alignée FR/RN + phrases des cours de Cox
@@ -28,7 +28,7 @@ from pathlib import Path
 
 ICI = Path(__file__).parent
 ANCIEN = ICI / "A_METTRE_DANS_DRIVE/donnees"
-SORTIE = ICI / "A_METTRE_DANS_DRIVE/dataset"
+SORTIE = ICI / "datasets/dataset"
 
 
 def paragraphes(fichier: Path):

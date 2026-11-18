@@ -1,0 +1,630 @@
+{"messages": [{"role": "user", "content": "Wakunze ikintu?"}, {"role": "assistant", "content": "Ego, nagikunze. Nzogikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona ingo?"}, {"role": "assistant", "content": "Ego, ndazibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uragura igi?"}, {"role": "assistant", "content": "Ego, ndarigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe indimu?"}, {"role": "assistant", "content": "Ego, nayifashe. Nzoyifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umwembe?"}, {"role": "assistant", "content": "Ego, nawurondereye. Nzowurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inzira?"}, {"role": "assistant", "content": "Ego, nayirondereye. Nzoyirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera urupapuro?"}, {"role": "assistant", "content": "Ego, ndarurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona inzira?"}, {"role": "assistant", "content": "Ego, ndayibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera inzu?"}, {"role": "assistant", "content": "Ego, ndayirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze ikirato?"}, {"role": "assistant", "content": "Ego, nakiguze. Nzokigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ibihugu?"}, {"role": "assistant", "content": "Ego, nabibonye. Nzobibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata isaha?"}, {"role": "assistant", "content": "Ego, ndarifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uragura isaha?"}, {"role": "assistant", "content": "Ego, ndarigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe isaha?"}, {"role": "assistant", "content": "Ego, narifashe. Nzorifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze ikaramu?"}, {"role": "assistant", "content": "Ego, nayiguze. Nzoyigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ishure?"}, {"role": "assistant", "content": "Oya, sinarirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona izina?"}, {"role": "assistant", "content": "Ego, ndaribona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze igitabo?"}, {"role": "assistant", "content": "Oya, sinakiguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Agacumu kanje runyura bisaka."}, {"role": "assistant", "content": "Umuravyo."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urakunda ikete?"}, {"role": "assistant", "content": "Ego, ndarikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye isaha?"}, {"role": "assistant", "content": "Oya, sinaribonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye impuzu?"}, {"role": "assistant", "content": "Ego, nayibonye. Nzoyibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ingo?"}, {"role": "assistant", "content": "Oya, sinazibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inanasi?"}, {"role": "assistant", "content": "Oya, sinayirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona igiti?"}, {"role": "assistant", "content": "Ego, ndakibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze umucungwa?"}, {"role": "assistant", "content": "Ego, nawuguze. Nzowugura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye igi?"}, {"role": "assistant", "content": "Ego, narirondereye. Nzorirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ikiyaga?"}, {"role": "assistant", "content": "Ego, nakibonye. Nzokibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umwami?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Mbeg' abantu benshi baje uyu musi?"}, {"role": "assistant", "content": "Si bake."}], "source": "Cox Livre II, ch. 79 par. 5"}
+{"messages": [{"role": "user", "content": "Urarondera ishure?"}, {"role": "assistant", "content": "Ego, ndarirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye akazi?"}, {"role": "assistant", "content": "Oya, sinakarondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uramfasha?"}, {"role": "assistant", "content": "Ego, ndagufasha. Aradufasha."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umusi?"}, {"role": "assistant", "content": "Oya, sinawubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda ibihugu?"}, {"role": "assistant", "content": "Ego, ndabikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abakuru baraho baca imanza bunamwe."}, {"role": "assistant", "content": "Impfizi z'intama zirwana."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abanyabuhura ntibubaka barahonjagira."}, {"role": "assistant", "content": "Umuyirwe w'ibigori."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urafata urupapuro?"}, {"role": "assistant", "content": "Ego, ndarufata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera abarundi?"}, {"role": "assistant", "content": "Ego, ndabarondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze inzu?"}, {"role": "assistant", "content": "Ego, nayikunze. Nzoyikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze igiti?"}, {"role": "assistant", "content": "Ego, nagikunze. Nzogikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye igiti?"}, {"role": "assistant", "content": "Ego, nakirondereye. Nzokirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umutetsi?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana inanasi?"}, {"role": "assistant", "content": "Ego, ndayizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera urugo?"}, {"role": "assistant", "content": "Ego, ndarurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umuti?"}, {"role": "assistant", "content": "Ego, ndawurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Kararengera."}, {"role": "assistant", "content": "Akana kaja iwabo."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urabona ikete?"}, {"role": "assistant", "content": "Ego, ndaribona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uragura ikirato?"}, {"role": "assistant", "content": "Ego, ndakigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umusi?"}, {"role": "assistant", "content": "Oya, sinawurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera ijambo?"}, {"role": "assistant", "content": "Ego, ndarirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze inka?"}, {"role": "assistant", "content": "Oya, sinayikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ikiyaga?"}, {"role": "assistant", "content": "Oya, sinakirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Mbega wakoze ivyo?"}, {"role": "assistant", "content": "Oya, nyabura (or nyabuna)!"}], "source": "Cox Livre II, ch. 76 par. 2"}
+{"messages": [{"role": "user", "content": "Urakunda umuntu?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye indimu?"}, {"role": "assistant", "content": "Ego, nayizanye. Nzoyizana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umwami?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umwaka?"}, {"role": "assistant", "content": "Ego, nawurondereye. Nzowurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera izina?"}, {"role": "assistant", "content": "Ego, ndarirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umugabo?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umusozi?"}, {"role": "assistant", "content": "Oya, sinawubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ntuze ari hano?"}, {"role": "assistant", "content": "Oya, nta wuri hano."}], "source": "Cox Livre I, leçon 104"}
+{"messages": [{"role": "user", "content": "Wabonye umuntu?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umuhungu?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda ijambo?"}, {"role": "assistant", "content": "Ego, ndarikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ntuze afise isuka?"}, {"role": "assistant", "content": "Nta yo afise."}], "source": "Cox Livre I, leçon 105"}
+{"messages": [{"role": "user", "content": "Wakunze umucungwa?"}, {"role": "assistant", "content": "Oya, sinawukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze umucungwa?"}, {"role": "assistant", "content": "Oya, sinawuguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Ane meza."}, {"role": "assistant", "content": "Amabere y'inka."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wakunze umwembe?"}, {"role": "assistant", "content": "Oya, sinawukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye igiti?"}, {"role": "assistant", "content": "Ego, nakibonye. Nzokibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana inanasi?"}, {"role": "assistant", "content": "Ego, ndazizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umugore?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera ingo?"}, {"role": "assistant", "content": "Ego, ndazirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abantu baraza baramubaza, bat' Uzogenda i Yerusalemu?"}, {"role": "assistant", "content": "Arabishura, ati Oya, singendayo ubu."}], "source": "Cox Livre I, leçon 124"}
+{"messages": [{"role": "user", "content": "Warondereye umwana?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uragura umucungwa?"}, {"role": "assistant", "content": "Ego, ndawugura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda igitabo?"}, {"role": "assistant", "content": "Ego, ndagikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze igi?"}, {"role": "assistant", "content": "Oya, sinariguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ijambo?"}, {"role": "assistant", "content": "Oya, sinarikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abo kwa Ruringaniza bambariye imiringa mu kuzimu."}, {"role": "assistant", "content": "Ibijumbu."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wakunze inzu?"}, {"role": "assistant", "content": "Oya, sinayikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze imbwa?"}, {"role": "assistant", "content": "Ego, nayikunze. Nzoyikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umukozi?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abana banje bakubita ibiganza hirya no hino."}, {"role": "assistant", "content": "Imitwe y'inzuzi."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urarondera ururimi?"}, {"role": "assistant", "content": "Ego, ndarurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye indimu?"}, {"role": "assistant", "content": "Oya, sinayirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona ikiyaga?"}, {"role": "assistant", "content": "Ego, ndakibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye abarundi?"}, {"role": "assistant", "content": "Ego, nababonye. Nzobabona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera isaha?"}, {"role": "assistant", "content": "Ego, ndarirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Izinguzingu niwarimenya nguhere."}, {"role": "assistant", "content": "Itimbi ry'ifu."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye ijambo?"}, {"role": "assistant", "content": "Oya, sinaribonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye inzu?"}, {"role": "assistant", "content": "Ego, nayibonye. Nzoyibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ikete?"}, {"role": "assistant", "content": "Ego, narikunze. Nzorikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona ururimi?"}, {"role": "assistant", "content": "Ego, ndarubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abanyakigwa ntibubaka barahonjagira."}, {"role": "assistant", "content": "Amarenga."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye umucungwa?"}, {"role": "assistant", "content": "Ego, nawubonye. Nzowubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye amazi?"}, {"role": "assistant", "content": "Ego, nayarondereye. Nzoyarondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umurundi?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inzu?"}, {"role": "assistant", "content": "Ego, nayirondereye. Nzoyirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umuduga?"}, {"role": "assistant", "content": "Oya, sinawurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Gira so katamwobwa."}, {"role": "assistant", "content": "Agahanga k'imbwa."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urarondera inanasi?"}, {"role": "assistant", "content": "Ego, ndazirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uragura icamwa?"}, {"role": "assistant", "content": "Ego, ndakigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze inanasi?"}, {"role": "assistant", "content": "Oya, sinayiguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abantu baje?"}, {"role": "assistant", "content": "Bamwe-bamwe."}], "source": "Cox Livre I, leçon 111"}
+{"messages": [{"role": "user", "content": "Waguze inanasi?"}, {"role": "assistant", "content": "Ego, nayiguze. Nzoyigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umusi?"}, {"role": "assistant", "content": "Oya, sinawukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona amazi?"}, {"role": "assistant", "content": "Ego, ndayabona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umukobwa?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze igi?"}, {"role": "assistant", "content": "Ego, narikunze. Nzorikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umwana?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umukozi?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ikirato?"}, {"role": "assistant", "content": "Ego, nakibonye. Nzokibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umuhungu?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata igitabo?"}, {"role": "assistant", "content": "Ego, ndagifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe igitabo?"}, {"role": "assistant", "content": "Ego, nagifashe. Nzogifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye igiti?"}, {"role": "assistant", "content": "Oya, sinakibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umukobwa?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Har' ibitabo bingahe?"}, {"role": "assistant", "content": "N'umunani."}], "source": "Cox Livre I, leçon 37"}
+{"messages": [{"role": "user", "content": "Wakunze umuduga?"}, {"role": "assistant", "content": "Oya, sinawukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze izina?"}, {"role": "assistant", "content": "Oya, sinarikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye inzu?"}, {"role": "assistant", "content": "Oya, sinayibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umunyeshure?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umuvyeyi?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ibihugu?"}, {"role": "assistant", "content": "Oya, sinabikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye isaha?"}, {"role": "assistant", "content": "Oya, sinarirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda inzu?"}, {"role": "assistant", "content": "Ego, ndayikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umukozi?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umwana?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ikaramu?"}, {"role": "assistant", "content": "Ego, nayikunze. Nzoyikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umuntu?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana amazi?"}, {"role": "assistant", "content": "Ego, ndayazana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ikaramu?"}, {"role": "assistant", "content": "Ego, nayirondereye. Nzoyirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umukozi?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Kararengera."}, {"role": "assistant", "content": "Akana kaja iwabo."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wafashe ikirato?"}, {"role": "assistant", "content": "Oya, sinagifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ijambo?"}, {"role": "assistant", "content": "Oya, sinarirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abana banje bakubita ibiganza hirya no hino."}, {"role": "assistant", "content": "Imitwe y'inzuzi."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Agacumu kanje runyura bisaka."}, {"role": "assistant", "content": "Umuravyo."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urakunda umuduga?"}, {"role": "assistant", "content": "Ego, ndawukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana impuzu?"}, {"role": "assistant", "content": "Ego, ndayizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umushumba?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uragura inanasi?"}, {"role": "assistant", "content": "Ego, ndazigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze urupapuro?"}, {"role": "assistant", "content": "Ego, naruguze. Nzorugura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze urupapuro?"}, {"role": "assistant", "content": "Ego, narukunze. Nzorukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ikaramu?"}, {"role": "assistant", "content": "Ego, nayibonye. Nzoyibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umugore?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye imbwa?"}, {"role": "assistant", "content": "Ego, nayibonye. Nzoyibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ndi mugufi nkaba mu rwanje."}, {"role": "assistant", "content": "Igicaniro."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wigera mu Barembe wari Umurembe!"}, {"role": "assistant", "content": "Impene mu ntama."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Warondereye umwana?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uragura ikete?"}, {"role": "assistant", "content": "Ego, ndarigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze inanasi?"}, {"role": "assistant", "content": "Ego, naziguze. Nzozigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umuti?"}, {"role": "assistant", "content": "Ego, ndawukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye inanasi?"}, {"role": "assistant", "content": "Oya, sinayizanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umugabo?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye igi?"}, {"role": "assistant", "content": "Oya, sinarirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umugore?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inzira?"}, {"role": "assistant", "content": "Oya, sinayirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abageni ba kera ntibitwikira bundi."}, {"role": "assistant", "content": "Ibigori."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Warondereye akazi?"}, {"role": "assistant", "content": "Ego, nakarondereye. Nzokarondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abatama ba kera baca imanza bunamye."}, {"role": "assistant", "content": "Imigondoro."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urabona umuhungu?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umuvyeyi?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona icamwa?"}, {"role": "assistant", "content": "Ego, ndakibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umukobwa?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera ikintu?"}, {"role": "assistant", "content": "Ego, ndakirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umuti?"}, {"role": "assistant", "content": "Ego, nawubonye. Nzowubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye igitabo?"}, {"role": "assistant", "content": "Ego, nakizanye. Nzokizana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ikintu?"}, {"role": "assistant", "content": "Oya, sinakirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze abarundi?"}, {"role": "assistant", "content": "Oya, sinabakunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umuvyeyi?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ururimi?"}, {"role": "assistant", "content": "Ego, narukunze. Nzorukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Umwana wanje yokunesha ari muto."}, {"role": "assistant", "content": "Urutozi."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Uragura amazi?"}, {"role": "assistant", "content": "Ego, ndayagura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze urugo?"}, {"role": "assistant", "content": "Ego, narukunze. Nzorukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ikete?"}, {"role": "assistant", "content": "Ego, narirondereye. Nzorirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye indimu?"}, {"role": "assistant", "content": "Oya, sinayizanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ururimi?"}, {"role": "assistant", "content": "Oya, sinarukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umuhungu?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera inka?"}, {"role": "assistant", "content": "Ego, ndayirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ibihugu?"}, {"role": "assistant", "content": "Oya, sinabirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona ijambo?"}, {"role": "assistant", "content": "Ego, ndaribona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Inka n'iya nde?"}, {"role": "assistant", "content": "N'iya Paulo."}], "source": "Cox Livre I, leçon 96"}
+{"messages": [{"role": "user", "content": "Urakunda umucungwa?"}, {"role": "assistant", "content": "Ego, ndawukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umuvyeyi?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abanyakigwa ntibubaka barahonjagira."}, {"role": "assistant", "content": "Amarenga."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye inka?"}, {"role": "assistant", "content": "Oya, sinayibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona ishure?"}, {"role": "assistant", "content": "Ego, ndaribona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Mbega Gahungu yakoze ivyo?"}, {"role": "assistant", "content": "Oya, ndetse ni we yabanje kuvyanka."}], "source": "Cox Livre II, ch. 79 par. 12"}
+{"messages": [{"role": "user", "content": "Waguze indimu?"}, {"role": "assistant", "content": "Oya, sinayiguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umunyeshure?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye igitabo?"}, {"role": "assistant", "content": "Ego, nakirondereye. Nzokirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abanyakirimiro ntibubaka barahonjagira."}, {"role": "assistant", "content": "Amajigo."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wafashe umucungwa?"}, {"role": "assistant", "content": "Ego, nawufashe. Nzowufata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umusozi?"}, {"role": "assistant", "content": "Ego, nawukunze. Nzowukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe umwembe?"}, {"role": "assistant", "content": "Ego, nawufashe. Nzowufata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye urupapuro?"}, {"role": "assistant", "content": "Ego, narubonye. Nzorubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye ikete?"}, {"role": "assistant", "content": "Oya, sinarizanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe icamwa?"}, {"role": "assistant", "content": "Ego, nagifashe. Nzogifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umuvyeyi?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye indimu?"}, {"role": "assistant", "content": "Ego, nayibonye. Nzoyibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana ikete?"}, {"role": "assistant", "content": "Ego, ndarizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umwana?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze isaha?"}, {"role": "assistant", "content": "Ego, nariguze. Nzorigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye igitabo?"}, {"role": "assistant", "content": "Ego, nakibonye. Nzokibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze urugo?"}, {"role": "assistant", "content": "Oya, sinarukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umwana?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana isaha?"}, {"role": "assistant", "content": "Ego, ndarizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umusozi?"}, {"role": "assistant", "content": "Ego, ndawurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera inzira?"}, {"role": "assistant", "content": "Ego, ndayirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inanasi?"}, {"role": "assistant", "content": "Oya, sinazirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda impuzu?"}, {"role": "assistant", "content": "Ego, ndayikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umwana?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umwana?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abagore ba kera baheka abana neza nayo ab'ubu ntumbarire."}, {"role": "assistant", "content": "Ibigori bisimbije."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Ndakibona singifata."}, {"role": "assistant", "content": "Igitutu."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urabona urupapuro?"}, {"role": "assistant", "content": "Ego, ndarubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Aha twese turaririye umwe."}, {"role": "assistant", "content": "Inkono ku ziko."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urabona ikaramu?"}, {"role": "assistant", "content": "Ego, ndayibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera impuzu?"}, {"role": "assistant", "content": "Ego, ndayirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye icamwa?"}, {"role": "assistant", "content": "Oya, sinakibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata ikete?"}, {"role": "assistant", "content": "Ego, ndarifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umusi?"}, {"role": "assistant", "content": "Ego, nawukunze. Nzowukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Tora akato ntore akandi tuje kurondera ico tutari bubone."}, {"role": "assistant", "content": "Amaganga y'inkoko."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urakunda umusozi?"}, {"role": "assistant", "content": "Ego, ndawukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze ikirato?"}, {"role": "assistant", "content": "Oya, sinakiguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umuvyeyi?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ijambo?"}, {"role": "assistant", "content": "Ego, narikunze. Nzorikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ikiyaga?"}, {"role": "assistant", "content": "Ego, nakirondereye. Nzokirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze inanasi?"}, {"role": "assistant", "content": "Oya, sinazikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umukobwa?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye inzira?"}, {"role": "assistant", "content": "Oya, sinayibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inzu?"}, {"role": "assistant", "content": "Oya, sinayirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umwembe?"}, {"role": "assistant", "content": "Ego, ndawukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata amazi?"}, {"role": "assistant", "content": "Ego, ndayafata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda isaha?"}, {"role": "assistant", "content": "Ego, ndarikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze abarundi?"}, {"role": "assistant", "content": "Ego, nabakunze. Nzobakunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze indimu?"}, {"role": "assistant", "content": "Oya, sinayikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye izina?"}, {"role": "assistant", "content": "Oya, sinarirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye amazi?"}, {"role": "assistant", "content": "Ego, nayazanye. Nzoyazana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye igihugu?"}, {"role": "assistant", "content": "Ego, nakirondereye. Nzokirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wariho ejo?"}, {"role": "assistant", "content": "Ego, nariho"}], "source": "Cox Livre I, leçon 68"}
+{"messages": [{"role": "user", "content": "Waguze ikete?"}, {"role": "assistant", "content": "Oya, sinariguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye imbwa?"}, {"role": "assistant", "content": "Oya, sinayibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe ikete?"}, {"role": "assistant", "content": "Ego, narifashe. Nzorifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye impuzu?"}, {"role": "assistant", "content": "Ego, nayizanye. Nzoyizana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye inanasi?"}, {"role": "assistant", "content": "Ego, nazibonye. Nzozibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umwami?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera ikirato?"}, {"role": "assistant", "content": "Ego, ndakirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe ikete?"}, {"role": "assistant", "content": "Oya, sinarifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ibihugu?"}, {"role": "assistant", "content": "Oya, sinabibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ufise igitabo?"}, {"role": "assistant", "content": "Ndagifise"}], "source": "Cox Livre I, leçon 58"}
+{"messages": [{"role": "user", "content": "Urabona imbwa?"}, {"role": "assistant", "content": "Ego, ndayibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wavuye hehe?"}, {"role": "assistant", "content": "Navuye mw ishuli."}], "source": "Cox Livre I, leçon 55"}
+{"messages": [{"role": "user", "content": "Warondereye ururimi?"}, {"role": "assistant", "content": "Ego, narurondereye. Nzorurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inanasi?"}, {"role": "assistant", "content": "Ego, nayirondereye. Nzoyirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umukobwa?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata impuzu?"}, {"role": "assistant", "content": "Ego, ndayifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umutetsi?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata icamwa?"}, {"role": "assistant", "content": "Ego, ndagifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umuntu?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze igitabo?"}, {"role": "assistant", "content": "Ego, nakiguze. Nzokigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umuvyeyi?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Mbega Minani yanse gukora ivyo?"}, {"role": "assistant", "content": "Na mba, mbere ni we yabanje kubikora."}], "source": "Cox Livre II, ch. 79 par. 11"}
+{"messages": [{"role": "user", "content": "Wabonye umutetsi?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze igihugu?"}, {"role": "assistant", "content": "Oya, sinagikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urampamagara?"}, {"role": "assistant", "content": "Ego, ndaguhamagara. Araduhamagara."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umutetsi?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye inka?"}, {"role": "assistant", "content": "Ego, nayibonye. Nzoyibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ijambo?"}, {"role": "assistant", "content": "Ego, naribonye. Nzoribona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ufise inka?"}, {"role": "assistant", "content": "Nta zo mfise."}], "source": "Cox Livre I, leçon 105"}
+{"messages": [{"role": "user", "content": "Wafashe inanasi?"}, {"role": "assistant", "content": "Oya, sinazifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ishure?"}, {"role": "assistant", "content": "Oya, sinaribonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata inanasi?"}, {"role": "assistant", "content": "Ego, ndazifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata igi?"}, {"role": "assistant", "content": "Ego, ndarifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ijambo?"}, {"role": "assistant", "content": "Ego, narirondereye. Nzorirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana ikaramu?"}, {"role": "assistant", "content": "Ego, ndayizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umuvyeyi?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Wigera mu Barembe wari Umurembe!"}, {"role": "assistant", "content": "Impene mu ntama."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urarondera umwigisha?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda urugo?"}, {"role": "assistant", "content": "Ego, ndarukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe igitabo?"}, {"role": "assistant", "content": "Oya, sinagifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umwembe?"}, {"role": "assistant", "content": "Ego, ndawurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye igiti?"}, {"role": "assistant", "content": "Oya, sinakirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye uruzi?"}, {"role": "assistant", "content": "Ego, narurondereye. Nzorurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe umucungwa?"}, {"role": "assistant", "content": "Oya, sinawufashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umwami?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona ngo bitugu vya sogokuru ansimbira urugo!"}, {"role": "assistant", "content": "Ikivumvuri."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye ishure?"}, {"role": "assistant", "content": "Ego, naribonye. Nzoribona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze isaha?"}, {"role": "assistant", "content": "Oya, sinariguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umunyeshure?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umuduga?"}, {"role": "assistant", "content": "Ego, nawukunze. Nzowukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda amazi?"}, {"role": "assistant", "content": "Ego, ndayakunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye igitabo?"}, {"role": "assistant", "content": "Oya, sinakirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umuntu?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umwami?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda izina?"}, {"role": "assistant", "content": "Ego, ndarikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda imbwa?"}, {"role": "assistant", "content": "Ego, ndayikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umugore?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye indimu?"}, {"role": "assistant", "content": "Ego, nayirondereye. Nzoyirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urambona?"}, {"role": "assistant", "content": "Ego, ndakubona. Aratubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye igitabo?"}, {"role": "assistant", "content": "Oya, sinakibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abo kwa Ruringaniza bambariye imiringa mu kuzimu."}, {"role": "assistant", "content": "Ibijumbu."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urabona igihugu?"}, {"role": "assistant", "content": "Ego, ndakibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye urupapuro?"}, {"role": "assistant", "content": "Oya, sinarurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umukozi?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umugore?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umuhungu?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye igihugu?"}, {"role": "assistant", "content": "Oya, sinakirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze igihugu?"}, {"role": "assistant", "content": "Ego, nagikunze. Nzogikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda ikintu?"}, {"role": "assistant", "content": "Ego, ndagikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona isaha?"}, {"role": "assistant", "content": "Ego, ndaribona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Umwana wanje yokunesha ari muto."}, {"role": "assistant", "content": "Urutozi."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urazana urupapuro?"}, {"role": "assistant", "content": "Ego, ndaruzana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umurundi?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana igitabo?"}, {"role": "assistant", "content": "Ego, ndakizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe igi?"}, {"role": "assistant", "content": "Ego, narifashe. Nzorifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye abarundi?"}, {"role": "assistant", "content": "Ego, nabarondereye. Nzobarondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe impuzu?"}, {"role": "assistant", "content": "Oya, sinayifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umuntu?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umwigisha?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda inzira?"}, {"role": "assistant", "content": "Ego, ndayikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze izina?"}, {"role": "assistant", "content": "Ego, narikunze. Nzorikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye izina?"}, {"role": "assistant", "content": "Ego, narirondereye. Nzorirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umucungwa?"}, {"role": "assistant", "content": "Ego, ndawubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umucungwa?"}, {"role": "assistant", "content": "Ego, nawukunze. Nzowukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umuti?"}, {"role": "assistant", "content": "Ego, nawurondereye. Nzowurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze impuzu?"}, {"role": "assistant", "content": "Oya, sinayiguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umugabo?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ikirato?"}, {"role": "assistant", "content": "Oya, sinagikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze igitabo?"}, {"role": "assistant", "content": "Oya, sinagikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona impuzu?"}, {"role": "assistant", "content": "Ego, ndayibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata ikaramu?"}, {"role": "assistant", "content": "Ego, ndayifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Akavumu kanje mpungurura bunyoni."}, {"role": "assistant", "content": "Inkono y'umurango ntirya umwe."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Uragura igitabo?"}, {"role": "assistant", "content": "Ego, ndakigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye amazi?"}, {"role": "assistant", "content": "Ego, nayabonye. Nzoyabona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda inanasi?"}, {"role": "assistant", "content": "Ego, ndayikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umutetsi?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ururimi?"}, {"role": "assistant", "content": "Oya, sinarurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda ishure?"}, {"role": "assistant", "content": "Ego, ndarikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye isaha?"}, {"role": "assistant", "content": "Oya, sinarizanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye amazi?"}, {"role": "assistant", "content": "Oya, sinayarondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abazungu ba bujumbura bambaye ibirato bose."}, {"role": "assistant", "content": "Amavunja."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye umwigisha?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona ikirato?"}, {"role": "assistant", "content": "Ego, ndakibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umwembe?"}, {"role": "assistant", "content": "Ego, nawukunze. Nzowukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Umunani mubi."}, {"role": "assistant", "content": "Amabere y'imbwa."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wazanye igi?"}, {"role": "assistant", "content": "Oya, sinarizanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Washize umusumeno hasi?"}, {"role": "assistant", "content": "Nawushizeho."}], "source": "Cox Livre I, leçon 68"}
+{"messages": [{"role": "user", "content": "Impuzu yanje iri hehe?"}, {"role": "assistant", "content": "Sinzi, sindayifise"}], "source": "Cox Livre II, ch. 41"}
+{"messages": [{"role": "user", "content": "Wakunze impuzu?"}, {"role": "assistant", "content": "Oya, sinayikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ingo?"}, {"role": "assistant", "content": "Ego, nazirondereye. Nzozirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abatama ba kera baca imanza bunamye."}, {"role": "assistant", "content": "Imigondoro."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye igi?"}, {"role": "assistant", "content": "Ego, naribonye. Nzoribona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umugore?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye urupapuro?"}, {"role": "assistant", "content": "Ego, naruzanye. Nzoruzana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umutetsi?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye isaha?"}, {"role": "assistant", "content": "Ego, narirondereye. Nzorirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana igi?"}, {"role": "assistant", "content": "Ego, ndarizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye igi?"}, {"role": "assistant", "content": "Oya, sinaribonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umunyeshure?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze ikete?"}, {"role": "assistant", "content": "Ego, nariguze. Nzorigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umwigisha?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inka?"}, {"role": "assistant", "content": "Oya, sinayirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye ikete?"}, {"role": "assistant", "content": "Ego, narizanye. Nzorizana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Mbe nyoku ko useye bwinshi wigavye uja he?"}, {"role": "assistant", "content": "Akana kaja iwabo."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Warondereye umwigisha?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uragura urupapuro?"}, {"role": "assistant", "content": "Ego, ndarugura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Urabona ngo bitugu vya sogokuru ansimbira urugo!"}, {"role": "assistant", "content": "Ikivumvuri."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urupfunguzo ruri hehe?"}, {"role": "assistant", "content": "Ararufise"}], "source": "Cox Livre I, leçon 58"}
+{"messages": [{"role": "user", "content": "Bakore iki ubu?"}, {"role": "assistant", "content": "Barime mu murima wanje."}], "source": "Cox Livre I, leçon 67"}
+{"messages": [{"role": "user", "content": "Urarondera igihugu?"}, {"role": "assistant", "content": "Ego, ndakirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umugore?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umwembe?"}, {"role": "assistant", "content": "Oya, sinawurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umuntu?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda ikiyaga?"}, {"role": "assistant", "content": "Ego, ndagikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye amazi?"}, {"role": "assistant", "content": "Oya, sinayabonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera akazi?"}, {"role": "assistant", "content": "Ego, ndakarondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye uruzi?"}, {"role": "assistant", "content": "Oya, sinarubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye urupapuro?"}, {"role": "assistant", "content": "Oya, sinarubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze icamwa?"}, {"role": "assistant", "content": "Oya, sinagikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umukobwa?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera ibihugu?"}, {"role": "assistant", "content": "Ego, ndabirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umusozi?"}, {"role": "assistant", "content": "Ego, nawubonye. Nzowubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umwami?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ikirato?"}, {"role": "assistant", "content": "Oya, sinakirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wahaye Toma igitabo?"}, {"role": "assistant", "content": "Nakimuhaye."}], "source": "Cox Livre I, leçon 59"}
+{"messages": [{"role": "user", "content": "Urarondera igiti?"}, {"role": "assistant", "content": "Ego, ndakirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye abarundi?"}, {"role": "assistant", "content": "Oya, sinababonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umwaka?"}, {"role": "assistant", "content": "Oya, sinawukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze inanasi?"}, {"role": "assistant", "content": "Oya, sinaziguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera igitabo?"}, {"role": "assistant", "content": "Ego, ndakirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe isaha?"}, {"role": "assistant", "content": "Oya, sinarifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe icamwa?"}, {"role": "assistant", "content": "Oya, sinagifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Mbeg' ibijumbu birakwiye?"}, {"role": "assistant", "content": "Ego, birakwiye."}], "source": "Cox Livre I, leçon 93"}
+{"messages": [{"role": "user", "content": "Urakunda umunyeshure?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye icamwa?"}, {"role": "assistant", "content": "Ego, nakizanye. Nzokizana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye impuzu?"}, {"role": "assistant", "content": "Ego, nayirondereye. Nzoyirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze umwembe?"}, {"role": "assistant", "content": "Ego, nawuguze. Nzowugura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze akazi?"}, {"role": "assistant", "content": "Ego, nagakunze. Nzogakunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata indimu?"}, {"role": "assistant", "content": "Ego, ndayifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Haje abantu bangahe?"}, {"role": "assistant", "content": "Ibiri na babiri."}], "source": "Cox Livre II, ch. 68"}
+{"messages": [{"role": "user", "content": "Wabonye umusi?"}, {"role": "assistant", "content": "Ego, nawubonye. Nzowubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye abarundi?"}, {"role": "assistant", "content": "Oya, sinabarondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urandondera?"}, {"role": "assistant", "content": "Ego, ndakurondera. Araturondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda ikaramu?"}, {"role": "assistant", "content": "Ego, ndayikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abanyakirimiro ntibubaka barahonjagira."}, {"role": "assistant", "content": "Amajigo."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye umwami?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umucungwa?"}, {"role": "assistant", "content": "Oya, sinawubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umukozi?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye igi?"}, {"role": "assistant", "content": "Ego, narizanye. Nzorizana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ibihugu?"}, {"role": "assistant", "content": "Ego, nabikunze. Nzobikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye icamwa?"}, {"role": "assistant", "content": "Ego, nakibonye. Nzokibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abazungu ba bujumbura bambaye ibirato bose."}, {"role": "assistant", "content": "Amavunja."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urarondera umurundi?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ishure?"}, {"role": "assistant", "content": "Ego, narirondereye. Nzorirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ikirato?"}, {"role": "assistant", "content": "Ego, nakirondereye. Nzokirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe amazi?"}, {"role": "assistant", "content": "Ego, nayafashe. Nzoyafata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye icamwa?"}, {"role": "assistant", "content": "Oya, sinakirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona inanasi?"}, {"role": "assistant", "content": "Ego, ndazibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umuvyeyi?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ane meza."}, {"role": "assistant", "content": "Amabere y'inka."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wakunze igitabo?"}, {"role": "assistant", "content": "Ego, nagikunze. Nzogikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Umunani mubi."}, {"role": "assistant", "content": "Amabere y'imbwa."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Abagore ba kera baheka abana neza nayo ab'ubu ntumbarire."}, {"role": "assistant", "content": "Ibigori bisimbije."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye ingo?"}, {"role": "assistant", "content": "Ego, nazibonye. Nzozibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umugabo?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abageni ba kera ntibitwikira bundi."}, {"role": "assistant", "content": "Ibigori."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urafata umucungwa?"}, {"role": "assistant", "content": "Ego, ndawufata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda urupapuro?"}, {"role": "assistant", "content": "Ego, ndarukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe ikirato?"}, {"role": "assistant", "content": "Ego, nagifashe. Nzogifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abambara ba Ruhinda bamabariye impeko mu kuzimu."}, {"role": "assistant", "content": "Ibiyoba."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urabona umuti?"}, {"role": "assistant", "content": "Ego, ndawubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze igiti?"}, {"role": "assistant", "content": "Oya, sinagikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umushumba?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Washize igitabo ku meza?"}, {"role": "assistant", "content": "Ego, nagishizeko."}], "source": "Cox Livre I, leçon 115"}
+{"messages": [{"role": "user", "content": "Wafashe ikaramu?"}, {"role": "assistant", "content": "Oya, sinayifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umuntu?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ikintu?"}, {"role": "assistant", "content": "Ego, nakirondereye. Nzokirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umushumba?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umukobwa?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umugabo?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umutetsi?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze inanasi?"}, {"role": "assistant", "content": "Ego, nayikunze. Nzoyikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umwigisha?"}, {"role": "assistant", "content": "Oya, sinamubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze igi?"}, {"role": "assistant", "content": "Ego, nariguze. Nzorigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ikete?"}, {"role": "assistant", "content": "Ego, naribonye. Nzoribona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abakobwa bansanze ku mugina nti enda bakobwa nkirigita."}, {"role": "assistant", "content": "Inkumi y'inkenzi."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Warondereye umuti?"}, {"role": "assistant", "content": "Oya, sinawurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye urupapuro?"}, {"role": "assistant", "content": "Ego, narurondereye. Nzorurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona urugo?"}, {"role": "assistant", "content": "Ego, ndarubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ikirato?"}, {"role": "assistant", "content": "Oya, sinakibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye inzira?"}, {"role": "assistant", "content": "Ego, nayibonye. Nzoyibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ikete?"}, {"role": "assistant", "content": "Oya, sinaribonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umwigisha?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye impuzu?"}, {"role": "assistant", "content": "Oya, sinayizanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda inanasi?"}, {"role": "assistant", "content": "Ego, ndazikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye akazi?"}, {"role": "assistant", "content": "Ego, nakabonye. Nzokabona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ahantu?"}, {"role": "assistant", "content": "Nahabonye"}], "source": "Cox Livre I, leçon 58"}
+{"messages": [{"role": "user", "content": "Wafashe impuzu?"}, {"role": "assistant", "content": "Ego, nayifashe. Nzoyifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda igiti?"}, {"role": "assistant", "content": "Ego, ndagikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona ibihugu?"}, {"role": "assistant", "content": "Ego, ndabibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona indimu?"}, {"role": "assistant", "content": "Ego, ndayibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umuhungu?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umushumba?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera ikete?"}, {"role": "assistant", "content": "Ego, ndarirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umusozi?"}, {"role": "assistant", "content": "Ego, nawurondereye. Nzowurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana umwembe?"}, {"role": "assistant", "content": "Ego, ndawuzana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umwaka?"}, {"role": "assistant", "content": "Ego, nawubonye. Nzowubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umucungwa?"}, {"role": "assistant", "content": "Oya, sinawurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umucungwa?"}, {"role": "assistant", "content": "Ego, nawurondereye. Nzowurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umuhungu?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda ingo?"}, {"role": "assistant", "content": "Ego, ndazikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye inanasi?"}, {"role": "assistant", "content": "Oya, sinayibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze inanasi?"}, {"role": "assistant", "content": "Oya, sinayikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umukobwa?"}, {"role": "assistant", "content": "Ego, ndamurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umwaka?"}, {"role": "assistant", "content": "Ego, ndawukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ikiyaga?"}, {"role": "assistant", "content": "Ego, nagikunze. Nzogikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana umucungwa?"}, {"role": "assistant", "content": "Ego, ndawuzana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ufise iki?"}, {"role": "assistant", "content": "Nta co."}], "source": "Cox Livre I, leçon 105"}
+{"messages": [{"role": "user", "content": "Wakunze ingo?"}, {"role": "assistant", "content": "Oya, sinazikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urankunda?"}, {"role": "assistant", "content": "Ego, ndagukunda. Aradukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ikete?"}, {"role": "assistant", "content": "Oya, sinarikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye inanasi?"}, {"role": "assistant", "content": "Ego, nayizanye. Nzoyizana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe indimu?"}, {"role": "assistant", "content": "Oya, sinayifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe urupapuro?"}, {"role": "assistant", "content": "Ego, narufashe. Nzorufata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umushumba?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera amazi?"}, {"role": "assistant", "content": "Ego, ndayarondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ikete?"}, {"role": "assistant", "content": "Oya, sinarirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Bugingo bwa none bwogutana."}, {"role": "assistant", "content": "Wotekera amazi mu rukangaga?"}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Uragura inanasi?"}, {"role": "assistant", "content": "Ego, ndayigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Izinguzingu niwarimenya nguhere."}, {"role": "assistant", "content": "Itimbi ry'ifu."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wakunze umuhungu?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umurundi?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye urupapuro?"}, {"role": "assistant", "content": "Oya, sinaruzanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze imbwa?"}, {"role": "assistant", "content": "Oya, sinayikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda abarundi?"}, {"role": "assistant", "content": "Ego, ndabakunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona abarundi?"}, {"role": "assistant", "content": "Ego, ndababona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Ndi mugufi nkaba mu rwanje."}, {"role": "assistant", "content": "Igicaniro."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Zana ibitabo. N'ibi?"}, {"role": "assistant", "content": "Oya, s'ivyo."}], "source": "Cox Livre I, leçon 93"}
+{"messages": [{"role": "user", "content": "Wabonye umuti?"}, {"role": "assistant", "content": "Oya, sinawubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abanyabuhura ntibubaka barahonjagira."}, {"role": "assistant", "content": "Umuyirwe w'ibigori."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye inanasi?"}, {"role": "assistant", "content": "Oya, sinazibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umutetsi?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umurundi?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe inanasi?"}, {"role": "assistant", "content": "Oya, sinayifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye isaha?"}, {"role": "assistant", "content": "Ego, naribonye. Nzoribona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe inanasi?"}, {"role": "assistant", "content": "Ego, nazifashe. Nzozifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Abakobwa bansanze ku mugina nti enda bakobwa nkirigita."}, {"role": "assistant", "content": "Inkumi y'inkenzi."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wakunze urupapuro?"}, {"role": "assistant", "content": "Oya, sinarukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda umukobwa?"}, {"role": "assistant", "content": "Ego, ndamukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye umwembe?"}, {"role": "assistant", "content": "Ego, nawuzanye. Nzowuzana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye isaha?"}, {"role": "assistant", "content": "Ego, narizanye. Nzorizana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona inanasi?"}, {"role": "assistant", "content": "Ego, ndayibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera indimu?"}, {"role": "assistant", "content": "Ego, ndayirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera igi?"}, {"role": "assistant", "content": "Ego, ndarirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye igitabo?"}, {"role": "assistant", "content": "Oya, sinakizanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Agacumu kanje mpungururabunyoni."}, {"role": "assistant", "content": "Inkono y'umurango ntirya umwe."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urabona igitabo?"}, {"role": "assistant", "content": "Ego, ndakibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe ikaramu?"}, {"role": "assistant", "content": "Ego, nayifashe. Nzoyifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda igi?"}, {"role": "assistant", "content": "Ego, ndarikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umwembe?"}, {"role": "assistant", "content": "Ego, ndawubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Bugingo bwa none bwogutana."}, {"role": "assistant", "content": "Wotekera amazi mu rukangaga?"}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Tora akato ntore akandi tuje kurondera ico tutari bubone."}, {"role": "assistant", "content": "Amaganga y'inkoko."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Urakunda umusi?"}, {"role": "assistant", "content": "Ego, ndawukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze urupapuro?"}, {"role": "assistant", "content": "Oya, sinaruguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye inanasi?"}, {"role": "assistant", "content": "Oya, sinazizanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ikintu?"}, {"role": "assistant", "content": "Oya, sinagikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera ikiyaga?"}, {"role": "assistant", "content": "Ego, ndakirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze indimu?"}, {"role": "assistant", "content": "Ego, nayikunze. Nzoyikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye icamwa?"}, {"role": "assistant", "content": "Oya, sinakizanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye amazi?"}, {"role": "assistant", "content": "Oya, sinayazanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera inanasi?"}, {"role": "assistant", "content": "Ego, ndayirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona uruzi?"}, {"role": "assistant", "content": "Ego, ndarubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda inka?"}, {"role": "assistant", "content": "Ego, ndayikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inka?"}, {"role": "assistant", "content": "Ego, nayirondereye. Nzoyirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe umwembe?"}, {"role": "assistant", "content": "Oya, sinawufashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ikirato?"}, {"role": "assistant", "content": "Ego, nagikunze. Nzogikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye inanasi?"}, {"role": "assistant", "content": "Ego, nayibonye. Nzoyibona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umunyeshure?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abambara ba Ruhinda bamabariye impeko mu kuzimu."}, {"role": "assistant", "content": "Ibiyoba."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Mbega non' ivyagezwe tubihinduza ubusa ukwizera?"}, {"role": "assistant", "content": "Eka na mba; ushime turabigumisha."}], "source": "Cox Livre II, ch. 79 par. 10 (Rom. 3:31)"}
+{"messages": [{"role": "user", "content": "Wakunze ikaramu?"}, {"role": "assistant", "content": "Oya, sinayikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ishure?"}, {"role": "assistant", "content": "Oya, sinarikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera imbwa?"}, {"role": "assistant", "content": "Ego, ndayirondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Akavumu kanje mpungurura bunyoni."}, {"role": "assistant", "content": "Inkono y'umurango ntirya umwe."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wakunze umugabo?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ikiyaga?"}, {"role": "assistant", "content": "Oya, sinagikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umusi?"}, {"role": "assistant", "content": "Ego, ndawurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye icamwa?"}, {"role": "assistant", "content": "Ego, nakirondereye. Nzokirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye umwembe?"}, {"role": "assistant", "content": "Oya, sinawuzanye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana indimu?"}, {"role": "assistant", "content": "Ego, ndayizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umwana?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Aha twese turaririye umwe."}, {"role": "assistant", "content": "Inkono ku ziko."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Waguze umwembe?"}, {"role": "assistant", "content": "Oya, sinawuguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umwaka?"}, {"role": "assistant", "content": "Oya, sinawurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ejo uzorima?"}, {"role": "assistant", "content": "Sinkarime!"}], "source": "Cox Livre II, ch. 18 par. 3"}
+{"messages": [{"role": "user", "content": "Wabonye umukozi?"}, {"role": "assistant", "content": "Ego, namubonye. Nzomubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye uruzi?"}, {"role": "assistant", "content": "Oya, sinarurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda uruzi?"}, {"role": "assistant", "content": "Ego, ndarukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urazana ikirato?"}, {"role": "assistant", "content": "Ego, ndakizana."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda icamwa?"}, {"role": "assistant", "content": "Ego, ndagikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Waguze indimu?"}, {"role": "assistant", "content": "Ego, nayiguze. Nzoyigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umuduga?"}, {"role": "assistant", "content": "Ego, ndawubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Mbega har' abantu benshi hariya?"}, {"role": "assistant", "content": "Nanzi!"}], "source": "Cox Livre II, ch. 76 par. 1"}
+{"messages": [{"role": "user", "content": "Urarondera umuduga?"}, {"role": "assistant", "content": "Ego, ndawurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umugore?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Karahinda iduri."}, {"role": "assistant", "content": "Akato mu mpange."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wakunze umutetsi?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe amazi?"}, {"role": "assistant", "content": "Oya, sinayafashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona ikintu?"}, {"role": "assistant", "content": "Ego, ndakibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze igi?"}, {"role": "assistant", "content": "Oya, sinarikunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Mbe nyoku ko useye bwinshi wigavye uja he?"}, {"role": "assistant", "content": "Akana kaja iwabo."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Uragura impuzu?"}, {"role": "assistant", "content": "Ego, ndayigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ibijumbu biriho?"}, {"role": "assistant", "content": "Oyaye, nta biriho."}], "source": "Cox Livre I, leçon 104"}
+{"messages": [{"role": "user", "content": "Wafashe inanasi?"}, {"role": "assistant", "content": "Ego, nayifashe. Nzoyifata ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona igi?"}, {"role": "assistant", "content": "Ego, ndaribona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze akazi?"}, {"role": "assistant", "content": "Oya, sinagakunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze icamwa?"}, {"role": "assistant", "content": "Ego, nagikunze. Nzogikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umusozi?"}, {"role": "assistant", "content": "Ego, ndawubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye impuzu?"}, {"role": "assistant", "content": "Oya, sinayibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda ururimi?"}, {"role": "assistant", "content": "Ego, ndarukunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ikiyaga?"}, {"role": "assistant", "content": "Oya, sinakibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye ikaramu?"}, {"role": "assistant", "content": "Oya, sinayibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ishure?"}, {"role": "assistant", "content": "Ego, narikunze. Nzorikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona akazi?"}, {"role": "assistant", "content": "Ego, ndakabona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye ingo?"}, {"role": "assistant", "content": "Oya, sinazirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Abakuru baraho baca imanza bunamwe."}, {"role": "assistant", "content": "Impfizi z'intama zirwana."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Waguze impuzu?"}, {"role": "assistant", "content": "Ego, nayiguze. Nzoyigura ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye inanasi?"}, {"role": "assistant", "content": "Ego, nazirondereye. Nzozirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umuntu?"}, {"role": "assistant", "content": "Ego, namukunze. Nzomukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urasesa amazi?"}, {"role": "assistant", "content": "Reka!"}], "source": "Cox Livre I, leçon 67"}
+{"messages": [{"role": "user", "content": "Warondereye ikaramu?"}, {"role": "assistant", "content": "Oya, sinayirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Gira so katamwobwa."}, {"role": "assistant", "content": "Agahanga k'imbwa."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wabonye indimu?"}, {"role": "assistant", "content": "Oya, sinayibonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe urupapuro?"}, {"role": "assistant", "content": "Oya, sinarufashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Uragura indimu?"}, {"role": "assistant", "content": "Ego, ndayigura."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze inka?"}, {"role": "assistant", "content": "Ego, nayikunze. Nzoyikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wafashe igi?"}, {"role": "assistant", "content": "Oya, sinarifashe."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umusi?"}, {"role": "assistant", "content": "Ego, nawurondereye. Nzowurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umwaka?"}, {"role": "assistant", "content": "Ego, nawukunze. Nzowukunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye impuzu?"}, {"role": "assistant", "content": "Oya, sinayirondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Karahinda iduri."}, {"role": "assistant", "content": "Akato mu mpange."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Wakunze umukozi?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umucungwa?"}, {"role": "assistant", "content": "Ego, ndawurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona inzu?"}, {"role": "assistant", "content": "Ego, ndayibona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye uruzi?"}, {"role": "assistant", "content": "Ego, narubonye. Nzorubona ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Sokwe."}, {"role": "assistant", "content": "Niruze."}, {"role": "user", "content": "Agacumu kanje mpungururabunyoni."}, {"role": "assistant", "content": "Inkono y'umurango ntirya umwe."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Warondereye ibihugu?"}, {"role": "assistant", "content": "Ego, nabirondereye. Nzobirondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze impuzu?"}, {"role": "assistant", "content": "Ego, nayikunze. Nzoyikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wazanye inanasi?"}, {"role": "assistant", "content": "Ego, nazizanye. Nzozizana ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye akazi?"}, {"role": "assistant", "content": "Oya, sinakabonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umuhungu?"}, {"role": "assistant", "content": "Ego, namurondereye. Nzomurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urarondera umwaka?"}, {"role": "assistant", "content": "Ego, ndawurondera."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze ingo?"}, {"role": "assistant", "content": "Ego, nazikunze. Nzozikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata inanasi?"}, {"role": "assistant", "content": "Ego, ndayifata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umunyeshure?"}, {"role": "assistant", "content": "Oya, sinamurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urafata umwembe?"}, {"role": "assistant", "content": "Ego, ndawufata."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze inanasi?"}, {"role": "assistant", "content": "Ego, nazikunze. Nzozikunda ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Ndakibona singifata."}, {"role": "assistant", "content": "Igitutu."}], "source": "ikirundi.org, ibisokozo"}
+{"messages": [{"role": "user", "content": "Waguze ikaramu?"}, {"role": "assistant", "content": "Oya, sinayiguze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umusozi?"}, {"role": "assistant", "content": "Oya, sinawukunze."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umusozi?"}, {"role": "assistant", "content": "Oya, sinawurondereye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wabonye umwaka?"}, {"role": "assistant", "content": "Oya, sinawubonye."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urabona umukozi?"}, {"role": "assistant", "content": "Ego, ndamubona."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Urakunda ikirato?"}, {"role": "assistant", "content": "Ego, ndagikunda."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Warondereye umuduga?"}, {"role": "assistant", "content": "Ego, nawurondereye. Nzowurondera ejo."}], "source": "syntaxe (règles de Cox)"}
+{"messages": [{"role": "user", "content": "Wakunze umushumba?"}, {"role": "assistant", "content": "Oya, sinamukunze."}], "source": "syntaxe (règles de Cox)"}

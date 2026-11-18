@@ -8,7 +8,7 @@ faire_notebooks_un.py : écrit les 3 notebooks du MODÈLE UN (suite du modèle z
     un_colab.ipynb    Colab   (Mon Drive : dataset/, dataset_un/, modele_zero/)
     un_machine.ipynb  cette machine
 
-Une copie va dans A_METTRE_DANS_DRIVE/dataset_un/notebooks/. Ne pas modifier les .ipynb à la main.
+Une copie va dans datasets/dataset_un/notebooks/. Ne pas modifier les .ipynb à la main.
 """
 
 import json
@@ -49,10 +49,9 @@ Si une étape n'est pas finie à la pause, la **version suivante** du notebook r
 
 KAGGLE = [
     md(INTRO.format(plateforme="Kaggle", avant="""
-**Avant de lancer (Inputs)** : **Add Input** 3 fois :
-1. Datasets > **modele-train** (l'ancien dataset du zéro)
-2. Datasets > **dataset-un** (le nouveau)
-3. Notebooks > **zero_kaggle** (sa sortie contient `modele_zero/lecture/finale`)
+**Avant de lancer (Inputs)** : **Add Input** 2 fois :
+1. Datasets > **modele-train** (dernière version). À sa racine : `dataset/` (modèle zéro) et `dataset_un/` (modèle un).
+2. Notebooks > **zero_kaggle** (sa sortie contient `modele_zero/lecture/finale`, le point de départ).
 
 **Settings** : Accelerator = **GPU T4 x2**, Internet = **On**. Puis **Save Version > Save & Run All**.
 
@@ -95,7 +94,7 @@ COLAB = [
     md(INTRO.format(plateforme="Google Colab", avant="""
 **Avant de lancer** : dans **Mon Drive** (à la racine) il faut :
 1. `dataset/` (l'ancien, déjà là si tu as utilisé Colab pour le zéro)
-2. `dataset_un/` (le nouveau dossier `A_METTRE_DANS_DRIVE/dataset_un`)
+2. `dataset_un/` (le dossier `datasets/dataset_un` de la machine)
 3. `modele_zero/lecture/finale/` : le modèle zéro **avant la discussion**. Sur Kaggle : onglet Output du
    notebook zero_kaggle > `modele_zero/lecture/finale` > télécharger, puis le mettre dans Drive.
 
@@ -128,8 +127,8 @@ PUBLICS = f"{ZERO}/publics" if glob.glob(f"{ZERO}/publics/lecture_fr/wikipedia_f
 MACHINE = [
     md(INTRO.format(plateforme="sur cette machine", avant="""
 **Avant de lancer** : ouvre ce notebook depuis `modele_train/`, dans l'environnement PyTorch + CUDA
-(`README_LOCAL.md`). Il faut `A_METTRE_DANS_DRIVE/dataset`, `A_METTRE_DANS_DRIVE/dataset_un` et le modèle zéro
-dans `A_METTRE_DANS_DRIVE/modele_zero/lecture/finale` (téléchargé depuis l'onglet Output de zero_kaggle).
+(`README_LOCAL.md`). Il faut `datasets/dataset`, `datasets/dataset_un` et le modèle zéro
+dans `modeles/modele_zero/lecture/finale` (téléchargé depuis l'onglet Output de zero_kaggle).
 Une carte de moins de 10 Go marche, mais lentement (plusieurs jours).
 """)),
     md("## Étape 0 : préparer la machine"),
@@ -139,10 +138,10 @@ DEBUT = time.time()
 HEURES_SESSION = 0
 !nvidia-smi --query-gpu=name,memory.total --format=csv
 ICI = os.path.abspath(".")
-DATASET = f"{ICI}/A_METTRE_DANS_DRIVE/dataset"
-DATASET_UN = f"{ICI}/A_METTRE_DANS_DRIVE/dataset_un"
-ZERO = f"{ICI}/A_METTRE_DANS_DRIVE/modele_zero"
-TRAVAIL = f"{ICI}/A_METTRE_DANS_DRIVE/modele_un"
+DATASET = f"{ICI}/datasets/dataset"
+DATASET_UN = f"{ICI}/datasets/dataset_un"
+ZERO = f"{ICI}/modeles/modele_zero"
+TRAVAIL = f"{ICI}/modeles/modele_un"
 for d, quoi in [(f"{DATASET}/dialogues", "dataset"), (f"{DATASET_UN}/insiguro", "dataset_un (preparer_donnees_un.py)"),
                 (f"{ZERO}/lecture/finale/config.json", "modele_zero/lecture/finale")]:
     if not os.path.exists(d):
@@ -320,7 +319,7 @@ def ecrire(nom, debut, plateforme):
         meta["accelerator"] = "GPU"
         meta["colab"] = {"gpuType": "T4", "provenance": []}
     nb = {"cells": debut + COMMUN + [FIN[plateforme]], "metadata": meta, "nbformat": 4, "nbformat_minor": 5}
-    for dossier in (ICI, ICI / "A_METTRE_DANS_DRIVE/dataset_un/notebooks"):
+    for dossier in (ICI, ICI / "datasets/dataset_un/notebooks"):
         dossier.mkdir(parents=True, exist_ok=True)
         (dossier / nom).write_text(json.dumps(nb, ensure_ascii=False, indent=1), encoding="utf-8")
     print("Écrit :", nom)

@@ -20,3 +20,6 @@ A_METTRE_DANS_DRIVE/modele/*.zip
 # Modèles entraînés par zero_machine.ipynb (plusieurs Go, refusés par GitHub)
 A_METTRE_DANS_DRIVE/modele_zero/
 A_METTRE_DANS_DRIVE/modele_un/
+
+# Modèles entraînés sur la machine (plusieurs Go)
+modeles/

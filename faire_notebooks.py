@@ -6,9 +6,9 @@ faire_notebooks.py : écrit les 3 notebooks du modèle zéro (mêmes étapes, pr
 
     zero_colab.ipynb    Google Colab  (dataset dans Mon Drive)
     zero_kaggle.ipynb   Kaggle        (dataset ajouté comme "Input")
-    zero_machine.ipynb  cette machine (dataset dans A_METTRE_DANS_DRIVE/)
+    zero_machine.ipynb  cette machine (dataset dans datasets/)
 
-Une copie est aussi mise dans A_METTRE_DANS_DRIVE/dataset/notebooks/.
+Une copie est aussi mise dans datasets/dataset/notebooks/.
 Pour changer une étape, modifie ce fichier puis relance-le (ne modifie pas les .ipynb à la main).
 """
 
@@ -65,7 +65,7 @@ DUREES = {
 
 COLAB = [
     md(INTRO.format(plateforme="Google Colab", **DUREES["colab"], avant="""
-**Avant de commencer** : glisse le dossier `A_METTRE_DANS_DRIVE/dataset` dans **Mon Drive** (à la racine).
+**Avant de commencer** : glisse le dossier `datasets/dataset` dans **Mon Drive** (à la racine).
 Menu **Exécution > Modifier le type d'exécution > GPU T4**.
 
 **Si Colab coupe** : relance l'étape 0, puis la cellule de l'étape en cours. Tout reprend au dernier point sauvegardé dans Drive.
@@ -89,7 +89,7 @@ shutil.copytree(f"{DATASET}/code", CODE, dirs_exist_ok=True)
 KAGGLE = [
     md(INTRO.format(plateforme="Kaggle", **DUREES["kaggle"], avant="""
 **Avant de commencer (une seule fois)** :
-1. Sur kaggle.com : **Datasets > New Dataset**, glisse le dossier `A_METTRE_DANS_DRIVE/dataset`, garde-le **privé**.
+1. Sur kaggle.com : **Datasets > New Dataset** (nom : modele-train), glisse le dossier `datasets/dataset` à la racine, garde-le **privé**.
 2. Dans ce notebook : **Add Input** > ton dataset.
 3. **Settings** : Accelerator = **GPU T4 x2** (ou P100), **Internet = On** (il faut un téléphone vérifié).
 
@@ -126,7 +126,7 @@ print("DATASET =", DATASET)
 MACHINE = [
     md(INTRO.format(plateforme="sur cette machine", **DUREES["machine"], avant="""
 **Avant de commencer** : ouvre ce notebook depuis le dossier `modele_train/`, dans l'environnement
-qui a PyTorch avec CUDA (voir `README_LOCAL.md`). Le dataset est déjà là : `A_METTRE_DANS_DRIVE/dataset`.
+qui a PyTorch avec CUDA (voir `README_LOCAL.md`). Le dataset est déjà là : `datasets/dataset`.
 
 **Si ça s'arrête** : relance l'étape 0, puis la cellule de l'étape en cours. Tout reprend au dernier point sauvegardé.
 """)),
@@ -135,10 +135,10 @@ qui a PyTorch avec CUDA (voir `README_LOCAL.md`). Le dataset est déjà là : `A
 !nvidia-smi --query-gpu=name,memory.total --format=csv
 import os
 ICI = os.path.abspath(".")
-if not os.path.exists(f"{ICI}/A_METTRE_DANS_DRIVE/dataset/code/train.py"):
+if not os.path.exists(f"{ICI}/datasets/dataset/code/train.py"):
     raise SystemExit("Lance ce notebook depuis le dossier modele_train/ (et lance d'abord preparer_donnees_zero.py).")
-DATASET = f"{ICI}/A_METTRE_DANS_DRIVE/dataset"
-TRAVAIL = f"{ICI}/A_METTRE_DANS_DRIVE/modele_zero"
+DATASET = f"{ICI}/datasets/dataset"
+TRAVAIL = f"{ICI}/modeles/modele_zero"
 CODE = f"{TRAVAIL}/code"   # une COPIE du code : on peut l'adapter sans toucher au dataset
 import re, shutil, torch
 shutil.copytree(f"{DATASET}/code", CODE, dirs_exist_ok=True)
@@ -314,7 +314,7 @@ def ecrire(nom, debut, plateforme):
         meta["accelerator"] = "GPU"
         meta["colab"] = {"gpuType": "T4", "provenance": []}
     nb = {"cells": debut + COMMUN + [FIN[plateforme]], "metadata": meta, "nbformat": 4, "nbformat_minor": 5}
-    for dossier in (ICI, ICI / "A_METTRE_DANS_DRIVE/dataset/notebooks"):
+    for dossier in (ICI, ICI / "datasets/dataset/notebooks"):
         dossier.mkdir(parents=True, exist_ok=True)
         (dossier / nom).write_text(json.dumps(nb, ensure_ascii=False, indent=1), encoding="utf-8")
     print("Écrit :", nom)

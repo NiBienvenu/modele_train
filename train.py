@@ -55,7 +55,7 @@ def charger_config(chemin):
     d'environnement du même nom. Le même YAML marche donc partout :
         Colab   : DATASET=/content/drive/MyDrive/dataset   TRAVAIL=/content/drive/MyDrive/modele_zero
         Kaggle  : DATASET=/kaggle/input/...                TRAVAIL=/kaggle/working/modele_zero
-        machine : DATASET=A_METTRE_DANS_DRIVE/dataset      TRAVAIL=A_METTRE_DANS_DRIVE/modele_zero
+        machine : DATASET=datasets/dataset                 TRAVAIL=modeles/modele_zero
     """
     with open(chemin, encoding="utf-8") as f:
         texte = f.read()
