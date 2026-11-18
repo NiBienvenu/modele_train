@@ -66,10 +66,18 @@ DEBUT = time.time()
 HEURES_SESSION = 11.25     # Kaggle coupe à 12 h : on garde du temps pour les tests et la sortie
 !nvidia-smi --query-gpu=name,memory.total --format=csv
 
+# Ce que Kaggle a mis dans les Inputs (utile si quelque chose manque)
+for racine, dossiers, fichiers in os.walk("/kaggle/input"):
+    niveau = racine[len("/kaggle/input"):].count("/")
+    if niveau <= 4:
+        print("  " * niveau + os.path.basename(racine) + "/", f"({len(fichiers)} fichiers)" if fichiers else "")
+    if niveau >= 4:
+        dossiers.clear()
+
 def trouver(motif, quoi):
     t = sorted(glob.glob(motif, recursive=True))
     if not t:
-        raise SystemExit(f"Introuvable : {quoi}. Vérifie les 'Inputs' (voir en haut).")
+        raise SystemExit(f"Introuvable : {quoi}. Regarde la liste des Inputs ci-dessus et vérifie 'Add Input'.")
     return t[0]
 
 DATASET = os.path.dirname(os.path.dirname(trouver("/kaggle/input/**/dialogues/salutations_rn.jsonl", "ancien dataset")))
