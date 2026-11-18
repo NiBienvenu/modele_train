@@ -60,11 +60,11 @@ def chrf(hyp, ref, n=6, beta=2):
 
 
 @torch.no_grad()
-def repondre(model, tok, question, appareil, max_tokens=96, historique=""):
+def repondre(model, tok, question, appareil, max_tokens=96, historique="", penalite=1.0):
     # "historique" : tours précédents déjà au format <|user|> ... <|assistant|> ...<|endoftext|>
     prompt = f"{historique}<|user|> {question} <|assistant|>"
     ids = tok(prompt, return_tensors="pt", return_token_type_ids=False).to(appareil)
-    out = model.generate(**ids, max_new_tokens=max_tokens, do_sample=False,
+    out = model.generate(**ids, max_new_tokens=max_tokens, do_sample=False, repetition_penalty=penalite,
                          eos_token_id=tok.eos_token_id, pad_token_id=tok.pad_token_id)
     nouveaux = out[0][ids["input_ids"].shape[1]:]
     return tok.decode(nouveaux, skip_special_tokens=True).strip(), len(nouveaux)
@@ -73,7 +73,9 @@ def repondre(model, tok, question, appareil, max_tokens=96, historique=""):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--modele", required=True)
-    p.add_argument("--tests", default="tests/tests.jsonl")
+    p.add_argument("--tests", nargs="+", default=["tests/tests.jsonl"], help="un ou plusieurs fichiers")
+    p.add_argument("--penalite", type=float, default=1.0,
+                   help="pénalité de répétition (1.0 = aucune, comme le modèle zéro ; 1.2 évite les boucles)")
     p.add_argument("--categorie", help="ne tester qu'une catégorie")
     p.add_argument("--max", type=int, default=0, help="nombre max de tests par catégorie (0 = tous)")
     p.add_argument("--montrer", type=int, default=3, help="exemples affichés par catégorie")
@@ -85,7 +87,7 @@ def main():
     model = AutoModelForCausalLM.from_pretrained(args.modele).to(appareil).eval()
     print(f"Modèle : {sum(x.numel() for x in model.parameters()) / 1e6:.1f}M paramètres, sur {appareil}")
 
-    tests = [json.loads(l) for l in open(args.tests, encoding="utf-8")]
+    tests = [json.loads(l) for f in args.tests for l in open(f, encoding="utf-8") if l.strip()]
     if args.categorie:
         tests = [t for t in tests if t["categorie"] == args.categorie]
     par_cat = collections.defaultdict(list)
@@ -100,7 +102,8 @@ def main():
         exacts, chrfs = 0, []
         for t in liste:
             debut = time.time()
-            rep, n = repondre(model, tok, t["question"], appareil, historique=t.get("historique", ""))
+            rep, n = repondre(model, tok, t["question"], appareil, historique=t.get("historique", ""),
+                              penalite=args.penalite)
             total_temps += time.time() - debut
             total_tokens += n
             ok = normaliser(rep) == normaliser(t["attendu"])

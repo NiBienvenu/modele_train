@@ -12,6 +12,17 @@ Utilisation dans Colab :
 
 Tout ce qui change d'une phase à l'autre est dans le fichier YAML.
 Le code, lui, reste le même.
+
+Plusieurs GPU (Kaggle T4 x2) :
+    !torchrun --nproc_per_node 2 train.py --config configs/un_lecture.yaml
+Chaque GPU lit une moitié différente des données ; le résultat est le même qu'avec un GPU
+(même taille de pas), mais environ 2 fois plus vite.
+
+Sessions limitées (Kaggle 12 h) :
+    FIN_SESSION = heure de fin (secondes Unix), donnée par le notebook.
+    Avant cette heure (moins "marge_minutes"), on sauvegarde et on s'arrête proprement (PAUSE) :
+    la version suivante du notebook reprend au même pas.
+    "sauver_toutes_les_heures: 4" garde en plus une copie du modèle toutes les 4 h (sauvegarde_4h, 8h...).
 """
 
 import argparse
@@ -48,11 +59,12 @@ def charger_config(chemin):
     """
     with open(chemin, encoding="utf-8") as f:
         texte = f.read()
-    for nom in ("DATASET", "TRAVAIL"):
-        if "{" + nom + "}" in texte:
-            if not os.environ.get(nom):
-                raise SystemExit(f"La variable {nom} n'est pas définie (voir la cellule 0 du notebook).")
-            texte = texte.replace("{" + nom + "}", os.environ[nom].rstrip("/"))
+    import re
+    # {DATASET}, {TRAVAIL}, et pour le modèle un : {DATASET_UN}, {ZERO} (modèle zéro), {PUBLICS}
+    for nom in sorted(set(re.findall(r"\{([A-Z_]+)\}", texte))):
+        if not os.environ.get(nom):
+            raise SystemExit(f"La variable {nom} n'est pas définie (voir la cellule 0 du notebook).")
+        texte = texte.replace("{" + nom + "}", os.environ[nom].rstrip("/"))
     return yaml.safe_load(texte)
 
 
@@ -63,8 +75,31 @@ def fixer_hasard(graine):
     torch.cuda.manual_seed_all(graine)
 
 
+RANG, NB_GPU = 0, 1   # rang de ce processus et nombre de processus (plusieurs GPU)
+
+
 def log(msg):
-    print(time.strftime("[%H:%M:%S] "), msg, flush=True)
+    if RANG == 0:  # un seul GPU écrit le journal
+        print(time.strftime("[%H:%M:%S] "), msg, flush=True)
+
+
+def init_distribue():
+    """Lancé par torchrun : un processus par GPU. Sinon : un seul processus."""
+    global RANG, NB_GPU
+    if int(os.environ.get("WORLD_SIZE", "1")) <= 1:
+        return None
+    import torch.distributed as dist
+    dist.init_process_group("nccl" if torch.cuda.is_available() else "gloo")
+    RANG, NB_GPU = dist.get_rank(), dist.get_world_size()
+    local = int(os.environ.get("LOCAL_RANK", "0"))
+    if torch.cuda.is_available():
+        torch.cuda.set_device(local)
+    return local
+
+
+def attendre_tous():
+    if NB_GPU > 1:
+        torch.distributed.barrier()
 
 
 # ---------------------------------------------------------------------------
@@ -113,18 +148,20 @@ def charger_sources(sources, format_fichier, decoupage="paragraph"):
     morceaux = []
     for src in sources:
         # Une source absente (ex : PIAF pas téléchargé) est sautée, avec un avertissement
-        if not glob.glob(src["fichiers"]):
+        # On résout le motif ici (ex : wikipedia_fr_00[12].txt, [!b]*.txt) : liste exacte des fichiers
+        fichiers = sorted(glob.glob(src["fichiers"]))
+        if not fichiers:
             log(f"ATTENTION : aucun fichier pour {src['fichiers']} (source sautée)")
             continue
         if format_fichier == "text":
             # sample_by="paragraph" : un exemple = un paragraphe entier
             # (séparé par une ligne vide). Le modèle garde ainsi le contexte.
-            ds = load_dataset("text", data_files=src["fichiers"],
+            ds = load_dataset("text", data_files=fichiers,
                               sample_by=decoupage, split="train")
             ds = ds.filter(lambda ex: len(ex["text"].strip()) > 0)
         else:
             # Pour la phase D : fichiers .jsonl avec {"user": ..., "assistant": ...}
-            ds = load_dataset("json", data_files=src["fichiers"], split="train")
+            ds = load_dataset("json", data_files=fichiers, split="train")
 
         n = int(src.get("repeter", 1))
         log(f"Source {src['fichiers']} : {len(ds)} exemples x {n}")
@@ -343,7 +380,7 @@ def evaluer(model, loader, appareil, type_calcul, max_lots=50):
         if i >= max_lots:
             break
         lot = {k: v.to(appareil) for k, v in lot.items()}
-        with torch.autocast("cuda", dtype=type_calcul, enabled=appareil == "cuda"):
+        with torch.autocast("cuda", dtype=type_calcul, enabled=str(appareil).startswith("cuda")):
             total += model(**lot).loss.item()
         n += 1
     model.train()
@@ -352,7 +389,7 @@ def evaluer(model, loader, appareil, type_calcul, max_lots=50):
 
 
 @torch.no_grad()
-def montrer_exemples(model, tok, phrases, appareil):
+def montrer_exemples(model, tok, phrases, appareil, penalite=1.0):
     """
     On demande au modèle de continuer quelques phrases.
     C'est la façon la plus simple de VOIR ses progrès en orthographe
@@ -362,7 +399,7 @@ def montrer_exemples(model, tok, phrases, appareil):
     for debut in phrases:
         ids = tok(debut, return_tensors="pt", return_token_type_ids=False).to(appareil)
         sortie = model.generate(**ids, max_new_tokens=30, do_sample=True,
-                                temperature=0.7, top_p=0.9,
+                                temperature=0.7, top_p=0.9, repetition_penalty=penalite,
                                 pad_token_id=tok.pad_token_id)
         log(f"  >> {tok.decode(sortie[0], skip_special_tokens=True)!r}")
     model.train()
@@ -397,8 +434,15 @@ def main():
     parser.add_argument("--config", required=True)
     cfg = charger_config(parser.parse_args().config)
 
+    local = init_distribue()
     fixer_hasard(cfg.get("graine", 42))
     appareil = "cuda" if torch.cuda.is_available() else "cpu"
+    if appareil == "cuda" and local is not None:
+        appareil = f"cuda:{local}"
+    sur_gpu = appareil.startswith("cuda")
+    debut_session = time.time()
+    fin_session = float(os.environ.get("FIN_SESSION", "0")) or None
+    marge = cfg.get("marge_minutes", 25) * 60
     if appareil == "cpu":
         log("ATTENTION : pas de GPU. Dans Colab : Exécution > Modifier le type d'exécution > GPU")
 
@@ -406,7 +450,7 @@ def main():
     # Ces formats "courts" vont 2 fois plus vite et prennent moins de mémoire.
     # On teste la génération du GPU (8 = Ampere) : torch.cuda.is_bf16_supported()
     # répond "oui" même sur T4 / T600 (bfloat16 émulé, donc LENT).
-    if appareil == "cuda" and torch.cuda.get_device_capability()[0] >= 8:
+    if sur_gpu and torch.cuda.get_device_capability()[0] >= 8:
         type_calcul = torch.bfloat16
     else:
         type_calcul = torch.float16
@@ -415,6 +459,9 @@ def main():
     dossier_reprise = os.path.join(sortie, "derniere")
     fichier_etat = os.path.join(dossier_reprise, "etat_entrainement.pt")
     reprise = os.path.exists(fichier_etat)
+    marque_pause = os.path.join(sortie, "PAUSE")
+    if RANG == 0 and os.path.exists(marque_pause):
+        os.remove(marque_pause)   # on reprend : la pause précédente est finie
 
     # --- Tokenizer et modèle -------------------------------------------------
     # Si une sauvegarde existe, on repart d'elle (Colab a coupé).
@@ -430,27 +477,40 @@ def main():
     if cfg.get("gradient_checkpointing", False):
         model.gradient_checkpointing_enable()
     model.train()
+    modele_ddp = model
+    if NB_GPU > 1:
+        from torch.nn.parallel import DistributedDataParallel
+        modele_ddp = DistributedDataParallel(model, device_ids=[local] if sur_gpu else None)
 
     # --- Données -------------------------------------------------------------
+    # Plusieurs GPU : le premier prépare (et met en cache), les autres relisent le cache.
     mode = cfg.get("mode", "pretrain")
     longueur = cfg.get("longueur", 512)
-    brut = charger_sources(cfg["sources"], "text" if mode == "pretrain" else "json")
-    ds = (preparer_pretrain(brut, tok, longueur) if mode == "pretrain"
-          else preparer_sft(brut, tok, longueur))
-
-    # On met de côté 1 % des données pour l'évaluation.
-    coupe = ds.train_test_split(test_size=cfg.get("part_eval", 0.01), seed=42)
+    for tour in (0, 1):
+        if (RANG == 0) == (tour == 0):
+            brut = charger_sources(cfg["sources"], "text" if mode == "pretrain" else "json")
+            ds = (preparer_pretrain(brut, tok, longueur) if mode == "pretrain"
+                  else preparer_sft(brut, tok, longueur))
+            # On met de côté 1 % des données pour l'évaluation.
+            coupe = ds.train_test_split(test_size=cfg.get("part_eval", 0.01), seed=42)
+        attendre_tous()
     ds_train, ds_eval = coupe["train"], coupe["test"]
     log(f"Entraînement : {len(ds_train)} exemples | Évaluation : {len(ds_eval)}")
 
     taille_lot = cfg.get("taille_lot", 16)
-    accumulation = cfg.get("accumulation", 4)
+    # Plusieurs GPU : chacun accumule moins, le pas reste aussi gros qu'avec un seul GPU.
+    accumulation = max(1, cfg.get("accumulation", 4) // NB_GPU)
+    if NB_GPU > 1:
+        log(f"{NB_GPU} GPU : accumulation {accumulation} par GPU")
     collate = faire_collate(tok, mode)
     loader_eval = DataLoader(ds_eval, batch_size=taille_lot, collate_fn=collate)
 
     # --- Optimiseur et planning du learning rate ------------------------------
     epoques = cfg.get("epoques", 1)
-    lots_par_epoque = math.ceil(len(ds_train) / taille_lot)
+    from torch.utils.data.distributed import DistributedSampler
+    echantillonneur = (DistributedSampler(ds_train, num_replicas=NB_GPU, rank=RANG, shuffle=True,
+                                          seed=cfg.get("graine", 42)) if NB_GPU > 1 else None)
+    lots_par_epoque = math.ceil((len(echantillonneur) if echantillonneur else len(ds_train)) / taille_lot)
     pas_total = epoques * math.ceil(lots_par_epoque / accumulation)
 
     optimiseur = creer_optimiseur(model, cfg.get("learning_rate", 6e-4),
@@ -464,8 +524,7 @@ def main():
         optimiseur, cfg.get("warmup", 1000), pas_total)
 
     # Le GradScaler évite que les très petits nombres deviennent 0 en float16.
-    scaler = torch.amp.GradScaler("cuda", enabled=(type_calcul == torch.float16
-                                                   and appareil == "cuda"))
+    scaler = torch.amp.GradScaler("cuda", enabled=(type_calcul == torch.float16 and sur_gpu))
 
     pas = 0
     if reprise:
@@ -483,16 +542,33 @@ def main():
     log(f"Début : {pas_total} pas au total, {epoques} époque(s)")
     meilleure_loss_eval = float("inf")
     loss_cumulee, debut = 0.0, time.time()
+    pause = False
+    heures = cfg.get("sauver_toutes_les_heures")
+    prochaine_copie = debut_session + heures * 3600 if heures else None
+
+    def doit_s_arreter():
+        """Plus assez de temps avant la fin de la session ? (même décision sur tous les GPU)"""
+        stop = fin_session is not None and time.time() > fin_session - marge
+        if NB_GPU > 1:
+            t = torch.tensor([int(stop)], device=appareil if sur_gpu else "cpu")
+            torch.distributed.all_reduce(t, op=torch.distributed.ReduceOp.MAX)
+            stop = bool(t.item())
+        return stop
 
     for epoque in range(epoque_depart, epoques):
         if cfg.get("max_pas") and pas >= cfg["max_pas"]:
             break
         # On recrée le loader à chaque époque avec une graine fixe :
         # en cas de reprise, l'ordre des lots est exactement le même.
-        g = torch.Generator().manual_seed(cfg.get("graine", 42) + epoque)
-        loader = DataLoader(ds_train, batch_size=taille_lot, shuffle=True,
-                            generator=g, collate_fn=collate, num_workers=2,
-                            pin_memory=(appareil == "cuda"))
+        if echantillonneur:
+            echantillonneur.set_epoch(epoque)
+            loader = DataLoader(ds_train, batch_size=taille_lot, sampler=echantillonneur,
+                                collate_fn=collate, num_workers=2, pin_memory=sur_gpu)
+        else:
+            g = torch.Generator().manual_seed(cfg.get("graine", 42) + epoque)
+            loader = DataLoader(ds_train, batch_size=taille_lot, shuffle=True,
+                                generator=g, collate_fn=collate, num_workers=2,
+                                pin_memory=sur_gpu)
         a_sauter = lots_deja_vus - epoque * lots_par_epoque
 
         for i, lot in enumerate(loader):
@@ -507,20 +583,25 @@ def main():
             #      "Abana" <-> "ba-ragiye", "filles" <-> "parties")
             #   -> prédiction du morceau suivant à chaque position
             #   -> loss : à quel point il s'est trompé
-            with torch.autocast("cuda", dtype=type_calcul, enabled=appareil == "cuda"):
-                loss = model(**lot).loss
+            dernier_du_pas = (i + 1) % accumulation == 0
+            # Plusieurs GPU : ils ne mettent leurs corrections en commun qu'au dernier lot du pas.
+            from contextlib import nullcontext
+            synchro = nullcontext() if (dernier_du_pas or NB_GPU == 1) else modele_ddp.no_sync()
+            with synchro:
+                with torch.autocast("cuda", dtype=type_calcul, enabled=sur_gpu):
+                    loss = modele_ddp(**lot).loss
 
-            # On divise par "accumulation" : on additionne les erreurs de
-            # plusieurs petits lots pour simuler un gros lot (mémoire GPU limitée).
-            loss_cumulee += loss.item()
-            loss = loss / accumulation
+                # On divise par "accumulation" : on additionne les erreurs de
+                # plusieurs petits lots pour simuler un gros lot (mémoire GPU limitée).
+                loss_cumulee += loss.item()
+                loss = loss / accumulation
 
-            # ---- MÉCANISME 5 : BACKPROPAGATION ----------------------------------
-            # Calcule, pour chacun des millions de boutons, dans quel sens
-            # le tourner pour faire moins d'erreur.
-            scaler.scale(loss).backward()
+                # ---- MÉCANISME 5 : BACKPROPAGATION ------------------------------
+                # Calcule, pour chacun des millions de boutons, dans quel sens
+                # le tourner pour faire moins d'erreur.
+                scaler.scale(loss).backward()
 
-            if (i + 1) % accumulation != 0:
+            if not dernier_du_pas:
                 continue
 
             # On limite la force des corrections : une phrase très bizarre
@@ -546,27 +627,63 @@ def main():
                 loss_cumulee, debut = 0.0, time.time()
 
             if pas % cfg.get("eval_tous_les", 500) == 0:
-                loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul)
-                log(f"ÉVALUATION | loss {loss_eval:.3f} | perplexité {ppl:.1f}")
-                montrer_exemples(model, tok, cfg.get("phrases_test", []), appareil)
-                if loss_eval < meilleure_loss_eval:
-                    meilleure_loss_eval = loss_eval
-                    model.save_pretrained(os.path.join(sortie, "meilleure"))
-                    tok.save_pretrained(os.path.join(sortie, "meilleure"))
-                    log("Nouveau meilleur modèle gardé dans 'meilleure'")
+                if RANG == 0:
+                    loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul)
+                    log(f"ÉVALUATION | loss {loss_eval:.3f} | perplexité {ppl:.1f}")
+                    montrer_exemples(model, tok, cfg.get("phrases_test", []), appareil,
+                                     cfg.get("penalite_repetition", 1.0))
+                    if loss_eval < meilleure_loss_eval:
+                        meilleure_loss_eval = loss_eval
+                        model.save_pretrained(os.path.join(sortie, "meilleure"))
+                        tok.save_pretrained(os.path.join(sortie, "meilleure"))
+                        log("Nouveau meilleur modèle gardé dans 'meilleure'")
+                attendre_tous()
 
-            if pas % cfg.get("sauver_tous_les", 1000) == 0:
+            if pas % cfg.get("sauver_tous_les", 1000) == 0 and RANG == 0:
                 sauvegarder(model, tok, optimiseur, planning, scaler,
                             {"pas": pas}, dossier_reprise)
 
+            # Copie de sécurité toutes les N heures (en plus de "derniere")
+            if prochaine_copie and time.time() >= prochaine_copie:
+                h = round((time.time() - debut_session) / 3600)
+                if RANG == 0:
+                    sauvegarder(model, tok, optimiseur, planning, scaler, {"pas": pas}, dossier_reprise)
+                    model.save_pretrained(os.path.join(sortie, f"sauvegarde_{h}h"))
+                    tok.save_pretrained(os.path.join(sortie, f"sauvegarde_{h}h"))
+                    log(f"Copie des {h} h gardée dans 'sauvegarde_{h}h' (pas {pas})")
+                prochaine_copie += heures * 3600
+                attendre_tous()
+
+            if doit_s_arreter():
+                pause = True
+                break
+        if pause:
+            break
+
+    if pause:
+        if RANG == 0:
+            sauvegarder(model, tok, optimiseur, planning, scaler, {"pas": pas}, dossier_reprise)
+            open(marque_pause, "w").write(str(pas))
+            log(f"PAUSE au pas {pas}/{pas_total} : la session finit bientôt. "
+                "La version suivante du notebook reprendra ici.")
+        attendre_tous()
+        if NB_GPU > 1:
+            torch.distributed.destroy_process_group()
+        return
+
     # --- Fin ---------------------------------------------------------------------
-    loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul, max_lots=200)
-    log(f"FIN | loss évaluation {loss_eval:.3f} | perplexité {ppl:.1f}")
-    montrer_exemples(model, tok, cfg.get("phrases_test", []), appareil)
-    finale = os.path.join(sortie, "finale")
-    model.save_pretrained(finale)
-    tok.save_pretrained(finale)
-    log(f"Modèle final dans {finale} : c'est lui qu'on donne à la phase suivante.")
+    if RANG == 0:
+        loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul, max_lots=200)
+        log(f"FIN | loss évaluation {loss_eval:.3f} | perplexité {ppl:.1f}")
+        montrer_exemples(model, tok, cfg.get("phrases_test", []), appareil,
+                         cfg.get("penalite_repetition", 1.0))
+        finale = os.path.join(sortie, "finale")
+        model.save_pretrained(finale)
+        tok.save_pretrained(finale)
+        log(f"Modèle final dans {finale} : c'est lui qu'on donne à la phase suivante.")
+    attendre_tous()
+    if NB_GPU > 1:
+        torch.distributed.destroy_process_group()
 
 
 if __name__ == "__main__":

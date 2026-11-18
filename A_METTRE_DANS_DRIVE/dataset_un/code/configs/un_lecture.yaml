@@ -1,0 +1,56 @@
+# Modèle UN, étape 1 : RELIRE (on CONTINUE le modèle zéro, on ne repart pas de rien).
+# Le modèle part de "lecture/finale" du zéro, avec le MÊME tokenizer.
+# Il relit l'ancien (pour ne pas oublier) et lit le nouveau (dataset_un).
+#
+# {ZERO}       = dossier du modèle zéro (contient lecture/finale et publics/)
+# {PUBLICS}    = données publiques (Wikipédia FR...) : celles du zéro, ou retéléchargées
+# {DATASET}    = ancien dataset (zéro)        {DATASET_UN} = nouveau dataset
+# {TRAVAIL}    = là où on écrit (modele_un)
+
+mode: pretrain
+modele: "{ZERO}/lecture/finale"
+tokenizer: "{ZERO}/lecture/finale"
+dossier_sortie: "{TRAVAIL}/lecture"
+
+sources:
+  # --- Rappel de l'ancien (moins de Bible : elle donnait au kirundi un style biblique) ---
+  - fichiers: "{PUBLICS}/lecture_fr/wikipedia_fr_001.txt"   # 1 fichier sur 8 : garder le français sans écraser le kirundi
+    repeter: 1
+  - fichiers: "{DATASET}/lecture_rn/bible_rn.txt"
+    repeter: 1          # zéro : 8 fois
+  - fichiers: "{DATASET}/lecture_rn/[!b]*.txt"                # kirnews, madlad, wikipedia_rn, ikirundi_org
+    repeter: 3
+  - fichiers: "{DATASET}/lecture_bilingue/*.txt"
+    repeter: 3
+  - fichiers: "{DATASET}/grammaire/*.txt"
+    repeter: 1
+  # --- Nouveau (vérifié) ---
+  - fichiers: "{DATASET_UN}/lecture_rn/docs_scannes.txt"     # livres Dusome, Inyigusho (vérifiés)
+    repeter: 4
+  - fichiers: "{DATASET_UN}/lecture_rn/textes_messe.txt"     # gros et religieux : 1 seule fois
+    repeter: 1
+  - fichiers: "{DATASET_UN}/insiguro/*.txt"
+    repeter: 8          # petit : il faut le voir souvent pour retenir mot -> sens
+
+longueur: 1024
+taille_lot: 8
+accumulation: 16       # 8 x 16 x 1024 = 131 000 morceaux par pas (comme le zéro)
+epoques: 1
+learning_rate: 3.0e-4  # plus doux que le zéro (6e-4) : on affine, on ne casse pas
+weight_decay: 0.1
+warmup: 50
+part_eval: 0.01
+
+log_tous_les: 25
+eval_tous_les: 100
+sauver_tous_les: 50
+sauver_toutes_les_heures: 4   # copie complète toutes les 4 h
+marge_minutes: 25             # pause propre 25 min avant la fin de la session
+penalite_repetition: 1.2      # seulement pour les phrases d'exemple (contre les boucles)
+
+phrases_test:
+  - "Abana baragiye"
+  - "Uburundi ni igihugu"
+  - "Le Burundi est un pays"
+  - "Bwakeye. N'amaki?"
+  - "Insiguro y'amajambo agoye\nGuhodoka :"

@@ -1,0 +1,61 @@
+# Modèle UN, étape 2 : DISCUTER (répondre, traduire), à partir de la relecture du modèle un.
+# Mêmes dialogues que le zéro (mêmes tests séparés) + les insiguro.
+
+mode: sft
+modele: "{TRAVAIL}/lecture/finale"
+tokenizer: "{TRAVAIL}/lecture/finale"
+dossier_sortie: "{TRAVAIL}/chat"
+
+sources:
+  # --- Parler (ancien dataset) ---
+  - fichiers: "{DATASET}/dialogues/salutations_rn.jsonl"
+    repeter: 30
+  - fichiers: "{DATASET}/dialogues/questions_sur_rn.jsonl"
+    repeter: 30
+  - fichiers: "{DATASET}/dialogues/petite_conversation.jsonl"
+    repeter: 15
+  - fichiers: "{DATASET}/dialogues/conversations_rn.jsonl"
+    repeter: 5
+  # --- Traduire et comprendre (ancien dataset) ---
+  - fichiers: "{DATASET}/dialogues/traductions_bible.jsonl"
+    repeter: 1
+  - fichiers: "{DATASET}/dialogues/traductions_cours.jsonl"
+    repeter: 3
+  - fichiers: "{DATASET}/dialogues/vocabulaire.jsonl"
+    repeter: 2
+  - fichiers: "{DATASET}/dialogues/titres_kirnews.jsonl"
+    repeter: 2
+  - fichiers: "{DATASET}/dialogues/anciennes_qr.jsonl"
+    repeter: 1
+  # --- Nouveau : sens des mots difficiles (réponse = ligne exacte du livre) ---
+  - fichiers: "{DATASET_UN}/dialogues/insiguro.jsonl"
+    repeter: 5
+  # --- Données publiques (sautées si absentes) ---
+  - fichiers: "{PUBLICS}/dialogues/oasst_fr.jsonl"
+    repeter: 5
+  - fichiers: "{PUBLICS}/dialogues/aya.jsonl"
+    repeter: 2
+  - fichiers: "{PUBLICS}/dialogues/piaf.jsonl"
+    repeter: 1
+
+longueur: 1024
+taille_lot: 8
+accumulation: 4
+epoques: 2
+learning_rate: 1.0e-4
+weight_decay: 0.0
+warmup: 200
+
+log_tous_les: 50
+eval_tous_les: 500
+sauver_tous_les: 300
+sauver_toutes_les_heures: 4
+marge_minutes: 25
+penalite_repetition: 1.2
+
+phrases_test:
+  - "<|user|> Bonjour <|assistant|>"
+  - "<|user|> Bwakeye. <|assistant|>"
+  - "<|user|> Comment dit-on merci en kirundi ? <|assistant|>"
+  - "<|user|> Traduis en français : Umwana n'umukobwa. <|assistant|>"
+  - "<|user|> Que veut dire « Guhodoka » en kirundi ? <|assistant|>"

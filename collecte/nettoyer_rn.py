@@ -6,6 +6,8 @@ Kirundi et kinyarwanda sont très proches. Différences d'écriture fiables :
     kirundi : ivyo, vyose, cane, ico, ukwo     (vy, c)
     kinyarwanda : ibyo, byose, cyane, icyo     (by, cy)
 Un texte est gardé si les marques kirundi sont au moins aussi nombreuses.
+Les règles sont dans filtre_kinyarwanda.py (une seule liste, tirée du livre de Zorc).
+Dans un texte gardé, les lignes qui ont l'air kinyarwanda sont aussi retirées.
 """
 
 import argparse
@@ -13,9 +15,11 @@ import hashlib
 import json
 import re
 from pathlib import Path
+import sys
 
-RN = re.compile(r"\b\w*(vy|c[aeiou])\w*\b", re.I)
-RW = re.compile(r"\b\w*(cy|by[aeiou]|jy|shy)\w*\b", re.I)
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from filtre_kinyarwanda import est_kinyarwanda, scores  # noqa: E402
+
 EN = re.compile(r"\b(the|and|of|is|with|that)\b", re.I)
 FR = re.compile(r"\b(le|la|les|des|est|et|une|dans)\b", re.I)
 # Texte du lecteur audio d'ikirundi.org (en anglais), à enlever des pages
@@ -39,7 +43,7 @@ def langue(texte: str) -> str:
         return "en"
     if len(FR.findall(texte)) / mots > 0.08:
         return "fr"
-    rn, rw = len(RN.findall(texte)), len(RW.findall(texte))
+    rw, rn = scores(texte)
     return "rn" if rn >= rw else "rw"  # égalité (texte court) : la source dit kirundi
 
 
@@ -66,6 +70,7 @@ def main():
             stats.setdefault(source, {}).setdefault(l, 0)
             stats[source][l] += 1
             if l == "rn":
+                texte = "\n".join(x for x in texte.splitlines() if not est_kinyarwanda(x))
                 out.write(json.dumps({"source": source, "texte": texte}, ensure_ascii=False) + "\n")
     for s, d in stats.items():
         print(s, d)
