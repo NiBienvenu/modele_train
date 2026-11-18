@@ -66,24 +66,29 @@ DEBUT = time.time()
 HEURES_SESSION = 11.25     # Kaggle coupe à 12 h : on garde du temps pour les tests et la sortie
 !nvidia-smi --query-gpu=name,memory.total --format=csv
 
-# Ce que Kaggle a mis dans les Inputs (utile si quelque chose manque)
-for racine, dossiers, fichiers in os.walk("/kaggle/input"):
+# Ce que Kaggle a mis dans les Inputs (suit aussi les liens, Kaggle en utilise)
+TOUS = []
+for racine, dossiers, fichiers in os.walk("/kaggle/input", followlinks=True):
     niveau = racine[len("/kaggle/input"):].count("/")
-    if niveau <= 4:
+    if niveau <= 5:
         print("  " * niveau + os.path.basename(racine) + "/", f"({len(fichiers)} fichiers)" if fichiers else "")
-    if niveau >= 4:
-        dossiers.clear()
+    TOUS += [os.path.join(racine, f) for f in fichiers]
+print(len(TOUS), "fichiers en tout dans /kaggle/input")
 
-def trouver(motif, quoi):
-    t = sorted(glob.glob(motif, recursive=True))
+def trouver(fin, quoi, sauf=None):
+    # cherche un fichier dont le chemin se termine par `fin` (peu importe la profondeur)
+    t = sorted(x for x in TOUS if x.endswith("/" + fin) and not (sauf and sauf in x))
     if not t:
-        raise SystemExit(f"Introuvable : {quoi}. Regarde la liste des Inputs ci-dessus et vérifie 'Add Input'.")
+        raise FileNotFoundError(f"\\n\\nIntrouvable : {quoi} (fichier .../{fin}).\\n"
+                                f"Clique 'Add Input' et ajoute-le, puis relance. Liste des Inputs ci-dessus.")
     return t[0]
 
-DATASET = os.path.dirname(os.path.dirname(trouver("/kaggle/input/**/dialogues/salutations_rn.jsonl", "ancien dataset")))
-DATASET_UN = os.path.dirname(trouver("/kaggle/input/**/insiguro/insiguro.txt", "dataset-un"))
-ZERO = os.path.dirname(os.path.dirname(trouver("/kaggle/input/**/modele_zero/lecture/finale/config.json",
-                                               "sortie du notebook zero_kaggle")))
+DATASET = os.path.dirname(os.path.dirname(trouver("dialogues/salutations_rn.jsonl", "ancien dataset")))
+DATASET_UN = os.path.dirname(os.path.dirname(trouver("insiguro/insiguro.txt", "dataset-un")))
+# Le modèle zéro : sortie du notebook zero_kaggle (avec ou sans le dossier modele_zero/ autour)
+ZERO = os.path.dirname(os.path.dirname(os.path.dirname(trouver(
+    "lecture/finale/config.json",
+    "le modèle zéro (Add Input > Your Work > Notebooks > zero_kaggle)", sauf="modele_un"))))
 TRAVAIL = "/kaggle/working/modele_un"
 CODE = "/kaggle/working/code_un"
 shutil.copytree(f"{DATASET_UN}/code", CODE, dirs_exist_ok=True)
