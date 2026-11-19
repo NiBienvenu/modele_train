@@ -162,7 +162,17 @@ def charger_sources(sources, format_fichier, decoupage="paragraph"):
         else:
             # Pour la phase D : fichiers .jsonl avec {"user": ..., "assistant": ...}
             ds = load_dataset("json", data_files=fichiers, split="train")
+            # Tout en "messages" (role, content) : les fichiers peuvent avoir d'autres colonnes
+            # (source, page...) ou l'autre format {"user","assistant"} ; sinon on ne peut pas les mélanger.
+            def en_messages(ex):
+                m = ex.get("messages") or [{"role": "user", "content": ex["user"]},
+                                           {"role": "assistant", "content": ex["assistant"]}]
+                return {"messages": [{"role": x["role"], "content": x["content"]} for x in m]}
+            ds = ds.map(en_messages, remove_columns=ds.column_names)
 
+        # "max_exemples" : ne garder qu'un tirage au hasard (ex : 9 000 versets sur 40 538)
+        if src.get("max_exemples") and len(ds) > src["max_exemples"]:
+            ds = ds.shuffle(seed=42).select(range(int(src["max_exemples"])))
         n = int(src.get("repeter", 1))
         log(f"Source {src['fichiers']} : {len(ds)} exemples x {n}")
         morceaux.extend([ds] * n)
@@ -389,7 +399,7 @@ def evaluer(model, loader, appareil, type_calcul, max_lots=50):
 
 
 @torch.no_grad()
-def montrer_exemples(model, tok, phrases, appareil, penalite=1.0):
+def montrer_exemples(model, tok, phrases, appareil, penalite=1.0, sans_repeter=0):
     """
     On demande au modèle de continuer quelques phrases.
     C'est la façon la plus simple de VOIR ses progrès en orthographe
@@ -400,7 +410,7 @@ def montrer_exemples(model, tok, phrases, appareil, penalite=1.0):
         ids = tok(debut, return_tensors="pt", return_token_type_ids=False).to(appareil)
         sortie = model.generate(**ids, max_new_tokens=30, do_sample=True,
                                 temperature=0.7, top_p=0.9, repetition_penalty=penalite,
-                                pad_token_id=tok.pad_token_id)
+                                no_repeat_ngram_size=sans_repeter, pad_token_id=tok.pad_token_id)
         log(f"  >> {tok.decode(sortie[0], skip_special_tokens=True)!r}")
     model.train()
 
@@ -476,6 +486,16 @@ def main():
     # Économise la mémoire GPU (utile pour le modèle de 78M sur un T4).
     if cfg.get("gradient_checkpointing", False):
         model.gradient_checkpointing_enable()
+    # "dropout" : coupe au hasard une part des signaux pendant l'entraînement (contre le par-cœur)
+    if cfg.get("dropout") is not None:
+        p_drop = float(cfg["dropout"])
+        for attr in ("attention_dropout", "hidden_dropout", "resid_pdrop", "attn_pdrop", "embd_pdrop"):
+            if hasattr(model.config, attr):
+                setattr(model.config, attr, p_drop)
+        for m in model.modules():
+            if isinstance(m, torch.nn.Dropout):
+                m.p = p_drop
+        log(f"Dropout {p_drop}")
     model.train()
     modele_ddp = model
     if NB_GPU > 1:
@@ -511,7 +531,12 @@ def main():
     echantillonneur = (DistributedSampler(ds_train, num_replicas=NB_GPU, rank=RANG, shuffle=True,
                                           seed=cfg.get("graine", 42)) if NB_GPU > 1 else None)
     lots_par_epoque = math.ceil((len(echantillonneur) if echantillonneur else len(ds_train)) / taille_lot)
-    pas_total = epoques * math.ceil(lots_par_epoque / accumulation)
+    pas_par_epoque = math.ceil(lots_par_epoque / accumulation)
+    # "min_pas" : assez d'époques pour faire au moins ce nombre de pas (lecture plus longue)
+    if cfg.get("min_pas") and epoques * pas_par_epoque < cfg["min_pas"]:
+        epoques = math.ceil(cfg["min_pas"] / pas_par_epoque)
+        log(f"min_pas {cfg['min_pas']} : {epoques} époques")
+    pas_total = epoques * pas_par_epoque
 
     optimiseur = creer_optimiseur(model, cfg.get("learning_rate", 6e-4),
                                   cfg.get("weight_decay", 0.1))
@@ -540,7 +565,9 @@ def main():
     epoque_depart = lots_deja_vus // lots_par_epoque
 
     log(f"Début : {pas_total} pas au total, {epoques} époque(s)")
-    meilleure_loss_eval = float("inf")
+    fichier_meilleure = os.path.join(sortie, "meilleure", "loss_eval.txt")
+    meilleure_loss_eval = (float(open(fichier_meilleure).read()) if os.path.exists(fichier_meilleure)
+                           else float("inf"))
     loss_cumulee, debut = 0.0, time.time()
     pause = False
     heures = cfg.get("sauver_toutes_les_heures")
@@ -631,11 +658,12 @@ def main():
                     loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul)
                     log(f"ÉVALUATION | loss {loss_eval:.3f} | perplexité {ppl:.1f}")
                     montrer_exemples(model, tok, cfg.get("phrases_test", []), appareil,
-                                     cfg.get("penalite_repetition", 1.0))
+                                     cfg.get("penalite_repetition", 1.0), cfg.get("sans_repeter_ngram", 0))
                     if loss_eval < meilleure_loss_eval:
                         meilleure_loss_eval = loss_eval
                         model.save_pretrained(os.path.join(sortie, "meilleure"))
                         tok.save_pretrained(os.path.join(sortie, "meilleure"))
+                        open(fichier_meilleure, "w").write(str(loss_eval))
                         log("Nouveau meilleur modèle gardé dans 'meilleure'")
                 attendre_tous()
 
@@ -676,10 +704,16 @@ def main():
         loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul, max_lots=200)
         log(f"FIN | loss évaluation {loss_eval:.3f} | perplexité {ppl:.1f}")
         montrer_exemples(model, tok, cfg.get("phrases_test", []), appareil,
-                         cfg.get("penalite_repetition", 1.0))
+                         cfg.get("penalite_repetition", 1.0), cfg.get("sans_repeter_ngram", 0))
         finale = os.path.join(sortie, "finale")
-        model.save_pretrained(finale)
-        tok.save_pretrained(finale)
+        if cfg.get("garder_meilleure") and loss_eval > meilleure_loss_eval:
+            # "garder_meilleure" : la fin a moins bien fait que le meilleur point -> on garde le meilleur
+            import shutil
+            shutil.copytree(os.path.join(sortie, "meilleure"), finale, dirs_exist_ok=True)
+            log(f"finale = meilleure (loss {meilleure_loss_eval:.3f} < {loss_eval:.3f} à la fin)")
+        else:
+            model.save_pretrained(finale)
+            tok.save_pretrained(finale)
         log(f"Modèle final dans {finale} : c'est lui qu'on donne à la phase suivante.")
     attendre_tous()
     if NB_GPU > 1:

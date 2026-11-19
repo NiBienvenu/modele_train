@@ -60,11 +60,12 @@ def chrf(hyp, ref, n=6, beta=2):
 
 
 @torch.no_grad()
-def repondre(model, tok, question, appareil, max_tokens=96, historique="", penalite=1.0):
+def repondre(model, tok, question, appareil, max_tokens=96, historique="", penalite=1.0, sans_repeter=0):
     # "historique" : tours précédents déjà au format <|user|> ... <|assistant|> ...<|endoftext|>
     prompt = f"{historique}<|user|> {question} <|assistant|>"
     ids = tok(prompt, return_tensors="pt", return_token_type_ids=False).to(appareil)
     out = model.generate(**ids, max_new_tokens=max_tokens, do_sample=False, repetition_penalty=penalite,
+                         no_repeat_ngram_size=sans_repeter,
                          eos_token_id=tok.eos_token_id, pad_token_id=tok.pad_token_id)
     nouveaux = out[0][ids["input_ids"].shape[1]:]
     return tok.decode(nouveaux, skip_special_tokens=True).strip(), len(nouveaux)
@@ -74,8 +75,10 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--modele", required=True)
     p.add_argument("--tests", nargs="+", default=["tests/tests.jsonl"], help="un ou plusieurs fichiers")
-    p.add_argument("--penalite", type=float, default=1.0,
-                   help="pénalité de répétition (1.0 = aucune, comme le modèle zéro ; 1.2 évite les boucles)")
+    p.add_argument("--penalite", type=float, default=1.2,
+                   help="pénalité de répétition (1.2 par défaut contre les boucles ; 1.0 = aucune, comme le zéro)")
+    p.add_argument("--sans-repeter", type=int, default=3,
+                   help="no_repeat_ngram_size : interdit de répéter un groupe de N mots (0 = permis)")
     p.add_argument("--categorie", help="ne tester qu'une catégorie")
     p.add_argument("--max", type=int, default=0, help="nombre max de tests par catégorie (0 = tous)")
     p.add_argument("--montrer", type=int, default=3, help="exemples affichés par catégorie")
@@ -103,7 +106,7 @@ def main():
         for t in liste:
             debut = time.time()
             rep, n = repondre(model, tok, t["question"], appareil, historique=t.get("historique", ""),
-                              penalite=args.penalite)
+                              penalite=args.penalite, sans_repeter=args.sans_repeter)
             total_temps += time.time() - debut
             total_tokens += n
             ok = normaliser(rep) == normaliser(t["attendu"])

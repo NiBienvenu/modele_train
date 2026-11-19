@@ -16,6 +16,12 @@ Refaire ce dossier, dans modele_train/ :
   - `ikibonezamvugo_qa.jsonl` : questions-réponses tirées du livre seulement (définitions, règles, tableaux, exercices)
 - `insiguro/dusome5_insiguro.jsonl` : sens des mots difficiles de Dusome 5
 - `traduction/fr_rn.jsonl` : paires FR <-> RN (constitution 2018 article par article + loi presse 2024)
+- `traduction/flores_dev.jsonl` : FLORES partie **dev** (997 paires) pour apprendre. La partie devtest reste pour les tests.
+- `faits/` : faits simples sur le Burundi (lieu, voisins, langues, capitale, provinces...). **Le kirundi est à relire.**
+- `tests/flores.jsonl` : copie EXACTE des tests du modèle un, pour comparer un et deux
+- `code/` : train.py (+ max_exemples, min_pas, dropout, garder_meilleure, sans_repeter_ngram),
+  evaluer.py (pénalité 1.2 et no_repeat 3 par défaut), comparer_resultats.py, configs deux_lecture / deux_chat
+- `notebooks/` : deux_kaggle, deux_colab, deux_machine (refaits par faire_notebooks_deux.py)
 - `a_verifier.tsv` : lignes avec un mot douteux [?]. PAS dans l'entraînement. Corriger dans
   data/scans_transcrits/<livre>/p-NN.txt (enlever [?]) puis relancer le script.
 

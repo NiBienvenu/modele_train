@@ -14,6 +14,9 @@ Une ligne avec [?] (mot douteux) ne va JAMAIS dans l'entraînement : elle va dan
 import json
 import random
 import re
+import shutil
+import subprocess
+import sys
 from pathlib import Path
 
 ICI = Path(__file__).resolve().parent
@@ -78,6 +81,44 @@ def paragraphes(lignes: list, source: str, taille=1200) -> list:
     return docs
 
 
+def phrases(t: str) -> list:
+    """Coupe en phrases (après . ; ! ?), sans couper « 1° » ni les sigles courts."""
+    t = re.sub(r"\s+", " ", t).strip()
+    return [x.strip() for x in re.split(r"(?<=[.!?;])\s+(?=[A-ZÀ-ÝÉ])", t) if len(x.split()) >= 3]
+
+
+# ---------- Bible : choisir les meilleurs versets (correction 2) ----------
+GENEALOGIE = re.compile(r"\b(engendra|fils de|fille de|yavyaye|mwene|bene|descendants|clans?|recens)", re.I)
+
+
+def note_verset(fr: str, rn: str) -> float:
+    """Plus haut = meilleur pour apprendre : phrase courte et narrative, peu de noms propres, pas de liste."""
+    mots = fr.split()
+    n = len(mots)
+    if n < 6 or n > 45:
+        return -1
+    noms = sum(1 for i, m in enumerate(mots) if i and m[:1].isupper())
+    note = 1.0 - 2.5 * noms / n                         # beaucoup de noms propres = liste ou généalogie
+    note -= 0.6 * len(GENEALOGIE.findall(fr + " " + rn))
+    note -= 0.4 * len(re.findall(r"\d", fr))
+    note -= 0.02 * abs(n - 18)                          # idéal vers 18 mots
+    if not 0.5 < len(rn) / max(len(fr), 1) < 2.0:
+        note -= 1
+    return note + random.random() * 0.15                # un peu de hasard pour varier les livres
+
+
+def bible_choisie(n=9000) -> list:
+    tout = []
+    for l in (ICI / "datasets/dataset/dialogues/traductions_bible.jsonl").open(encoding="utf-8"):
+        o = json.loads(l)
+        q, r = o["messages"][0]["content"], o["messages"][1]["content"]
+        fr, rn = (r, q) if "français" in q.split(" : ", 1)[0] else (q, r)
+        fr, rn = fr.split(" : ", 1)[-1], rn.split(" : ", 1)[-1]
+        tout.append((note_verset(fr, rn), o))
+    tout.sort(key=lambda x: -x[0])
+    return [o for note, o in tout[:n] if note > 0]
+
+
 # ---------- constitutions : apprendre ET mémoriser ----------
 Q_RN = ["Ingingo ya {n} y'{nom} ivuga iki?", "Subiramwo ingingo ya {n} y'{nom}.",
         "Mbwira ingingo ya {n} y'{nom} uko yanditse."]
@@ -128,7 +169,20 @@ def main():
     lecture += paragraphes(t05, "constitution_2005") + paragraphes(t18, "constitution_2018")
 
     # 3. traduction FR <-> RN : constitution 2018 + loi presse N21
-    paires = [(v["fr"], v["rn"], f"constitution_2018 art.{n}") for n, v in a18.items() if v["fr"]]
+    paires = []
+    n_phrases = 0
+    for n, v in a18.items():
+        if not v["fr"]:
+            continue
+        # Article entier, puis phrase par phrase quand FR et RN ont le même nombre de phrases
+        paires.append((v["fr"], v["rn"], f"constitution_2018 art.{n}"))
+        fr_p, rn_p = phrases(v["fr"]), phrases(v["rn"])
+        if len(fr_p) > 1 and len(fr_p) == len(rn_p):
+            for i, (a, b) in enumerate(zip(fr_p, rn_p)):
+                if 0.4 < len(b) / max(len(a), 1) < 2.5:     # longueurs trop différentes = mal aligné
+                    paires.append((a, b, f"constitution_2018 art.{n} phrase {i + 1}"))
+                    n_phrases += 1
+    print(f"constitution 2018 : {n_phrases} paires phrase par phrase en plus des articles")
     n21_rn = []
     for page, lignes in pages("N21"):
         fr = [l for l in lignes if langue(l) == "fr"]
@@ -141,6 +195,9 @@ def main():
         trad.append({"user": f"Traduis en kirundi : {fr}", "assistant": rn, "source": src})
         trad.append({"user": f"Hindura mu gifaransa : {rn}", "assistant": fr, "source": src})
     ecrire_jsonl(OUT / "traduction/fr_rn.jsonl", trad)
+    bible = bible_choisie()
+    ecrire_jsonl(OUT / "traduction/bible_choisie.jsonl", bible)
+    print(f"Bible : {len(bible)} versets choisis (courts, narratifs, sans généalogies)")
     ecrire_txt(OUT / "lecture_rn/loi_presse_2024.txt", n21_rn)
     lecture += paragraphes(n21_rn, "loi_presse_2024")
 
@@ -184,7 +241,25 @@ def main():
             qa.append(o)
     ecrire_jsonl(OUT / "ikibonezamvugo/ikibonezamvugo_qa.jsonl", qa)
 
-    # 6. tout ce qui se lit, un seul fichier
+    # 6. faits simples sur le Burundi (lecture + questions-réponses)
+    faits = [l for l in (DATA / "faits_burundi.txt").read_text(encoding="utf-8").split("\n\n") if l.strip()]
+    ecrire_txt(OUT / "faits/faits_burundi.txt", [f + "\n" for f in faits])
+    shutil.copy2(DATA / "faits_burundi.jsonl", OUT / "faits/faits_burundi.jsonl")
+    lecture += [{"text": f, "source": "faits_burundi"} for f in faits]
+
+    # 7. FLORES : partie "dev" pour APPRENDRE ; "devtest" reste réservé aux tests (le même que modèle un)
+    flores = [json.loads(l) for l in (DATA / "flores_fr_rn.jsonl").open(encoding="utf-8")]
+    dev = [p for p in flores if p["partie"] == "dev"]
+    ecrire_jsonl(OUT / "traduction/flores_dev.jsonl",
+                 [o for p in dev for o in ({"user": f"Traduis en kirundi : {p['fr']}", "assistant": p["rn"]},
+                                           {"user": f"Traduis en français : {p['rn']}", "assistant": p["fr"]})])
+    tests_un = ICI / "datasets/dataset_un/tests/flores.jsonl"
+    (OUT / "tests").mkdir(exist_ok=True)
+    shutil.copy2(tests_un, OUT / "tests/flores.jsonl")          # EXACTEMENT les mêmes tests que le modèle un
+    ids_test = {json.loads(l)["source"].split()[-1] for l in tests_un.open(encoding="utf-8")}
+    assert not ids_test & {p["id"] for p in dev}, "un test FLORES est dans l'entraînement !"
+
+    # 8. tout ce qui se lit, un seul fichier
     ecrire_jsonl(OUT / "lecture.jsonl", lecture)
     ecrire_txt(OUT / "lecture.txt", [d["text"] + "\n" for d in lecture])
     a_verifier.sort()
@@ -195,8 +270,19 @@ def main():
     print(f"lecture: {len(lecture)} morceaux, {mots} mots")
     print(f"constitutions: 2005={len(a05)} ingingo, 2018={len(a18)} ingingo, mémoire={len(m05) + len(m18)} questions")
     print(f"traduction: {len(paires)} paires -> {len(trad)} exemples")
+    print(f"FLORES dev: {len(dev)} paires (apprentissage) ; faits Burundi: {len(faits)}")
     print(f"insiguro Dusome5: {len(insiguro)} ; grammaire QA: {len(qa)} ; à vérifier: {len(a_verifier)} lignes")
+
+
+def code_et_notebooks():
+    code = OUT / "code"
+    for f in ["train.py", "evaluer.py", "comparer_resultats.py", "requirements.txt", "configs/deux_lecture.yaml",
+              "configs/deux_chat.yaml", "collecte/telecharger_publics.py", "tests/dialogues_test.jsonl"]:
+        (code / f).parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(ICI / f, code / f)
+    subprocess.run([sys.executable, str(ICI / "faire_notebooks_deux.py")], check=True)
 
 
 if __name__ == "__main__":
     main()
+    code_et_notebooks()

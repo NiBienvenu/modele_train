@@ -1,0 +1,84 @@
+# Modèle DEUX, étape 2 : DISCUTER, à partir de la lecture du deux.
+# Corrections : 2 (moins de Bible), 3 (vocabulaire et cours x5), 4 (traductions hors Bible),
+# 5 (2 époques, meilleur point gardé, dropout + weight decay), 6 (pénalité), 7 (faits Burundi).
+
+mode: sft
+modele: "{TRAVAIL}/lecture/finale"
+tokenizer: "{TRAVAIL}/lecture/finale"
+dossier_sortie: "{TRAVAIL}/chat"
+
+sources:
+  # --- Parler (zéro) ---
+  - fichiers: "{DATASET}/dialogues/salutations_rn.jsonl"
+    repeter: 30
+  - fichiers: "{DATASET}/dialogues/questions_sur_rn.jsonl"
+    repeter: 30
+  - fichiers: "{DATASET}/dialogues/petite_conversation.jsonl"
+    repeter: 15
+  - fichiers: "{DATASET}/dialogues/conversations_rn.jsonl"
+    repeter: 5
+  # --- Correction 2 : Bible réduite à 9 000 versets CHOISIS sur 40 538 (courts, narratifs, sans généalogies) ---
+  - fichiers: "{DATASET_DEUX}/traduction/bible_choisie.jsonl"
+    repeter: 1
+  # --- Correction 3 : réponses courtes et précises, beaucoup plus souvent ---
+  - fichiers: "{DATASET}/dialogues/traductions_cours.jsonl"
+    repeter: 15         # un : 3
+  - fichiers: "{DATASET}/dialogues/vocabulaire.jsonl"
+    repeter: 9          # un : 2
+  - fichiers: "{DATASET}/dialogues/titres_kirnews.jsonl"
+    repeter: 2
+  - fichiers: "{DATASET}/dialogues/anciennes_qr.jsonl"
+    repeter: 1
+  - fichiers: "{DATASET_UN}/dialogues/insiguro.jsonl"
+    repeter: 4
+  # --- Correction 4 : traductions hors Bible ---
+  - fichiers: "{DATASET_DEUX}/traduction/flores_dev.jsonl"    # FLORES dev (devtest = tests seulement)
+    repeter: 2
+  - fichiers: "{DATASET_DEUX}/traduction/fr_rn.jsonl"         # constitution 2018 + loi presse 2024
+    repeter: 2
+  # --- Nouveau : docs 3 ---
+  - fichiers: "{DATASET_DEUX}/constitutions/memoire_2005.jsonl"   # par cœur
+    repeter: 3
+  - fichiers: "{DATASET_DEUX}/constitutions/memoire_2018.jsonl"
+    repeter: 3
+  - fichiers: "{DATASET_DEUX}/ikibonezamvugo/ikibonezamvugo_qa.jsonl"  # grammaire
+    repeter: 6
+  - fichiers: "{DATASET_DEUX}/insiguro/dusome5_insiguro.jsonl"
+    repeter: 5
+  # --- Correction 7 ---
+  - fichiers: "{DATASET_DEUX}/faits/faits_burundi.jsonl"
+    repeter: 40
+  # --- Données publiques (sautées si absentes) ---
+  - fichiers: "{PUBLICS}/dialogues/oasst_fr.jsonl"
+    repeter: 5
+  - fichiers: "{PUBLICS}/dialogues/aya.jsonl"
+    repeter: 2
+  - fichiers: "{PUBLICS}/dialogues/piaf.jsonl"
+    repeter: 1
+
+longueur: 1024
+taille_lot: 8
+accumulation: 4
+epoques: 2             # correction 5
+learning_rate: 1.0e-4
+weight_decay: 0.05     # correction 5 (un : 0)
+dropout: 0.1           # correction 5
+garder_meilleure: true # correction 5 : finale = le meilleur point si la fin est moins bonne
+warmup: 200
+part_eval: 0.02
+
+log_tous_les: 50
+eval_tous_les: 300
+sauver_tous_les: 300
+sauver_toutes_les_heures: 4
+marge_minutes: 25
+penalite_repetition: 1.2   # correction 6
+sans_repeter_ngram: 3
+
+phrases_test:
+  - "<|user|> Bonjour <|assistant|>"
+  - "<|user|> Bwakeye. <|assistant|>"
+  - "<|user|> Où se trouve le Burundi ? <|assistant|>"
+  - "<|user|> Traduis en français : Umwana n'umukobwa. <|assistant|>"
+  - "<|user|> Ingingo ya 5 y'Ibwirizwa shingiro rya 2018 ivuga iki? <|assistant|>"
+  - "<|user|> Que signifie « karangura » en grammaire kirundi ? <|assistant|>"

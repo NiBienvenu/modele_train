@@ -1,0 +1,75 @@
+# Modèle DEUX, étape 1 : LIRE LONGTEMPS (on CONTINUE le modèle un : même tokenizer).
+# Correction 1 : la lecture du un était trop courte (289 pas). Ici 3 époques et au moins 2 000 pas
+# (environ 6 h sur 2 x T4). C'est ici qu'il apprend la langue, le vocabulaire et les faits.
+#
+# {UN}         = dossier du modèle un (contient lecture/finale)
+# {PUBLICS}    = Wikipédia FR... (il faut wikipedia_fr_001 ET wikipedia_fr_002)
+# {DATASET} = zéro   {DATASET_UN} = un   {DATASET_DEUX} = deux   {TRAVAIL} = modele_deux
+
+mode: pretrain
+modele: "{UN}/lecture/finale"
+tokenizer: "{UN}/lecture/finale"
+dossier_sortie: "{TRAVAIL}/lecture"
+
+sources:
+  # --- Français (correction 1 : un 2e fichier Wikipédia) ---
+  - fichiers: "{PUBLICS}/lecture_fr/wikipedia_fr_001.txt"
+    repeter: 1
+  - fichiers: "{PUBLICS}/lecture_fr/wikipedia_fr_002.txt"
+    repeter: 1
+  # --- Tout le kirundi du zéro (Bible une seule fois) ---
+  - fichiers: "{DATASET}/lecture_rn/bible_rn.txt"
+    repeter: 1
+  - fichiers: "{DATASET}/lecture_rn/[!b]*.txt"        # kirnews, madlad, wikipedia_rn, ikirundi_org
+    repeter: 2
+  - fichiers: "{DATASET}/lecture_bilingue/*.txt"
+    repeter: 2
+  - fichiers: "{DATASET}/grammaire/*.txt"
+    repeter: 1
+  # --- Modèle un (vérifié) ---
+  - fichiers: "{DATASET_UN}/lecture_rn/docs_scannes.txt"
+    repeter: 2
+  - fichiers: "{DATASET_UN}/lecture_rn/textes_messe.txt"
+    repeter: 1
+  - fichiers: "{DATASET_UN}/insiguro/*.txt"
+    repeter: 4
+  # --- Nouveau : docs 3 ---
+  - fichiers: "{DATASET_DEUX}/lecture_rn/*.txt"           # discours, Vision 2040, rapport, Dusome5, loi presse
+    repeter: 2
+  - fichiers: "{DATASET_DEUX}/constitutions/constitution_2005.txt"
+    repeter: 4          # à retenir : on la lit souvent
+  - fichiers: "{DATASET_DEUX}/constitutions/constitution_2018.txt"
+    repeter: 4
+  - fichiers: "{DATASET_DEUX}/constitutions/constitution_2018_fr.txt"
+    repeter: 2
+  - fichiers: "{DATASET_DEUX}/ikibonezamvugo/indimburo_yikirundi.txt"   # la grammaire
+    repeter: 4
+  # --- Correction 7 : faits simples sur le Burundi ---
+  - fichiers: "{DATASET_DEUX}/faits/faits_burundi.txt"
+    repeter: 20         # tout petit : il faut le voir très souvent
+
+longueur: 1024
+taille_lot: 8
+accumulation: 16       # 131 000 morceaux par pas
+epoques: 3             # correction 1
+min_pas: 2000          # correction 1 : jamais moins de 2 000 pas
+learning_rate: 3.0e-4
+weight_decay: 0.1
+warmup: 100
+part_eval: 0.01
+
+log_tous_les: 25
+eval_tous_les: 200
+sauver_tous_les: 50
+sauver_toutes_les_heures: 4
+marge_minutes: 25
+penalite_repetition: 1.2   # correction 6
+sans_repeter_ngram: 3
+
+phrases_test:
+  - "Abana baragiye"
+  - "Uburundi ni igihugu"
+  - "Le Burundi est un pays"
+  - "Ururimi rw'igihugu ni"
+  - "Ingingo ya 5\n"
+  - "Iryungane rigira ibihimba"
