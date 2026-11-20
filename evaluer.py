@@ -75,9 +75,9 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--modele", required=True)
     p.add_argument("--tests", nargs="+", default=["tests/tests.jsonl"], help="un ou plusieurs fichiers")
-    p.add_argument("--penalite", type=float, default=1.2,
-                   help="pénalité de répétition (1.2 par défaut contre les boucles ; 1.0 = aucune, comme le zéro)")
-    p.add_argument("--sans-repeter", type=int, default=3,
+    p.add_argument("--penalite", type=float, default=1.0,
+                   help="pénalité de répétition (1.0 = aucune, par défaut : le run deux a montré que 1.2 casse les conjugaisons)")
+    p.add_argument("--sans-repeter", type=int, default=0,
                    help="no_repeat_ngram_size : interdit de répéter un groupe de N mots (0 = permis)")
     p.add_argument("--categorie", help="ne tester qu'une catégorie")
     p.add_argument("--max", type=int, default=0, help="nombre max de tests par catégorie (0 = tous)")

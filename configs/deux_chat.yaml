@@ -17,7 +17,7 @@ sources:
     repeter: 15
   - fichiers: "{DATASET}/dialogues/conversations_rn.jsonl"
     repeter: 5
-  # --- Correction 2 : Bible réduite à 9 000 versets CHOISIS sur 40 538 (courts, narratifs, sans généalogies) ---
+  # --- Correction 2 : Bible : 16 000 passages choisis sur 40 538, moitié vers le français, longueur comme les tests ---
   - fichiers: "{DATASET_DEUX}/traduction/bible_choisie.jsonl"
     repeter: 1
   # --- Correction 3 : réponses courtes et précises, beaucoup plus souvent ---
@@ -72,8 +72,8 @@ eval_tous_les: 300
 sauver_tous_les: 300
 sauver_toutes_les_heures: 4
 marge_minutes: 25
-penalite_repetition: 1.2   # correction 6
-sans_repeter_ngram: 3
+penalite_repetition: 1.0   # run deux : 1.2 casse les conjugaisons
+sans_repeter_ngram: 0
 
 phrases_test:
   - "<|user|> Bonjour <|assistant|>"

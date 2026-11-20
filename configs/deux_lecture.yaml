@@ -63,8 +63,8 @@ eval_tous_les: 200
 sauver_tous_les: 50
 sauver_toutes_les_heures: 4
 marge_minutes: 25
-penalite_repetition: 1.2   # correction 6
-sans_repeter_ngram: 3
+penalite_repetition: 1.0   # run deux : 1.2 casse les conjugaisons
+sans_repeter_ngram: 0
 
 phrases_test:
   - "Abana baragiye"

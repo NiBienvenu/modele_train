@@ -92,31 +92,43 @@ GENEALOGIE = re.compile(r"\b(engendra|fils de|fille de|yavyaye|mwene|bene|descen
 
 
 def note_verset(fr: str, rn: str) -> float:
-    """Plus haut = meilleur pour apprendre : phrase courte et narrative, peu de noms propres, pas de liste."""
+    """Plus haut = meilleur pour apprendre : passage narratif, peu de noms propres, pas de liste.
+    Run deux : la limite à 45 mots et l'idéal à 18 mots gardaient des versets trop courts
+    (médiane 20 mots) alors que les tests Bible font 38 mots en médiane -> chrF 29 -> 16."""
     mots = fr.split()
     n = len(mots)
-    if n < 6 or n > 45:
+    if n < 6 or n > 120:
         return -1
     noms = sum(1 for i, m in enumerate(mots) if i and m[:1].isupper())
     note = 1.0 - 2.5 * noms / n                         # beaucoup de noms propres = liste ou généalogie
     note -= 0.6 * len(GENEALOGIE.findall(fr + " " + rn))
     note -= 0.4 * len(re.findall(r"\d", fr))
-    note -= 0.02 * abs(n - 18)                          # idéal vers 18 mots
+    note -= 0.01 * abs(n - 35)                          # idéal vers 35 mots (comme les tests)
     if not 0.5 < len(rn) / max(len(fr), 1) < 2.0:
         note -= 1
     return note + random.random() * 0.15                # un peu de hasard pour varier les livres
 
 
-def bible_choisie(n=9000) -> list:
-    tout = []
+def bible_choisie(n=16000) -> list:
+    """Run deux : 9000 versets, 1/3 seulement vers le français, alors que 58 % des tests
+    sont kirundi -> français. Maintenant : 16000 passages, moitié dans chaque sens."""
+    vers_fr, vers_rn = [], []
+    tests = {json.loads(l)["question"] for l in (ICI / "tests/dialogues_test.jsonl").open(encoding="utf-8")}
     for l in (ICI / "datasets/dataset/dialogues/traductions_bible.jsonl").open(encoding="utf-8"):
         o = json.loads(l)
         q, r = o["messages"][0]["content"], o["messages"][1]["content"]
-        fr, rn = (r, q) if "français" in q.split(" : ", 1)[0] else (q, r)
+        if q in tests:                                  # jamais une question de test dans l'entraînement
+            continue
+        en_fr = "français" in q.split(" : ", 1)[0]
+        fr, rn = (r, q) if en_fr else (q, r)
         fr, rn = fr.split(" : ", 1)[-1], rn.split(" : ", 1)[-1]
-        tout.append((note_verset(fr, rn), o))
-    tout.sort(key=lambda x: -x[0])
-    return [o for note, o in tout[:n] if note > 0]
+        (vers_fr if en_fr else vers_rn).append((note_verset(fr, rn), o))
+    choix = []
+    for groupe in (vers_fr, vers_rn):
+        groupe.sort(key=lambda x: -x[0])
+        choix += [o for note, o in groupe[:n // 2] if note > 0]
+    random.shuffle(choix)
+    return choix
 
 
 # ---------- constitutions : apprendre ET mémoriser ----------
@@ -197,7 +209,7 @@ def main():
     ecrire_jsonl(OUT / "traduction/fr_rn.jsonl", trad)
     bible = bible_choisie()
     ecrire_jsonl(OUT / "traduction/bible_choisie.jsonl", bible)
-    print(f"Bible : {len(bible)} versets choisis (courts, narratifs, sans généalogies)")
+    print(f"Bible : {len(bible)} passages choisis (moitié vers le français, longueur comme les tests)")
     ecrire_txt(OUT / "lecture_rn/loi_presse_2024.txt", n21_rn)
     lecture += paragraphes(n21_rn, "loi_presse_2024")
 
