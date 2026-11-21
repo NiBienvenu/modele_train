@@ -1,0 +1,12 @@
+{
+ "dataset/dialogues/salutations_rn.jsonl": 69,
+ "dataset/dialogues/petite_conversation.jsonl": 225,
+ "dataset/dialogues/traductions_cours.jsonl": 1970,
+ "dataset/dialogues/vocabulaire.jsonl": 5006,
+ "dataset_deux/traduction/flores_dev.jsonl": 1994,
+ "dataset_deux/traduction/fr_rn.jsonl": 1428,
+ "dataset_deux/constitutions/memoire_2018.jsonl": 2020,
+ "dataset_trois/insiguro/dusome4_insiguro.jsonl": 140,
+ "dataset_trois/lecture_rn/dusome4.txt": 671,
+ "dataset_quatre/traduction/bible_quatre.jsonl": 24000
+}

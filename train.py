@@ -129,7 +129,7 @@ def charger_tokenizer(chemin):
 # 2. LES DONNÉES
 # ---------------------------------------------------------------------------
 
-def charger_sources(sources, format_fichier, decoupage="paragraph"):
+def charger_sources(sources, format_fichier, decoupage="paragraph", part_eval=0.0):
     """
     Charge chaque source de données et la répète autant de fois que demandé.
 
@@ -145,7 +145,7 @@ def charger_sources(sources, format_fichier, decoupage="paragraph"):
     """
     import glob
 
-    morceaux = []
+    morceaux, morceaux_eval = [], []
     for src in sources:
         # Une source absente (ex : PIAF pas téléchargé) est sautée, avec un avertissement
         # On résout le motif ici (ex : wikipedia_fr_00[12].txt, [!b]*.txt) : liste exacte des fichiers
@@ -173,13 +173,31 @@ def charger_sources(sources, format_fichier, decoupage="paragraph"):
         # "max_exemples" : ne garder qu'un tirage au hasard (ex : 9 000 versets sur 40 538)
         if src.get("max_exemples") and len(ds) > src["max_exemples"]:
             ds = ds.shuffle(seed=42).select(range(int(src["max_exemples"])))
+        # "minimum" : nombre d'exemples attendu. Moins = le dataset Kaggle n'est pas à jour -> on s'arrête.
+        # (run trois : bible_choisie avait 9 000 lignes sur Kaggle au lieu de 16 000, sans que personne le voie)
+        if src.get("minimum") and len(ds) < int(src["minimum"]):
+            raise SystemExit(f"ERREUR : {src['fichiers']} a {len(ds)} exemples, il en faut au moins "
+                             f"{src['minimum']}. Mets à jour le dataset (Kaggle : nouvelle version).")
         n = int(src.get("repeter", 1))
-        log(f"Source {src['fichiers']} : {len(ds)} exemples x {n}")
+        # part_eval > 0 : on met de côté l'évaluation de CETTE source AVANT de la répéter.
+        # Sinon des copies de la même phrase sont à la fois dans l'entraînement et dans l'évaluation,
+        # et la loss d'évaluation mesure le par cœur (run trois).
+        n_eval = 0
+        if part_eval and len(ds) >= 20:
+            coupe = ds.train_test_split(test_size=part_eval, seed=42)
+            ds, ds_ev = coupe["train"], coupe["test"]
+            morceaux_eval.append(ds_ev)
+            n_eval = len(ds_ev)
+        log(f"Source {src['fichiers']} : {len(ds)} exemples x {n}"
+            + (f" (+ {n_eval} pour l'évaluation)" if n_eval else ""))
         morceaux.extend([ds] * n)
 
     # On mélange tout pour que le modèle ne voie pas une seule langue
     # pendant des heures, puis l'autre.
-    return concatenate_datasets(morceaux).shuffle(seed=42)
+    train = concatenate_datasets(morceaux).shuffle(seed=42)
+    if not part_eval:
+        return train
+    return train, concatenate_datasets(morceaux_eval).shuffle(seed=42)
 
 
 def preparer_pretrain(ds, tok, longueur):
@@ -240,7 +258,12 @@ def preparer_sft(ds, tok, longueur):
                 morceau = tok(" " + m["content"] + tok.eos_token)["input_ids"]
                 labels += morceau
             ids += morceau
-        return {"input_ids": ids[:longueur], "labels": labels[:longueur]}
+        if len(ids) > longueur:
+            # Trop long : on coupe, mais on garde <|endoftext|> à la fin pour que le modèle
+            # apprenne toujours à s'arrêter (avant : la fin était perdue).
+            ids = ids[:longueur - 1] + [tok.eos_token_id]
+            labels = labels[:longueur - 1] + [tok.eos_token_id]
+        return {"input_ids": ids, "labels": labels}
 
     return ds.map(construire, remove_columns=ds.column_names, desc="Préparation SFT")
 
@@ -508,11 +531,18 @@ def main():
     longueur = cfg.get("longueur", 512)
     for tour in (0, 1):
         if (RANG == 0) == (tour == 0):
-            brut = charger_sources(cfg["sources"], "text" if mode == "pretrain" else "json")
-            ds = (preparer_pretrain(brut, tok, longueur) if mode == "pretrain"
-                  else preparer_sft(brut, tok, longueur))
-            # On met de côté 1 % des données pour l'évaluation.
-            coupe = ds.train_test_split(test_size=cfg.get("part_eval", 0.01), seed=42)
+            preparer = preparer_pretrain if mode == "pretrain" else preparer_sft
+            format_fichier = "text" if mode == "pretrain" else "json"
+            if cfg.get("eval_par_source"):
+                # Évaluation mise de côté AVANT les répétitions (pas de copies dans les deux)
+                brut, brut_eval = charger_sources(cfg["sources"], format_fichier,
+                                                  part_eval=cfg.get("part_eval", 0.01))
+                coupe = {"train": preparer(brut, tok, longueur), "test": preparer(brut_eval, tok, longueur)}
+            else:
+                brut = charger_sources(cfg["sources"], format_fichier)
+                ds = preparer(brut, tok, longueur)
+                # On met de côté 1 % des données pour l'évaluation.
+                coupe = ds.train_test_split(test_size=cfg.get("part_eval", 0.01), seed=42)
         attendre_tous()
     ds_train, ds_eval = coupe["train"], coupe["test"]
     log(f"Entraînement : {len(ds_train)} exemples | Évaluation : {len(ds_eval)}")
@@ -655,7 +685,7 @@ def main():
 
             if pas % cfg.get("eval_tous_les", 500) == 0:
                 if RANG == 0:
-                    loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul)
+                    loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul, cfg.get("lots_eval", 50))
                     log(f"ÉVALUATION | loss {loss_eval:.3f} | perplexité {ppl:.1f}")
                     montrer_exemples(model, tok, cfg.get("phrases_test", []), appareil,
                                      cfg.get("penalite_repetition", 1.0), cfg.get("sans_repeter_ngram", 0))
@@ -701,7 +731,8 @@ def main():
 
     # --- Fin ---------------------------------------------------------------------
     if RANG == 0:
-        loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul, max_lots=200)
+        # Même mesure que pendant l'entraînement (avant : 200 lots contre 50 -> comparaison fausse)
+        loss_eval, ppl = evaluer(model, loader_eval, appareil, type_calcul, cfg.get("lots_eval", 50))
         log(f"FIN | loss évaluation {loss_eval:.3f} | perplexité {ppl:.1f}")
         montrer_exemples(model, tok, cfg.get("phrases_test", []), appareil,
                          cfg.get("penalite_repetition", 1.0), cfg.get("sans_repeter_ngram", 0))

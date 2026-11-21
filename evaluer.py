@@ -64,7 +64,8 @@ def repondre(model, tok, question, appareil, max_tokens=96, historique="", penal
     # "historique" : tours précédents déjà au format <|user|> ... <|assistant|> ...<|endoftext|>
     prompt = f"{historique}<|user|> {question} <|assistant|>"
     ids = tok(prompt, return_tensors="pt", return_token_type_ids=False).to(appareil)
-    out = model.generate(**ids, max_new_tokens=max_tokens, do_sample=False, repetition_penalty=penalite,
+    # min_new_tokens=2 : pas de réponse vide (run trois : une traduction fr->rn vide)
+    out = model.generate(**ids, max_new_tokens=max_tokens, min_new_tokens=2, do_sample=False, repetition_penalty=penalite,
                          no_repeat_ngram_size=sans_repeter,
                          eos_token_id=tok.eos_token_id, pad_token_id=tok.pad_token_id)
     nouveaux = out[0][ids["input_ids"].shape[1]:]

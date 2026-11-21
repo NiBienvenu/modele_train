@@ -1,0 +1,93 @@
+# Modèle QUATRE, étape 2 : DISCUTER, à partir de la lecture du quatre.
+# Corrections après le run trois :
+#  - Bible 24 000 passages (dataset_quatre) x2 ; trois : 9 000 seulement (vieux dataset sur Kaggle)
+#  - répétitions baissées (x50/x40/x30 -> x10) : le trois récitait, conversations_rn a baissé
+#  - plus de traduction : FLORES dev x6, fr_rn x4
+#  - "minimum" : arrêt si un fichier a moins de lignes que prévu (dataset pas à jour)
+#  - évaluation mise de côté AVANT les répétitions : la loss d'évaluation ne mesure plus le par cœur
+#  - 6 époques (~2,5 h) : le temps vient de la lecture plus courte
+
+mode: sft
+modele: "{TRAVAIL}/lecture/finale"
+tokenizer: "{TRAVAIL}/lecture/finale"
+dossier_sortie: "{TRAVAIL}/chat"
+
+sources:
+  # --- Parler ---
+  - fichiers: "{DATASET}/dialogues/salutations_rn.jsonl"
+    repeter: 10         # trois : 50
+  - fichiers: "{DATASET}/dialogues/questions_sur_rn.jsonl"
+    repeter: 10         # trois : 30
+  - fichiers: "{DATASET}/dialogues/petite_conversation.jsonl"
+    repeter: 10         # trois : 30
+  - fichiers: "{DATASET}/dialogues/conversations_rn.jsonl"
+    repeter: 5
+  # --- Traduction (le vrai but) ---
+  - fichiers: "{DATASET_QUATRE}/traduction/bible_quatre.jsonl"
+    minimum: 23000
+    repeter: 2
+  - fichiers: "{DATASET_DEUX}/traduction/flores_dev.jsonl"   # FLORES dev (devtest = tests seulement)
+    minimum: 1990
+    repeter: 6
+  - fichiers: "{DATASET_DEUX}/traduction/fr_rn.jsonl"        # constitution 2018 + loi presse 2024
+    minimum: 1400
+    repeter: 4
+  - fichiers: "{DATASET}/dialogues/traductions_cours.jsonl"
+    repeter: 5          # trois : 15 (par cœur)
+  - fichiers: "{DATASET}/dialogues/vocabulaire.jsonl"
+    repeter: 4          # trois : 9
+  - fichiers: "{DATASET}/dialogues/titres_kirnews.jsonl"
+    repeter: 2
+  - fichiers: "{DATASET}/dialogues/anciennes_qr.jsonl"
+    repeter: 1
+  # --- Mots expliqués, grammaire, lois ---
+  - fichiers: "{DATASET_UN}/dialogues/insiguro.jsonl"
+    repeter: 4
+  - fichiers: "{DATASET_DEUX}/insiguro/dusome5_insiguro.jsonl"
+    repeter: 4
+  - fichiers: "{DATASET_TROIS}/insiguro/dusome4_insiguro.jsonl"
+    repeter: 4
+  - fichiers: "{DATASET_DEUX}/ikibonezamvugo/ikibonezamvugo_qa.jsonl"
+    repeter: 4
+  - fichiers: "{DATASET_DEUX}/constitutions/memoire_2005.jsonl"
+    repeter: 3
+  - fichiers: "{DATASET_DEUX}/constitutions/memoire_2018.jsonl"
+    repeter: 3
+  - fichiers: "{DATASET_DEUX}/faits/faits_burundi.jsonl"
+    repeter: 10         # trois : 40
+  # --- Données publiques (sautées si absentes) ---
+  - fichiers: "{PUBLICS}/dialogues/oasst_fr.jsonl"
+    repeter: 3
+  - fichiers: "{PUBLICS}/dialogues/aya.jsonl"
+    repeter: 2
+  - fichiers: "{PUBLICS}/dialogues/piaf.jsonl"
+    repeter: 1
+
+longueur: 1024
+taille_lot: 8
+accumulation: 4
+epoques: 6
+learning_rate: 1.0e-4
+weight_decay: 0.05
+dropout: 0.1
+garder_meilleure: true
+eval_par_source: true
+lots_eval: 100
+warmup: 200
+part_eval: 0.02
+
+log_tous_les: 50
+eval_tous_les: 1000
+sauver_tous_les: 1000
+sauver_toutes_les_heures: 4
+marge_minutes: 25
+penalite_repetition: 1.0
+sans_repeter_ngram: 0
+
+phrases_test:
+  - "<|user|> Bonjour <|assistant|>"
+  - "<|user|> N'amaki? <|assistant|>"
+  - "<|user|> Où se trouve le Burundi ? <|assistant|>"
+  - "<|user|> Traduis en français : Umwana n'umukobwa. <|assistant|>"
+  - "<|user|> Traduis en kirundi : Les enfants vont à l'école. <|assistant|>"
+  - "<|user|> Ingingo ya 5 y'Ibwirizwa shingiro rya 2018 ivuga iki? <|assistant|>"

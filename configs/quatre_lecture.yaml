@@ -1,0 +1,73 @@
+# Modèle QUATRE, étape 1 : LECTURE (on CONTINUE la lecture du modèle trois : même tokenizer).
+# Run trois : 7 h (min_pas 4500 = 5 fois les mêmes textes) pour gagner 0,08 de loss,
+# loss entraînement 2,36 contre 2,70 en évaluation = par cœur.
+# Ici : 2 époques seulement (~2 h), Wikipédia FR réduit (le français est déjà bon),
+# tout le kirundi gardé. Le temps gagné va à la discussion (traduction).
+#
+# {TROIS} = dossier du modèle trois (contient lecture/finale)
+
+mode: pretrain
+modele: "{TROIS}/lecture/finale"
+tokenizer: "{TROIS}/lecture/finale"
+dossier_sortie: "{TRAVAIL}/lecture"
+
+sources:
+  # --- Français : moins qu'avant (trois : 38 337 paragraphes) ---
+  - fichiers: "{PUBLICS}/lecture_fr/wikipedia_fr_00[1-4].txt"
+    max_exemples: 12000
+    repeter: 1
+  # --- Kirundi (tout, comme le trois) ---
+  - fichiers: "{DATASET}/lecture_rn/bible_rn.txt"
+    repeter: 1
+  - fichiers: "{DATASET}/lecture_rn/[!b]*.txt"
+    repeter: 1
+  - fichiers: "{DATASET}/lecture_bilingue/*.txt"
+    repeter: 2          # textes FR + RN côte à côte : utile pour traduire
+  - fichiers: "{DATASET}/grammaire/*.txt"
+    repeter: 1
+  - fichiers: "{DATASET_UN}/lecture_rn/docs_scannes.txt"
+    repeter: 1
+  - fichiers: "{DATASET_UN}/lecture_rn/textes_messe.txt"
+    repeter: 1
+  - fichiers: "{DATASET_UN}/insiguro/*.txt"
+    repeter: 2
+  - fichiers: "{DATASET_DEUX}/lecture_rn/*.txt"
+    repeter: 1
+  - fichiers: "{DATASET_DEUX}/constitutions/*.txt"
+    repeter: 2
+  - fichiers: "{DATASET_DEUX}/ikibonezamvugo/indimburo_yikirundi.txt"
+    repeter: 2
+  - fichiers: "{DATASET_DEUX}/faits/faits_burundi.txt"
+    repeter: 3
+  - fichiers: "{DATASET_TROIS}/lecture_rn/*.txt"
+    repeter: 2
+  - fichiers: "{DATASET_TROIS}/insiguro/*.txt"
+    repeter: 2
+
+longueur: 1024
+taille_lot: 8
+accumulation: 16
+epoques: 2             # plus de min_pas : il forçait 5 époques dans le trois
+learning_rate: 1.5e-4  # trois : 2e-4 ; on continue un modèle déjà bien lu
+weight_decay: 0.1
+warmup: 100
+part_eval: 0.01
+eval_par_source: true  # évaluation mise de côté AVANT les répétitions
+lots_eval: 50          # même mesure pendant et à la fin
+garder_meilleure: true
+
+log_tous_les: 25
+eval_tous_les: 250
+sauver_tous_les: 50
+sauver_toutes_les_heures: 4
+marge_minutes: 25
+penalite_repetition: 1.0
+sans_repeter_ngram: 0
+
+phrases_test:
+  - "Abana baragiye"
+  - "Uburundi ni igihugu"
+  - "Le Burundi est un pays"
+  - "Ururimi rw'igihugu ni"
+  - "Ingingo ya 5\n"
+  - "Umwigisha yabwiye abanyeshure"

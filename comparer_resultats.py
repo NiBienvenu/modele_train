@@ -10,7 +10,10 @@ import json
 
 
 def lire(f):
-    return {(r["categorie"], r["question"]): r for r in map(json.loads, open(f, encoding="utf-8")) if r}
+    # La clé contient l'historique : la même question ("N'amaki?") peut venir après des tours différents.
+    # Avant, ces tests s'écrasaient (run trois : 5 salutations comparées au lieu de 10).
+    return {(r["categorie"], r.get("historique", ""), r["question"]): r
+            for r in map(json.loads, open(f, encoding="utf-8")) if r}
 
 
 def main():
