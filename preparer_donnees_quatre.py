@@ -49,6 +49,32 @@ def main():
         print(f"  {n:7d}  {f}")
 
 
+# Nouvelles catégories de tests (réponses prises dans les données vérifiées, jamais inventées).
+# "vu" = True : ces réponses sont aussi dans l'entraînement -> on voit ce que le modèle a RETENU.
+NOUVEAUX_TESTS = [
+    ("constitution_2018", ["dataset_deux/constitutions/memoire_2018.jsonl"], 100),
+    ("constitution_2005", ["dataset_deux/constitutions/memoire_2005.jsonl"], 60),
+    ("insiguro_dusome", ["dataset_trois/insiguro/dusome4_insiguro.jsonl",
+                         "dataset_deux/insiguro/dusome5_insiguro.jsonl"], 80),
+    ("insiguro_mots", ["dataset_un/dialogues/insiguro.jsonl"], 60),
+    ("grammaire_rn", ["dataset_deux/ikibonezamvugo/ikibonezamvugo_qa.jsonl"], 80),
+    ("faits_burundi", ["dataset_deux/faits/faits_burundi.jsonl"], 30),
+]
+
+
+def tests_quatre():
+    hasard = random.Random(44)
+    tests = []
+    for cat, fichiers, n in NOUVEAUX_TESTS:
+        lignes = [json.loads(l) for f in fichiers for l in (DS / f).open(encoding="utf-8") if l.strip()]
+        lignes = [o for o in lignes if o.get("user") and o.get("assistant")]
+        for o in hasard.sample(lignes, min(n, len(lignes))):
+            tests.append({"categorie": cat, "question": o["user"], "attendu": o["assistant"],
+                          "vu": True, "source": o.get("source", fichiers[0])})
+    ecrire_jsonl(OUT / "code/tests/tests_quatre.jsonl", tests)
+    print(f"Nouveaux tests : {len(tests)} questions dans {len(NOUVEAUX_TESTS)} catégories")
+
+
 def code_et_notebooks():
     code = OUT / "code"
     for f in ["train.py", "evaluer.py", "comparer_resultats.py", "requirements.txt", "configs/quatre_lecture.yaml",
@@ -56,6 +82,7 @@ def code_et_notebooks():
         (code / f).parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ICI / f, code / f)
     shutil.copy2(DS / "dataset_deux/tests/flores.jsonl", code / "tests/flores.jsonl")
+    tests_quatre()
     subprocess.run([sys.executable, str(ICI / "faire_notebooks_quatre.py")], check=True)
 
 

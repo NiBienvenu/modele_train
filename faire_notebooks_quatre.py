@@ -295,7 +295,10 @@ if not PAUSE:
 """),
     md("""
 ## Étape 4 : tests
-**Exactement les mêmes tests** que le deux et le trois (`dialogues_test.jsonl` + FLORES devtest, jamais vus).
+**Tous les tests** (plus de limite de 100 par catégorie : ~3 800 questions, ~20 min par modèle) :
+`dialogues_test.jsonl` + FLORES devtest (jamais vus) + **nouvelles catégories** (`tests_quatre.jsonl`) :
+constitution 2018 et 2005, insiguro de Dusome, mots expliqués, grammaire, faits sur le Burundi.
+Le trois passe les **mêmes** questions, pour comparer.
 Une seule passe, **sans pénalité** (le run deux a montré que c'est mieux). Puis comparaison trois / quatre.
 `+` = mieux, `-` = moins bien, `=` = pareil (écart de chrF).
 """),
@@ -304,10 +307,11 @@ os.chdir(CODE)
 if PAUSE:
     print("Tests sautés : l'entraînement n'est pas fini (version suivante).")
 else:
-    tests = "tests/dialogues_test.jsonl tests/flores.jsonl"
+    # Tous les tests (plus de limite de 100 par catégorie) + nouvelles catégories du quatre
+    tests = "tests/dialogues_test.jsonl tests/flores.jsonl tests/tests_quatre.jsonl"
     for nom, modele in [("trois", modele_trois()), ("quatre", meilleur_modele())]:
         print("=====", nom, modele)
-        !python -u evaluer.py --modele {modele} --tests {tests} --max 100 --montrer 3 \\
+        !python -u evaluer.py --modele {modele} --tests {tests} --max 0 --max-tokens 200 --montrer 3 \\
             --sortie {J}/resultats_{nom}.jsonl 2>&1 | tee {J}/notes_{nom}.txt
     print("\\n##### COMPARAISON trois / quatre (sans pénalité)")
     !python comparer_resultats.py {J}/resultats_trois.jsonl {J}/resultats_quatre.jsonl --noms trois quatre | tee {J}/comparaison.txt

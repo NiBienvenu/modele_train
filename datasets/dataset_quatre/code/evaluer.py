@@ -84,6 +84,8 @@ def main():
     p.add_argument("--max", type=int, default=0, help="nombre max de tests par catégorie (0 = tous)")
     p.add_argument("--montrer", type=int, default=3, help="exemples affichés par catégorie")
     p.add_argument("--sortie", default="tests/resultats.jsonl")
+    p.add_argument("--max-tokens", type=int, default=96,
+                   help="longueur max d'une réponse (les articles de loi sont longs : 200)")
     args = p.parse_args()
 
     appareil = "cuda" if torch.cuda.is_available() else "cpu"
@@ -106,7 +108,7 @@ def main():
         exacts, chrfs = 0, []
         for t in liste:
             debut = time.time()
-            rep, n = repondre(model, tok, t["question"], appareil, historique=t.get("historique", ""),
+            rep, n = repondre(model, tok, t["question"], appareil, historique=t.get("historique", ""), max_tokens=args.max_tokens,
                               penalite=args.penalite, sans_repeter=args.sans_repeter)
             total_temps += time.time() - debut
             total_tokens += n
